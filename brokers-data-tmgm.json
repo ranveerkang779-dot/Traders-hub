@@ -1,0 +1,98 @@
+{
+  "broker": {
+    "id": "tmgm",
+    "name": "TMGM",
+    "logo": "/brokers/tmgm.png",
+    "logo_bg": "white",
+    "tagline": "A Sydney-based CFD group, operating since 2013, with separate companies in Australia, Vanuatu, Seychelles and Mauritius.",
+    "about": "TMGM is the trading name of Trademax companies. The Australian company is in Sydney and has been operating since 2013. Other companies are licensed in Vanuatu, Seychelles and Mauritius. EDGE accounts advertise spreads from 0.0 pips plus a commission. CLASSIC accounts advertise spreads from 1.0 pip with no commission. Standard and EDGE accounts list a $100 minimum. A Cent account lists $15. Leverage up to 1:1000 is advertised on some entities. ASIC forex leverage is much lower. The broker also advertises a VPS, hedging and negative balance protection, which still does not remove the risk of losing the money you deposit.",
+    "founded": 2013,
+    "headquarters": "Sydney, Australia",
+    "min_deposit": 15,
+    "currency": "USD",
+    "markets": ["forex", "stocks", "crypto", "cfds"],
+    "regulators": [
+      { "regulator": "ASIC", "country": "AU", "entity": "Trademax Australia Limited" },
+      { "regulator": "VFSC", "country": "VU", "entity": "Trademax Global Limited" },
+      { "regulator": "FSA (Seychelles)", "country": "SC", "entity": "Trademax Global Markets (SE) Limited" },
+      { "regulator": "FSC (Mauritius)", "country": "MU", "entity": "Trademax Global Markets (International) Pty Ltd" }
+    ],
+    "regulators_note": "Licence details from TMGM's Australia regulations page: ASIC AFSL 436416, VFSC 40356, Seychelles FSA SD224, Mauritius FSC GB22201012. The Trustpilot company description also mentions the FMA. That New Zealand authority is not on the regulations page, so it is not listed here.",
+    "platforms": ["MetaTrader 4", "MetaTrader 5"],
+    "plans": [
+      {
+        "name": "EDGE",
+        "price": "$100 minimum",
+        "billing_note": "Spreads from 0.0 pips. FX commission $7 round turn. Precious metals $5 round turn on the international account page.",
+        "highlight": "Spread from 0.0 pips"
+      },
+      {
+        "name": "CLASSIC",
+        "price": "$100 minimum",
+        "billing_note": "Spreads from 1.0 pip and no commission.",
+        "highlight": null
+      },
+      {
+        "name": "Cent",
+        "price": "$15 minimum",
+        "billing_note": "The international homepage has advertised gold and forex CFDs from $15. Standard and EDGE accounts are $100.",
+        "highlight": null
+      }
+    ],
+    "costs": [
+      {
+        "title": "Forex and metals",
+        "rows": [
+          {
+            "label": "EDGE",
+            "value": "From 0.0 pips",
+            "note": "FX: $7 round turn per lot. Precious metals: $5 round turn. ASIC comparison table also shows $3.50 per side ($7 round turn) and a 1:30 leverage cap."
+          },
+          {
+            "label": "CLASSIC",
+            "value": "From 1.0 pip",
+            "note": "No commission. ASIC page caps leverage at 1:30. The international account page shows 1:1000 for eligible VFSC clients."
+          }
+        ]
+      }
+    ],
+    "costs_note": "The lowest minimum found is $15 on the Cent account. Standard and EDGE are $100. An ASIC account table also shows a $50 label on some cards next to a $100 row, so the published minimum is not identical on every TMGM page.",
+    "leverage": [
+      {
+        "market": "Some entities",
+        "value": "Up to 1:1000",
+        "note": "International account page, for countries under the VFSC company and selected servers. Not every product stays at 1:1000 into the weekend."
+      },
+      {
+        "market": "ASIC forex",
+        "value": "Up to 1:30",
+        "note": "Stated on TMGM's Australian FAQ for forex pairs. Other instruments differ, and the firm can lower leverage around news and the Friday close."
+      }
+    ],
+    "leverage_summary": "Up to 1:1000",
+    "leverage_note": "Leverage increases losses as well as gains, and you can lose more than you deposit. 1:1000 is not the ASIC maximum and is not offered on every TMGM product.",
+    "other_fees": [
+      { "label": "Standard and EDGE minimum", "value": "$100" },
+      { "label": "Cent minimum", "value": "$15" },
+      {
+        "label": "Inactivity",
+        "value": "$10",
+        "note": "ASIC account table: USD $10 if the account has no deposit, withdrawal or opened or closed position for more than 12 months."
+      }
+    ],
+    "promotions": "Refer-a-friend rewards of up to $25, and trading competitions, have been advertised. A Cent account is available.",
+    "trustpilot": {
+      "rating": 4.0,
+      "review_count": 873,
+      "url": "https://www.trustpilot.com/review/tmgm.com",
+      "label": "Great"
+    },
+    "website": "https://www.tmgm.com/",
+    "affiliate_link": null
+  },
+  "_notes": {
+    "last_verified": "2026-10-06",
+    "source": "Owner brief (primary for deposit split, leverage headline, platforms, HQ and products). Regulations: https://www.tmgm.com.au/en/regulations. Account types: https://www.tmgm.com/en/trading/account-types and the Australia trading-accounts comparison. ASIC FAQ for 1:30 forex leverage and founding year 2013. Sydney address Level 28, One International Tower, 100 Barangaroo Avenue, on the regulations page. Trustpilot tmgm.com showed 4.0 from 873 reviews in search index; a live fetch was blocked on 2026-10-06. Logo downloaded from TMGM's CDN (dark wordmark).",
+    "disagreements": "Licence numbers match the regulations page, including Mauritius GB22201012, which the owner brief did not quote. FMA is mentioned on TMGM's Trustpilot description and is omitted here because the regulations page does not name a New Zealand company. Owner platforms are MT4 and MT5. The Australian FAQ also names HUBx, which is left in this note rather than the platform list. Refer-a-friend cap of $25 was not reconfirmed on a promo page during this pass."
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "course": {
+    "id": "ace-of-trades",
+    "name": "Ace of Trades",
+    "logo": "/courses/ace-of-trades-logo.png",
+    "logo_bg": "dark",
+    "tagline": "A Nasdaq futures price-reading mentorship built around Akram Ace's \"Matrix Model\", with daily charting sessions and a 3-person coaching team.",
+    "about": "Ace of Trades is a Nasdaq-futures-focused trading mentorship founded by Akram Ace, centred on a specific framework for reading price action. Members get daily charting sessions, weekly trading-psychology lectures and Q&A, daily trade reviews, and 1:1 message support from a 3-person coaching team, through a Discord-based community.",
+    "instructor": {
+      "name": "Akram Ace",
+      "link": null
+    },
+    "curriculum": [
+      {
+        "title": "Price action & the Matrix Model",
+        "module_count": null,
+        "topics": [
+          "How price and Nasdaq movement work",
+          "Reading price action to the tick",
+          "Trading psychology",
+          "Trade analysis and feedback"
+        ]
+      }
+    ],
+    "formats": [
+      {
+        "label": "Daily charting sessions",
+        "description": "Live sessions walking through price action."
+      },
+      {
+        "label": "Weekly psychology lectures & Q&A",
+        "description": "Weekly lectures on trading psychology, plus live Q&A."
+      },
+      {
+        "label": "Daily trade reviews",
+        "description": "Daily review and feedback on member trades."
+      },
+      {
+        "label": "1:1 message support",
+        "description": "Direct message support from a 3-person coaching team led by Akram Ace."
+      }
+    ],
+    "platforms": [],
+    "markets": ["futures"],
+    "stats": [],
+    "pricing": [
+      {
+        "name": "Mentorship",
+        "price": "$150/month",
+        "billing_note": "Daily charting sessions, weekly psychology lectures and Q&A, daily trade reviews, 1:1 message support, and a 3-person coaching team.",
+        "highlight": null,
+        "link": "https://whop.com/ace-of-trades/ace-of-trades?a=user50f81875135"
+      }
+    ],
+    "refund_policy": null,
+    "trustpilot": null,
+    "whop": {
+      "rating": 4.9,
+      "review_count": 176,
+      "url": "https://whop.com/ace-of-trades/reviews/"
+    },
+    "testimonials": [
+      {
+        "quote": "Best trading discord on the scenario. Makes everything easy to understand, daily lectures and a lot of content explaining the market and strategy.",
+        "author": "Alexsandro Pinho",
+        "source": "Whop review, republished on an independent (unofficial) Ace of Trades affiliate site"
+      },
+      {
+        "quote": "The best mentors and community, so much value and support.",
+        "author": "Tyriq",
+        "source": "Whop review, republished on an independent (unofficial) Ace of Trades affiliate site"
+      },
+      {
+        "quote": "CRAZY value with the amount of content you get, especially with that price.",
+        "author": "Nq.Snip",
+        "source": "Whop review, republished on an independent (unofficial) Ace of Trades affiliate site"
+      }
+    ],
+    "testimonials_note": "These are customer reviews for Ace of Trades on Whop, republished by an independent, unofficial affiliate site (not Akram Ace's own site) since the official site is a single-page app that didn't return readable content to us, and Whop's own review pages are JS-rendered. We haven't independently re-verified them, and we don't verify trading performance or results.",
+    "website": "https://www.joinaceoftrades.com/",
+    "affiliate_link": "https://whop.com/ace-of-trades/ace-of-trades?a=user50f81875135"
+  },
+  "_notes": {
+    "last_verified": "2026-10-06",
+    "source": "IMPORTANT: guessed Whop profile handles (@aceoftrades, @ace-of-trades) returned unrelated/empty accounts — neither is the real seller. The real official site, joinaceoftrades.com, is a client-rendered single-page app that only returned its title tag to every fetch attempt (root, /pricing, /faq all tried). Descriptive content (formats, curriculum, testimonials) came from getaceoftrades.net, an independent, unofficial affiliate review site — confirmed unofficial because its own join link uses a different affiliate ID (\"eoggier\") than ours, and it shares the exact page structure (/review, /worthit, /pricing, /faq, /alternatives) of another unofficial site we'd already flagged for Stocks with Josh, suggesting the same third-party operator runs both. Pricing/rating/commission independently confirmed via whoptrends.com and cross-checked against the unofficial site's own FAQ (both agree: $150/month, 4.9/5, 176 reviews); 30% affiliate commission per whoptrends.com. No Trustpilot profile found for either domain. No refund policy could be confirmed from a source we trust. Logo pulled from joinaceoftrades.com's own favicon."
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "course": {
+    "id": "miles-high-club",
+    "name": "Miles High Club",
+    "logo": "/courses/miles-high-club-logo.png",
+    "logo_bg": "white",
+    "tagline": "A crypto alpha and research community led by analyst Miles Deutscher and a team of five other full-time analysts.",
+    "about": "Miles High Club is a crypto trading and research community founded by Miles Deutscher, a crypto analyst with 5+ years of experience and 500,000+ social media followers. Launched in 2024, it combines a team of full-time analysts — covering institutional research, fundamentals and altcoins, low-timeframe trading, and airdrops — through a themed Discord server.",
+    "instructor": {
+      "name": "Miles Deutscher",
+      "link": null
+    },
+    "curriculum": [
+      {
+        "title": "Educational content & trading streams",
+        "module_count": null,
+        "topics": [
+          "Institutional research framework",
+          "Altcoin fundamentals",
+          "Low-timeframe trading",
+          "Airdrop strategy and tracking"
+        ]
+      }
+    ],
+    "formats": [
+      {
+        "label": "Daily alpha & alerts",
+        "description": "Exclusive altcoin alpha, airdrop alerts and trade ideas."
+      },
+      {
+        "label": "Private weekly livestreams",
+        "description": "Weekly livestreams and AMA sessions with Miles and the analyst team."
+      },
+      {
+        "label": "Educational content",
+        "description": "100+ hours of educational content and trading streams."
+      },
+      {
+        "label": "Discord community",
+        "description": "A themed Discord server (Customs, Terminal, Kiosk, Lounge) with daily news/alert channels and voice chat."
+      }
+    ],
+    "platforms": [],
+    "markets": ["crypto"],
+    "stats": [
+      { "label": "Members", "value": "8,600+" },
+      { "label": "Miles' social following", "value": "500,000+" }
+    ],
+    "pricing": [
+      {
+        "name": "Monthly",
+        "price": "$199/month",
+        "billing_note": "Exclusive altcoin alpha, airdrop alerts and trade ideas, private weekly livestreams, 100+ hours of educational content, and full Discord access.",
+        "highlight": null,
+        "link": "https://whop.com/miles-high-club/miles-high-club?a=user50f81875135"
+      },
+      {
+        "name": "Annual",
+        "price": "$1,850/year",
+        "billing_note": "≈ 9.3 months of the regular monthly price.",
+        "highlight": "Best value",
+        "link": "https://whop.com/miles-high-club/miles-high-club?a=user50f81875135"
+      }
+    ],
+    "refund_policy": null,
+    "trustpilot": null,
+    "whop": {
+      "rating": 4.9,
+      "review_count": 222,
+      "url": "https://whop.com/miles-high-club/reviews/"
+    },
+    "testimonials": [],
+    "testimonials_note": "We couldn't find any individually-quoted member testimonials for this community in the sources we could access, so none are shown here.",
+    "website": "https://whop.com/miles-high-club/",
+    "affiliate_link": "https://whop.com/miles-high-club/miles-high-club?a=user50f81875135"
+  },
+  "_notes": {
+    "last_verified": "2026-10-06",
+    "source": "Built from the Whop community page itself (whop.com/miles-high-club), Whop's own blog review (whop.com/blog/miles-high-club-review) and WebSearch results for founder background. No separate dedicated website found outside Whop, so 'website' points to the Whop community page. Pricing, rating and commission confirmed via whoptrends.com and cross-checked against the Whop blog review (both agree on $199/month; the blog review additionally states $1,850/year). Annual pricing has no separate affiliate link provided, so it shares the one monthly link given — the same Whop checkout likely offers both billing options. No Trustpilot profile found (checked mileshighclub.com, 404). Logo cropped from the community's own Whop banner image (the paper-plane mark), since the only square avatar available was the founder's personal headshot photo rather than a brand mark."
+  }
+}

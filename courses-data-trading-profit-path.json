@@ -1,0 +1,68 @@
+{
+  "course": {
+    "id": "trading-profit-path",
+    "name": "Trading Profit Path",
+    "logo": "/courses/trading-profit-path-logo.png",
+    "logo_bg": "dark",
+    "tagline": "An options trading mentorship with a free intro bootcamp and a one-time lifetime membership option.",
+    "about": "Trading Profit Path is an options trading mentorship and community, sold through Whop. Members get options trading lessons and ongoing mentorship, with both a free introductory bootcamp and a one-time lifetime membership available as entry points.",
+    "instructor": null,
+    "curriculum": [
+      {
+        "title": "Options trading lessons",
+        "module_count": null,
+        "topics": [
+          "Options trading fundamentals",
+          "Intro to options bootcamp content",
+          "Ongoing mentorship and lessons"
+        ]
+      }
+    ],
+    "formats": [
+      {
+        "label": "Free intro bootcamp",
+        "description": "An introductory options trading bootcamp, free to join."
+      },
+      {
+        "label": "Lifetime mentorship",
+        "description": "One-time payment for lifetime access to lessons and mentorship."
+      }
+    ],
+    "platforms": [],
+    "markets": ["options"],
+    "stats": [
+      { "label": "Members", "value": "1,700+" }
+    ],
+    "pricing": [
+      {
+        "name": "Intro to Options Bootcamp",
+        "price": "Free",
+        "billing_note": "An introductory options trading bootcamp.",
+        "highlight": null,
+        "link": "https://whop.com/tradingprofitpath/intro-to-options-free-bootcamp?a=user50f81875135"
+      },
+      {
+        "name": "Lifetime",
+        "price": "$1,500 one-time",
+        "billing_note": "One-time payment for lifetime access to lessons and mentorship.",
+        "highlight": null,
+        "link": "https://whop.com/tradingprofitpath/trading-profit-path-copy-47?a=user50f81875135"
+      }
+    ],
+    "refund_policy": null,
+    "trustpilot": null,
+    "whop": {
+      "rating": 4.6,
+      "review_count": null,
+      "url": "https://whop.com/tradingprofitpath/reviews/"
+    },
+    "testimonials": [],
+    "testimonials_note": "We couldn't find any individually-quoted member testimonials for this community in the sources we could access, so none are shown here.",
+    "website": "https://tradingprofitpath.com/",
+    "affiliate_link": "https://whop.com/tradingprofitpath/trading-profit-path-copy-47?a=user50f81875135"
+  },
+  "_notes": {
+    "last_verified": "2026-10-06",
+    "source": "IMPORTANT: the provider's own site (tradingprofitpath.com) and Whop bio are built almost entirely around specific income/account-growth claims (\"$1k to $100k months\", \"6 figures a month\", screenshots of results) — none of that is reflected in our tagline/about copy, which we wrote ourselves in neutral terms, per our no-performance-claims rule. Founder's name isn't clearly confirmed anywhere we could verify (one AI summary guessed 'Matt' from an Instagram handle, not confirmed, so instructor is left null). Pricing/rating/commission for the lifetime tier confirmed via whoptrends.com ($1,500 one-time, 4.6/5, 20% affiliate commission); review count is ambiguous between two numbers shown on that same page (337 vs 14) so we've left review_count null rather than pick one. The free bootcamp product has no separate confirmed rating. No Trustpilot profile found. No refund policy could be confirmed, though the main site implies one exists without stating terms we could find. Logo cropped from the community's own Whop banner image (the diamond chart-and-arrow mark)."
+  }
+}

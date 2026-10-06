@@ -1,0 +1,98 @@
+{
+  "broker": {
+    "id": "atfx",
+    "name": "ATFX",
+    "logo": "/brokers/atfx.png",
+    "logo_bg": "dark",
+    "tagline": "A shared brand used by separate forex and CFD companies. Deposit, leverage and crypto access depend on the entity.",
+    "about": "ATFX is a name shared by companies in the UK, Australia, South Africa, the UAE, Cyprus, Mauritius, Seychelles, Hong Kong and other places. There is no single minimum deposit or leverage limit. The global site's standard specification lists EUR/USD spreads from 1.8 pips with no commission. Other account types publish lower spreads and higher funding levels. Trading is on MetaTrader 4, MetaTrader 5 and ATFX's own apps. The group describes offices that include the UAE, the UK, Cyprus, Mauritius and Australia. ATFX's about page does not state a founding year.",
+    "founded": null,
+    "headquarters": "Global group, with offices including the UAE, UK, Cyprus, Mauritius and Australia",
+    "min_deposit": null,
+    "currency": "USD",
+    "markets": ["forex", "stocks", "crypto", "cfds"],
+    "regulators": [
+      { "regulator": "CMA", "country": "AE", "entity": "ATFX MENA Financial Services LLC" },
+      { "regulator": "FCA", "country": "GB", "entity": "AT Global Markets (UK) Limited" },
+      { "regulator": "ASIC", "country": "AU", "entity": "AT Global Markets (Australia) Pty Ltd" },
+      { "regulator": "CySEC", "country": "CY", "entity": "ATFX Global Markets (CY) Limited" },
+      { "regulator": "FSCA", "country": "ZA", "entity": "AT Global Markets SA (Pty) Ltd" },
+      { "regulator": "FSC (Mauritius)", "country": "MU", "entity": "AT Global Markets Intl Ltd" },
+      { "regulator": "FSA (Seychelles)", "country": "SC", "entity": "AT Global Markets (SC) Limited" },
+      { "regulator": "SFC", "country": "HK", "entity": "AT Global Financial Services (HK) Limited" },
+      { "regulator": "SERC", "country": "KH", "entity": "ATFX (Cambodia) Company Limited" },
+      { "regulator": "SFC (Colombia)", "country": "CO", "entity": "AT Global Markets Intl Ltd" }
+    ],
+    "regulators_note": "ATFX's about page says ten authorities regulate the brand and lists the companies above. The Colombia line is a representative office authorised under Resolution 2065 of 2025, not a second full brokerage licence. FCA number 760555 and ASIC AFSL 418036 are on ATFX's contact pages. Other licence numbers are not listed here, because they were not on the about page.",
+    "platforms": ["MetaTrader 4", "MetaTrader 5", "ATFX app"],
+    "plans": [
+      {
+        "name": "Standard",
+        "price": "Depends on entity",
+        "billing_note": "Global deposits page: $500, €500 or £500 to open a Standard account. South Africa lists a Standard account from R100. No commission on the global specification, EUR/USD minimum spread 1.8 pips.",
+        "highlight": null
+      },
+      {
+        "name": "Edge",
+        "price": "From $10,000",
+        "billing_note": "UAE Edge page: opening balance $10,000, $0 commission, average spreads from 0.8 pips, leverage up to 1:400 on that page.",
+        "highlight": null
+      },
+      {
+        "name": "ECN (South Africa)",
+        "price": "From R500",
+        "billing_note": "South Africa account page: spreads from 0.1, commission $7 per lot, leverage up to 1:500, MetaTrader 5.",
+        "highlight": "Spread from 0.1 pips"
+      }
+    ],
+    "costs": [
+      {
+        "title": "EUR/USD",
+        "rows": [
+          {
+            "label": "Global standard spec",
+            "value": "From 1.8 pips",
+            "note": "No commission on that specification page. The table also shows leverage columns up to 1:500, which are not the retail cap at FCA, ASIC or CySEC."
+          },
+          {
+            "label": "Edge",
+            "value": "From 0.8 pips",
+            "note": "Advertised as an average on the UAE Edge page, with $0 commission and a $10,000 opening balance. The specification table on that page also shows 1.2 in one block and 0.8 in another."
+          },
+          {
+            "label": "South Africa ECN",
+            "value": "From 0.1 pips",
+            "note": "Commission $7 per lot. Minimum deposit R500 on that regional page."
+          }
+        ]
+      }
+    ],
+    "costs_note": "Minimum deposit and leverage depend on the entity, so the card does not show one deposit. Classic accounts on the global site list a $1,000 opening balance and spreads from 1.8 pips in the summary, while one specification table also shows 2.6.",
+    "leverage": [
+      {
+        "market": "Depends on entity",
+        "value": "No single maximum",
+        "note": "Retail clients at the FCA, ASIC and CySEC companies are under a lower cap, commonly 30:1 on major FX. Other ATFX pages publish columns up to 1:500 or 1:400."
+      }
+    ],
+    "leverage_summary": "Depends on entity",
+    "leverage_note": "Leverage increases losses as well as gains, and you can lose more than you deposit. Read the limit for the ATFX company named on your account, not the highest number on another region's page.",
+    "other_fees": [
+      { "label": "Minimum deposit", "value": "Depends on entity", "note": "Examples from ATFX's own pages: $500 Standard on the global deposits page, $10,000 Edge, R100 Standard in South Africa." }
+    ],
+    "promotions": "Promotions depend on the region and the campaign. A World Trading Cup has been advertised with a $210,000 total prize pool.",
+    "trustpilot": {
+      "rating": 3.9,
+      "review_count": 130,
+      "url": "https://www.trustpilot.com/review/atfx.com",
+      "label": "Great"
+    },
+    "website": "https://www.atfx.com/",
+    "affiliate_link": null
+  },
+  "_notes": {
+    "last_verified": "2026-10-06",
+    "source": "Owner brief (primary for deposit, leverage headline, platforms, HQ, products and the competition). About page: https://www.atfx.com/en/about-us. Contact page for FCA 760555 and ASIC AFSL 418036. Deposits page, global product specifications, Edge specifications (UAE) and South Africa account types. Trustpilot atfx.com showed 3.9 from 130 reviews in search index; a live fetch was blocked on 2026-10-06. Logo is the ATFX mark from Wikimedia Commons (the broker's current site also serves an ATFX wordmark tied to an AFA lockup, which was not used).",
+    "disagreements": "Owner list matches the about page. Cambodia (SERC) and the Colombia representative office are on that same page and are included under 'others'. The World Trading Cup prize pool was not reconfirmed on a campaign page during this pass. Crypto is included because the owner says it depends on jurisdiction, not because every entity lists it. Founding year is omitted: the about page does not state one, and secondary write-ups that say 2017 were not copied."
+  }
+}

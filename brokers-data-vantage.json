@@ -1,0 +1,91 @@
+{
+  "broker": {
+    "id": "vantage",
+    "name": "Vantage",
+    "logo": null,
+    "tagline": "A multi-entity CFD and forex group, founded in 2009. Leverage and client protections depend on which Vantage company holds the account.",
+    "about": "Vantage, formerly Vantage FX, was founded in 2009 and runs several companies. The group describes major operations in Mauritius, the UK and Australia, and also names Seychelles among its bases. International pages advertise a Standard STP account with spreads from 1.0 pip and no commission, and a RAW ECN account with spreads from 0.0 pips plus commission. Some international entities are described as offering leverage up to 1:2000. Not every Vantage account page states that figure. Retail clients at the Australian and UK companies are under much lower regulatory caps. The platforms listed here are MetaTrader 4, MetaTrader 5, TradingView and copy trading.",
+    "founded": 2009,
+    "headquarters": "Global group. Major operations in Mauritius, Seychelles, the UK and Australia",
+    "min_deposit": 50,
+    "currency": "USD",
+    "markets": ["forex", "stocks", "crypto", "cfds"],
+    "regulators": [
+      { "regulator": "ASIC", "country": "AU", "entity": "Vantage Global Prime Pty Ltd" },
+      { "regulator": "FCA", "country": "GB", "entity": "Vantage Global Prime LLP" },
+      { "regulator": "CIMA", "country": "KY", "entity": "Vantage International Group Limited" },
+      { "regulator": "VFSC", "country": "VU", "entity": "Vantage Global Limited" },
+      { "regulator": "FSCA", "country": "ZA", "entity": "Vantage Markets (Pty) Ltd" },
+      { "regulator": "FSC (Mauritius)", "country": "MU", "entity": "VIG Holdings Limited" }
+    ],
+    "regulators_note": "The company on your account is the one that matters. ASIC and FCA retail rules are stricter than the Vanuatu and Cayman companies. Seychelles is not shown as a regulator, because the Vantage pages used here do not name a Seychelles licence.",
+    "platforms": ["MetaTrader 4", "MetaTrader 5", "TradingView", "Copy Trading"],
+    "plans": [
+      {
+        "name": "Standard STP",
+        "price": "From $50",
+        "billing_note": "Commission-free forex on the international pages, with spreads from 1.0 pip. International pages show a $5 minimum. $50 is the minimum named for a current deposit promotion.",
+        "highlight": null
+      },
+      {
+        "name": "RAW ECN",
+        "price": "From $50",
+        "billing_note": "Spreads from 0.0 pips. Commission of $3 per standard lot per side ($6 round turn) on the international RAW page.",
+        "highlight": "Spread from 0.0 pips"
+      }
+    ],
+    "costs": [
+      {
+        "title": "Forex",
+        "rows": [
+          {
+            "label": "Standard STP",
+            "value": "From 1.0 pip",
+            "note": "No separate forex commission on the international account page. Spreads include the broker's markup."
+          },
+          {
+            "label": "RAW ECN",
+            "value": "From 0.0 pips",
+            "note": "$3 per standard lot per side, $6 round turn, on the international RAW ECN page."
+          }
+        ]
+      }
+    ],
+    "costs_note": "International RAW and Standard pages say a $5 minimum. A deposit promotion uses $50, which is the figure on the card. Other entities can differ. Current Vantage pages quote ASIC AFSL 428901.",
+    "leverage": [
+      {
+        "market": "Some international entities",
+        "value": "Up to 1:2000",
+        "note": "Described for some international entities. Not every Vantage account page states 1:2000. It is not the cap for Australian or UK retail clients."
+      },
+      {
+        "market": "ASIC and FCA retail",
+        "value": "Lower regulatory cap",
+        "note": "Retail clients at these entities do not get the offshore maximum. Major FX is commonly capped at 30:1 under those regimes."
+      }
+    ],
+    "leverage_summary": "Up to 1:2000",
+    "leverage_note": "Leverage increases losses as well as gains, and you can lose more than you deposit. A 1:2000 maximum is not available at every Vantage company or on every product.",
+    "other_fees": [
+      {
+        "label": "Minimum deposit",
+        "value": "$50",
+        "note": "Used for the current deposit promotion. International account pages also publish $5 for Standard STP and RAW ECN."
+      }
+    ],
+    "promotions": "A first-deposit match of 50% up to $500, plus 10% on later eligible deposits, has been advertised. Promotional credit is described as potentially reaching $30,000.",
+    "trustpilot": {
+      "rating": 4.3,
+      "review_count": 12175,
+      "url": "https://www.trustpilot.com/review/vantagemarkets.com",
+      "label": "Excellent"
+    },
+    "website": "https://www.vantagemarkets.com/",
+    "affiliate_link": null
+  },
+  "_notes": {
+    "last_verified": "2026-10-06",
+    "source": "Owner brief (primary for deposit, leverage headline, platforms, HQ, products and the offer). Entities: Vantage app footer and about page (ASIC AFSL 428901, Vantage Global Prime Pty Ltd; CIMA SIBL 1383491, Vantage International Group Limited; VFSC 700271, Vantage Global Limited). FCA FRN 590299 on Vantage's own 15-year timeline, entity Vantage Global Prime LLP. FSCA 51268, Vantage Markets (Pty) Ltd, January 2025 key facts PDF. Mauritius FSC GB20026165, VIG Holdings Limited, May 2026 risk warning PDF. Founded 2009 on the same timeline. Spreads and $3 commission: international accounts and RAW ECN pages. Trustpilot index showed 4.3 from 12,175 reviews (English profile; some locales were a few hundred reviews either side). Live Trustpilot fetch was blocked on 2026-10-06. No clean logo file was found, so the page uses initials.",
+    "disagreements": "Owner regulator list is Mauritius FSC, VFSC, FSCA, Seychelles and others. Seychelles was not found as a licence, so it is not listed. ASIC, FCA and CIMA are included under 'others' because Vantage's own pages name them, and the brief's HQ line includes the UK and Australia. Minimum is $50 per the brief. International pages also say $5, which is noted and not used as the card number. The 1:2000 figure and the deposit-bonus amounts were not reconfirmed on a live promo page during this pass. A third-party page also names Vantage Trading Ltd (Mauritius GB23202275). That second Mauritius company is not on the Vantage PDF used here, so it is omitted."
+  }
+}

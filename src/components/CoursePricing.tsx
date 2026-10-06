@@ -11,10 +11,12 @@ export default function CoursePricing({
   tiers,
   courseName,
   visitHref,
+  linkLabel = "Visit site",
 }: {
   tiers: PricingTier[];
   courseName: string;
   visitHref: string | null;
+  linkLabel?: string;
 }) {
   const highlightedIndex = tiers.findIndex((t) => t.highlight);
   const [selected, setSelected] = useState(highlightedIndex >= 0 ? highlightedIndex : 0);
@@ -65,10 +67,10 @@ export default function CoursePricing({
       {selectedHref && selectedTier && (
         <div className="mt-4 flex flex-wrap items-center gap-3 rounded-xl border border-border bg-surface-2 p-4">
           <p className="meta flex-1">
-            Selected: <span className="font-medium text-foreground">{selectedTier.name}</span> —{" "}
+            Selected: <span className="font-medium text-foreground">{selectedTier.name}</span>,{" "}
             {selectedTier.price}
           </p>
-          <VisitSiteLink href={selectedHref} firmName={courseName} variant="outline" />
+          <VisitSiteLink href={selectedHref} firmName={courseName} variant="outline" label={linkLabel} />
         </div>
       )}
     </div>

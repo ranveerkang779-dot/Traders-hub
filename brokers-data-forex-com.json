@@ -1,0 +1,90 @@
+{
+  "broker": {
+    "id": "forex-com",
+    "name": "FOREX.com",
+    "logo": "/brokers/forex-com.png",
+    "logo_bg": "white",
+    "tagline": "StoneX's retail forex brand. Protections, leverage and the minimum deposit depend on which group company you join.",
+    "about": "FOREX.com is a retail trading brand of StoneX Group, a Nasdaq-listed US company. The brand's base is Warren, New Jersey. It offers forex and, depending on the entity, CFDs on indices, commodities and shares, plus crypto. You are placed with a StoneX or GAIN company based on where you live, so the regulator and the rules are not the same for every client. RAW pricing advertises spreads from 0.0 pips plus a commission. Trading is on FOREX.com's web and mobile platforms, TradingView and MetaTrader 5.",
+    "founded": 2001,
+    "headquarters": "Warren, New Jersey, USA",
+    "min_deposit": null,
+    "currency": "USD",
+    "markets": ["forex", "stocks", "crypto", "cfds"],
+    "regulators": [
+      { "regulator": "CFTC & NFA", "country": "US", "entity": "GAIN Capital Group LLC" },
+      { "regulator": "FCA", "country": "GB", "entity": "StoneX Financial Ltd" },
+      { "regulator": "ASIC", "country": "AU", "entity": "StoneX Financial Pty Ltd" },
+      { "regulator": "CySEC", "country": "CY", "entity": "StoneX Europe Ltd" },
+      { "regulator": "CIRO", "country": "CA", "entity": "GAIN Capital - FOREX.com Canada Ltd." },
+      { "regulator": "CIMA", "country": "KY", "entity": null },
+      { "regulator": "MAS", "country": "SG", "entity": null },
+      { "regulator": "FSA (Japan)", "country": "JP", "entity": null }
+    ],
+    "regulators_note": "FOREX.com's international regulation page lists these authorities, including the US, Canada and the UK. Company names are filled in only where a customer agreement or the broker's own page names them. CIMA, MAS and the Japan FSA are listed by the broker without a company name. A Capital Markets Authority is also named on that page without a country or company, so it is left off this list.",
+    "platforms": ["FOREX.com web", "FOREX.com mobile", "TradingView", "MetaTrader 5"],
+    "plans": [
+      {
+        "name": "RAW pricing",
+        "price": "Deposit varies",
+        "billing_note": "Spreads from 0.0 pips on FX majors, plus a commission. US pages state $7 per $100,000 traded. The international RAW Spread page states $5 per $100,000 traded.",
+        "highlight": "Spread from 0.0 pips"
+      },
+      {
+        "name": "Spread only",
+        "price": "Deposit varies",
+        "billing_note": "No separate commission. The cost sits in the spread. FOREX.com does not publish one typical pip figure for this account.",
+        "highlight": null
+      }
+    ],
+    "costs": [
+      {
+        "title": "Forex majors",
+        "rows": [
+          {
+            "label": "RAW, United States",
+            "value": "From 0.0 pips",
+            "note": "$7 per $100,000 traded, charged on the open and again on the close. FOREX.com says spreads can widen when markets are fast or quiet."
+          },
+          {
+            "label": "RAW, international",
+            "value": "From 0.0 pips",
+            "note": "$5 per $100,000 traded on the international RAW Spread account. The Cayman Islands page ties that account to CIMA oversight."
+          },
+          {
+            "label": "Spread only",
+            "value": "No separate commission",
+            "note": "FOREX.com does not publish one standard spread for this account. The live quote moves."
+          }
+        ]
+      }
+    ],
+    "costs_note": "No single minimum is shown, because it depends on the company you join. US and international account pages say you can deposit from $100, and they recommend at least $2,500. That $100 figure may not apply everywhere.",
+    "leverage": [
+      {
+        "market": "All products",
+        "value": "Depends on the entity",
+        "note": "FOREX.com does not publish one maximum for every client. US retail forex on major pairs is capped by the CFTC, commonly at 50:1. UK and EU retail clients are under a lower cap, commonly 30:1 on majors."
+      }
+    ],
+    "leverage_summary": "Depends on entity",
+    "leverage_note": "Leverage increases losses as well as gains, and you can lose more than you deposit. The limit is set by the FOREX.com company you join and by the product.",
+    "other_fees": [
+      { "label": "Minimum deposit", "value": "Depends on jurisdiction", "note": "US and international account pages say you can deposit from $100. That figure may not apply everywhere." }
+    ],
+    "promotions": "A welcome bonus of up to $5,000, a switch offer of up to $10,000, referral rewards and Active Trader rebates have been advertised. Eligibility and amounts depend on the entity and the campaign.",
+    "trustpilot": {
+      "rating": 4.6,
+      "review_count": 2339,
+      "url": "https://www.trustpilot.com/review/www.forex.com",
+      "label": "Excellent"
+    },
+    "website": "https://www.forex.com/",
+    "affiliate_link": null
+  },
+  "_notes": {
+    "last_verified": "2026-10-06",
+    "source": "Owner brief (primary for HQ, deposit, leverage headline, products and offers). Regulation page: https://www.forex.com/en/about-us/regulation/. US entity and NFA ID 0339826: GAIN Capital Group LLC customer agreement. UK: StoneX Financial Ltd, FCA 446717, customer agreement. Australia: StoneX Financial Pty Ltd, AFSL 345646, terms dated August 2025. Cyprus: StoneX Europe Ltd customer agreement (October 2023 file). Canada page names GAIN Capital - FOREX.com Canada Ltd. and CIRO. RAW pricing: forex.com US and international RAW account pages. Founded year uses FOREX.com's own 'since 2001'. Trustpilot www.forex.com showed 4.6 from 2,339 reviews in search index; a live fetch was blocked on 2026-10-06.",
+    "disagreements": "Owner says minimum deposit and max leverage depend on jurisdiction. Kept that way. The US and international open-account pages still state a $100 minimum, noted above rather than used as the card figure. Owner platforms are FOREX.com web, mobile and TradingView. MetaTrader 5 is added because the RAW account pages name it. Dollar amounts on the welcome bonus and switch offer were not re-opened on a promo page during this pass. Logo is the FOREX.com wordmark from Wikimedia Commons. Some histories date the brand to 2004; 2001 is the broker's own line."
+  }
+}

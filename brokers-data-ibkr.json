@@ -2,7 +2,8 @@
   "broker": {
     "id": "interactive-brokers",
     "name": "Interactive Brokers (IBKR)",
-    "logo": null,
+    "logo": "/brokers/ibkr.png",
+    "logo_bg": "white",
     "tagline": "A large, low-cost global broker giving access to stocks, options, futures, forex and bonds on exchanges worldwide from one account.",
     "about": "Interactive Brokers is a US-based brokerage founded in 1978 and listed on the Nasdaq under the ticker IBKR. It's known for low commissions, very wide market access and professional-grade tools, which makes it popular with active traders. Beginners can open an account with no minimum deposit, but the main desktop platform (Trader Workstation) has a steep learning curve, so many newer users start with the simpler mobile or web apps. Which IBKR company you sign up with, and so which regulator protects you, depends on the country you live in.",
     "founded": 1978,
@@ -123,6 +124,7 @@
         "note": "Each contract has a margin requirement set by its exchange, which IBKR can raise."
       }
     ],
+    "leverage_summary": "Up to 50:1 on US forex majors",
     "leverage_note": "Leverage makes losses bigger as well as gains, and on a margin account you can lose more than you deposited. IBKR can raise its margin requirements at any time.",
     "margin_rates": {
       "columns": ["IBKR Pro", "IBKR Lite"],

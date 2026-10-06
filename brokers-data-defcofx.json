@@ -1,0 +1,76 @@
+{
+  "broker": {
+    "id": "defcofx",
+    "name": "Defcofx",
+    "logo": "/brokers/defcofx.png",
+    "logo_bg": "white",
+    "tagline": "A Saint Lucia-registered forex and CFD broker on MetaTrader 5. It does not publish a financial-conduct licence from a regulator such as the FCA or ASIC.",
+    "about": "Defcofx says it was founded in 2022, opened more widely in 2024, and is based at Rodney Bay in Saint Lucia. It offers forex and CFDs, including gold, oil, indices and stocks, plus crypto, on MetaTrader 5. Silver accounts list a $50 minimum and leverage up to 1:2000. Gold accounts list $1,000 and leverage up to 1:500. The broker advertises zero commission, swap-free accounts and spreads from 0.3 pips. It also advertises withdrawals within four business hours. The only registration number on its site is 2024-00205 in Saint Lucia. That is a company registration, not a licence from a financial conduct regulator.",
+    "founded": 2022,
+    "headquarters": "Rodney Bay, Saint Lucia",
+    "min_deposit": 50,
+    "currency": "USD",
+    "markets": ["forex", "stocks", "crypto", "cfds"],
+    "regulators": [],
+    "company_registration": "Saint Lucia 2024-00205",
+    "regulators_note": "Defcofx publishes registration number 2024-00205 and the address Ground Floor, The Sotheby Building, Rodney Village, Rodney Bay, Gros-Islet, Saint Lucia. That number is a company registration. It is not a financial-services licence from a conduct regulator, and it does not give the same protections as an FCA, ASIC or CySEC firm. The company name was not printed next to the number.",
+    "platforms": ["MetaTrader 5"],
+    "plans": [
+      {
+        "name": "Silver",
+        "price": "$50 minimum",
+        "billing_note": "Leverage up to 1:2000. Commission advertised at $0. The homepage says spreads from 0.3 pips. The account table says from 0.5.",
+        "highlight": null
+      },
+      {
+        "name": "Gold",
+        "price": "$1,000 minimum",
+        "billing_note": "Leverage up to 1:500. Commission advertised at $0. The homepage says spreads from 0.3 pips. The account table says from 0.5.",
+        "highlight": null
+      }
+    ],
+    "costs": [
+      {
+        "title": "Forex and CFDs",
+        "rows": [
+          {
+            "label": "Advertised spread",
+            "value": "From 0.3 pips",
+            "note": "The homepage says from 0.3 pips, and also from 0.0. The account table says from 0.5. The FAQ says as low as 0.2. Commission is advertised at $0."
+          }
+        ]
+      }
+    ],
+    "costs_note": "Defcofx's own pages do not agree on the spread. The homepage says from 0.3 pips and also from 0.0. The account table says from 0.5. The FAQ says as low as 0.2. Live spreads move either way.",
+    "leverage": [
+      { "market": "Silver, forex", "value": "Up to 1:2000", "note": "Defcofx says the maximum applies to forex currencies and depends on the account type." },
+      { "market": "Gold account", "value": "Up to 1:500", "note": "Gold minimum deposit is $1,000." }
+    ],
+    "leverage_summary": "Up to 1:2000",
+    "leverage_note": "Leverage increases losses as well as gains, and you can lose more than you deposit. 1:2000 is a very high setting and is only on the Silver account for forex. There is no conduct regulator behind this account of the kind an FCA or ASIC firm has.",
+    "other_fees": [
+      { "label": "Silver minimum", "value": "$50" },
+      { "label": "Gold minimum", "value": "$1,000" },
+      { "label": "Commission", "value": "$0", "note": "Advertised on the account overview and the FAQ." },
+      {
+        "label": "Withdrawals",
+        "value": "Advertised within 4 business hours",
+        "note": "Stated by Defcofx. This listing has not timed a withdrawal."
+      }
+    ],
+    "promotions": null,
+    "trustpilot": {
+      "rating": 4.5,
+      "review_count": 71,
+      "url": "https://www.trustpilot.com/review/defcofx.com",
+      "label": "Excellent"
+    },
+    "website": "https://www.defcofx.com/",
+    "affiliate_link": null
+  },
+  "_notes": {
+    "last_verified": "2026-10-06",
+    "source": "Owner brief (primary for the spread headline, deposit split, leverage, platform, HQ, products and the bonus). FAQ, about page, homepage and accounts overview on defcofx.com. Registration 2024-00205 matches the FAQ. Founded 2022 and 'went global in 2024' are from the FAQ. Trustpilot defcofx.com showed TrustScore 4.5 from 71 reviews on the fetched profile. Logo downloaded from the broker's own site.",
+    "disagreements": "The owner lists 'Saint Lucia licence 2024-00205'. The number is kept as a company registration, not in the regulator list and not as an FCA-style conduct licence. Spread: owner and homepage say from 0.3 pips. Accounts overview says 0.5. FAQ says as low as 0.2. Homepage also says from 0.0. The public headline stays 0.3 and the page lists the other figures. The 40% bonus was not on the FAQ or accounts pages opened, so it is not shown as a live offer. The homepage also says 'futures'. Exchange-traded futures were not confirmed, so the markets list uses CFDs, forex, stocks and crypto rather than the futures category."
+  }
+}

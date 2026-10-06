@@ -6,11 +6,14 @@ export default function VisitSiteLink({
   firmName,
   variant = "primary",
   className = "",
+  label = "Visit site",
 }: {
   href: string;
   firmName: string;
   variant?: "primary" | "outline";
   className?: string;
+  /** Visible button text. Brokers pass "Visit broker". */
+  label?: string;
 }) {
   return (
     <a
@@ -19,11 +22,8 @@ export default function VisitSiteLink({
       rel="noopener sponsored"
       className={`btn ${variant === "primary" ? "btn-primary" : "btn-outline"} ${className}`}
     >
-      Visit site
-      <span className="sr-only">
-        {" "}
-        — {firmName} (opens in a new tab)
-      </span>
+      {label}
+      <span className="sr-only"> for {firmName} (opens in a new tab)</span>
       <span aria-hidden="true">↗</span>
     </a>
   );

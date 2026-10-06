@@ -1,0 +1,85 @@
+{
+  "broker": {
+    "id": "fxtrading",
+    "name": "FXTRADING.com",
+    "logo": "/brokers/fxtrading.png",
+    "logo_bg": "dark",
+    "tagline": "Forex and CFD trading under two Gleneagle companies: ASIC for Australian residents, and Vanuatu for eligible clients outside Australia.",
+    "about": "FXTRADING.com, also called FXT, is a trading name of Gleneagle Securities (AUST) Pty Limited for Australian residents and of Gleneagle Securities Pty Ltd for eligible clients outside Australia. Only one of those frameworks applies to an account. The international company is in Port Vila and is licensed in Vanuatu. It advertises leverage up to 1:2000. The ASIC company is in Australia, and Australian retail leverage is lower because of ASIC's limits. Raw accounts advertise spreads from 0.0 pips with a commission. The broker also advertises social trading, expert advisors and a book it describes as suitable for scalping and higher-volume trading.",
+    "founded": null,
+    "headquarters": "Port Vila, Vanuatu (international entity); Australia (ASIC entity)",
+    "min_deposit": 50,
+    "currency": "USD",
+    "markets": ["forex", "stocks", "crypto", "cfds"],
+    "regulators": [
+      { "regulator": "ASIC", "country": "AU", "entity": "Gleneagle Securities (AUST) Pty Limited" },
+      { "regulator": "VFSC", "country": "VU", "entity": "Gleneagle Securities Pty Ltd" }
+    ],
+    "regulators_note": "Australian residents are served by the ASIC company (AFSL 337985). Eligible non-Australian residents are served by the Vanuatu company (VFSC securities dealer licence 40256). An account sits with one of those companies, not both.",
+    "platforms": ["MetaTrader 4", "MetaTrader 5"],
+    "plans": [
+      {
+        "name": "Raw Spread",
+        "price": "$50 minimum",
+        "billing_note": "Spreads from 0.0 pips. Commission of $3.50 per side per lot on major instruments, from the broker's professional account page.",
+        "highlight": "Spread from 0.0 pips"
+      },
+      {
+        "name": "Standard",
+        "price": "$50 minimum",
+        "billing_note": "No separate commission. The standard account page lists tiers with spreads from 0.1, 0.2 or 0.3 pips.",
+        "highlight": null
+      }
+    ],
+    "costs": [
+      {
+        "title": "Forex",
+        "rows": [
+          {
+            "label": "Raw Spread",
+            "value": "From 0.0 pips",
+            "note": "$3.50 each side per lot on major instruments. Minimum deposit $50 on that page."
+          },
+          {
+            "label": "Standard",
+            "value": "From 0.1 pips",
+            "note": "No separate commission. The same page also lists standard tiers from 0.2 and 0.3 pips, all at a $50 minimum."
+          }
+        ]
+      }
+    ],
+    "costs_note": "Raw and Standard account pages list a $50 minimum. ASIC retail clients do not get the 1:2000 leverage advertised for international accounts.",
+    "leverage": [
+      {
+        "market": "International accounts",
+        "value": "Up to 1:2000",
+        "note": "Advertised on FXT's margin page. Availability depends on the instrument, account equity and account type."
+      },
+      {
+        "market": "Australian retail",
+        "value": "ASIC cap, not 1:2000",
+        "note": "Major FX for retail clients at an ASIC broker is commonly capped at 30:1. Confirm the figure on the Australian account."
+      }
+    ],
+    "leverage_summary": "Up to 1:2000",
+    "leverage_note": "Leverage increases losses as well as gains, and you can lose more than you deposit. The 1:2000 figure is for international accounts and is not the ASIC retail maximum.",
+    "other_fees": [
+      { "label": "Raw Spread minimum", "value": "$50" },
+      { "label": "Stop out", "value": "50%", "note": "Stated on the margin and account pages, with a 100% margin call level." }
+    ],
+    "promotions": null,
+    "trustpilot": {
+      "rating": 4.4,
+      "review_count": 209,
+      "url": "https://www.trustpilot.com/review/fxtrading.com",
+      "label": "Excellent"
+    },
+    "website": "https://fxtrading.com/",
+    "affiliate_link": null
+  },
+  "_notes": {
+    "last_verified": "2026-10-06",
+    "source": "Owner brief (primary for deposit split, leverage headline, platforms, HQ and products). Licensing page and help article: Gleneagle Securities (AUST) Pty Limited, AFSL 337985; Gleneagle Securities Pty Ltd, VFSC 40256. Standard and Raw account pages and the margin page on fxtrading.com. Trustpilot fxtrading.com showed 4.4 from 209 reviews in search index; a live fetch was blocked on 2026-10-06. Logo downloaded from the broker's own site (white wordmark).",
+    "disagreements": "Licence numbers 337985 and 40256 match the broker's licensing page. Owner platforms are MT4 and MT5 only, so the web trader and mobile app named on the same site are left out of the platform list. Founding year was not on the pages checked. Owner names Standard Pro at $100. The standard page opened for this pass showed $50 tiers and did not use that name, so Standard Pro is not on the public page. Social trading and a 200+ instrument count come from the owner brief and were not re-counted here."
+  }
+}

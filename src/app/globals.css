@@ -269,4 +269,118 @@ body {
   &:hover {
     border-color: var(--color-subtle);
   }
+  transition:
+    border-color 160ms ease,
+    background-color 160ms ease;
+}
+
+/* Brokers directory and detail pages only. Other sections do not use these
+   classes. Motion is a short fade/slide. Reduced-motion keeps everything still. */
+@keyframes broker-rise {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes our-choice-in {
+  from {
+    opacity: 0;
+    transform: translateY(3px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes our-choice-sheen {
+  from {
+    transform: translateX(-130%);
+  }
+  to {
+    transform: translateX(130%);
+  }
+}
+
+/* Featured-listing pill. Text carries the meaning. Motion is one entrance
+   and one pass of light, then it sits still. */
+.our-choice-badge {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  overflow: hidden;
+  border-radius: 9999px;
+  border: 1px solid color-mix(in srgb, var(--color-accent) 42%, var(--color-border-strong));
+  background: color-mix(in srgb, var(--color-accent) 14%, var(--color-surface));
+  padding: 0.2rem 0.5rem 0.2rem 0.38rem;
+  font-size: 0.6875rem;
+  font-weight: 600;
+  line-height: 1rem;
+  letter-spacing: 0.01em;
+  color: var(--color-foreground);
+  white-space: nowrap;
+}
+
+.our-choice-mark {
+  width: 0.72rem;
+  height: 0.72rem;
+  flex: none;
+  color: var(--color-accent);
+}
+
+.our-choice-badge::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    105deg,
+    transparent 32%,
+    color-mix(in srgb, var(--color-foreground) 22%, transparent) 50%,
+    transparent 68%
+  );
+  transform: translateX(-130%);
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .broker-card {
+    animation: broker-rise 520ms cubic-bezier(0.22, 1, 0.36, 1) both;
+  }
+  .broker-wait {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  .broker-in {
+    animation: broker-rise 560ms cubic-bezier(0.22, 1, 0.36, 1) both;
+  }
+  .our-choice-badge {
+    animation: our-choice-in 480ms cubic-bezier(0.22, 1, 0.36, 1) both;
+  }
+  .our-choice-badge::after {
+    animation: our-choice-sheen 900ms ease-out 280ms 1 both;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .broker-card,
+  .broker-in,
+  .broker-wait {
+    animation: none;
+    opacity: 1;
+    transform: none;
+  }
+  .our-choice-badge,
+  .our-choice-badge::after {
+    animation: none;
+  }
+  .our-choice-badge::after {
+    transform: none;
+    opacity: 0;
+  }
 }

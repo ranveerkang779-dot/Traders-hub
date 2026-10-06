@@ -353,7 +353,11 @@ function checkBroker(file, data) {
     if (!KNOWN_BROKER_MARKETS.has(m))
       err(file, `broker.markets has "${m}" - must be one of ${[...KNOWN_BROKER_MARKETS].join(", ")}`);
   }
-  if (!Array.isArray(b.regulators) || b.regulators.length === 0) warn(file, `no broker.regulators - add who licenses the broker`);
+  if (b.company_registration != null && typeof b.company_registration !== "string")
+    err(file, `broker.company_registration must be text or left out`);
+  if (!Array.isArray(b.regulators) || b.regulators.length === 0) {
+    if (!b.company_registration) warn(file, `no broker.regulators - add who licenses the broker`);
+  }
   (b.regulators ?? []).forEach((r, i) => {
     if (!r.regulator) err(file, `broker.regulators[${i}] has no "regulator"`);
     if (!/^[A-Z]{2}$/.test(r.country ?? "")) err(file, `broker.regulators[${i}].country must be a 2-letter country code (e.g. "GB")`);
@@ -365,6 +369,12 @@ function checkBroker(file, data) {
   // Leverage is always shown with a risk warning; make sure one exists.
   if ((b.leverage ?? []).length > 0 && !b.leverage_note)
     warn(file, `broker.leverage has no leverage_note - the default risk warning will be shown`);
+  if (b.leverage_summary != null && typeof b.leverage_summary !== "string")
+    err(file, `broker.leverage_summary must be text or left out`);
+  if (b.promotions != null && typeof b.promotions !== "string")
+    err(file, `broker.promotions must be text or left out`);
+  if (b.our_choice != null && typeof b.our_choice !== "boolean")
+    err(file, `broker.our_choice must be true, false, or left out`);
   const mr = b.margin_rates;
   if (mr) {
     (mr.rows ?? []).forEach((r, i) => {

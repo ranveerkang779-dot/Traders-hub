@@ -1,0 +1,187 @@
+{
+  "broker": {
+    "id": "vt-markets",
+    "name": "VT Markets",
+    "logo": "/brokers/vt-markets.png",
+    "logo_bg": "dark",
+    "our_choice": true,
+    "tagline": "A multi-company CFD broker, operating since 2015. The company on your account, and the leverage cap, depend on where you live.",
+    "about": "VT Markets has been operating since 2015. The name is used by separate companies, so the regulator and the rules on an account depend on where you live. VT Markets (Pty) Ltd is registered in Cape Town. Its own site says that company only introduces clients and is not the product issuer. The product supplier named there is VT Markets Limited in Mauritius. A Dubai branch holds a UAE Category 5 licence for introduction and promotion only, not for brokerage or for executing trades. A Cyprus company is described as handling services such as payments, and those pages say it does not offer trading. Account pages list Standard STP, RAW ECN, Pro ECN for eligible clients, swap-free accounts and Cent accounts priced in US cents. The platforms named across those pages are MetaTrader 4, MetaTrader 5, TradingView, WebTrader and the VT Markets app. The usual leverage line on the account pages is up to 1:500. A product guide also publishes higher caps for some countries and some instruments, and lower caps for others.",
+    "founded": 2015,
+    "headquarters": "Cape Town, South Africa (VT Markets (Pty) Ltd). Ebene, Mauritius (VT Markets Limited).",
+    "min_deposit": 50,
+    "currency": "USD",
+    "markets": ["forex", "stocks", "crypto", "bonds", "cfds"],
+    "regulators": [
+      { "regulator": "FSCA", "country": "ZA", "entity": "VT Markets (Pty) Ltd" },
+      { "regulator": "FSC (Mauritius)", "country": "MU", "entity": "VT Markets Limited" },
+      {
+        "regulator": "CMA",
+        "country": "AE",
+        "entity": "VT Markets (Pty) Ltd, Dubai branch. Category 5: introduction and promotion only. Not a licence to broker or to execute trades."
+      }
+    ],
+    "regulators_note": "You are placed with one VT Markets company based on where you live. The South African company (FSCA FSP 50865, company number 2015/072049/07) says it only introduces clients to VT Markets Limited and is not the product issuer. Its key-facts summary still calls that same company a regulated broker headquartered in South Africa, so the two documents do not use the same wording. The Mauritius company (FSC licence GB23202269) is described as a full-service investment dealer, excluding underwriting. The Dubai branch (CMA licence 20200000299) is Category 5 for introduction and promotion in the UAE. VT Markets says that branch is not authorised to provide brokerage or to execute client trades. An FAQ on the same site also calls this UAE licence the Securities and Commodities Authority (SCA). VTMarkets Ltd in Cyprus (HE436466) is named for services such as payments. The site says it does not offer regulated trading products. The South Africa key-facts summary instead calls the Cyprus company an appointed representative and distributor. The deposit policy says VT Markets does not offer its services to residents of some places, including the United States, Singapore, India, Hong Kong and Russia, plus sanctioned and FATF-listed jurisdictions. That list says it is not exhaustive.",
+    "platforms": ["MetaTrader 4", "MetaTrader 5", "TradingView", "WebTrader", "VT Markets app", "Copy Trading"],
+    "plans": [
+      {
+        "name": "Standard STP",
+        "price": "$100",
+        "billing_note": "Commission advertised at $0. The specification block says spreads from 1.2 pips. An FAQ on the same page says spreads from 1.4 pips. Minimum size 0.01 lot. Platforms named: MT4, MT5, and on the FAQ also WebTrader Plus and the VT Markets app. The page also names TradingView.",
+        "highlight": null
+      },
+      {
+        "name": "RAW ECN",
+        "price": "$100",
+        "billing_note": "Spreads from 0.0 pips. Commission of $6 per standard lot, round turn. Minimum size 0.01 lot. The specification block lists MT4 and MT5. The FAQ also names WebTrader Plus and the mobile app. The page also names TradingView.",
+        "highlight": "Spread from 0.0 pips"
+      },
+      {
+        "name": "Pro ECN",
+        "price": "Upgrade if eligible",
+        "billing_note": "Not a separate opening deposit. VT Markets says you qualify with a balance above $10,000 and at least one closed trade in a 30-day window over the past 90 days. If that stops, the account goes back to RAW ECN. The page limits it to selected markets, and to some direct and CPA clients. Introducing-broker clients are excluded. Forex and gold commission on the published table: GBP $1 per side ($2 round turn), USD and EUR $1.50 per side ($3 round turn), CAD $2 per side ($4 round turn). Silver and oil are listed at $0 commission. Platform named: MT5. A swap-free option is advertised.",
+        "highlight": null
+      },
+      {
+        "name": "Swap-free",
+        "price": "$100",
+        "billing_note": "Offered as STP or RAW ECN. The specification table shows $100, leverage 500:1, STP spreads from 1.2 pips with $0 commission, and RAW ECN spreads from 0.0 pips with $6 commission. An FAQ on the same page says the minimum depends on the account type and the region, and does not repeat $100. Overnight swap is removed. An admin fee can apply. See Other fees.",
+        "highlight": null
+      },
+      {
+        "name": "Cent",
+        "price": "$50",
+        "billing_note": "Priced in US cents (USC). The specification table says a $50 deposit (5,000 USC) for both Cent STP and Cent ECN, and a $40 minimum withdrawal (4,000 USC). The headline and an FAQ on the same page say you can start with $10. Cent STP: spreads from 1.1 pips, $0 commission. Cent ECN: spreads from 0.0 pips, $6 round turn. The table limits products to forex, gold, silver and oil, on MT5, and marks both as swap-free. The FAQ also mentions commodities and indices.",
+        "highlight": null
+      }
+    ],
+    "costs": [
+      {
+        "title": "Forex",
+        "rows": [
+          {
+            "label": "Standard STP",
+            "value": "From 1.2 pips",
+            "note": "No separate commission on the specification block. The FAQ on that page says spreads from 1.4 pips. Spreads move with the market."
+          },
+          {
+            "label": "RAW ECN",
+            "value": "From 0.0 pips",
+            "note": "$6 per standard lot, round turn, on the RAW ECN page."
+          },
+          {
+            "label": "Pro ECN",
+            "value": "Lower commission",
+            "note": "The page does not publish one spread figure. Forex and gold: from $2 to $4 round turn depending on the account currency. See the plan card for the table. Silver and oil: $0 commission."
+          },
+          {
+            "label": "Cent STP",
+            "value": "From 1.1 pips",
+            "note": "$0 commission on the Cent specification table. Cent balances are in US cents."
+          },
+          {
+            "label": "Cent ECN",
+            "value": "From 0.0 pips",
+            "note": "$6 per round turn on the Cent specification table."
+          }
+        ]
+      },
+      {
+        "title": "Share CFDs",
+        "rows": [
+          {
+            "label": "United States",
+            "value": "6 USD per transaction",
+            "note": "Described as typical in the South Africa key-facts summary. It says fees can change with notice, and another company in the group may not use the same schedule."
+          },
+          {
+            "label": "Hong Kong",
+            "value": "50 HKD or 0.25%",
+            "note": "Whichever is greater, from the same key-facts summary. The PDF spells the currency as HDK. We have read that as Hong Kong dollars."
+          },
+          {
+            "label": "Australia",
+            "value": "0.08%, minimum 8 AUD",
+            "note": "Per transaction, from the same key-facts summary."
+          },
+          {
+            "label": "Market data",
+            "value": "May be charged",
+            "note": "The key-facts summary says a market-data subscription can apply when you trade share CFDs. It does not publish the price."
+          }
+        ]
+      }
+    ],
+    "costs_note": "Spreads, commission and share-CFD fees are not the same at every VT Markets company. The card uses the Cent specification minimum of $50. Standard STP, RAW ECN and the swap-free specification table publish $100. The Cent page also says $10 in the headline and the FAQ.",
+    "leverage": [
+      {
+        "market": "Account pages",
+        "value": "Up to 1:500",
+        "note": "Stated on the Standard STP, RAW ECN and swap-free pages. Those pages say it can change with the product and with where you live."
+      },
+      {
+        "market": "FX and gold",
+        "value": "Up to 1:1000",
+        "note": "From VT Markets' assets article dated 17 Dec 2024, marked there as a guide only. The trading-accounts comparison also shows 1:1000 on a swap-free block."
+      },
+      {
+        "market": "Selected countries",
+        "value": "Up to 1:2000",
+        "note": "The same 17 Dec 2024 article says eligible traders in selected countries may access this. It also says the default account setting is 1:500, in a range of 1:100 to 1:500. The Standard STP and RAW ECN specification pages do not repeat 1:2000."
+      },
+      {
+        "market": "Other products",
+        "value": "Lower, by instrument",
+        "note": "The same guide lists oil and indices up to 1:500, silver at 1:100, energy and soft commodities at 1:20, US share CFDs at 1:20 or 1:33, and ETFs up to 1:33. Bond CFDs are left to the platform specification. Caps can also change around news and the session open."
+      }
+    ],
+    "leverage_summary": "Up to 1:2000",
+    "leverage_note": "Leverage increases losses as well as gains, and you can lose more than you deposit. The figure on the card is the highest number VT Markets publishes, and it is not the cap on every account. Account pages state up to 1:500. The cap you get depends on the VT Markets company, the product and where you live.",
+    "other_fees": [
+      {
+        "label": "Minimum deposit",
+        "value": "$50",
+        "note": "Cent specification table. The same page's headline and FAQ say $10. Standard STP, RAW ECN and the swap-free table say $100."
+      },
+      {
+        "label": "Bank-wire withdrawal",
+        "value": "No VT Markets fee stated",
+        "note": "The deposit policy says a bank wire takes 3 to 5 business days and that VT Markets does not charge for that service. Your bank or an intermediary still might. Withdrawals in general are described as processed within 1 business day, then 1 to 7 business days to arrive, depending on the method."
+      },
+      {
+        "label": "Card and e-wallet deposits",
+        "value": "Merchant fee may be covered",
+        "note": "VT Markets says it covers merchant fees on Neteller, Skrill, other e-wallets, alternative payment methods and card deposits. If you withdraw with no trading, or very little trading, it says it may charge those merchant fees back plus a handling fee."
+      },
+      {
+        "label": "Swap-free admin fee",
+        "value": "Replaces the overnight swap",
+        "note": "The South Africa key-facts summary says the admin fee is the liquidity provider's fee plus an internal processing fee of about 10%. A trading-accounts note says major forex pairs have no admin or swap fee, and that an admin fee may still apply later on some pairs and on products that are not forex."
+      },
+      {
+        "label": "Negative balance",
+        "value": "Must be repaid, on the South Africa key facts",
+        "note": "That document says if the account goes negative you must fund it back to zero or above. It does not describe negative-balance protection for that company."
+      },
+      {
+        "label": "Client-fund cover",
+        "value": "Up to $1,000,000",
+        "note": "Figure on VT Markets' regulation page. It is their description of a policy. It depends on the entity, the terms and the exclusions. It is not a limit on trading losses."
+      }
+    ],
+    "promotions": "Standard STP, RAW ECN and swap-free pages say a trading bonus is available. Those pages do not publish the amount, a code or the rules. The swap-free page also mentions a referral reward and does not publish the amount.",
+    "trustpilot": {
+      "rating": 4.1,
+      "review_count": 2598,
+      "url": "https://www.trustpilot.com/review/vtmarkets.com",
+      "label": "Great"
+    },
+    "website": "https://www.vtmarkets.com/",
+    "affiliate_link": null
+  },
+  "_notes": {
+    "last_verified": "2026-10-06",
+    "source": "Account pages: https://www.vtmarkets.com/en-eu/standard-stp/ , https://www.vtmarkets.com/en-eu/raw-ecn/ , https://www.vtmarkets.com/en-eu/pro-ecn/ , https://www.vtmarkets.com/en-eu/cent/ , https://www.vtmarkets.com/swap-free/ , https://www.vtmarkets.com/tradingaccounts/ . Regulation wording from the footer on those pages and https://www.vtmarkets.com/regulation/ (client-fund cover up to $1,000,000). About page states since 2015: https://www.vtmarkets.com/en-eu/about-vt-markets/ . South Africa key-facts PDF (HQ, company number, share-CFD fees, swap-free admin fee, cryptocurrency CFDs, negative balance): https://www.vtmarkets.com/files/VT_Markets_Pty_Ltd_Key_Facts_Summary.pdf . Deposit and withdrawal policy, including the country list: https://www.vtmarkets.com/en-eu/deposit-withdrawal-policy/ . Product leverage guide dated 17 Dec 2024: https://www.vtmarkets.com/faq/what-assets-are-available-on-vt-markets/ . Platforms also named on that article: MT4, MT5, TradingView, WebTrader and the mobile app. Copy trading is a labelled product in the site menu. Trustpilot www.trustpilot.com/review/vtmarkets.com showed 4.1 from 2,598 reviews in the page text retrieved on 2026-10-06. A direct fetch of that URL returned an error. Logo is the footer wordmark from https://www.vtmarkets.com/wp-content/themes/vt/images/footer_logo.webp (white and cyan on a transparent background, so the card uses a dark plate).",
+    "disagreements": "Standard STP spreads are 1.2 pips on the specification block and 1.4 pips in that page's FAQ. Cent minimum is $50 on the specification table and $10 in the headline and FAQ. Swap-free minimum is $100 on the table and 'depends on region' in the FAQ. Account pages state leverage up to 1:500. The trading-accounts comparison shows 1:1000, and the 17 Dec 2024 assets article also says up to 1:1000 on FX and gold and up to 1:2000 in selected countries, with a default of 1:500. The card uses 1:2000 because that is the highest figure on an official page, and the leverage section says it is not the default. The website footer says the South African company is an intermediary and not the product issuer. The key-facts PDF calls it a regulated broker headquartered in South Africa. The footer says the Cyprus company does not offer trading. The key-facts PDF calls it an appointed representative and distributor. The Dec 2024 assets article lists eight classes and does not name crypto. The key-facts PDF does list cryptocurrency CFDs, so crypto is included. A 2022 notice set BTC and ETH leverage at 1:100 and several other coins at 1:50. Those numbers are not repeated on the current account pages, so they are not shown as current. Trustpilot's company-written blurb says the firm was established in Sydney in 2015. The key-facts PDF says the South African company is headquartered in Cape Town, which is what this listing uses. A 2021 press release described VT Markets as part of Vantage International Group. Current regulation text does not repeat that, so it is not stated here. Regional Trustpilot pages showed slightly different scores and counts on the same day. The figure stored is the www.trustpilot.com profile text."
+  }
+}

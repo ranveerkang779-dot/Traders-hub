@@ -1,0 +1,97 @@
+{
+  "broker": {
+    "id": "cfi",
+    "name": "CFI",
+    "logo": "/brokers/cfi.png",
+    "logo_bg": "white",
+    "tagline": "A multi-company broker, operating since 1998, for forex, CFDs and multi-asset trading. The company you join depends on where you live.",
+    "about": "CFI has been operating since 1998. The brand is used by separate companies, so the regulator, the leverage cap and the platforms you see depend on where you live. The group publishes a Dubai office and also lists offices in other cities, including Beirut, London and Mauritius. Listed accounts state no minimum deposit. A zero-commission account prices EUR/USD inside the spread. Dynamic Trader advertises spreads from 0.0 pips with a separate volume-based commission. Swap-free accounts and expert advisors are advertised, with conditions. The multi-asset app refers to stocks, options and crypto as well as forex and CFDs.",
+    "founded": 1998,
+    "headquarters": "Dubai, UAE",
+    "min_deposit": 0,
+    "currency": "USD",
+    "markets": ["forex", "stocks", "options", "crypto", "cfds"],
+    "regulators": [
+      { "regulator": "CMA", "country": "AE", "entity": "CFI Financial Markets LLC" },
+      { "regulator": "FCA", "country": "GB", "entity": "Credit Financier Invest Limited" },
+      { "regulator": "CySEC", "country": "CY", "entity": "Credit Financier Invest (CFI) Limited" },
+      { "regulator": "JSC", "country": "JO", "entity": "Credit Financial Invest for Financial Brokerage LTD" },
+      { "regulator": "CBB", "country": "BH", "entity": "CFI Financial (Bahrain) B.S.C. Closed" },
+      { "regulator": "FSC (Mauritius)", "country": "MU", "entity": "CFI International Ltd" },
+      { "regulator": "FSA (Seychelles)", "country": "SC", "entity": "Credit Financier Invest International Limited" },
+      { "regulator": "VFSC", "country": "VU", "entity": "Credit Financier Invest (International) Limited" },
+      { "regulator": "FSCA", "country": "ZA", "entity": "Credit Financier Invest Financial (PTY) Ltd" },
+      { "regulator": "BDL", "country": "LB", "entity": "Credit Financier Invest SAL" },
+      { "regulator": "Central Bank of Azerbaijan", "country": "AZ", "entity": "CFI Financial Investment Company" },
+      { "regulator": "FRA", "country": "EG", "entity": "Credit Financier Invest Limited" },
+      { "regulator": "PCMA", "country": "PS", "entity": "Credit Financial Invest For Financial Brokerage Co" },
+      { "regulator": "SFC (Colombia)", "country": "CO", "entity": null }
+    ],
+    "regulators_note": "You are placed with one CFI company based on where you live. The names above are the ones CFI lists on its regulations page. Investor protection is not the same at each of them. The Colombia entry names the Superintendence but not the company.",
+    "platforms": ["MetaTrader 4", "MetaTrader 5", "cTrader", "TradingView", "CFI App"],
+    "plans": [
+      {
+        "name": "Zero commission",
+        "price": "No minimum deposit",
+        "billing_note": "Commission advertised at $0. EUR/USD spread published as about 0.4 to 1.1 pips on the global account page. Lebanon's page publishes 0.4 to 1.5.",
+        "highlight": null
+      },
+      {
+        "name": "Dynamic Trader",
+        "price": "No minimum deposit",
+        "billing_note": "Spreads advertised from 0.0 pips, with a volume-based commission. CFI does not publish one commission figure on the account page.",
+        "highlight": "Spread from 0.0 pips"
+      }
+    ],
+    "costs": [
+      {
+        "title": "Forex (EUR/USD)",
+        "rows": [
+          {
+            "label": "Zero commission",
+            "value": "About 0.4 to 1.1 pips",
+            "note": "Global account page. No separate commission. The Lebanon page publishes 0.4 to 1.5 pips for the same style of account."
+          },
+          {
+            "label": "Dynamic Trader",
+            "value": "From 0.0 pips",
+            "note": "Plus a volume-based commission. The rate is not published as a single number on the account page."
+          }
+        ]
+      }
+    ],
+    "costs_note": "Spreads move with the market and are not the same at every CFI company. UK pages advertise retail leverage up to 1:30, which is lower than the 1:500 figure used on other CFI sites.",
+    "leverage": [
+      {
+        "market": "Advertised maximum",
+        "value": "Up to 1:500",
+        "note": "Figure used on CFI's global and Lebanon account pages. It is not available to every client."
+      },
+      {
+        "market": "UK retail",
+        "value": "Up to 1:30",
+        "note": "Stated on CFI's UK account page for retail clients. Professional categorisation is a separate application."
+      }
+    ],
+    "leverage_summary": "Up to 1:500",
+    "leverage_note": "Leverage increases losses as well as gains, and you can lose more than you deposit. The cap depends on the CFI company, the product and whether you are classed as a retail client.",
+    "other_fees": [
+      { "label": "Minimum deposit", "value": "None on listed accounts", "note": "CFI says there is no minimum to open a real account. You still need funds in the account to trade." },
+      { "label": "Swap-free", "value": "Advertised", "note": "Offered with conditions. Confirm the instruments and any admin fee on your entity." }
+    ],
+    "promotions": null,
+    "trustpilot": {
+      "rating": 4.8,
+      "review_count": 1919,
+      "url": "https://www.trustpilot.com/review/cfi.trade",
+      "label": "Excellent"
+    },
+    "website": "https://cfi.trade/",
+    "affiliate_link": null
+  },
+  "_notes": {
+    "last_verified": "2026-10-06",
+    "source": "Owner brief (primary for deposit, leverage headline, platforms, HQ and products). Regulations: https://cfi.trade/en/uae/company/regulations. Accounts: https://cfi.trade/en/accounts and regional account pages (Lebanon, UK, Seychelles, Bahrain). Homepage states 'since 98' and names MetaTrader 5, CFI Multi-Asset, TradingView and the CFI app. Trustpilot profile cfi.trade showed 4.8 from 1,919 reviews in search index; a live fetch was blocked on 2026-10-06.",
+    "disagreements": "Owner platform list includes MT4. Account pages opened for this pass named MT5, cTrader (Seychelles and Bahrain), TradingView and the CFI app, and did not repeat MT4. MT4 is kept because the owner listed it. Owner regulator list matches the regulations page, which also names Lebanon (BDL), Azerbaijan, Egypt (FRA), Palestine (PCMA) and Colombia. Those extras are included. Colombia's company name was not on the page. Logo is the CFI Financial Group wordmark from Wikimedia Commons (low resolution)."
+  }
+}

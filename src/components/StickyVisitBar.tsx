@@ -12,12 +12,17 @@ export default function StickyVisitBar({
   logoBg = "white",
   price,
   visitHref,
+  visitLabel = "Visit site",
+  wideLogo = false,
 }: {
   courseName: string;
   logo: string | null;
   logoBg?: "white" | "dark";
   price: string | null;
   visitHref: string | null;
+  visitLabel?: string;
+  /** Wider tile for wordmarks. Courses leave this off. */
+  wideLogo?: boolean;
 }) {
   const [visible, setVisible] = useState(false);
 
@@ -43,18 +48,24 @@ export default function StickyVisitBar({
         <div className="flex items-center gap-3 rounded-xl border border-border bg-surface/95 p-3 shadow-glow backdrop-blur-md sm:p-4">
           {logo && (
             <div
-              className={`flex size-10 shrink-0 items-center justify-center rounded-lg p-1.5 ${
-                logoBg === "dark" ? "bg-black" : "bg-white"
-              }`}
+              className={`flex shrink-0 items-center justify-center rounded-lg p-1.5 ${
+                wideLogo ? "h-10 w-24" : "size-10"
+              } ${logoBg === "dark" ? "bg-black" : "bg-white"}`}
             >
-              <Image src={logo} alt="" width={40} height={40} className="h-auto max-h-7 w-full object-contain" />
+              <Image
+                src={logo}
+                alt=""
+                width={wideLogo ? 96 : 40}
+                height={40}
+                className="h-auto max-h-7 w-auto max-w-full object-contain"
+              />
             </div>
           )}
           <div className="min-w-0 flex-1">
             <p className="truncate text-sm font-semibold text-foreground">{courseName}</p>
             {price && <p className="meta">{price}</p>}
           </div>
-          <VisitSiteLink href={visitHref} firmName={courseName} className="shrink-0" />
+          <VisitSiteLink href={visitHref} firmName={courseName} label={visitLabel} className="shrink-0" />
         </div>
       </div>
     </div>

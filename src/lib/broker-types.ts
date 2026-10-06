@@ -83,21 +83,48 @@ export type BrokerView = {
   markets: BrokerMarket[];
   regulators: BrokerRegulator[];
   regulatorsNote: string | null;
+  /** A company registration, when the broker does not publish a conduct licence. */
+  companyRegistration: string | null;
   platforms: string[];
   /** Account plans/types, shown as clickable cards like course pricing. */
   plans: PricingTier[];
   costs: CostGroup[];
   costsNote: string | null;
   leverage: LeverageRow[];
-  /** Always shown with the leverage table — leverage magnifies losses. */
+  /** One line for cards and the compare table. Null falls back to the first leverage row. */
+  leverageSummary: string | null;
+  /** Always shown with the leverage table. Leverage magnifies losses. */
   leverageNote: string;
   marginRates: MarginRates | null;
   otherFees: CostRow[];
   trustpilot: TrustpilotRating | null;
+  /**
+   * A published offer, in our own words. Null if we did not see one.
+   * The page always adds a line that offers change and must be checked
+   * on the broker's site.
+   */
+  promotions: string | null;
   website: string | null;
-  /** Null until a real affiliate/IB deal is in place. */
+  /**
+   * Featured listing. Pinned to the top of the brokers directory, with an
+   * "Our choice" badge. Not a score of trading results.
+   */
+  ourChoice: boolean;
+  /**
+   * The only place an affiliate URL goes. Null until the owner supplies one.
+   * Visit buttons use affiliateLink, then website. Swap this field later
+   * and every outbound button for the broker updates.
+   */
   affiliateLink: string | null;
 };
+
+/** The single outbound URL for a broker. Affiliate link wins once it exists. */
+export function brokerOutboundUrl(broker: {
+  affiliateLink: string | null;
+  website: string | null;
+}): string | null {
+  return broker.affiliateLink ?? broker.website;
+}
 
 /** "$0", "$2,000" — in the broker's own currency, no conversion. */
 export function formatDeposit(amount: number | null, currency: string): string | null {
