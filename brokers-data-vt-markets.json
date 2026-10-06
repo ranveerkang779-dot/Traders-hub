@@ -15,7 +15,11 @@
     "regulators": [
       { "regulator": "FSCA", "country": "ZA", "entity": "VT Markets (Pty) Ltd" },
       { "regulator": "FSC (Mauritius)", "country": "MU", "entity": "VT Markets Limited" },
-      { "regulator": "CMA", "country": "AE", "entity": "VT Markets (Pty) Ltd, Dubai branch" }
+      {
+        "regulator": "CMA",
+        "country": "AE",
+        "entity": "VT Markets (Pty) Ltd, Dubai branch. Category 5: introduction and promotion only. Not a licence to broker or to execute trades."
+      }
     ],
     "regulators_note": "You are placed with one VT Markets company based on where you live. The South African company (FSCA FSP 50865, company number 2015/072049/07) says it only introduces clients to VT Markets Limited and is not the product issuer. Its key-facts summary still calls that same company a regulated broker headquartered in South Africa, so the two documents do not use the same wording. The Mauritius company (FSC licence GB23202269) is described as a full-service investment dealer, excluding underwriting. The Dubai branch (CMA licence 20200000299) is Category 5 for introduction and promotion in the UAE. VT Markets says that branch is not authorised to provide brokerage or to execute client trades. An FAQ on the same site also calls this UAE licence the Securities and Commodities Authority (SCA). VTMarkets Ltd in Cyprus (HE436466) is named for services such as payments. The site says it does not offer regulated trading products. The South Africa key-facts summary instead calls the Cyprus company an appointed representative and distributor. The deposit policy says VT Markets does not offer its services to residents of some places, including the United States, Singapore, India, Hong Kong and Russia, plus sanctioned and FATF-listed jurisdictions. That list says it is not exhaustive.",
     "platforms": ["MetaTrader 4", "MetaTrader 5", "TradingView", "WebTrader", "VT Markets app", "Copy Trading"],
@@ -46,7 +50,7 @@
       },
       {
         "name": "Cent",
-        "price": "$50 on the table",
+        "price": "$50",
         "billing_note": "Priced in US cents (USC). The specification table says a $50 deposit (5,000 USC) for both Cent STP and Cent ECN, and a $40 minimum withdrawal (4,000 USC). The headline and an FAQ on the same page say you can start with $10. Cent STP: spreads from 1.1 pips, $0 commission. Cent ECN: spreads from 0.0 pips, $6 round turn. The table limits products to forex, gold, silver and oil, on MT5, and marks both as swap-free. The FAQ also mentions commodities and indices.",
         "highlight": null
       }

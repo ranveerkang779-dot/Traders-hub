@@ -194,6 +194,12 @@ function Directory({ brokers, initialQuery }: { brokers: BrokerView[]; initialQu
         Leverage on a card is the highest figure the broker advertises. It increases losses, and the cap
         you get depends on where you live.
       </p>
+      {brokers.some((b) => b.ourChoice) && (
+        <p className="meta mt-2 max-w-2xl">
+          Our choice stays at the top on every sort, including lowest deposit and Trustpilot. It is a
+          featured listing, not the winner of that sort, and not a score of trading results.
+        </p>
+      )}
 
       {compared.length > 0 && (
         <ComparePanel

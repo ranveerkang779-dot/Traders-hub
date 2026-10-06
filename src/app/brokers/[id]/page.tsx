@@ -108,7 +108,10 @@ export default async function BrokerPage({ params }: PageProps<"/brokers/[id]">)
               {broker.ourChoice && <OurChoiceBadge />}
             </div>
             {broker.ourChoice && (
-              <p className="meta mt-2">Featured listing on Traders Hub. It is not a score of trading results.</p>
+              <p className="meta mt-2">
+                Featured listing on Traders Hub. It is not a score of trading results, and it is not advice to open an
+                account.
+              </p>
             )}
             {broker.tagline && <p className="mt-2 max-w-2xl text-base leading-relaxed text-muted">{broker.tagline}</p>}
             <p className="meta mt-2">

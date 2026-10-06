@@ -12,7 +12,6 @@ export default function OurChoiceBadge() {
         />
       </svg>
       <span>Our choice</span>
-      <span className="sr-only">. Featured listing on Traders Hub, not a score of trading results.</span>
     </span>
   );
 }
