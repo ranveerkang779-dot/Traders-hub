@@ -1,10 +1,10 @@
 "use client";
 
-import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import ThemeToggle from "@/components/ThemeToggle";
-import { SITE_NAME, sections } from "@/lib/sections";
+import TradoxLockup from "@/components/TradoxLockup";
+import { sections } from "@/lib/sections";
 
 export default function SiteHeader() {
   const pathname = usePathname();
@@ -12,17 +12,7 @@ export default function SiteHeader() {
   return (
     <header className="site-header sticky top-0 z-40">
       <div className="container-page flex flex-wrap items-center gap-x-3 gap-y-1 py-2 sm:flex-nowrap sm:py-2.5">
-        <Link href="/" className="mr-auto flex min-h-11 shrink-0 items-center gap-2.5 rounded-lg sm:order-1 sm:mr-0">
-          <Image
-            src="/brand/tradox-td.png"
-            alt=""
-            width={44}
-            height={44}
-            priority
-            className="size-10 rounded-xl sm:size-11"
-          />
-          <span className="text-sm font-semibold tracking-[0.16em] uppercase">{SITE_NAME}</span>
-        </Link>
+        <TradoxLockup className="mr-auto sm:order-1 sm:mr-0" />
         <div className="sm:order-3">
           <ThemeToggle />
         </div>

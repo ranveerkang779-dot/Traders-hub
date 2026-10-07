@@ -451,6 +451,26 @@ body {
   box-shadow: inset 0 1px 0 rgb(232 197 106 / 0.28);
 }
 
+/* Tx mark. Dark mode uses the champagne and deep gold from the logo.
+   Light mode uses the same darker golds as other gold text, so the mark
+   stays readable on the cream background. */
+.tradox-mark-t {
+  fill: #f5d48e;
+}
+
+.tradox-mark-x {
+  fill: none;
+  stroke: #c8932e;
+}
+
+:root[data-theme="light"] .tradox-mark-t {
+  fill: #8a6410;
+}
+
+:root[data-theme="light"] .tradox-mark-x {
+  stroke: #6e4e0c;
+}
+
 .back-link {
   display: inline-flex;
   min-height: 2.75rem;
