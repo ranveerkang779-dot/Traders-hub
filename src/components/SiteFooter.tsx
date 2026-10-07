@@ -1,4 +1,5 @@
 import Link from "next/link";
+import TradoxLockup from "@/components/TradoxLockup";
 import { SITE_NAME } from "@/lib/sections";
 
 // Shown on every page. The disclaimer line is required on every page
@@ -7,6 +8,7 @@ export default function SiteFooter() {
   return (
     <footer className="site-footer mt-16 border-t border-border bg-surface">
       <div className="container-page flex flex-col gap-3 py-8">
+        <TradoxLockup className="self-start" />
         <p className="meta max-w-3xl">
           <strong className="font-semibold text-foreground">Disclaimer:</strong> {SITE_NAME}{" "}
           is a discovery and comparison platform for informational purposes
