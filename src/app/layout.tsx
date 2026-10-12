@@ -44,6 +44,13 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <head>
+        {/* Impact reads `value` on this tag. The metadata API would emit `content` instead. */}
+        <meta
+          name="impact-site-verification"
+          {...({
+            value: "3f9050cb-b5d8-4655-b9b5-b2472e7da4e8",
+          } as React.MetaHTMLAttributes<HTMLMetaElement>)}
+        />
         <script dangerouslySetInnerHTML={{ __html: themeInitScript }} />
       </head>
       <body className="flex min-h-full flex-col">
