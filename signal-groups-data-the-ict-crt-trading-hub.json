@@ -1,0 +1,41 @@
+{
+  "group": {
+    "slug": "the-ict-crt-trading-hub",
+    "name": "The ICT+CRT Trading Hub",
+    "description": "A US30 and Nasdaq channel that also posts gold. Paid tiers were not stated.",
+    "markets": [
+      "indices",
+      "gold"
+    ],
+    "styles": [],
+    "price": "free",
+    "price_label": "Free",
+    "member_count": "22.8K members",
+    "member_count_as_of": "2026-10-19",
+    "language": "English",
+    "signals_per_day": null,
+    "extras": [],
+    "telegram_url": "https://t.me/Nas100trader",
+    "logo": null,
+    "rank": 100,
+    "always_free": false
+  },
+  "_notes": {
+    "last_verified": "2026-10-19",
+    "member_count_exact": 22762,
+    "member_count_type": "subscribers",
+    "member_count_source": "https://t.me/Nas100trader",
+    "price_seen": "free channel (paid tiers not stated)",
+    "trading_style_seen": null,
+    "signals_per_day_seen": null,
+    "language_seen": "English",
+    "last_public_post_utc": "2026-10-18T20:28:31+00:00",
+    "market_evidence": "channel description and/or instruments named in recent public posts (t.me/s/Nas100trader)",
+    "telegram_title_seen": "THE ICT+CRT TRADING HUB™️",
+    "source_urls": [
+      "https://t.me/Nas100trader",
+      "https://t.me/s/Nas100trader"
+    ],
+    "research_notes": "Description advertises a 'recommended broker' referral link (vigco.co short link; broker not named)."
+  }
+}

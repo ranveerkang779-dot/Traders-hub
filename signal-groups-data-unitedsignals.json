@@ -1,0 +1,44 @@
+{
+  "group": {
+    "slug": "unitedsignals",
+    "name": "UnitedSignals",
+    "description": "A gold, forex, index and oil channel with a free feed and a VIP. No VIP price was stated. This is not the same channel as United Kings.",
+    "markets": [
+      "gold",
+      "forex-majors",
+      "forex-minors",
+      "indices",
+      "oil"
+    ],
+    "styles": [],
+    "price": "free-and-vip",
+    "price_label": "Free + paid VIP",
+    "member_count": "26.6K members",
+    "member_count_as_of": "2026-10-19",
+    "language": "English",
+    "signals_per_day": null,
+    "extras": [],
+    "telegram_url": "https://t.me/UnitedSignalsFX",
+    "logo": null,
+    "rank": 100,
+    "always_free": false
+  },
+  "_notes": {
+    "last_verified": "2026-10-19",
+    "member_count_exact": 26573,
+    "member_count_type": "subscribers",
+    "member_count_source": "https://t.me/UnitedSignalsFX",
+    "price_seen": "free + paid VIP",
+    "trading_style_seen": null,
+    "signals_per_day_seen": null,
+    "language_seen": "English",
+    "last_public_post_utc": "2026-10-19T06:32:01+00:00",
+    "market_evidence": "channel description and/or instruments named in recent public posts (t.me/s/UnitedSignalsFX)",
+    "telegram_title_seen": "UnitedSignals (Best Forex Signals)",
+    "source_urls": [
+      "https://t.me/UnitedSignalsFX",
+      "https://t.me/s/UnitedSignalsFX"
+    ],
+    "research_notes": "Recent posts include GOLD, EURUSD, USDCHF, NZDJPY, AUDCAD, US30, US100, SILVER. Not the same brand as United Kings."
+  }
+}

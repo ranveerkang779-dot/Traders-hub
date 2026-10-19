@@ -1,0 +1,42 @@
+{
+  "group": {
+    "slug": "wolfx-signals",
+    "name": "WolfX Signals",
+    "description": "A gold and major-forex channel. The free feed is described as two analyses a week, with a paid VIP on the provider's site. No VIP price was stated. The older @wolfxsignals handle is a different account and is not this channel.",
+    "markets": [
+      "gold",
+      "forex-majors"
+    ],
+    "styles": [],
+    "price": "free-and-vip",
+    "price_label": "Free (2 analyses a week) + paid VIP",
+    "member_count": "152.8K members",
+    "member_count_as_of": "2026-10-19",
+    "language": "English",
+    "signals_per_day": null,
+    "extras": [],
+    "telegram_url": "https://t.me/wolfxsignals_freegroup",
+    "logo": null,
+    "rank": 100,
+    "always_free": false
+  },
+  "_notes": {
+    "last_verified": "2026-10-19",
+    "member_count_exact": 152800,
+    "member_count_type": "subscribers",
+    "member_count_source": "https://t.me/wolfxsignals_freegroup",
+    "price_seen": "free (2 analyses/week) + paid VIP (wolfxsignals.com/plans)",
+    "trading_style_seen": null,
+    "signals_per_day_seen": null,
+    "language_seen": "English",
+    "last_public_post_utc": "2026-10-18T21:24:27+00:00",
+    "market_evidence": "channel description and/or instruments named in recent public posts (t.me/s/wolfxsignals_freegroup)",
+    "telegram_title_seen": "Wolfx Signals",
+    "source_urls": [
+      "https://t.me/wolfxsignals_freegroup",
+      "https://t.me/s/wolfxsignals_freegroup",
+      "https://goldsnipersignals.com/gold-signal-providers-60-day-log/"
+    ],
+    "research_notes": "Has a separate stats channel @wolfxsignals_stats. Old handle @wolfxsignals is a different, inactive account pushing 'investment' via WhatsApp — do not use."
+  }
+}

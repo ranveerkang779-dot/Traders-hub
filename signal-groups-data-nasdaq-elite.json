@@ -1,0 +1,42 @@
+{
+  "group": {
+    "slug": "nasdaq-elite",
+    "name": "Nasdaq Elite",
+    "description": "A Nasdaq (NQ) channel. The title marks the feed as free, and the description calls the signals intraday.",
+    "markets": [
+      "indices"
+    ],
+    "styles": [
+      "day-trading"
+    ],
+    "price": "free",
+    "price_label": "Free",
+    "member_count": "24.7K members",
+    "member_count_as_of": "2026-10-19",
+    "language": "English",
+    "signals_per_day": null,
+    "extras": [],
+    "telegram_url": "https://t.me/NE_corp",
+    "logo": null,
+    "rank": 100,
+    "always_free": false
+  },
+  "_notes": {
+    "last_verified": "2026-10-19",
+    "member_count_exact": 24674,
+    "member_count_type": "subscribers",
+    "member_count_source": "https://t.me/NE_corp",
+    "price_seen": "free (🆓 in title)",
+    "trading_style_seen": "intraday",
+    "signals_per_day_seen": null,
+    "language_seen": "English",
+    "last_public_post_utc": "2026-10-18T14:01:34+00:00",
+    "market_evidence": "channel description and/or instruments named in recent public posts (t.me/s/NE_corp)",
+    "telegram_title_seen": "Nasdaq Elite 🆓",
+    "source_urls": [
+      "https://t.me/NE_corp",
+      "https://t.me/s/NE_corp"
+    ],
+    "research_notes": "NQ specialist; '1TP|1SL', alert before each signal, trade management, per description."
+  }
+}

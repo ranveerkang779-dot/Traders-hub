@@ -568,8 +568,8 @@ function checkSignalGroup(file, data) {
         err(file, `group.markets has "${market}" - must be one of ${[...KNOWN_SIGNAL_MARKETS].join(", ")}`);
     }
   }
-  if (!Array.isArray(g.styles) || g.styles.length === 0)
-    err(file, `group.styles must list at least one style`);
+  if (!Array.isArray(g.styles))
+    err(file, `group.styles must be a list (use [] when the group did not state a style)`);
   else {
     for (const style of g.styles) {
       if (!KNOWN_SIGNAL_STYLES.has(style))
@@ -582,6 +582,14 @@ function checkSignalGroup(file, data) {
     err(file, `group.price_label is missing - short words for the price, such as "Free"`);
   if (g.member_count != null && typeof g.member_count !== "string")
     err(file, `group.member_count must be text or null`);
+  if (g.member_count) {
+    if (typeof g.member_count_as_of !== "string" || !/^\d{4}-\d{2}-\d{2}$/.test(g.member_count_as_of))
+      err(file, `group.member_count_as_of must be YYYY-MM-DD when a member count is set`);
+  } else if (g.member_count_as_of != null) {
+    err(file, `group.member_count_as_of should be null when there is no member count`);
+  }
+  if (g.signals_per_day != null && typeof g.signals_per_day !== "string")
+    err(file, `group.signals_per_day must be text or null`);
   if (!g.language || typeof g.language !== "string") err(file, `group.language is missing`);
   if (!Array.isArray(g.extras)) err(file, `group.extras must be a list (use [] when there are none)`);
   else {
@@ -590,8 +598,8 @@ function checkSignalGroup(file, data) {
         err(file, `group.extras has "${extra}" - must be one of ${[...KNOWN_SIGNAL_EXTRAS].join(", ")}`);
     }
   }
-  checkLink(file, "group.telegram_url", g.telegram_url);
-  if (g.telegram_url) warn(file, `telegram_url is set - confirm it is the group's own Telegram link`);
+  if (!g.telegram_url) err(file, `group.telegram_url is missing - Join needs the group's Telegram link`);
+  else checkLink(file, "group.telegram_url", g.telegram_url);
   if (!Number.isInteger(g.rank) || g.rank < 1) err(file, `group.rank must be a whole number from 1 up`);
   if (typeof g.always_free !== "boolean")
     err(file, `group.always_free must be true or false - it keeps a group visible if the free preview is turned on`);
@@ -601,7 +609,7 @@ function checkSignalGroup(file, data) {
     else if (!existsSync(path.join(ROOT, "public", g.logo)))
       warn(file, `group.logo "${g.logo}" is not in public/`);
   }
-  for (const key of ["partner_broker", "trades_with_partner", "partner_brokers"]) {
+  for (const key of ["partner_broker", "trades_with_partner", "partner_brokers", "broker_promoted"]) {
     if (key in g) err(file, `group.${key} is not a signal-group field`);
   }
 }

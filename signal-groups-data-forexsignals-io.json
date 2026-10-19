@@ -1,0 +1,44 @@
+{
+  "group": {
+    "slug": "forexsignals-io",
+    "name": "ForexSignals.io",
+    "description": "ForexSignals.io's channel for gold, indices and forex. VIP access is through a Telegram bot. No VIP price was stated.",
+    "markets": [
+      "gold",
+      "indices",
+      "forex-majors",
+      "forex-minors"
+    ],
+    "styles": [],
+    "price": "free-and-vip",
+    "price_label": "Free + paid VIP",
+    "member_count": "7.2K members",
+    "member_count_as_of": "2026-10-19",
+    "language": "English",
+    "signals_per_day": null,
+    "extras": [],
+    "telegram_url": "https://t.me/Official_ForexSignals",
+    "logo": null,
+    "rank": 100,
+    "always_free": false
+  },
+  "_notes": {
+    "last_verified": "2026-10-19",
+    "member_count_exact": 7167,
+    "member_count_type": "subscribers",
+    "member_count_source": "https://t.me/Official_ForexSignals",
+    "price_seen": "free + paid VIP (via @FXSio_Bot)",
+    "trading_style_seen": null,
+    "signals_per_day_seen": null,
+    "language_seen": "English",
+    "last_public_post_utc": "2026-10-16T16:54:33+00:00",
+    "market_evidence": "channel description and/or instruments named in recent public posts (t.me/s/Official_ForexSignals)",
+    "telegram_title_seen": "ForexSignals.io 🇬🇧",
+    "source_urls": [
+      "https://t.me/Official_ForexSignals",
+      "https://t.me/s/Official_ForexSignals",
+      "https://www.forexsignals.io"
+    ],
+    "research_notes": "Linked from forexsignals.io. Description: Gold/US30/NASDAQ/FX."
+  }
+}

@@ -27,7 +27,9 @@ type RawFile = {
     price?: string;
     price_label?: string | null;
     member_count?: string | null;
+    member_count_as_of?: string | null;
     language?: string | null;
+    signals_per_day?: string | null;
     extras?: string[];
     telegram_url?: string | null;
     logo?: string | null;
@@ -89,11 +91,13 @@ function buildGroup(file: string, group: RawFile["group"]): SignalGroupView {
     name: group.name,
     description: group.description?.trim() || "",
     markets,
-    styles,
     price,
     priceLabel: group.price_label?.trim() || SIGNAL_PRICE_LABELS[price],
     memberCount: group.member_count?.trim() || null,
+    memberCountAsOf: group.member_count?.trim() ? group.member_count_as_of?.trim() || null : null,
     language: group.language?.trim() || "",
+    styles,
+    signalsPerDay: group.signals_per_day?.trim() || null,
     extras,
     telegramUrl: safeLink(group.telegram_url),
     logo: group.logo?.trim() || null,

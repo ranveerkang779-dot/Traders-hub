@@ -1,0 +1,41 @@
+{
+  "group": {
+    "slug": "indices-for-life",
+    "name": "Indices For Life",
+    "description": "The description says it posts daily signals for US30, Nasdaq and gold. Paid tiers were not stated.",
+    "markets": [
+      "indices",
+      "gold"
+    ],
+    "styles": [],
+    "price": "free",
+    "price_label": "Free",
+    "member_count": "2.5K members",
+    "member_count_as_of": "2026-10-19",
+    "language": "English",
+    "signals_per_day": null,
+    "extras": [],
+    "telegram_url": "https://t.me/indicesforlifefree",
+    "logo": null,
+    "rank": 100,
+    "always_free": false
+  },
+  "_notes": {
+    "last_verified": "2026-10-19",
+    "member_count_exact": 2509,
+    "member_count_type": "subscribers",
+    "member_count_source": "https://t.me/indicesforlifefree",
+    "price_seen": "free channel (paid tiers not stated)",
+    "trading_style_seen": null,
+    "signals_per_day_seen": null,
+    "language_seen": "English",
+    "last_public_post_utc": "2026-10-09T23:55:05+00:00",
+    "market_evidence": "channel description and/or instruments named in recent public posts (t.me/s/indicesforlifefree)",
+    "telegram_title_seen": "Indices For Life",
+    "source_urls": [
+      "https://t.me/indicesforlifefree",
+      "https://t.me/s/indicesforlifefree"
+    ],
+    "research_notes": "Daily signals for US30, NAS100 & XAUUSD per description."
+  }
+}

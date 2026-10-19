@@ -1,0 +1,41 @@
+{
+  "group": {
+    "slug": "tgsignals-gbp-jpy",
+    "name": "tgsignals – GBP/JPY",
+    "description": "A small public tgsignals feed for GBP/JPY. The channel describes the calls as algorithmic and aimed at the Asian session, and says this particular feed is for watching rather than auto-execution. tgsignals.com says it posts about 1–2 times a week.",
+    "markets": [
+      "forex-minors"
+    ],
+    "styles": [],
+    "price": "free",
+    "price_label": "Free",
+    "member_count": "56 members",
+    "member_count_as_of": "2026-10-19",
+    "language": "English",
+    "signals_per_day": "1–2 per week",
+    "extras": [],
+    "telegram_url": "https://t.me/tgsignals_gbpjpy",
+    "logo": null,
+    "rank": 100,
+    "always_free": false
+  },
+  "_notes": {
+    "last_verified": "2026-10-19",
+    "member_count_exact": 56,
+    "member_count_type": "subscribers",
+    "member_count_source": "https://t.me/tgsignals_gbpjpy",
+    "price_seen": "free",
+    "trading_style_seen": "algorithmic, Asian session",
+    "signals_per_day_seen": "1-2 per week (per tgsignals.com)",
+    "language_seen": "English",
+    "last_public_post_utc": "2026-10-18T17:00:17+00:00",
+    "market_evidence": "channel description and/or instruments named in recent public posts (t.me/s/tgsignals_gbpjpy)",
+    "telegram_title_seen": "GBP/JPY Trading Signals",
+    "source_urls": [
+      "https://t.me/tgsignals_gbpjpy",
+      "https://t.me/s/tgsignals_gbpjpy",
+      "https://tgsignals.com/track-record/"
+    ],
+    "research_notes": "Observe-only per description; tiny audience."
+  }
+}

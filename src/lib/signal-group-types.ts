@@ -66,13 +66,18 @@ export type SignalGroupView = {
   name: string;
   description: string;
   markets: SignalMarket[];
-  styles: SignalStyle[];
   price: SignalPrice;
-  /** Words we print for the price, e.g. "Free" or "$20/month". */
+  /** Words we print for the price, e.g. "Free" or "Free + paid VIP · $99/mo". */
   priceLabel: string;
-  /** Copied from the listing. Null when the group does not publish a count. */
+  /** Approximate snapshot, e.g. "12.4K members". Null when no count was published. */
   memberCount: string | null;
+  /** YYYY-MM-DD the member count was read. Null when there is no count. */
+  memberCountAsOf: string | null;
   language: string;
+  /** Empty when the listing did not state a style. */
+  styles: SignalStyle[];
+  /** Null when the listing did not state how often it posts calls. */
+  signalsPerDay: string | null;
   extras: SignalExtra[];
   /**
    * The only outbound address. Join uses this and nothing else.

@@ -1,0 +1,40 @@
+{
+  "group": {
+    "slug": "evening-trader",
+    "name": "Evening Trader",
+    "description": "A crypto channel for futures and spot, with a free feed and a VIP. No VIP price was stated.",
+    "markets": [
+      "crypto"
+    ],
+    "styles": [],
+    "price": "free-and-vip",
+    "price_label": "Free + paid VIP",
+    "member_count": "55.9K members",
+    "member_count_as_of": "2026-10-19",
+    "language": "English",
+    "signals_per_day": null,
+    "extras": [],
+    "telegram_url": "https://t.me/eveningtraderx",
+    "logo": null,
+    "rank": 100,
+    "always_free": false
+  },
+  "_notes": {
+    "last_verified": "2026-10-19",
+    "member_count_exact": 55894,
+    "member_count_type": "subscribers",
+    "member_count_source": "https://t.me/eveningtraderx",
+    "price_seen": "free + paid VIP",
+    "trading_style_seen": null,
+    "signals_per_day_seen": null,
+    "language_seen": "English",
+    "last_public_post_utc": "2026-10-19T03:06:29+00:00",
+    "market_evidence": "channel description and/or instruments named in recent public posts (t.me/s/eveningtraderx)",
+    "telegram_title_seen": "Evening Trader Official",
+    "source_urls": [
+      "https://t.me/eveningtraderx",
+      "https://t.me/s/eveningtraderx"
+    ],
+    "research_notes": "Futures/spot signals with SL & TP per description."
+  }
+}

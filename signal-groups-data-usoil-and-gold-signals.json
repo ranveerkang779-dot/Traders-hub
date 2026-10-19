@@ -1,0 +1,43 @@
+{
+  "group": {
+    "slug": "usoil-and-gold-signals",
+    "name": "USOIL & Gold Signals",
+    "description": "The description names gold, US oil, forex pairs and crypto, with a separate VIP. No VIP price was stated, and the forex pairs themselves were not named. The public post preview was turned off when we checked, so recent activity was not confirmed.",
+    "markets": [
+      "oil",
+      "gold",
+      "forex-majors",
+      "crypto"
+    ],
+    "styles": [],
+    "price": "free-and-vip",
+    "price_label": "Free + paid VIP",
+    "member_count": "3.6K members",
+    "member_count_as_of": "2026-10-19",
+    "language": "English",
+    "signals_per_day": null,
+    "extras": [],
+    "telegram_url": "https://t.me/usoilwtisignals",
+    "logo": null,
+    "rank": 100,
+    "always_free": false
+  },
+  "_notes": {
+    "last_verified": "2026-10-19",
+    "member_count_exact": 3607,
+    "member_count_type": "subscribers",
+    "member_count_source": "https://t.me/usoilwtisignals",
+    "price_seen": "free + paid VIP",
+    "trading_style_seen": null,
+    "signals_per_day_seen": null,
+    "language_seen": "English",
+    "last_public_post_utc": null,
+    "market_evidence": "channel description and/or instruments named in recent public posts (t.me/s/usoilwtisignals)",
+    "telegram_title_seen": "USOIL⛽️ & Gold🏆 Signals",
+    "source_urls": [
+      "https://t.me/usoilwtisignals",
+      "https://t.me/s/usoilwtisignals"
+    ],
+    "research_notes": "Description: GOLD, US Oil, forex pairs, crypto; daily entries with TP/SL. Public post preview not available, so recent activity not verified. forex_majors tag is from 'FOREX PAIRS' in description (pairs not specified)."
+  }
+}

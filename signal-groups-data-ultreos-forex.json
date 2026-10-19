@@ -1,0 +1,44 @@
+{
+  "group": {
+    "slug": "ultreos-forex",
+    "name": "Ultreos Forex",
+    "description": "A gold and forex channel. Coinspeaker (Jun 2026) listed a paid plan at £85 every three months.",
+    "markets": [
+      "gold",
+      "forex-majors",
+      "forex-minors"
+    ],
+    "styles": [],
+    "price": "free-and-vip",
+    "price_label": "Free + paid · £85 per 3 months (Jun 2026)",
+    "member_count": "24.7K members",
+    "member_count_as_of": "2026-10-19",
+    "language": "English",
+    "signals_per_day": null,
+    "extras": [],
+    "telegram_url": "https://t.me/ultreos_forex",
+    "logo": null,
+    "rank": 100,
+    "always_free": false
+  },
+  "_notes": {
+    "last_verified": "2026-10-19",
+    "member_count_exact": 24658,
+    "member_count_type": "subscribers",
+    "member_count_source": "https://t.me/ultreos_forex",
+    "price_seen": "free + paid (£85 per 3 months per Coinspeaker, Jun 2026)",
+    "trading_style_seen": null,
+    "signals_per_day_seen": null,
+    "language_seen": "English",
+    "last_public_post_utc": "2026-10-17T22:18:32+00:00",
+    "market_evidence": "channel description and/or instruments named in recent public posts (t.me/s/ultreos_forex)",
+    "telegram_title_seen": "ULTREOS FOREX",
+    "source_urls": [
+      "https://t.me/ultreos_forex",
+      "https://t.me/s/ultreos_forex",
+      "https://ultreosforex.com",
+      "https://www.coinspeaker.com/guides/best-forex-signals-telegram-groups/"
+    ],
+    "research_notes": null
+  }
+}

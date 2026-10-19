@@ -1,0 +1,42 @@
+{
+  "group": {
+    "slug": "mcx-naturalgas-silver-gold",
+    "name": "MCX NaturalGas Silver Gold",
+    "description": "An India-focused MCX channel. The description names crude oil, natural gas, silver, gold and equities, and says it posts 3–5 calls a day. It states SEBI registration INH000011954; we did not confirm that number on the SEBI portal. The public post preview was turned off when we checked. Paid tiers were not stated.",
+    "markets": [
+      "oil",
+      "gold",
+      "stocks-options"
+    ],
+    "styles": [],
+    "price": "free",
+    "price_label": "Free",
+    "member_count": "84.9K members",
+    "member_count_as_of": "2026-10-19",
+    "language": "English",
+    "signals_per_day": "3–5 calls a day",
+    "extras": [],
+    "telegram_url": "https://t.me/mcx_gold_silver_copper_comodity",
+    "logo": null,
+    "rank": 100,
+    "always_free": false
+  },
+  "_notes": {
+    "last_verified": "2026-10-19",
+    "member_count_exact": 84902,
+    "member_count_type": "subscribers",
+    "member_count_source": "https://t.me/mcx_gold_silver_copper_comodity",
+    "price_seen": "free channel (paid tiers not stated)",
+    "trading_style_seen": null,
+    "signals_per_day_seen": "3-5 calls/day (per description)",
+    "language_seen": "English (India / MCX focused)",
+    "last_public_post_utc": null,
+    "market_evidence": "channel description and/or instruments named in recent public posts (t.me/s/mcx_gold_silver_copper_comodity)",
+    "telegram_title_seen": "MCX NaturalGas Silver Gold",
+    "source_urls": [
+      "https://t.me/mcx_gold_silver_copper_comodity",
+      "https://t.me/s/mcx_gold_silver_copper_comodity"
+    ],
+    "research_notes": "Claims SEBI registration INH000011954 (verify on SEBI portal). Indian MCX crude oil, natural gas, silver, gold plus equities. Post preview not available."
+  }
+}

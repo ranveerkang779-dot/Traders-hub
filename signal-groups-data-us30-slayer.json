@@ -1,0 +1,41 @@
+{
+  "group": {
+    "slug": "us30-slayer",
+    "name": "US30 Slayer",
+    "description": "A US30 and gold channel with a free feed and a paid premium arranged by direct message. No premium price was stated.",
+    "markets": [
+      "indices",
+      "gold"
+    ],
+    "styles": [],
+    "price": "free-and-vip",
+    "price_label": "Free + paid premium",
+    "member_count": "2.0K members",
+    "member_count_as_of": "2026-10-19",
+    "language": "English",
+    "signals_per_day": null,
+    "extras": [],
+    "telegram_url": "https://t.me/US30SLAYERfree",
+    "logo": null,
+    "rank": 100,
+    "always_free": false
+  },
+  "_notes": {
+    "last_verified": "2026-10-19",
+    "member_count_exact": 2013,
+    "member_count_type": "subscribers",
+    "member_count_source": "https://t.me/US30SLAYERfree",
+    "price_seen": "free + paid premium (DM)",
+    "trading_style_seen": null,
+    "signals_per_day_seen": null,
+    "language_seen": "English",
+    "last_public_post_utc": "2026-10-18T08:39:19+00:00",
+    "market_evidence": "channel description and/or instruments named in recent public posts (t.me/s/US30SLAYERfree)",
+    "telegram_title_seen": "🐉 US30 Slayer 🐉",
+    "source_urls": [
+      "https://t.me/US30SLAYERfree",
+      "https://t.me/s/US30SLAYERfree"
+    ],
+    "research_notes": "Description explicitly says 'we do not guarantee profits'."
+  }
+}

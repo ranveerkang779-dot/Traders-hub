@@ -1,0 +1,43 @@
+{
+  "group": {
+    "slug": "altsignals",
+    "name": "AltSignals",
+    "description": "AltSignals' crypto and major-forex channel, which says it has run since 2017, with a paid VIP. Coinspeaker (Jun 2026) listed the VIP at $80 a month. This listing is only t.me/altsignals; other handles use similar names.",
+    "markets": [
+      "crypto",
+      "forex-majors"
+    ],
+    "styles": [],
+    "price": "free-and-vip",
+    "price_label": "Free + paid VIP · $80/mo (Jun 2026)",
+    "member_count": "27.0K members",
+    "member_count_as_of": "2026-10-19",
+    "language": "English",
+    "signals_per_day": null,
+    "extras": [],
+    "telegram_url": "https://t.me/altsignals",
+    "logo": null,
+    "rank": 100,
+    "always_free": false
+  },
+  "_notes": {
+    "last_verified": "2026-10-19",
+    "member_count_exact": 26971,
+    "member_count_type": "subscribers",
+    "member_count_source": "https://t.me/altsignals",
+    "price_seen": "free + paid VIP ($80/mo per Coinspeaker, Jun 2026)",
+    "trading_style_seen": null,
+    "signals_per_day_seen": null,
+    "language_seen": "English",
+    "last_public_post_utc": "2026-10-18T21:13:48+00:00",
+    "market_evidence": "channel description and/or instruments named in recent public posts (t.me/s/altsignals)",
+    "telegram_title_seen": "AltSignals.io 🥷👑",
+    "source_urls": [
+      "https://t.me/altsignals",
+      "https://t.me/s/altsignals",
+      "https://altsignals.io",
+      "https://www.coinspeaker.com/guides/best-forex-signals-telegram-groups/"
+    ],
+    "research_notes": "Founded 2017; channel warns of impersonators (we found @AltSignalsFX and @altsignals_forex, both excluded). Results page altsignals.io/results."
+  }
+}

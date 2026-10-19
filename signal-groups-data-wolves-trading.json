@@ -1,0 +1,41 @@
+{
+  "group": {
+    "slug": "wolves-trading",
+    "name": "Wolves Trading",
+    "description": "A gold channel. The description offers a VIP entry and does not state a price for it.",
+    "markets": [
+      "gold"
+    ],
+    "styles": [],
+    "price": "free-and-vip",
+    "price_label": "Free + VIP",
+    "member_count": "33.1K members",
+    "member_count_as_of": "2026-10-19",
+    "language": "English",
+    "signals_per_day": null,
+    "extras": [],
+    "telegram_url": "https://t.me/wolvestrades",
+    "logo": null,
+    "rank": 100,
+    "always_free": false
+  },
+  "_notes": {
+    "last_verified": "2026-10-19",
+    "member_count_exact": 33100,
+    "member_count_type": "subscribers",
+    "member_count_source": "https://t.me/wolvestrades",
+    "price_seen": "free + VIP ('FREE VIP Entry' per description)",
+    "trading_style_seen": null,
+    "signals_per_day_seen": null,
+    "language_seen": "English",
+    "last_public_post_utc": "2026-10-19T04:57:17+00:00",
+    "market_evidence": "channel description and/or instruments named in recent public posts (t.me/s/wolvestrades)",
+    "telegram_title_seen": "WOLVES TRADING",
+    "source_urls": [
+      "https://t.me/wolvestrades",
+      "https://t.me/s/wolvestrades",
+      "https://telegramrankings.com/best/gold-signals-telegram-channels"
+    ],
+    "research_notes": null
+  }
+}

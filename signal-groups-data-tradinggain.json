@@ -1,0 +1,45 @@
+{
+  "group": {
+    "slug": "tradinggain",
+    "name": "TradingGain",
+    "description": "A crypto channel that also posts education. Scalping is stated by a third-party listing, not by a style label on the channel itself. Paid tiers were not stated.",
+    "markets": [
+      "crypto"
+    ],
+    "styles": [
+      "scalping"
+    ],
+    "price": "free",
+    "price_label": "Free",
+    "member_count": "716.1K members",
+    "member_count_as_of": "2026-10-19",
+    "language": "English",
+    "signals_per_day": null,
+    "extras": [
+      "education"
+    ],
+    "telegram_url": "https://t.me/TradingGainX",
+    "logo": null,
+    "rank": 100,
+    "always_free": false
+  },
+  "_notes": {
+    "last_verified": "2026-10-19",
+    "member_count_exact": 716062,
+    "member_count_type": "subscribers",
+    "member_count_source": "https://t.me/TradingGainX",
+    "price_seen": "free channel (paid tiers not stated)",
+    "trading_style_seen": "scalping (per TGExplorer)",
+    "signals_per_day_seen": null,
+    "language_seen": "English",
+    "last_public_post_utc": "2026-10-19T07:48:43+00:00",
+    "market_evidence": "channel description and/or instruments named in recent public posts (t.me/s/TradingGainX)",
+    "telegram_title_seen": "TradingGain - Crypto Signals",
+    "source_urls": [
+      "https://t.me/TradingGainX",
+      "https://t.me/s/TradingGainX",
+      "https://tgexplorer.com/crypto-signals-telegram-channels/"
+    ],
+    "research_notes": null
+  }
+}

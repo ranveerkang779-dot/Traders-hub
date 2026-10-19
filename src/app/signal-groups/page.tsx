@@ -25,6 +25,10 @@ const faqs = [
     q: "Why might a group be missing?",
     a: "It has not been added yet, or it did not meet the listing rules: no guaranteed-return language, no pressure to deposit more, and a free option or a trial.",
   },
+  {
+    q: "Are member counts a ranking?",
+    a: "No. The number on a card is the approximate count we saw on Telegram on the date printed under it. Counts change, and a larger group is not a better one. We do not score results.",
+  },
 ];
 
 export default function SignalGroupsPage() {
@@ -48,8 +52,9 @@ export default function SignalGroupsPage() {
       </dl>
 
       <p className="meta mt-4 max-w-2xl">
-        Descriptions are in our own words. A member count or price is shown only when the group
-        publishes one. We do not verify trading results.
+        Descriptions are in our own words. Member counts are approximate snapshots from the day we
+        checked them, not a live total and not a score. A price, trading style or signal frequency
+        is shown only when a source stated it. We do not verify trading results.
       </p>
 
       <div className="mt-8">

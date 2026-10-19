@@ -1,0 +1,41 @@
+{
+  "group": {
+    "slug": "tgsignals-gbp-usd",
+    "name": "tgsignals – GBP/USD",
+    "description": "A small public tgsignals feed for GBP/USD. The channel describes the calls as algorithmic and aimed at the London session, and says this particular feed is for watching rather than auto-execution. tgsignals.com says it posts about 1–2 times a week.",
+    "markets": [
+      "forex-majors"
+    ],
+    "styles": [],
+    "price": "free",
+    "price_label": "Free",
+    "member_count": "57 members",
+    "member_count_as_of": "2026-10-19",
+    "language": "English",
+    "signals_per_day": "1–2 per week",
+    "extras": [],
+    "telegram_url": "https://t.me/tgsignals_gbpusd",
+    "logo": null,
+    "rank": 100,
+    "always_free": false
+  },
+  "_notes": {
+    "last_verified": "2026-10-19",
+    "member_count_exact": 57,
+    "member_count_type": "subscribers",
+    "member_count_source": "https://t.me/tgsignals_gbpusd",
+    "price_seen": "free",
+    "trading_style_seen": "algorithmic, London session",
+    "signals_per_day_seen": "1-2 per week (per tgsignals.com)",
+    "language_seen": "English",
+    "last_public_post_utc": "2026-10-18T17:00:20+00:00",
+    "market_evidence": "channel description and/or instruments named in recent public posts (t.me/s/tgsignals_gbpusd)",
+    "telegram_title_seen": "GBP/USD Trading Signals",
+    "source_urls": [
+      "https://t.me/tgsignals_gbpusd",
+      "https://t.me/s/tgsignals_gbpusd",
+      "https://tgsignals.com/track-record/"
+    ],
+    "research_notes": "Observe-only (not auto-executed) per description; tiny audience. Part of tgsignals' public per-market channels with tamper-evident audit chain."
+  }
+}

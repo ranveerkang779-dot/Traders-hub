@@ -272,14 +272,13 @@ function GroupCard({ group, index }: { group: SignalGroupView; index: number }) 
       </div>
 
       {group.description && (
-        <p className="mt-3 line-clamp-3 text-sm leading-relaxed text-muted">{group.description}</p>
+        <p className="mt-3 text-sm leading-relaxed text-muted">{group.description}</p>
       )}
 
       <dl className="mt-4 grid grid-cols-2 gap-3 border-t border-border pt-3">
-        <Fact label="Members" value={group.memberCount ?? "Not listed"} />
-        <Fact label="Price" value={group.priceLabel} />
-        <Fact label="Style" value={group.styles.map((id) => SIGNAL_STYLE_LABELS[id]).join(", ") || "Not listed"} />
-        <Fact label="Language" value={group.language || "Not listed"} />
+        {factsFor(group).map((fact) => (
+          <Fact key={fact.label} label={fact.label} value={fact.value} note={fact.note} />
+        ))}
       </dl>
 
       {group.telegramUrl && (
@@ -291,11 +290,39 @@ function GroupCard({ group, index }: { group: SignalGroupView; index: number }) 
   );
 }
 
-function Fact({ label, value }: { label: string; value: string }) {
+function factsFor(group: SignalGroupView): { label: string; value: string; note?: string }[] {
+  const facts: { label: string; value: string; note?: string }[] = [];
+  if (group.memberCount) {
+    const asOf = memberAsOfLabel(group.memberCountAsOf);
+    facts.push({ label: "Members", value: group.memberCount, note: asOf ?? undefined });
+  }
+  facts.push({ label: "Price", value: group.priceLabel });
+  if (group.styles.length) {
+    facts.push({
+      label: "Style",
+      value: group.styles.map((id) => SIGNAL_STYLE_LABELS[id]).join(", "),
+    });
+  }
+  if (group.signalsPerDay) facts.push({ label: "Signals", value: group.signalsPerDay });
+  if (group.language) facts.push({ label: "Language", value: group.language });
+  return facts;
+}
+
+function memberAsOfLabel(iso: string | null): string | null {
+  if (!iso || !/^\d{4}-\d{2}-\d{2}$/.test(iso)) return null;
+  const [year, month, day] = iso.split("-").map(Number);
+  const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+  const name = months[month - 1];
+  if (!name || !year || !day) return null;
+  return `as of ${day} ${name} ${year}`;
+}
+
+function Fact({ label, value, note }: { label: string; value: string; note?: string }) {
   return (
     <div className="min-w-0">
       <dt className="eyebrow">{label}</dt>
       <dd className="mt-1 text-sm font-semibold text-foreground">{value}</dd>
+      {note && <p className="meta mt-0.5">{note}</p>}
     </div>
   );
 }
@@ -335,6 +362,8 @@ function matchesQuery(group: SignalGroupView, query: string): boolean {
     group.description,
     group.language,
     group.priceLabel,
+    group.memberCount ?? "",
+    group.signalsPerDay ?? "",
     ...group.markets.map((id) => SIGNAL_MARKET_LABELS[id]),
     ...group.styles.map((id) => SIGNAL_STYLE_LABELS[id]),
   ]

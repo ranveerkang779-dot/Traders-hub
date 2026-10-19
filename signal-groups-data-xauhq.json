@@ -1,0 +1,42 @@
+{
+  "group": {
+    "slug": "xauhq",
+    "name": "XAUHQ",
+    "description": "A gold channel. The description says it does not manage accounts and does not ask for money. Paid tiers were not stated. We have not checked any track record the channel links to.",
+    "markets": [
+      "gold"
+    ],
+    "styles": [],
+    "price": "free",
+    "price_label": "Free",
+    "member_count": "219.4K members",
+    "member_count_as_of": "2026-10-19",
+    "language": "English",
+    "signals_per_day": null,
+    "extras": [],
+    "telegram_url": "https://t.me/xauhq",
+    "logo": null,
+    "rank": 100,
+    "always_free": false
+  },
+  "_notes": {
+    "last_verified": "2026-10-19",
+    "member_count_exact": 219371,
+    "member_count_type": "subscribers",
+    "member_count_source": "https://t.me/xauhq",
+    "price_seen": "free channel (paid tiers not stated)",
+    "trading_style_seen": null,
+    "signals_per_day_seen": null,
+    "language_seen": "English",
+    "last_public_post_utc": "2026-10-17T07:41:03+00:00",
+    "market_evidence": "channel description and/or instruments named in recent public posts (t.me/s/xauhq)",
+    "telegram_title_seen": "XAUHQ 🏛️",
+    "source_urls": [
+      "https://t.me/xauhq",
+      "https://t.me/s/xauhq",
+      "https://trackedsignals.com/c/xauhq",
+      "https://telegramrankings.com/best/gold-signals-telegram-channels"
+    ],
+    "research_notes": "Description: 'No Fund / Account Management', 'We Never Ask For Money', risk 0.5-1% per setup; claims Myfxbook +877% (unverified). TrackedSignals reports ~15% of message ids deleted. @Goldsignals currently resolves to this same channel."
+  }
+}

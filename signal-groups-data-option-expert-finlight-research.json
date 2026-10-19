@@ -1,0 +1,42 @@
+{
+  "group": {
+    "slug": "option-expert-finlight-research",
+    "name": "Option Expert (Finlight Research)",
+    "description": "An India-focused Bank Nifty and Nifty 50 channel. The description calls the calls intraday and states SEBI registration INH000013518; we did not confirm that number on the SEBI portal. Paid tiers were not stated.",
+    "markets": [
+      "stocks-options"
+    ],
+    "styles": [
+      "day-trading"
+    ],
+    "price": "free",
+    "price_label": "Free",
+    "member_count": "15.2K members",
+    "member_count_as_of": "2026-10-19",
+    "language": "English",
+    "signals_per_day": null,
+    "extras": [],
+    "telegram_url": "https://t.me/OptionExpertHelp",
+    "logo": null,
+    "rank": 100,
+    "always_free": false
+  },
+  "_notes": {
+    "last_verified": "2026-10-19",
+    "member_count_exact": 15184,
+    "member_count_type": "subscribers",
+    "member_count_source": "https://t.me/OptionExpertHelp",
+    "price_seen": "free channel (paid tiers not stated)",
+    "trading_style_seen": "intraday",
+    "signals_per_day_seen": null,
+    "language_seen": "English (India focused)",
+    "last_public_post_utc": "2026-10-19T04:39:26+00:00",
+    "market_evidence": "channel description and/or instruments named in recent public posts (t.me/s/OptionExpertHelp)",
+    "telegram_title_seen": "Option Expert (SEBI REGISTERED)",
+    "source_urls": [
+      "https://t.me/OptionExpertHelp",
+      "https://t.me/s/OptionExpertHelp"
+    ],
+    "research_notes": "SEBI RA INH000013518 per description; Bank Nifty / Nifty 50 intraday."
+  }
+}

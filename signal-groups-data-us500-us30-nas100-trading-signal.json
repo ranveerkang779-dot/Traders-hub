@@ -1,0 +1,42 @@
+{
+  "group": {
+    "slug": "us500-us30-nas100-trading-signal",
+    "name": "US500 | US30 | NAS100 Trading Signal",
+    "description": "Signals for the S&P 500, Nasdaq and US30. Recent public posts also mention gold. Paid tiers were not stated.",
+    "markets": [
+      "indices",
+      "gold"
+    ],
+    "styles": [],
+    "price": "free",
+    "price_label": "Free",
+    "member_count": "35.6K members",
+    "member_count_as_of": "2026-10-19",
+    "language": "English",
+    "signals_per_day": null,
+    "extras": [],
+    "telegram_url": "https://t.me/US500US30NAS100SIGNALS",
+    "logo": null,
+    "rank": 100,
+    "always_free": false
+  },
+  "_notes": {
+    "last_verified": "2026-10-19",
+    "member_count_exact": 35633,
+    "member_count_type": "subscribers",
+    "member_count_source": "https://t.me/US500US30NAS100SIGNALS",
+    "price_seen": "free channel (paid tiers not stated)",
+    "trading_style_seen": null,
+    "signals_per_day_seen": null,
+    "language_seen": "English",
+    "last_public_post_utc": "2026-10-19T07:08:10+00:00",
+    "market_evidence": "channel description and/or instruments named in recent public posts (t.me/s/US500US30NAS100SIGNALS)",
+    "telegram_title_seen": "US500 | US30 | NAS100 TRADING SIGNAL",
+    "source_urls": [
+      "https://t.me/US500US30NAS100SIGNALS",
+      "https://t.me/s/US500US30NAS100SIGNALS",
+      "https://tgexplorer.com/nas100-telegram-channels/"
+    ],
+    "research_notes": null
+  }
+}

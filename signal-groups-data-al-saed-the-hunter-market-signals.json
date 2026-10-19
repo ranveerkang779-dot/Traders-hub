@@ -1,0 +1,45 @@
+{
+  "group": {
+    "slug": "al-saed-the-hunter-market-signals",
+    "name": "Al-Saed (The Hunter) Market Signals",
+    "description": "An Arabic-language channel for stocks and crypto. The description names both scalping and swing. The audience is small. Paid tiers were not stated.",
+    "markets": [
+      "stocks-options",
+      "crypto"
+    ],
+    "styles": [
+      "scalping",
+      "swing"
+    ],
+    "price": "free",
+    "price_label": "Free",
+    "member_count": "774 members",
+    "member_count_as_of": "2026-10-19",
+    "language": "Arabic",
+    "signals_per_day": null,
+    "extras": [],
+    "telegram_url": "https://t.me/usastockhunter",
+    "logo": null,
+    "rank": 100,
+    "always_free": false
+  },
+  "_notes": {
+    "last_verified": "2026-10-19",
+    "member_count_exact": 774,
+    "member_count_type": "subscribers",
+    "member_count_source": "https://t.me/usastockhunter",
+    "price_seen": "free channel (paid tiers not stated)",
+    "trading_style_seen": "scalping and swing (per description)",
+    "signals_per_day_seen": null,
+    "language_seen": "Arabic",
+    "last_public_post_utc": "2026-09-23T18:48:32+00:00",
+    "market_evidence": "channel description and/or instruments named in recent public posts (t.me/s/usastockhunter)",
+    "telegram_title_seen": "إشارات الصائد للأسواق",
+    "source_urls": [
+      "https://t.me/usastockhunter",
+      "https://t.me/s/usastockhunter",
+      "https://usastockhunteracademy.com/en/best-us-stock-signal-telegram-channels-for-active-traders/"
+    ],
+    "research_notes": "Arabic-language crypto & stocks signals; small (under 1k). Description uses 'high accuracy' marketing language — treat with caution."
+  }
+}
