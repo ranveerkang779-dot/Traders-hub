@@ -2,13 +2,13 @@
   "group": {
     "slug": "wolves-trading",
     "name": "Wolves Trading",
-    "description": "A gold channel. The description offers a VIP entry and does not state a price for it.",
+    "description": "A gold channel. The channel description offers a VIP entry and calls that entry free.",
     "markets": [
       "gold"
     ],
     "styles": [],
-    "price": "free-and-vip",
-    "price_label": "Free + VIP",
+    "price": "free",
+    "price_label": "Free",
     "member_count": "33.1K members",
     "member_count_as_of": "2026-10-19",
     "language": "English",

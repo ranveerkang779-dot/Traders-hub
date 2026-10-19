@@ -7,8 +7,8 @@
       "crypto"
     ],
     "styles": [],
-    "price": "free-and-vip",
-    "price_label": "Free + VIP",
+    "price": "free",
+    "price_label": "Free",
     "member_count": "125.0K members",
     "member_count_as_of": "2026-10-19",
     "language": "English",

@@ -6,9 +6,7 @@
     "markets": [
       "crypto"
     ],
-    "styles": [
-      "scalping"
-    ],
+    "styles": [],
     "price": "free",
     "price_label": "Free",
     "member_count": "716.1K members",

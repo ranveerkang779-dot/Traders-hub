@@ -2,11 +2,10 @@
   "group": {
     "slug": "usoil-and-gold-signals",
     "name": "USOIL & Gold Signals",
-    "description": "The description names gold, US oil, forex pairs and crypto, with a separate VIP. No VIP price was stated, and the forex pairs themselves were not named. The public post preview was turned off when we checked, so recent activity was not confirmed.",
+    "description": "The description names gold, US oil and crypto, and also says forex pairs without naming them, so those pairs are not listed as a market. A separate VIP is mentioned. No VIP price was stated. The public post preview was turned off when we checked, so recent activity was not confirmed.",
     "markets": [
       "oil",
       "gold",
-      "forex-majors",
       "crypto"
     ],
     "styles": [],

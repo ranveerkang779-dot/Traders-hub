@@ -133,7 +133,10 @@ function Directory({ groups, initialQuery }: { groups: SignalGroupView[]; initia
             />
           ))}
         </div>
-        <p className="meta mt-2">Indices includes NQ, US30, S&amp;P 500 and DAX.</p>
+        <p className="meta mt-2">
+          Indices includes NQ, US30, the S&amp;P 500 and DAX. Oil &amp; commodities includes silver and
+          other metals, not only crude oil.
+        </p>
       </div>
 
       <FilterRow label="Trading style">
