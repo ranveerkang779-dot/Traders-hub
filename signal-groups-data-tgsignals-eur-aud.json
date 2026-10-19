@@ -1,0 +1,41 @@
+{
+  "group": {
+    "slug": "tgsignals-eur-aud",
+    "name": "tgsignals – EUR/AUD",
+    "description": "A small public tgsignals feed for EUR/AUD. The channel describes the calls as algorithmic and aimed at the New York session, and says this particular feed is for watching rather than auto-execution. tgsignals.com says it posts about 1–2 times a week.",
+    "markets": [
+      "forex-minors"
+    ],
+    "styles": [],
+    "price": "free",
+    "price_label": "Free",
+    "member_count": "47 members",
+    "member_count_as_of": "2026-10-19",
+    "language": "English",
+    "signals_per_day": "1–2 per week (tgsignals.com)",
+    "extras": [],
+    "telegram_url": "https://t.me/tgsignals_euraud",
+    "logo": null,
+    "rank": 100,
+    "always_free": false
+  },
+  "_notes": {
+    "last_verified": "2026-10-19",
+    "member_count_exact": 47,
+    "member_count_type": "subscribers",
+    "member_count_source": "https://t.me/tgsignals_euraud",
+    "price_seen": "free",
+    "trading_style_seen": "algorithmic, New York session",
+    "signals_per_day_seen": "1-2 per week (per tgsignals.com)",
+    "language_seen": "English",
+    "last_public_post_utc": "2026-10-18T17:00:24+00:00",
+    "market_evidence": "channel description and/or instruments named in recent public posts (t.me/s/tgsignals_euraud)",
+    "telegram_title_seen": "EUR/AUD Trading Signals",
+    "source_urls": [
+      "https://t.me/tgsignals_euraud",
+      "https://t.me/s/tgsignals_euraud",
+      "https://tgsignals.com/track-record/"
+    ],
+    "research_notes": "Observe-only per description; tiny audience."
+  }
+}

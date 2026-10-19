@@ -1,0 +1,41 @@
+{
+  "group": {
+    "slug": "oil-trading-signals-brent-wti",
+    "name": "Oil Trading Signals (Brent, WTI)",
+    "description": "Automated Brent and WTI signals. The description says they are built from order-flow data (time and sales, cluster volume and delta). Paid tiers were not stated.",
+    "markets": [
+      "oil"
+    ],
+    "styles": [],
+    "price": "free",
+    "price_label": "Free",
+    "member_count": "2.0K members",
+    "member_count_as_of": "2026-10-19",
+    "language": "English",
+    "signals_per_day": null,
+    "extras": [],
+    "telegram_url": "https://t.me/oil_trading_signals",
+    "logo": null,
+    "rank": 100,
+    "always_free": false
+  },
+  "_notes": {
+    "last_verified": "2026-10-19",
+    "member_count_exact": 2037,
+    "member_count_type": "subscribers",
+    "member_count_source": "https://t.me/oil_trading_signals",
+    "price_seen": "free channel (paid tiers not stated)",
+    "trading_style_seen": null,
+    "signals_per_day_seen": null,
+    "language_seen": "English",
+    "last_public_post_utc": "2026-10-16T21:00:08+00:00",
+    "market_evidence": "channel description and/or instruments named in recent public posts (t.me/s/oil_trading_signals)",
+    "telegram_title_seen": "Oil trading signals (Brent crude, WTI)",
+    "source_urls": [
+      "https://t.me/oil_trading_signals",
+      "https://t.me/s/oil_trading_signals",
+      "https://tg.me/oil_trading_signals"
+    ],
+    "research_notes": "Automated order-flow signals (time & sales, cluster volume, delta) on Brent and WTI."
+  }
+}

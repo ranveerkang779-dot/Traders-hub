@@ -1,0 +1,41 @@
+{
+  "group": {
+    "slug": "united-kings",
+    "name": "United Kings",
+    "description": "A gold channel. The free feed is described as daily XAUUSD commentary, with a separate paid VIP. Coinspeaker (Jun 2026) published a VIP price. That review also says the VIP covers more markets than the free feed; those extra markets are not listed here because the public posts we checked were gold.",
+    "markets": [
+      "gold"
+    ],
+    "styles": [],
+    "price": "free-and-vip",
+    "price_label": "Free + paid VIP · $199/mo or $499 lifetime (Jun 2026)",
+    "member_count": "407.9K members",
+    "member_count_as_of": "2026-10-19",
+    "language": "English",
+    "signals_per_day": "Up to 10 a day (VIP, Coinspeaker Jun 2026)",
+    "extras": [],
+    "telegram_url": "https://t.me/unitedkings1",
+    "logo": null,
+    "rank": 100,
+    "always_free": false
+  },
+  "_notes": {
+    "last_verified": "2026-10-19",
+    "member_count_exact": 407908,
+    "member_count_type": "subscribers",
+    "member_count_source": "https://t.me/unitedkings1",
+    "price_seen": "free + paid VIP ($199/mo or $499 lifetime per Coinspeaker, Jun 2026)",
+    "trading_style_seen": null,
+    "signals_per_day_seen": "up to 10/day (VIP, per Coinspeaker)",
+    "language_seen": "English",
+    "last_public_post_utc": "2026-10-19T07:42:06+00:00",
+    "market_evidence": "channel description and/or instruments named in recent public posts (t.me/s/unitedkings1)",
+    "telegram_title_seen": "United Kings™ Signals! 👑",
+    "source_urls": [
+      "https://t.me/unitedkings1",
+      "https://t.me/s/unitedkings1",
+      "https://www.coinspeaker.com/guides/best-forex-signals-telegram-groups/"
+    ],
+    "research_notes": "Free channel describes daily XAUUSD commentary; Coinspeaker says VIP also covers forex, crypto, stocks and oil."
+  }
+}

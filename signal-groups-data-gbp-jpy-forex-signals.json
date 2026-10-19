@@ -1,0 +1,42 @@
+{
+  "group": {
+    "slug": "gbp-jpy-forex-signals",
+    "name": "GBP/JPY Forex Signals",
+    "description": "A GBP/JPY channel. The description mentions signals, indicators, teaching and a paid VIP. No VIP price was stated. The public post preview was turned off when we checked, so recent activity was not confirmed.",
+    "markets": [
+      "forex-minors"
+    ],
+    "styles": [],
+    "price": "free-and-vip",
+    "price_label": "Free + paid VIP",
+    "member_count": "15.5K members",
+    "member_count_as_of": "2026-10-19",
+    "language": "English",
+    "signals_per_day": null,
+    "extras": [
+      "education"
+    ],
+    "telegram_url": "https://t.me/gbpjpyforex_signal",
+    "logo": null,
+    "rank": 100,
+    "always_free": false
+  },
+  "_notes": {
+    "last_verified": "2026-10-19",
+    "member_count_exact": 15452,
+    "member_count_type": "subscribers",
+    "member_count_source": "https://t.me/gbpjpyforex_signal",
+    "price_seen": "free + paid VIP",
+    "trading_style_seen": null,
+    "signals_per_day_seen": null,
+    "language_seen": "English",
+    "last_public_post_utc": null,
+    "market_evidence": "channel description and/or instruments named in recent public posts (t.me/s/gbpjpyforex_signal)",
+    "telegram_title_seen": "GBP/JPY FOREX SIGNALS",
+    "source_urls": [
+      "https://t.me/gbpjpyforex_signal",
+      "https://t.me/s/gbpjpyforex_signal"
+    ],
+    "research_notes": "Description: signals, indicators, strategy teaching, live trading, private Q&A, VIP. Public post preview not available, so recent activity not verified."
+  }
+}

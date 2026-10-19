@@ -1,0 +1,44 @@
+{
+  "group": {
+    "slug": "sureshotfx-indices",
+    "name": "SureShotFX – Indices",
+    "description": "SureShotFX's indices channel. The description names US30, Nasdaq, the S&P 500, the DAX and US oil. A paid VIP exists on the provider's site; no price was stated in the source we used. The provider also offers a trade copier.",
+    "markets": [
+      "indices",
+      "oil"
+    ],
+    "styles": [],
+    "price": "free-and-vip",
+    "price_label": "Free + paid VIP",
+    "member_count": "9.3K members",
+    "member_count_as_of": "2026-10-19",
+    "language": "English",
+    "signals_per_day": null,
+    "extras": [
+      "copy-trading"
+    ],
+    "telegram_url": "https://t.me/ssfindices",
+    "logo": null,
+    "rank": 100,
+    "always_free": false
+  },
+  "_notes": {
+    "last_verified": "2026-10-19",
+    "member_count_exact": 9275,
+    "member_count_type": "subscribers",
+    "member_count_source": "https://t.me/ssfindices",
+    "price_seen": "free + paid VIP (sureshotfx.com/indices-vip-signals)",
+    "trading_style_seen": null,
+    "signals_per_day_seen": null,
+    "language_seen": "English",
+    "last_public_post_utc": "2026-10-19T07:01:24+00:00",
+    "market_evidence": "channel description and/or instruments named in recent public posts (t.me/s/ssfindices)",
+    "telegram_title_seen": "Sureshot INDICES ⚡️",
+    "source_urls": [
+      "https://t.me/ssfindices",
+      "https://t.me/s/ssfindices",
+      "https://www.trustpilot.com/review/sureshotfx.com"
+    ],
+    "research_notes": "Description: daily US30, NAS100, S&P 500, GER40 (DAX) & USOIL signals with entry, SL & TP."
+  }
+}

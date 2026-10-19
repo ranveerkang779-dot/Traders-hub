@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 // Checks every listing data file (propfirms-data-*.json, courses-data-*.json,
-// providers-data-*.json, brokers-data-*.json, tools-data-*.json) for mistakes
+// providers-data-*.json, brokers-data-*.json, tools-data-*.json,
+// signal-groups-data-*.json) for mistakes
 // before they reach the live site.
 //
 //   npm run check:data            -> check all files, print a report
@@ -27,10 +28,25 @@ const COURSE_PATTERN = /^courses-data-.+\.json$/i;
 const PROVIDER_PATTERN = /^providers-data-.+\.json$/i;
 const BROKER_PATTERN = /^brokers-data-.+\.json$/i;
 const TOOL_PATTERN = /^tools-data-.+\.json$/i;
+const SIGNAL_PATTERN = /^signal-groups-data-.+\.json$/i;
 const STALE_AFTER_DAYS = 30;
 
 // Keep in sync with BrokerMarket in src/lib/broker-types.ts.
 const KNOWN_BROKER_MARKETS = new Set(["stocks", "options", "futures", "forex", "bonds", "funds", "crypto", "cfds"]);
+
+// Keep in sync with the signal-group unions in src/lib/signal-group-types.ts.
+const KNOWN_SIGNAL_MARKETS = new Set([
+  "gold",
+  "forex-majors",
+  "forex-minors",
+  "indices",
+  "crypto",
+  "oil",
+  "stocks-options",
+]);
+const KNOWN_SIGNAL_STYLES = new Set(["scalping", "day-trading", "swing"]);
+const KNOWN_SIGNAL_PRICES = new Set(["free", "paid", "free-and-vip"]);
+const KNOWN_SIGNAL_EXTRAS = new Set(["education", "copy-trading", "prop-firm"]);
 
 // Keep in sync with ToolCategory in src/lib/tool-types.ts.
 const KNOWN_TOOL_CATEGORIES = new Set([
@@ -535,6 +551,69 @@ function checkStrategyEntry(file, s, i) {
   });
 }
 
+function checkSignalGroup(file, data) {
+  const g = data?.group;
+  if (!g) return err(file, `missing top-level "group"`);
+  if (!/^[a-z0-9-]+$/.test(g.slug ?? ""))
+    err(file, `group.slug must be lowercase letters, numbers and dashes (got "${g.slug}")`);
+  const expected = file.replace(/^signal-groups-data-/i, "").replace(/\.json$/i, "");
+  if (g.slug && g.slug !== expected) err(file, `group.slug "${g.slug}" should match the file name (${expected})`);
+  if (!g.name) err(file, `group.name is missing`);
+  if (!g.description) err(file, `group.description is empty - add a short description in our own words`);
+  if (!Array.isArray(g.markets) || g.markets.length === 0)
+    err(file, `group.markets must list at least one market`);
+  else {
+    for (const market of g.markets) {
+      if (!KNOWN_SIGNAL_MARKETS.has(market))
+        err(file, `group.markets has "${market}" - must be one of ${[...KNOWN_SIGNAL_MARKETS].join(", ")}`);
+    }
+  }
+  if (!Array.isArray(g.styles))
+    err(file, `group.styles must be a list (use [] when the group did not state a style)`);
+  else {
+    for (const style of g.styles) {
+      if (!KNOWN_SIGNAL_STYLES.has(style))
+        err(file, `group.styles has "${style}" - must be one of ${[...KNOWN_SIGNAL_STYLES].join(", ")}`);
+    }
+  }
+  if (!KNOWN_SIGNAL_PRICES.has(g.price))
+    err(file, `group.price "${g.price}" must be one of ${[...KNOWN_SIGNAL_PRICES].join(", ")}`);
+  if (!g.price_label || typeof g.price_label !== "string")
+    err(file, `group.price_label is missing - short words for the price, such as "Free"`);
+  if (g.member_count != null && typeof g.member_count !== "string")
+    err(file, `group.member_count must be text or null`);
+  if (g.member_count) {
+    if (typeof g.member_count_as_of !== "string" || !/^\d{4}-\d{2}-\d{2}$/.test(g.member_count_as_of))
+      err(file, `group.member_count_as_of must be YYYY-MM-DD when a member count is set`);
+  } else if (g.member_count_as_of != null) {
+    err(file, `group.member_count_as_of should be null when there is no member count`);
+  }
+  if (g.signals_per_day != null && typeof g.signals_per_day !== "string")
+    err(file, `group.signals_per_day must be text or null`);
+  if (!g.language || typeof g.language !== "string") err(file, `group.language is missing`);
+  if (!Array.isArray(g.extras)) err(file, `group.extras must be a list (use [] when there are none)`);
+  else {
+    for (const extra of g.extras) {
+      if (!KNOWN_SIGNAL_EXTRAS.has(extra))
+        err(file, `group.extras has "${extra}" - must be one of ${[...KNOWN_SIGNAL_EXTRAS].join(", ")}`);
+    }
+  }
+  if (!g.telegram_url) err(file, `group.telegram_url is missing - Join needs the group's Telegram link`);
+  else checkLink(file, "group.telegram_url", g.telegram_url);
+  if (!Number.isInteger(g.rank) || g.rank < 1) err(file, `group.rank must be a whole number from 1 up`);
+  if (typeof g.always_free !== "boolean")
+    err(file, `group.always_free must be true or false - it keeps a group visible if the free preview is turned on`);
+  if (g.logo) {
+    if (typeof g.logo !== "string" || !g.logo.startsWith("/signal-groups/"))
+      err(file, `group.logo must be a path under /signal-groups/`);
+    else if (!existsSync(path.join(ROOT, "public", g.logo)))
+      warn(file, `group.logo "${g.logo}" is not in public/`);
+  }
+  for (const key of ["partner_broker", "trades_with_partner", "partner_brokers", "broker_promoted"]) {
+    if (key in g) err(file, `group.${key} is not a signal-group field`);
+  }
+}
+
 function checkStrategies(file, data) {
   const list = data?.strategies;
   if (!Array.isArray(list) || list.length === 0) return err(file, `missing or empty top-level "strategies" array`);
@@ -563,6 +642,7 @@ function checkAll() {
         PROVIDER_PATTERN.test(f) ||
         BROKER_PATTERN.test(f) ||
         TOOL_PATTERN.test(f) ||
+        SIGNAL_PATTERN.test(f) ||
         f === STRATEGY_FILE,
     )
     .sort();
@@ -584,7 +664,18 @@ function checkAll() {
     const isProvider = PROVIDER_PATTERN.test(file);
     const isBroker = BROKER_PATTERN.test(file);
     const isTool = TOOL_PATTERN.test(file);
-    const kind = isProp ? "firm" : isProvider ? "provider" : isBroker ? "broker" : isTool ? "tool" : "course";
+    const isSignal = SIGNAL_PATTERN.test(file);
+    const kind = isProp
+      ? "firm"
+      : isProvider
+        ? "provider"
+        : isBroker
+          ? "broker"
+          : isTool
+            ? "tool"
+            : isSignal
+              ? "signal-group"
+              : "course";
     const entity = isProp
       ? data.firm
       : isProvider
@@ -593,15 +684,18 @@ function checkAll() {
           ? data.broker
           : isTool
             ? data.tool
-            : data.course;
+            : isSignal
+              ? data.group
+              : data.course;
     if (isProp) checkPropFirm(file, data);
     else if (isProvider) checkProvider(file, data);
     else if (isBroker) checkBroker(file, data);
     else if (isTool) checkTool(file, data);
+    else if (isSignal) checkSignalGroup(file, data);
     else checkCourse(file, data);
     checkVerified(file, data._notes);
     scanWording(file, entity);
-    const id = `${kind}:${isTool ? entity?.slug : entity?.id}`;
+    const id = `${kind}:${isTool || isSignal ? entity?.slug : entity?.id}`;
     if (ids.has(id)) err(file, `uses the same id as ${ids.get(id)}`);
     ids.set(id, file);
   }
@@ -632,7 +726,8 @@ async function main() {
       !COURSE_PATTERN.test(name) &&
       !PROVIDER_PATTERN.test(name) &&
       !BROKER_PATTERN.test(name) &&
-      !TOOL_PATTERN.test(name)
+      !TOOL_PATTERN.test(name) &&
+      !SIGNAL_PATTERN.test(name)
     )
       process.exit(0);
     const count = checkAll();

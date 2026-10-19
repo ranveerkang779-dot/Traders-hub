@@ -1,0 +1,42 @@
+{
+  "group": {
+    "slug": "market-analysis-with-amit-dhamija",
+    "name": "Market Analysis with Amit Dhamija",
+    "description": "An India-focused channel for Nifty and Bank Nifty option-chain notes. The description states SEBI registration INH000019804; we did not confirm that number on the SEBI portal. The public post preview was turned off when we checked. Paid tiers were not stated.",
+    "markets": [
+      "stocks-options"
+    ],
+    "styles": [],
+    "price": "free",
+    "price_label": "Free",
+    "member_count": "33.1K members",
+    "member_count_as_of": "2026-10-19",
+    "language": "English",
+    "signals_per_day": null,
+    "extras": [
+      "education"
+    ],
+    "telegram_url": "https://t.me/marketanalysisniftybanknifty",
+    "logo": null,
+    "rank": 100,
+    "always_free": false
+  },
+  "_notes": {
+    "last_verified": "2026-10-19",
+    "member_count_exact": 33106,
+    "member_count_type": "subscribers",
+    "member_count_source": "https://t.me/marketanalysisniftybanknifty",
+    "price_seen": "free channel (paid tiers not stated)",
+    "trading_style_seen": null,
+    "signals_per_day_seen": null,
+    "language_seen": "English (India focused)",
+    "last_public_post_utc": null,
+    "market_evidence": "channel description and/or instruments named in recent public posts (t.me/s/marketanalysisniftybanknifty)",
+    "telegram_title_seen": "Market Analysis With Amit Dhamija",
+    "source_urls": [
+      "https://t.me/marketanalysisniftybanknifty",
+      "https://t.me/s/marketanalysisniftybanknifty"
+    ],
+    "research_notes": "SEBI RA INH000019804 per description; FII F&O data and option-chain analysis, educational. Post preview not available."
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "group": {
+    "slug": "sureshotfx-forex",
+    "name": "SureShotFX – Forex",
+    "description": "SureShotFX's forex channel, covering major pairs, minor pairs and gold. A channel post describes the VIP as scalping and intraday, at 2–8 signals a day. A paid VIP exists on the provider's site; no price was stated in the source we used.",
+    "markets": [
+      "forex-majors",
+      "forex-minors",
+      "gold"
+    ],
+    "styles": [
+      "scalping",
+      "day-trading"
+    ],
+    "price": "free-and-vip",
+    "price_label": "Free + paid VIP",
+    "member_count": "57.7K members",
+    "member_count_as_of": "2026-10-19",
+    "language": "English",
+    "signals_per_day": "2–8 a day (VIP, channel post)",
+    "extras": [],
+    "telegram_url": "https://t.me/sureshot_fx",
+    "logo": null,
+    "rank": 100,
+    "always_free": false
+  },
+  "_notes": {
+    "last_verified": "2026-10-19",
+    "member_count_exact": 57735,
+    "member_count_type": "subscribers",
+    "member_count_source": "https://t.me/sureshot_fx",
+    "price_seen": "free + paid VIP (sureshotfx.com/forex-vip-signals)",
+    "trading_style_seen": "scalping, intraday (VIP, per channel post)",
+    "signals_per_day_seen": "2-8/day (VIP, per channel post)",
+    "language_seen": "English",
+    "last_public_post_utc": "2026-10-19T07:37:12+00:00",
+    "market_evidence": "channel description and/or instruments named in recent public posts (t.me/s/sureshot_fx)",
+    "telegram_title_seen": "Sureshot FX 🎯",
+    "source_urls": [
+      "https://t.me/sureshot_fx",
+      "https://t.me/s/sureshot_fx",
+      "https://www.trustpilot.com/review/sureshotfx.com",
+      "https://t.me/s/sureshot_fx?before=29137"
+    ],
+    "research_notes": "A source names a broker (EightCap, OctaFX, FBS, XM (2022 YouTube description)). That is not a partner listing on this site."
+  }
+}

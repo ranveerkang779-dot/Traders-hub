@@ -1,0 +1,43 @@
+{
+  "group": {
+    "slug": "tgsignals-ethereum",
+    "name": "tgsignals – Ethereum",
+    "description": "A small public tgsignals feed for Ethereum. The channel describes algorithmic calls for the New York session that can be auto-traded on the subscriber's own MT4 or MT5 account. tgsignals.com says it posts about 1–2 times a week.",
+    "markets": [
+      "crypto"
+    ],
+    "styles": [],
+    "price": "free",
+    "price_label": "Free",
+    "member_count": "80 members",
+    "member_count_as_of": "2026-10-19",
+    "language": "English",
+    "signals_per_day": "1–2 per week (tgsignals.com)",
+    "extras": [
+      "copy-trading"
+    ],
+    "telegram_url": "https://t.me/tgsignals_eth",
+    "logo": null,
+    "rank": 100,
+    "always_free": false
+  },
+  "_notes": {
+    "last_verified": "2026-10-19",
+    "member_count_exact": 80,
+    "member_count_type": "subscribers",
+    "member_count_source": "https://t.me/tgsignals_eth",
+    "price_seen": "free",
+    "trading_style_seen": "algorithmic, New York session",
+    "signals_per_day_seen": "1-2 per week (per tgsignals.com)",
+    "language_seen": "English",
+    "last_public_post_utc": "2026-10-18T17:00:18+00:00",
+    "market_evidence": "channel description and/or instruments named in recent public posts (t.me/s/tgsignals_eth)",
+    "telegram_title_seen": "Ethereum Trading Signals",
+    "source_urls": [
+      "https://t.me/tgsignals_eth",
+      "https://t.me/s/tgsignals_eth",
+      "https://tgsignals.com/track-record/"
+    ],
+    "research_notes": "ETH/USD CFD auto-trading via MetaApi per description; tiny audience."
+  }
+}

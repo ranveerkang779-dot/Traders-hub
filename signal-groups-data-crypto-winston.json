@@ -1,0 +1,41 @@
+{
+  "group": {
+    "slug": "crypto-winston",
+    "name": "Crypto Winston",
+    "description": "A crypto channel that also posts gold. Paid tiers were not stated.",
+    "markets": [
+      "crypto",
+      "gold"
+    ],
+    "styles": [],
+    "price": "free",
+    "price_label": "Free",
+    "member_count": "43.6K members",
+    "member_count_as_of": "2026-10-19",
+    "language": "English",
+    "signals_per_day": null,
+    "extras": [],
+    "telegram_url": "https://t.me/crypto_Winston",
+    "logo": null,
+    "rank": 100,
+    "always_free": false
+  },
+  "_notes": {
+    "last_verified": "2026-10-19",
+    "member_count_exact": 43564,
+    "member_count_type": "subscribers",
+    "member_count_source": "https://t.me/crypto_Winston",
+    "price_seen": "free channel (paid tiers not stated)",
+    "trading_style_seen": null,
+    "signals_per_day_seen": null,
+    "language_seen": "English",
+    "last_public_post_utc": "2026-10-19T04:15:11+00:00",
+    "market_evidence": "channel description and/or instruments named in recent public posts (t.me/s/crypto_Winston)",
+    "telegram_title_seen": "CRYPTO WINSTON ™",
+    "source_urls": [
+      "https://t.me/crypto_Winston",
+      "https://t.me/s/crypto_Winston"
+    ],
+    "research_notes": "Crypto, Binance futures and spot; recent posts include XAUUSD."
+  }
+}

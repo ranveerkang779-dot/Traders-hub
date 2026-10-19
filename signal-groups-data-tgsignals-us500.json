@@ -1,0 +1,43 @@
+{
+  "group": {
+    "slug": "tgsignals-us500",
+    "name": "tgsignals – US500",
+    "description": "A small public tgsignals feed for the S&P 500 (US500). The channel describes algorithmic calls for the New York session that can be auto-traded on the subscriber's own MT4 or MT5 account. tgsignals.com says it posts about 1–2 times a week.",
+    "markets": [
+      "indices"
+    ],
+    "styles": [],
+    "price": "free",
+    "price_label": "Free",
+    "member_count": "52 members",
+    "member_count_as_of": "2026-10-19",
+    "language": "English",
+    "signals_per_day": "1–2 per week (tgsignals.com)",
+    "extras": [
+      "copy-trading"
+    ],
+    "telegram_url": "https://t.me/tgsignals_us500",
+    "logo": null,
+    "rank": 100,
+    "always_free": false
+  },
+  "_notes": {
+    "last_verified": "2026-10-19",
+    "member_count_exact": 52,
+    "member_count_type": "subscribers",
+    "member_count_source": "https://t.me/tgsignals_us500",
+    "price_seen": "free",
+    "trading_style_seen": "algorithmic, New York session",
+    "signals_per_day_seen": "1-2 per week (per tgsignals.com)",
+    "language_seen": "English",
+    "last_public_post_utc": "2026-10-18T17:00:14+00:00",
+    "market_evidence": "channel description and/or instruments named in recent public posts (t.me/s/tgsignals_us500)",
+    "telegram_title_seen": "US500 Trading Signals",
+    "source_urls": [
+      "https://t.me/tgsignals_us500",
+      "https://t.me/s/tgsignals_us500",
+      "https://tgsignals.com/track-record/"
+    ],
+    "research_notes": "Auto-trading on your MT4/MT5 broker via MetaApi per description; tiny audience."
+  }
+}

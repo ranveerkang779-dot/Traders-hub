@@ -1,0 +1,42 @@
+{
+  "group": {
+    "slug": "easy-forex-pips",
+    "name": "Easy Forex Pips",
+    "description": "A gold and major-forex channel. It links a separate signals-history channel. Paid tiers were not stated.",
+    "markets": [
+      "gold",
+      "forex-majors"
+    ],
+    "styles": [],
+    "price": "free",
+    "price_label": "Free",
+    "member_count": "240.1K members",
+    "member_count_as_of": "2026-10-19",
+    "language": "English",
+    "signals_per_day": null,
+    "extras": [],
+    "telegram_url": "https://t.me/easyforexpips",
+    "logo": null,
+    "rank": 100,
+    "always_free": false
+  },
+  "_notes": {
+    "last_verified": "2026-10-19",
+    "member_count_exact": 240090,
+    "member_count_type": "subscribers",
+    "member_count_source": "https://t.me/easyforexpips",
+    "price_seen": "free channel (paid tiers not stated)",
+    "trading_style_seen": null,
+    "signals_per_day_seen": null,
+    "language_seen": "English",
+    "last_public_post_utc": "2026-10-19T01:58:52+00:00",
+    "market_evidence": "channel description and/or instruments named in recent public posts (t.me/s/easyforexpips)",
+    "telegram_title_seen": "Easy Forex 👑 OFFICIAL CHANNEL",
+    "source_urls": [
+      "https://t.me/easyforexpips",
+      "https://t.me/s/easyforexpips",
+      "https://easyforexpips.com/easy-forex-pips-reviews"
+    ],
+    "research_notes": "Publishes a signals history channel (@EFhistory, last post May 2025)."
+  }
+}

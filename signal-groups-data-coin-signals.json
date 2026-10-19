@@ -1,0 +1,42 @@
+{
+  "group": {
+    "slug": "coin-signals",
+    "name": "Coin Signals",
+    "description": "A crypto channel with free signals, a VIP and auto-trading. The description says it does not manage funds. No VIP price was stated.",
+    "markets": [
+      "crypto"
+    ],
+    "styles": [],
+    "price": "free-and-vip",
+    "price_label": "Free + paid VIP",
+    "member_count": "72.4K members",
+    "member_count_as_of": "2026-10-19",
+    "language": "English",
+    "signals_per_day": null,
+    "extras": [
+      "copy-trading"
+    ],
+    "telegram_url": "https://t.me/Coin_Signals",
+    "logo": null,
+    "rank": 100,
+    "always_free": false
+  },
+  "_notes": {
+    "last_verified": "2026-10-19",
+    "member_count_exact": 72360,
+    "member_count_type": "subscribers",
+    "member_count_source": "https://t.me/Coin_Signals",
+    "price_seen": "free + paid VIP (via @Last_Satoshi)",
+    "trading_style_seen": null,
+    "signals_per_day_seen": null,
+    "language_seen": "English",
+    "last_public_post_utc": "2026-10-19T08:09:39+00:00",
+    "market_evidence": "channel description and/or instruments named in recent public posts (t.me/s/Coin_Signals)",
+    "telegram_title_seen": "Coin Signals",
+    "source_urls": [
+      "https://t.me/Coin_Signals",
+      "https://t.me/s/Coin_Signals"
+    ],
+    "research_notes": "Auto trading offered; states no fund-management services."
+  }
+}

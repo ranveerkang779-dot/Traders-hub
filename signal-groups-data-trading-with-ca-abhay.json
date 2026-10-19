@@ -1,0 +1,41 @@
+{
+  "group": {
+    "slug": "trading-with-ca-abhay",
+    "name": "Trading with CA Abhay",
+    "description": "An India-focused channel. The description says the equity, Nifty, Sensex and Bank Nifty option trades are free, and states SEBI registration INH300008465; we did not confirm that number on the SEBI portal.",
+    "markets": [
+      "stocks-options"
+    ],
+    "styles": [],
+    "price": "free",
+    "price_label": "Free",
+    "member_count": "41.3K members",
+    "member_count_as_of": "2026-10-19",
+    "language": "English",
+    "signals_per_day": null,
+    "extras": [],
+    "telegram_url": "https://t.me/abhayvarn",
+    "logo": null,
+    "rank": 100,
+    "always_free": false
+  },
+  "_notes": {
+    "last_verified": "2026-10-19",
+    "member_count_exact": 41256,
+    "member_count_type": "subscribers",
+    "member_count_source": "https://t.me/abhayvarn",
+    "price_seen": "free",
+    "trading_style_seen": null,
+    "signals_per_day_seen": null,
+    "language_seen": "English (India focused)",
+    "last_public_post_utc": "2026-10-19T07:56:20+00:00",
+    "market_evidence": "channel description and/or instruments named in recent public posts (t.me/s/abhayvarn)",
+    "telegram_title_seen": "Trading with CA Abhay | SEBI REGISTERED RA",
+    "source_urls": [
+      "https://t.me/abhayvarn",
+      "https://t.me/s/abhayvarn",
+      "https://abhayvarn.com"
+    ],
+    "research_notes": "SEBI RA INH300008465 per description; daily free equity, Nifty, Sensex & Bank Nifty options trades."
+  }
+}

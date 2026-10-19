@@ -1,0 +1,42 @@
+{
+  "group": {
+    "slug": "us30-kingdom",
+    "name": "US30 Kingdom",
+    "description": "A US30, Nasdaq and gold channel. The description says the signals are free.",
+    "markets": [
+      "indices",
+      "gold"
+    ],
+    "styles": [],
+    "price": "free",
+    "price_label": "Free",
+    "member_count": "13.6K members",
+    "member_count_as_of": "2026-10-19",
+    "language": "English",
+    "signals_per_day": null,
+    "extras": [],
+    "telegram_url": "https://t.me/US30Marketview",
+    "logo": null,
+    "rank": 100,
+    "always_free": false
+  },
+  "_notes": {
+    "last_verified": "2026-10-19",
+    "member_count_exact": 13583,
+    "member_count_type": "subscribers",
+    "member_count_source": "https://t.me/US30Marketview",
+    "price_seen": "free ('FREE SIGNALS' per description)",
+    "trading_style_seen": null,
+    "signals_per_day_seen": null,
+    "language_seen": "English",
+    "last_public_post_utc": "2026-10-19T02:42:00+00:00",
+    "market_evidence": "channel description and/or instruments named in recent public posts (t.me/s/US30Marketview)",
+    "telegram_title_seen": "👑US30 KINGDOM👑",
+    "source_urls": [
+      "https://t.me/US30Marketview",
+      "https://t.me/s/US30Marketview",
+      "https://tgexplorer.com/us30-telegram-channels/"
+    ],
+    "research_notes": null
+  }
+}

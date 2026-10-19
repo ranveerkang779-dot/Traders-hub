@@ -1191,7 +1191,48 @@
         "kind": "synthetic",
         "src": "/strategies/wyckoff-method.png",
         "caption": "Synthetic price carving a trading range, a spring below it, and the markup that follows."
-      }
+      },
+      "step_by_step": [
+        {
+          "title": "Spot a trading range after a clear trend",
+          "detail": "Wyckoff setups start with a range, not a trend — look for price moving sideways after a prior downtrend (a possible accumulation range) or after a prior uptrend (a possible distribution range)."
+        },
+        {
+          "title": "Look for a selling climax or buying climax at the start",
+          "detail": "Accumulation often opens with a selling climax — a high-volume panic low — followed by an automatic rally and a secondary test that probes the low again on lighter volume. Distribution opens with the mirror image at the top."
+        },
+        {
+          "title": "Watch for a Spring (or Upthrust) near the end of the range",
+          "detail": "A Spring is a brief break below the range's support that quickly reclaims it — a trap that shakes out late sellers before markup. An Upthrust is the same trap above resistance, before markdown. This needs the range to be at least a couple of weeks old to mean much."
+        },
+        {
+          "title": "Check that the break happened on light volume and the reclaim on heavier volume",
+          "detail": "A genuine Spring breaks support on relatively light volume (not much real selling pressure), then reclaims the range on expanding volume (real buying stepping in) — that volume signature is what separates a Spring from an actual breakdown."
+        },
+        {
+          "title": "Wait for the Sign of Strength (SOS) or Sign of Weakness (SOW)",
+          "detail": "After the Spring, look for a strong, wide-spread rally back through the range on rising volume — that's the Sign of Strength confirming accumulation is turning into markup. Distribution's mirror is a Sign of Weakness after an Upthrust."
+        },
+        {
+          "title": "Enter on the Last Point of Support (LPS) after the SOS",
+          "detail": "The LPS is a shallow pullback after the Sign of Strength that holds above the Spring low — this is read as the lowest-risk entry in the whole sequence, rather than entering right at the Spring itself."
+        },
+        {
+          "title": "Place your stop below the Spring low",
+          "detail": "The Spring low is the structural level that, if broken again, tells you the accumulation read was wrong — that's where the stop goes, for both the Spring entry and the LPS entry."
+        },
+        {
+          "title": "Target with a point-and-figure count or the next major resistance",
+          "detail": "Wyckoff's own method pairs with point-and-figure counting to project how far the markup phase might carry; absent that, the next obvious resistance level from the prior trend is a simpler target."
+        }
+      ],
+      "videos": [
+        {
+          "title": "How to Spot Accumulation and Distribution — Wyckoff Ranges Explained",
+          "url": "https://www.youtube.com/watch?v=kR-DW06k-Bs",
+          "note": "Explains how high price with declining volume points to possible distribution, and low price with rising volume points to possible accumulation — the volume read that sits underneath the whole Wyckoff method."
+        }
+      ]
     },
     {
       "ref_id": "T2-02",
@@ -1255,7 +1296,52 @@
         "StockCharts/Investopedia volume-analysis articles"
       ],
       "controversy_flag": false,
-      "image": null
+      "image": {
+        "kind": "synthetic",
+        "src": "/strategies/volume-spread-analysis.png",
+        "caption": "A synthetic chart with volume below it, marking a 'no demand' bar and a 'stopping volume' bar."
+      },
+      "step_by_step": [
+        {
+          "title": "Establish context first",
+          "detail": "Before reading any single bar, know the broader trend and mark your key support, resistance, supply and demand levels — a VSA signal only means something relative to where it happens."
+        },
+        {
+          "title": "Learn to read the three things on every bar",
+          "detail": "Every bar has a spread (its high-to-low range), a close position (where the close sits within that range), and a volume reading — VSA is built entirely from comparing these three against the bars around them."
+        },
+        {
+          "title": "Watch for a signal at a level",
+          "detail": "Look for 'no demand' (an up bar with a narrow spread and low volume — weak buying), 'no supply' (the mirror on a down bar), or a climax — unusually high volume at a major extreme, often signalling exhaustion of the move."
+        },
+        {
+          "title": "Treat a single VSA bar as a warning, not a trigger",
+          "detail": "One no-demand bar or one stopping-volume bar isn't an entry signal on its own — it just flags that something has shifted. Wait for the next bar or two to show the shift actually playing out."
+        },
+        {
+          "title": "Confirm with the follow-through bar",
+          "detail": "A no-demand bar followed by an actual down bar adds real weight to a bearish read; stopping volume (high volume, narrow spread, closing well off the low) followed by a strong up bar adds weight to a bullish one."
+        },
+        {
+          "title": "Look specifically for the accumulation setup",
+          "detail": "A series of narrow-range candles on declining volume after a sell-off, followed by a sudden wide-spread up candle on rising volume, is read as supply drying up and demand stepping back in."
+        },
+        {
+          "title": "Enter on the breakout candle or a pullback into the accumulation zone",
+          "detail": "Once the setup confirms, enter either on the breakout bar itself or wait for a pullback that holds the accumulation zone for a better-priced entry."
+        },
+        {
+          "title": "Set your stop below key support and aim for at least a 2:1 reward-to-risk",
+          "detail": "Stops go below the support level the VSA analysis was built around; a 2:1 reward-to-risk ratio is the commonly cited minimum worth taking the setup for."
+        }
+      ],
+      "videos": [
+        {
+          "title": "Volume Spread Analysis for Beginners",
+          "url": "https://www.youtube.com/watch?v=NVhh_KbQ_Iw",
+          "note": "Covers the core VSA patterns — No Demand, Stopping Volume, Climactic Bars — and how they're used for reversals, breakouts and continuation setups."
+        }
+      ]
     },
     {
       "ref_id": "T2-03",
@@ -1319,7 +1405,52 @@
         "Dalton, \"Mind Over Markets\""
       ],
       "controversy_flag": false,
-      "image": null
+      "image": {
+        "kind": "synthetic",
+        "src": "/strategies/market-profile.png",
+        "caption": "A synthetic TPO-style volume histogram with the point of control and value area marked."
+      },
+      "step_by_step": [
+        {
+          "title": "Mark yesterday's value area and POC before the session opens",
+          "detail": "Note the prior session's Value Area High (VAH), Value Area Low (VAL) and Point of Control (POC) — these become today's primary reference levels until the new session builds its own."
+        },
+        {
+          "title": "Watch the opening type",
+          "detail": "Note whether the market opens inside yesterday's value, right at the edge, or outside it entirely — the opening type shapes what kind of session (trend day, rotational day, or a test-and-fail day) is more likely."
+        },
+        {
+          "title": "Track the initial balance",
+          "detail": "The initial balance (typically the first hour) sets an early reference range — watch whether later activity stays within it (suggesting more rotation) or extends it (suggesting a trend day)."
+        },
+        {
+          "title": "Read the market's state: balance or imbalance",
+          "detail": "In balance, favour mean reversion — fade extremes, target the middle. In imbalance (a clear directional move), favour trend following — trade with the move and let it run rather than fading it."
+        },
+        {
+          "title": "Use the value area to find levels, then wait for order-flow confirmation",
+          "detail": "The three-step read is market state, then location (use low-volume nodes and the POC to find levels that matter), then aggression (wait for order-flow confirmation — big prints, footprint imbalances, strong delta pressure) before acting."
+        },
+        {
+          "title": "Apply the 80% rule when relevant",
+          "detail": "If price opens outside the prior value area and then re-enters it for two full TPO periods, that's read as a signal the market may traverse all the way to the other side of value."
+        },
+        {
+          "title": "Watch for acceptance vs. rejection at key nodes",
+          "detail": "Acceptance means multiple TPOs print at a level (the market is willing to trade there); rejection means only one or two quick TPOs before a reversal (the market tried the level and moved on)."
+        },
+        {
+          "title": "The highest-conviction signal: a failed auction",
+          "detail": "A failed auction is a breakout that gets essentially no volume follow-through and reverses violently. The read: enter on the first close back inside the range, targeting the far side."
+        }
+      ],
+      "videos": [
+        {
+          "title": "How To Use Market Profile [START NOW]",
+          "url": "https://www.youtube.com/watch?v=bpravMgflLc",
+          "note": "Covers the market-profile basics needed to get started — reading the market in three dimensions and finding where value actually is, rather than just reading a single price line."
+        }
+      ]
     },
     {
       "ref_id": "T2-04",
@@ -1385,7 +1516,52 @@
         "Investopedia, \"Volume Profile\""
       ],
       "controversy_flag": false,
-      "image": null
+      "image": {
+        "kind": "synthetic",
+        "src": "/strategies/volume-profile.png",
+        "caption": "A synthetic chart with its volume profile alongside, showing the point of control and value area."
+      },
+      "step_by_step": [
+        {
+          "title": "Add a Volume Profile to your chart for the session or range you care about",
+          "detail": "Most platforms offer a 'Session Volume Profile' or 'Visible Range Volume Profile' — this draws the horizontal histogram of how much volume traded at each price level."
+        },
+        {
+          "title": "Identify the Point of Control (POC)",
+          "detail": "The POC is the single price with the most traded volume — it acts like a magnet, with price tending to be pulled back toward it when it drifts away."
+        },
+        {
+          "title": "Mark the Value Area High and Low (VAH/VAL)",
+          "detail": "The value area is the price band containing about 68.2% of the volume traded in that session, bounded by the VAH above and VAL below — this is your reference 'fair value' zone for the period."
+        },
+        {
+          "title": "Note the high- and low-volume nodes (HVN/LVN)",
+          "detail": "HVNs are price areas with heavy volume, acting as equilibrium or support/resistance zones where price tends to pause. LVNs are areas price moved through quickly with little volume, and tend to get traversed quickly again if revisited."
+        },
+        {
+          "title": "For a POC rejection trade: confirm balance first",
+          "detail": "Only take this setup when the market is inside the value area (balanced, not trending hard). Wait for price to touch the POC and print a rejection candle, then enter with a stop beyond the nearest LVN, targeting the opposite side of the value area."
+        },
+        {
+          "title": "For a value-area breakout trade: wait for the retest",
+          "detail": "When price closes decisively outside the VAH or VAL, wait for a pullback to retest the broken boundary. Enter on the rejection of that retest, with a stop back inside the value area and a target at the next HVN."
+        },
+        {
+          "title": "For an LVN traversal trade: move fast and keep the stop tight",
+          "detail": "When price enters a low-volume node with momentum, there's little resting interest to slow it down — enter in the direction of the traversal, target the next HVN, and keep the stop tight since these trades either work quickly or don't."
+        },
+        {
+          "title": "Use HVNs for stops, not arbitrary distances",
+          "detail": "Placing stops just beyond a high-volume node (rather than a fixed point or percentage) reduces the odds of being stopped out by normal chop while still protecting against a genuine break of the level."
+        }
+      ],
+      "videos": [
+        {
+          "title": "VOLUME PROFILE: How to Trade Point of Control (POC)",
+          "url": "https://www.youtube.com/watch?v=rxE_ZLOW12Q",
+          "note": "Breaks down POC, value area, HVNs and LVNs, and how the volume profile indicator reveals support and resistance most traders reading price alone would miss."
+        }
+      ]
     },
     {
       "ref_id": "T2-05",
@@ -1450,7 +1626,52 @@
         "Chague, De-Losso & Giovannetti (2020)"
       ],
       "controversy_flag": false,
-      "image": null
+      "image": {
+        "kind": "synthetic",
+        "src": "/strategies/order-flow-footprint-charts.png",
+        "caption": "A synthetic chart with a delta panel below, marking an absorption point — strong delta without matching price progress."
+      },
+      "step_by_step": [
+        {
+          "title": "Choose a liquid market and a manageable timeframe",
+          "detail": "Start with liquid futures or large-cap instruments and use 5- or 15-minute charts for day trading — footprint data is dense, and a less liquid market or very short timeframe makes it much harder to read cleanly."
+        },
+        {
+          "title": "Establish the broader context before reading individual candles",
+          "detail": "Check the current trend and the main support/resistance levels on a higher timeframe first — a footprint reading means very different things depending on where it happens relative to that context."
+        },
+        {
+          "title": "Understand what delta is actually measuring",
+          "detail": "Delta is the net difference between buying and selling volume (volume at the ask minus volume at the bid) within a bar — it tells you which side was more aggressive, not just how much total volume traded."
+        },
+        {
+          "title": "Read delta as a pattern across several bars, not one bar at a time",
+          "detail": "An ongoing positive delta through an uptrend confirms healthy demand behind the move; a drop in delta during a rally — even while price keeps rising — signals weakening participation and a possible reversal ahead."
+        },
+        {
+          "title": "Identify volume clusters and imbalances at key levels",
+          "detail": "Look for large-volume clusters and scan for pronounced buy/sell imbalances at technical levels — these mark where real interest sat, not just where price happened to pause."
+        },
+        {
+          "title": "Watch for absorption as a reversal signal",
+          "detail": "Absorption is aggressive buying or selling that fails to move price through a level — positive delta isn't automatically bullish if price can't actually make new highs on it. This is one of the highest-value, hardest-to-fake signals in order flow reading."
+        },
+        {
+          "title": "Use a breakout with rising cumulative delta as confirmation",
+          "detail": "When price breaks a tight range on rising volume and cumulative delta shows a strong, matching surge, that's read as confirmation the breakout has genuine aggressive buying (or selling) behind it, not just thin volume."
+        },
+        {
+          "title": "Enter at the level, with a stop a few ticks beyond the absorption point",
+          "detail": "A typical entry comes right after absorption plus a delta flip in a new direction, with the stop placed just a few ticks beyond the level that absorbed the aggression — order flow trades are usually managed with tight, level-based risk."
+        }
+      ],
+      "videos": [
+        {
+          "title": "Order Flow Trading - Introduction to the Footprint Chart Step by Step",
+          "url": "https://www.youtube.com/watch?v=fXm93hjzJ7o",
+          "note": "A step-by-step introduction to one of the core order-flow tools — reading individual price levels within a candle rather than just the candle's open, high, low and close."
+        }
+      ]
     },
     {
       "ref_id": "T2-06",
@@ -1520,7 +1741,48 @@
         "kind": "synthetic",
         "src": "/strategies/anchored-vwap.png",
         "caption": "Synthetic price with a volume-weighted average price line anchored from the start of the move."
-      }
+      },
+      "step_by_step": [
+        {
+          "title": "Pick an anchor point that reflects something real",
+          "detail": "Good anchors are a major swing high or low, the start of a trading day, a breakout of a key level, or a news/earnings event — the point should mark a genuine shift, not an arbitrary spot on the chart."
+        },
+        {
+          "title": "Anchor the VWAP there and let it run forward",
+          "detail": "Unlike standard session VWAP, an anchored VWAP never resets — it keeps calculating the volume-weighted average price from your chosen anchor point onward, showing whether buyers (or sellers) since that point are, on average, in profit."
+        },
+        {
+          "title": "Read the line as a dynamic support/resistance level",
+          "detail": "Price holding above a rising anchored VWAP suggests buyers from that anchor point are still in control; repeated rejection from below suggests sustained selling pressure and a possible trend reversal."
+        },
+        {
+          "title": "For a pullback trade: wait for price to return to the line",
+          "detail": "After anchoring to a major swing high or low, wait for price to pull back and touch the anchored VWAP, then look for a confirmation signal — a candlestick pattern or a pickup in volume — before entering."
+        },
+        {
+          "title": "For a volume-profile-based anchor: find the real accumulation point",
+          "detail": "Identify a rotation with heavy volume followed by a strong trend move, then anchor the VWAP to the last candle of that rotation — usually the first candle of the move — since that's where the position-building is thought to have happened."
+        },
+        {
+          "title": "Enter on a bounce with volume support",
+          "detail": "If price pulls back to the anchored VWAP and bounces off it with a visible pickup in volume, that's read as buyers stepping back in — a reasonably high-confidence entry with a clear, logical stop just below the line."
+        },
+        {
+          "title": "Treat a loss of the line as a regime change",
+          "detail": "If price closes clearly through the anchored VWAP against the prevailing read, treat that as a signal the balance of control has shifted, not just a normal pullback."
+        },
+        {
+          "title": "Place the stop below the anchored VWAP line itself",
+          "detail": "Because the line is the whole basis for the trade, a close back below it (for a long) is the natural, rule-based place to be proven wrong and exit."
+        }
+      ],
+      "videos": [
+        {
+          "title": "Anchored VWAP Deep Dive With Brian Shannon",
+          "url": "https://www.youtube.com/watch?v=XUjzyGXBy7A",
+          "note": "A deep dive with the trader who popularised anchored VWAP as a retail tool, covering what it is and how it's actually used in practice."
+        }
+      ]
     },
     {
       "ref_id": "T2-07",
@@ -1593,7 +1855,48 @@
         "kind": "synthetic",
         "src": "/strategies/ict-smart-money-concepts.png",
         "caption": "Synthetic price sweeping a prior swing low before reversing higher."
-      }
+      },
+      "step_by_step": [
+        {
+          "title": "Identify the liquidity zone being targeted",
+          "detail": "Mark equal highs/lows, the previous session's high/low, or a clear range boundary — these are where stop-losses and breakout orders are assumed to cluster, making them the 'liquidity' this method is built around hunting."
+        },
+        {
+          "title": "Wait for the sweep",
+          "detail": "A liquidity sweep is price breaking beyond that level — even by a small amount — before reversing. The sweep alone is not an entry signal; it's the first of several steps that need to line up."
+        },
+        {
+          "title": "Watch for a structural reversal signal",
+          "detail": "After the sweep, look for a rejection candle, a Change of Character (CHoCH), or a close back on the other side of the swept level — this is what separates a genuine reversal from price simply continuing through."
+        },
+        {
+          "title": "Locate the order block or Fair Value Gap that formed",
+          "detail": "An order block is the last opposing candle before the strong move that followed the sweep. A Fair Value Gap (FVG) is a three-candle imbalance where price moved too fast to trade every level in between — both are treated as the structural entry zone."
+        },
+        {
+          "title": "Wait for the retest",
+          "detail": "Rather than chasing price immediately after the reversal, wait for it to pull back into the order block or FVG before considering an entry — this is the 'discount' entry the method is built around."
+        },
+        {
+          "title": "Enter on the retest, in the direction of the post-sweep reversal",
+          "detail": "The entry comes on the retrace into the order block or FVG, not on the initial sweep or the initial reversal candle."
+        },
+        {
+          "title": "Place the stop beyond the sweep",
+          "detail": "The stop sits just beyond the extreme of the liquidity sweep — if price takes that level out again, the setup is invalidated."
+        },
+        {
+          "title": "Target the next pool of opposing liquidity",
+          "detail": "The typical target is the next obvious liquidity pool on the other side — another equal-highs/lows cluster, or the next untested swing point — rather than an arbitrary fixed distance."
+        }
+      ],
+      "videos": [
+        {
+          "title": "ICT Smart Money Concepts Explained: Liquidity, FVG & Order Blocks",
+          "url": "https://www.youtube.com/watch?v=QrYW_qzWmrg",
+          "note": "Covers the core vocabulary — liquidity, Fair Value Gaps and order blocks — that the rest of this methodology is built from."
+        }
+      ]
     },
     {
       "ref_id": "T2-08",
@@ -1668,7 +1971,48 @@
         "kind": "synthetic",
         "src": "/strategies/elliott-wave-theory.png",
         "caption": "A schematic five-wave impulse followed by a corrective move, labelled 0 through C."
-      }
+      },
+      "step_by_step": [
+        {
+          "title": "Start on the highest timeframe you trade and work down",
+          "detail": "Begin with the weekly chart to establish the larger trend if you're a swing trader, then move to the daily chart to refine the wave count — counting on a single timeframe in isolation is a common source of bad counts."
+        },
+        {
+          "title": "Look for the five-wave impulse pattern",
+          "detail": "In the direction of the larger trend, look for five distinct pivots: waves 1, 3 and 5 push in the trend direction, while waves 2 and 4 are corrective pauses against it."
+        },
+        {
+          "title": "Apply the three hard rules to validate the count",
+          "detail": "Wave 2 can never retrace more than 100% of wave 1. Wave 3 can never be the shortest of waves 1, 3 and 5. And wave 4 can never overlap wave 1's price territory (in most markets). A count that breaks any of these isn't a valid Elliott count, no matter how it looks."
+        },
+        {
+          "title": "Check that waves 2 and 4 alternate in character",
+          "detail": "If wave 2 was a sharp, fast correction (like a zigzag), wave 4 is expected to unfold as something slower and sideways (a flat, triangle, or combination) — and vice versa. This 'rule of alternation' is a guideline, not a hard rule, but it's a useful sanity check."
+        },
+        {
+          "title": "Use Fibonacci tools to refine wave starts and ends",
+          "detail": "Fibonacci retracement and extension tools help pinpoint where a wave is likely to begin and end, and project targets for wave 3 and wave 5 based on the size of wave 1."
+        },
+        {
+          "title": "Look for the highest-probability entry: a completed wave 2",
+          "detail": "The classic Elliott entry waits for wave 1 to complete and wave 2 to pull back without breaking the 100%-retracement rule, then enters as price reclaims the wave 1 high — positioning for wave 3, which is typically the longest, strongest wave in the sequence."
+        },
+        {
+          "title": "Place the stop below the wave 2 low",
+          "detail": "This is the rule-based invalidation point: if price takes out the wave 2 low, the count itself is wrong, and the stop should already have taken you out."
+        },
+        {
+          "title": "Treat every count as provisional",
+          "detail": "Elliott counts are regularly revised as new price action comes in — a count that looked clean yesterday can need reinterpreting today. Hold the count loosely and let the three hard rules, not a committed narrative, decide when it's broken."
+        }
+      ],
+      "videos": [
+        {
+          "title": "The ULTIMATE Beginner's Guide to the ELLIOTT WAVE THEORY",
+          "url": "https://www.youtube.com/watch?v=-LbR7SK_lAA",
+          "note": "Positioned as a from-scratch introduction to Elliott Wave, useful given how broad and easy to get lost in this topic can be for a first pass."
+        }
+      ]
     },
     {
       "ref_id": "T2-09",
@@ -1734,7 +2078,52 @@
         "de Souza et al. (2021)"
       ],
       "controversy_flag": true,
-      "image": null
+      "image": {
+        "kind": "synthetic",
+        "src": "/strategies/harmonic-patterns.png",
+        "caption": "A schematic X-A-B-C-D harmonic pattern with its Potential Reversal Zone (PRZ) marked at point D."
+      },
+      "step_by_step": [
+        {
+          "title": "Learn one pattern thoroughly before moving to others",
+          "detail": "The Gartley is the most recognisable structure and the usual starting point — spend time identifying it on historical charts before trying to trade any harmonic pattern live."
+        },
+        {
+          "title": "Identify the X-A-B-C-D swing structure",
+          "detail": "Every harmonic pattern is built from five points (X, A, B, C, D) and four legs (XA, AB, BC, CD) — mark these swing points on the chart using a zigzag or your own eye for clear pivots."
+        },
+        {
+          "title": "Measure each leg against its required Fibonacci ratio",
+          "detail": "Gartley: B near 61.8% of XA, D near 78.6%. Bat: B around 38.2–50% of XA, D near 88.6%. Butterfly: B near 78.6%, D between 127–161.8% (past point X). Crab: D as far as 161.8% of XA, deeper than the others. A pattern only counts if its ratios land inside tolerance, typically within about 3 percentage points."
+        },
+        {
+          "title": "Mark the Potential Reversal Zone (PRZ) at point D",
+          "detail": "The PRZ is the price zone where point D is expected to complete, based on the confluence of the pattern's required ratios — this is the area you're watching for a reaction, not a single exact price."
+        },
+        {
+          "title": "Wait for a reversal candle inside the PRZ",
+          "detail": "Don't enter purely because price has reached the PRZ — wait for an actual reversal candle (an engulfing bar, a pin bar, or similar) to confirm the zone is holding before acting."
+        },
+        {
+          "title": "Enter at point D on the confirmation candle",
+          "detail": "The entry comes once the PRZ has produced its reversal confirmation, not on the first touch of the zone."
+        },
+        {
+          "title": "Place the stop beyond point D or point X",
+          "detail": "A stop just beyond the PRZ (tighter) or beyond point X itself (wider, more conservative) defines the maximum risk if the pattern simply fails to hold."
+        },
+        {
+          "title": "Target the 38.2% and 61.8% retracements of the CD leg",
+          "detail": "These are the standard first and second profit targets once the pattern plays out, measured back against the most recent leg into point D."
+        }
+      ],
+      "videos": [
+        {
+          "title": "Harmonic Patterns - Gartley Pattern Introduction by Scott Carney",
+          "url": "https://www.youtube.com/watch?v=-cpeZfcqfe8",
+          "note": "An introduction to the Gartley from Scott Carney, one of the people who formalised modern harmonic trading — a credible place to start before the many derivative tutorials out there."
+        }
+      ]
     },
     {
       "ref_id": "T2-10",
@@ -1801,7 +2190,52 @@
         "Brown (2026), SSRN working paper 6918818"
       ],
       "controversy_flag": true,
-      "image": null
+      "image": {
+        "kind": "synthetic",
+        "src": "/strategies/gann-methods.png",
+        "caption": "A synthetic chart with a Gann angle fan (1x1, 2x1, 1x2) drawn from a swing low."
+      },
+      "step_by_step": [
+        {
+          "title": "Mark a major swing high or low as your anchor point",
+          "detail": "Gann angles are drawn from a significant pivot — a major high or low on the timeframe you're analysing — exactly like a trendline, but with a fixed price-per-time rate rather than a freehand slope."
+        },
+        {
+          "title": "Draw the 1×1 angle first",
+          "detail": "The 1×1 (45-degree) angle represents one price unit per one time unit and is treated as the 'balance line' — price staying above it from a major low is read as a bullish structure."
+        },
+        {
+          "title": "Add the other angles for a full fan",
+          "detail": "A 2×1 angle (two price units per time unit) represents a steep, strong trend; a 1×2 angle (one price unit per two time units) represents a weak, slow one. Drawing all nine standard angles from one pivot creates a fan across the chart."
+        },
+        {
+          "title": "Watch how price interacts with each angle",
+          "detail": "Read price holding above the 1×1 from a low as bullish strength; a break of one angle is read as a shift down to the next one, roughly like a trend losing a gear."
+        },
+        {
+          "title": "Calculate Square of Nine levels for support/resistance",
+          "detail": "Take the square root of the current price, add or subtract a rotation factor (0.125 for a 45° step, 0.25 for 90°), then square the result — the output is a projected support or resistance level from Gann's spiral-grid method."
+        },
+        {
+          "title": "Layer in time cycles from the same anchor",
+          "detail": "Project forward from your anchor point using the Square of Nine or Gann's standard cycle intervals to mark dates where a turn is considered more likely — the idea is that price and time should be 'balanced' for a reversal to be high-confidence."
+        },
+        {
+          "title": "Look for price and time agreement",
+          "detail": "The core Gann idea is that a turning point is most significant when a projected price level and a projected time cycle point to the same area of the chart at once — either alone is treated as weaker evidence."
+        },
+        {
+          "title": "Confirm with ordinary technical analysis before acting",
+          "detail": "Given how much of Gann's own track record is undocumented and how subjective angle-drawing can be, treat any Gann signal as something to confirm with price action, volume or another independent method — not to trade in isolation."
+        }
+      ],
+      "videos": [
+        {
+          "title": "Gann Square Tutorial for Beginners - Find Entries and Exits",
+          "url": "https://www.youtube.com/watch?v=D5lnjk8sdlo",
+          "note": "A beginner-pitched walkthrough of the Gann Square on a real chart example, useful since the Square of Nine's own mechanics are the hardest part of this method to picture without seeing it applied."
+        }
+      ]
     },
     {
       "ref_id": "T2-11",
@@ -1868,7 +2302,52 @@
         "StockCharts ChartSchool, \"Fibonacci Retracements\""
       ],
       "controversy_flag": false,
-      "image": null
+      "image": {
+        "kind": "synthetic",
+        "src": "/strategies/fibonacci-confluence.png",
+        "caption": "A synthetic chart with Fibonacci levels from two different swings clustering into one confluence zone."
+      },
+      "step_by_step": [
+        {
+          "title": "Draw the largest active swing's retracement levels first",
+          "detail": "Start with the most significant recent swing on your trading timeframe and plot the standard retracement levels (38.2%, 50%, 61.8%, etc.) across it."
+        },
+        {
+          "title": "Add extensions from the same swing",
+          "detail": "Draw both support and resistance extensions from that same swing, projecting beyond the original move — these often land in different places than the retracement levels and add more candidate lines to the chart."
+        },
+        {
+          "title": "Repeat on a shorter-term swing",
+          "detail": "Draw retracement levels for a smaller, more recent swing within the same trend — this is what actually produces the clustering, since two independent swings rarely put their Fibonacci levels in exactly the same place by chance alone."
+        },
+        {
+          "title": "Go multi-timeframe if you trade one",
+          "detail": "On the daily chart, mark retracement levels from the highest/lowest prices over the last 5–20 days; on the 4-hour or 1-hour chart, do the same over a shorter 2–7 day window — each timeframe's add another independent set of levels to check for overlap."
+        },
+        {
+          "title": "Identify where levels cluster",
+          "detail": "A cluster is where two or more independently-drawn levels land within about 0.5–2% of each other; three or more overlapping lines is treated as a higher-confidence zone than two."
+        },
+        {
+          "title": "Treat the cluster as a 'where', not a 'when'",
+          "detail": "A Fibonacci cluster only tells you where a reaction is more likely — it says nothing about timing. Always wait for actual price action (a pin bar, an engulfing candle, or divergence on a momentum indicator) to confirm the zone before acting."
+        },
+        {
+          "title": "Enter on the confirmed bounce, with the trend",
+          "detail": "The highest-consensus way to use this is trading with the established trend as price pulls back into a confluence zone, rather than using clusters to pick tops and bottoms against the trend."
+        },
+        {
+          "title": "Place the stop just beyond the cluster zone",
+          "detail": "A stop slightly past the far edge of the cluster (not right at the first touched level) gives the zone room to work while still defining a clear point where the read was wrong."
+        }
+      ],
+      "videos": [
+        {
+          "title": "The Only Fibonacci Trading Guide You'll Ever Need (2026 Simple Method)",
+          "url": "https://www.youtube.com/watch?v=KqLWdpWz7xU",
+          "note": "A simplified, modern walkthrough of Fibonacci retracement and extension use, useful groundwork before layering multiple swings into a confluence read."
+        }
+      ]
     },
     {
       "ref_id": "T2-12",
@@ -1933,7 +2412,52 @@
         "Ehlers, \"Cycle Analytics for Traders\""
       ],
       "controversy_flag": false,
-      "image": null
+      "image": {
+        "kind": "synthetic",
+        "src": "/strategies/cycle-analysis.png",
+        "caption": "A fabricated price cycle against its forward-displaced FLD line, with the crossings marking phase changes."
+      },
+      "step_by_step": [
+        {
+          "title": "Gather enough data",
+          "detail": "Cycle analysis needs a long history to work with — a common rule of thumb is at least 10 times the length of the longest cycle you're trying to detect, so this isn't a method for a thinly-traded or newly-listed instrument."
+        },
+        {
+          "title": "Run a spectral analysis to find candidate cycles",
+          "detail": "Tools built on methods like the Goertzel algorithm scan the price history for repeating rhythms of different lengths — this step is what actually surfaces the candidate cycle periods, rather than guessing them by eye."
+        },
+        {
+          "title": "Statistically validate what you find",
+          "detail": "Not every apparent rhythm in price is a real, persistent cycle — statistical tests (such as the Bartels test) are used to check whether a detected cycle is more likely to be real signal or just noise."
+        },
+        {
+          "title": "Identify the dominant cycle",
+          "detail": "Among the validated candidates, the dominant cycle is the one that appears to drive more of the price behaviour than any other — this becomes the main cycle you build your timing around."
+        },
+        {
+          "title": "Build a Future Line of Demarcation (FLD)",
+          "detail": "The FLD is a smoothed price line displaced forward by about half the dominant cycle's length — it's the core tool for spotting phase changes (a trough or peak forming) ahead of time rather than after the fact."
+        },
+        {
+          "title": "Read price crossing the FLD as a signal",
+          "detail": "Price crossing above the FLD suggests a cycle trough (a bottom) is forming; crossing below suggests a cycle crest (a top) is forming."
+        },
+        {
+          "title": "Check for multi-timeframe alignment",
+          "detail": "The strongest signals are considered to be when short, medium and long cycles all point in the same direction at once — a single short cycle signal against the grain of longer cycles is weaker evidence."
+        },
+        {
+          "title": "Treat this as a probabilistic timing tool, not a prediction engine",
+          "detail": "Cycle analysis projects where a turn is more likely, not a guaranteed date — combine it with ordinary price confirmation before treating a projected cycle trough or crest as an actual signal to act on."
+        }
+      ],
+      "videos": [
+        {
+          "title": "Understanding Cycle Analysis - Forecasting the stock markets in time and price",
+          "url": "https://www.youtube.com/watch?v=KeESGbF8D4g",
+          "note": "Covers how cycle-based forecasting combines both time and price, which is the core idea behind Hurst-style cycle analysis specifically."
+        }
+      ]
     },
     {
       "ref_id": "T2-13",
@@ -2000,7 +2524,52 @@
         "Elliott (Nicole), \"Ichimoku Charts\""
       ],
       "controversy_flag": false,
-      "image": null
+      "image": {
+        "kind": "synthetic",
+        "src": "/strategies/ichimoku-advanced.png",
+        "caption": "A synthetic chart with the full Ichimoku cloud, Tenkan-sen and Kijun-sen plotted."
+      },
+      "step_by_step": [
+        {
+          "title": "Check price relative to the cloud (Kumo)",
+          "detail": "Price trading above the cloud is read as a bullish trend; below the cloud, bearish; and inside the cloud, no clear trend — this is the first, broadest read before looking at anything else."
+        },
+        {
+          "title": "Check the cloud's own colour",
+          "detail": "When Senkou Span A sits above Senkou Span B, the cloud is bullish (usually shaded one colour); when A is below B, it's bearish — a bullish cloud ahead of price adds confidence to an uptrend read."
+        },
+        {
+          "title": "Check the Tenkan-Kijun relationship",
+          "detail": "The Tenkan-sen (faster line) crossing above the Kijun-sen (slower line) is a bullish signal, similar in spirit to a fast/slow moving-average cross — the mirror image is bearish."
+        },
+        {
+          "title": "Check the Chikou Span's position",
+          "detail": "The Chikou Span is the closing price plotted 26 periods back — it needs to be clear of price action from that period (above it for bullish setups, below it for bearish ones) to avoid conflicting with the other signals."
+        },
+        {
+          "title": "For the full bullish setup, require all four to agree",
+          "detail": "Price above the cloud, a bullish (green) cloud, Tenkan above Kijun, and Chikou clear above price from 26 periods ago — all four lining up together is treated as the highest-confidence long setup; the mirror applies for shorts."
+        },
+        {
+          "title": "For a breakout approach: wait for the Kumo break",
+          "detail": "When price is inside or near the cloud, note the direction of the prior trend, then enter on a clean break of the Kumo in that direction — with a stop on the opposite side of the cloud and a target around 2× the cloud's width or the next support/resistance."
+        },
+        {
+          "title": "For a pullback approach: use the Kijun-sen as a bounce level",
+          "detail": "In an established trend (price clearly above or below the cloud), wait for a pullback to the Kijun-sen, look for a confirmation candle (a hammer or engulfing bar), and enter in the direction of the larger trend."
+        },
+        {
+          "title": "Exit on a Kijun break or a close back into the cloud",
+          "detail": "A break of the Kijun-sen against your position, or a close back inside the cloud, is read as the trend losing its edge — treat either as the signal to exit or tighten the stop."
+        }
+      ],
+      "videos": [
+        {
+          "title": "Ichimoku Cloud: Ultimate Breakout Strategy [Advanced Guide]",
+          "url": "https://www.youtube.com/watch?v=ZtNQf9nNWVg",
+          "note": "An advanced-focused guide covering why many traders misuse the Ichimoku Cloud by reading only one of its five lines instead of the full picture."
+        }
+      ]
     },
     {
       "ref_id": "T2-14",
@@ -2069,7 +2638,52 @@
         "TradingView Help on non-standard chart backtesting"
       ],
       "controversy_flag": false,
-      "image": null
+      "image": {
+        "kind": "synthetic",
+        "src": "/strategies/renko-kagi-point-figure.png",
+        "caption": "A synthetic Renko brick chart, showing only moves of a set size rather than time-based candles."
+      },
+      "step_by_step": [
+        {
+          "title": "Pick your chart type based on what you want filtered out",
+          "detail": "Renko bricks and Kagi lines both filter out time and small price noise entirely, showing only moves of a set size — useful if ordinary candlesticks feel too noisy for the trend you're trying to read."
+        },
+        {
+          "title": "Set your Renko brick size",
+          "detail": "Choose a brick size appropriate to the instrument's typical volatility (often based on ATR) — too small and you're back to noisy charts, too large and you'll miss smaller, genuine trend changes."
+        },
+        {
+          "title": "Trade a Renko colour change as the core signal",
+          "detail": "A basic approach enters on a brick colour change (some traders wait for two consecutive bricks of the new colour, to filter out single-brick whipsaws) and exits on the colour flipping back."
+        },
+        {
+          "title": "Understand the Kagi line's thick/thin logic",
+          "detail": "Kagi lines switch between thin (Yin, bearish sentiment) and thick (Yang, bullish sentiment) only when price reverses by a set amount — the basic rule is buying when the line turns from thin to thick, and selling when it turns from thick to thin."
+        },
+        {
+          "title": "Set up a Point & Figure chart with X and O columns",
+          "detail": "P&F plots rising moves as a column of Xs and falling moves as a column of Os, with a new column only starting after a 3-box reversal — this produces an even more heavily filtered view than Renko or Kagi."
+        },
+        {
+          "title": "Trade the P&F double-top breakout",
+          "detail": "The classic P&F signal is an X column exceeding the high of the prior X column — a 'double top' breakout, read as a continuation or new-trend signal."
+        },
+        {
+          "title": "Use the P&F vertical count for a price target",
+          "detail": "P&F has its own long-standing method (associated with Dorsey Wright's work) for projecting price objectives from the width of a base, called a vertical count — this gives a target without needing a separate projection tool."
+        },
+        {
+          "title": "Set stops at the chart type's own structure",
+          "detail": "For P&F, the stop sits at the reversal that would invalidate the breakout column; for Renko, it's typically the recent brick extreme on the opposite side of the trade."
+        }
+      ],
+      "videos": [
+        {
+          "title": "Intraday Renko, Kagi, Line Break and P&F Charts: Tutorial",
+          "url": "https://www.youtube.com/watch?v=9q8VCvSgWzU",
+          "note": "Covers all three alternative chart types in one place, which helps since they share the same underlying goal of filtering out time and small noise, just via different rules."
+        }
+      ]
     },
     {
       "ref_id": "T2-15",
@@ -2141,7 +2755,48 @@
         "kind": "synthetic",
         "src": "/strategies/turtle-trading-donchian.png",
         "caption": "Synthetic price with 20-period Donchian channel highs and lows plotted."
-      }
+      },
+      "step_by_step": [
+        {
+          "title": "Add the Donchian Channel to your chart",
+          "detail": "The channel plots the highest high and lowest low over a set lookback period — the original Turtle system used 20 days (System 1) and 55 days (System 2) as its two core lengths."
+        },
+        {
+          "title": "Choose System 1 (faster) or System 2 (slower)",
+          "detail": "A shorter lookback (20 days) produces more frequent breakouts, suited to catching moves earlier but with more false starts. A longer one (55 days) produces fewer, potentially larger and more reliable trend signals."
+        },
+        {
+          "title": "Enter on a channel breakout",
+          "detail": "Buy when price breaks above the upper Donchian line (the highest high of the lookback window); sell short when it breaks below the lower line (the lowest low)."
+        },
+        {
+          "title": "Apply the System 1 filter if using the shorter system",
+          "detail": "The original rules skip a System 1 breakout if the prior breakout (within the last 20 days) was a winner — this was meant to avoid getting whipsawed by back-to-back false breakouts in choppy conditions."
+        },
+        {
+          "title": "Size the position using ATR, not a fixed amount",
+          "detail": "The Turtles sized positions with Units = (Account Value × Risk %) ÷ ATR — this means a 1-ATR price move represents roughly the same percentage risk regardless of which market or instrument is being traded."
+        },
+        {
+          "title": "Set the initial stop at 2× ATR from entry",
+          "detail": "This ties the stop to the instrument's own recent volatility rather than an arbitrary fixed distance, consistent with the same ATR-based sizing used for the position itself."
+        },
+        {
+          "title": "Exit on the opposite N-day breakout",
+          "detail": "A long position exits when price breaks the lower channel of the same lookback period used for entry (not a separate, shorter exit window) — this keeps the system fully mechanical and symmetric."
+        },
+        {
+          "title": "Pyramid into the position as it moves favourably",
+          "detail": "The original Turtles added units as the trade moved in their favour (while trailing stops with it), scaling into winners rather than betting the whole position size at the first breakout."
+        }
+      ],
+      "videos": [
+        {
+          "title": "Donchian Breakout — The Original Turtle Trading Strategy That Made $100M+",
+          "url": "https://www.youtube.com/watch?v=dZYEch4UbjY",
+          "note": "Covers the actual history behind the system — Richard Dennis's 1983 experiment testing whether trading could be taught by rules alone to complete beginners."
+        }
+      ]
     },
     {
       "ref_id": "T2-16",
@@ -2205,7 +2860,52 @@
         "Kim, Tse & Wald (2016), Journal of Financial Markets"
       ],
       "controversy_flag": false,
-      "image": null
+      "image": {
+        "kind": "synthetic",
+        "src": "/strategies/time-series-momentum.png",
+        "caption": "A synthetic multi-market view showing long and short momentum signals sized by volatility scaling."
+      },
+      "step_by_step": [
+        {
+          "title": "Pick a diversified set of markets",
+          "detail": "This strategy is built on spreading exposure across dozens of markets — a single instrument isn't really the point; diversification across asset classes is central to how the edge, if any, is expected to show up."
+        },
+        {
+          "title": "Measure each market's own past return",
+          "detail": "Each month, check whether an asset's return over the past 12 months (excess of cash) is positive or negative — this single sign is the entire directional signal for that asset."
+        },
+        {
+          "title": "Go long positive-momentum assets, short negative ones",
+          "detail": "If the 12-month excess return is positive, the system takes a long position; if negative, it takes a short — mechanically, with no discretionary override."
+        },
+        {
+          "title": "Measure each asset's recent realised volatility",
+          "detail": "Calculate the standard deviation of daily returns over a lookback window (commonly around 60 trading days), then annualise it — this is what the next step uses to size the position."
+        },
+        {
+          "title": "Scale the position to a target volatility level",
+          "detail": "Pick a target annualised risk level for the position (e.g. 10-15% for most assets, higher for something as volatile as crypto), then set Scaling Factor = Target Volatility ÷ Asset's Realised Volatility."
+        },
+        {
+          "title": "Size the position using the scaling factor",
+          "detail": "Position Size = Momentum Signal (+1 or −1) × Scaling Factor — a currently-volatile asset gets a smaller position, and a currently-calm one gets a larger position, so each contributes a more similar amount of risk to the overall book."
+        },
+        {
+          "title": "Rebalance monthly",
+          "detail": "Both the momentum signal and the volatility scaling are recalculated and the portfolio rebalanced on a monthly cycle, rather than reacting to day-to-day price swings."
+        },
+        {
+          "title": "Let volatility scaling be the main risk control",
+          "detail": "Rather than a traditional per-trade stop-loss, the position-sizing formula itself is the primary risk management tool in this style of system — a sign flip at the next rebalance is what closes or reverses a position."
+        }
+      ],
+      "videos": [
+        {
+          "title": "Master Momentum Trading with Python: Full Time-Series Strategy Breakdown",
+          "url": "https://www.youtube.com/watch?v=dC1Cl2E-Ixg",
+          "note": "A full breakdown of building a time-series momentum strategy, useful for seeing the mechanical, rules-based nature of this approach rather than a discretionary chart-reading method."
+        }
+      ]
     },
     {
       "ref_id": "T2-17",
@@ -2272,7 +2972,52 @@
         "Jegadeesh (1990), Journal of Finance"
       ],
       "controversy_flag": false,
-      "image": null
+      "image": {
+        "kind": "synthetic",
+        "src": "/strategies/connors-rsi-2.png",
+        "caption": "A synthetic chart with a 2-period RSI panel below, showing its much faster, noisier swings than a standard RSI."
+      },
+      "step_by_step": [
+        {
+          "title": "Apply the 200-day SMA trend filter",
+          "detail": "Before market close, scan for instruments closing above their 200-day simple moving average as candidates for long trades; for shorts, look at instruments closing below it. This system only trades with the long-term trend."
+        },
+        {
+          "title": "Set RSI to a 2-period length",
+          "detail": "This is the unusually short setting the whole system is named after — far shorter than the standard 14-period RSI, making it react to very short-term price swings rather than broader momentum."
+        },
+        {
+          "title": "Wait for RSI(2) to drop below 10 (within an uptrend)",
+          "detail": "A 2-period RSI reading below 10 is considered deeply oversold — this is the trigger condition for a long candidate that's already passed the 200-day SMA filter. More aggressive versions use a threshold of 5 instead of 10."
+        },
+        {
+          "title": "Use the close, not an intrabar trigger",
+          "detail": "Connors' original approach enters using the closing price — either a market-on-close order to capture that day's close, or a next-day order at or near it — rather than reacting to RSI mid-bar."
+        },
+        {
+          "title": "Check that you don't already have a position open",
+          "detail": "The more aggressive versions of this system specifically require no existing position in that instrument before adding a new entry, to avoid stacking size into the same short-term dip repeatedly."
+        },
+        {
+          "title": "Exit once price closes above its 5-day moving average",
+          "detail": "Connors' published exit rule is mechanical: close the long once the price closes back above the 5-day moving average — or alternatively, once RSI(2) itself climbs back above roughly 60-80, signalling the short-term reversion has played out."
+        },
+        {
+          "title": "Know this system was originally published without a stop-loss",
+          "detail": "Connors' original design didn't use a traditional stop-loss, arguing the short holding period and trend filter managed the risk instead — this is a well-documented weakness worth knowing about, not a feature to copy blindly."
+        },
+        {
+          "title": "Consider adding your own risk control",
+          "detail": "Given the no-stop design is a known gap, many traders using this system in practice add a hard stop-loss of their own (e.g. a fixed percentage, or an ATR multiple) rather than relying purely on the exit rule to eventually trigger."
+        }
+      ],
+      "videos": [
+        {
+          "title": "New Improved! 2 Period RSI Trading Strategy",
+          "url": "https://www.youtube.com/watch?v=gvzCDqjccLs",
+          "note": "Walks through an updated take on the classic 2-period RSI mean-reversion approach, applied to a major index."
+        }
+      ]
     },
     {
       "ref_id": "T2-18",
@@ -2340,7 +3085,52 @@
         "Investopedia, \"Triple Screen Trading System\""
       ],
       "controversy_flag": false,
-      "image": null
+      "image": {
+        "kind": "synthetic",
+        "src": "/strategies/elder-triple-screen.png",
+        "caption": "A synthetic chart showing the 48-period 'Tide' moving average above a Stochastic 'Wave' oscillator panel."
+      },
+      "step_by_step": [
+        {
+          "title": "Pick your trading timeframe, then derive the other two from it",
+          "detail": "Decide which timeframe you actually want to trade on first — everything else is built relative to it: one higher timeframe for context, one lower for precision timing."
+        },
+        {
+          "title": "Screen 1 — read the long-term trend (the Tide)",
+          "detail": "On the higher timeframe, use a trend-following indicator — Elder's original used a 48-period moving average: price above it suggests an uptrend, below it a downtrend. Only trade in the direction this screen shows."
+        },
+        {
+          "title": "Screen 2 — find the retracement (the Wave)",
+          "detail": "On your actual trading timeframe, use an oscillator (Elder suggested Stochastic, RSI or Williams %R) to spot pullbacks against the Tide — these pullbacks are where the entry opportunities come from, not the trend moves themselves."
+        },
+        {
+          "title": "Wait for the oscillator signal in the Tide's direction",
+          "detail": "In an uptrend (Tide is up), wait for the oscillator to drop below 20 and cross back up through its signal line — in a downtrend, wait for the mirror image above 80."
+        },
+        {
+          "title": "Screen 3 — time the precise entry (the Ripple)",
+          "detail": "Drop to a lower timeframe and use price action — a break of a short-term high (for longs) crossed by an EMA, or a prior support/resistance level — to pin down the exact entry point once the first two screens agree."
+        },
+        {
+          "title": "Enter only when all three screens align",
+          "detail": "The whole point of the system is that you only act when the higher-timeframe trend, the oscillator pullback, and the lower-timeframe entry trigger all point the same way — any one screen disagreeing is a reason to pass."
+        },
+        {
+          "title": "Place the stop below the recent low (or above the recent high for shorts)",
+          "detail": "A straightforward structural stop just beyond the swing that formed the entry setup, consistent with normal risk-management practice."
+        },
+        {
+          "title": "Apply Elder's 2% and 6% account rules",
+          "detail": "Elder's own risk framework caps risk at 2% of account equity per trade, and 6% of account equity in open risk or monthly drawdown at any one time — when either limit is hit, the rule is to stop opening new trades, not to trade your way out of it."
+        }
+      ],
+      "videos": [
+        {
+          "title": "Day Trading with Dr Alexander Elder's Triple Screen",
+          "url": "https://www.youtube.com/watch?v=QvybRTd6wNw",
+          "note": "Shows the Triple Screen method applied in a live market setting rather than just explained in theory, which helps with a system built around coordinating three different timeframes."
+        }
+      ]
     },
     {
       "ref_id": "T2-19",
@@ -2407,7 +3197,52 @@
         "StockCharts ChartSchool, \"Keltner Channels\" and \"Bollinger Band Squeeze\""
       ],
       "controversy_flag": false,
-      "image": null
+      "image": {
+        "kind": "synthetic",
+        "src": "/strategies/ttm-squeeze.png",
+        "caption": "A synthetic chart with Bollinger Bands inside Keltner Channels (a squeeze) followed by a breakout and momentum histogram."
+      },
+      "step_by_step": [
+        {
+          "title": "Add Bollinger Bands and Keltner Channels to the same chart",
+          "detail": "Bollinger Bands use 2 standard deviations around a 20-period SMA; Keltner Channels use 1.5× the 20-period ATR around the same midline — the TTM Squeeze indicator itself just tracks the relationship between the two."
+        },
+        {
+          "title": "Identify when the squeeze is 'on'",
+          "detail": "A squeeze is on when the Bollinger Bands contract fully inside the Keltner Channels — shown as a red dot on the indicator's zero line — telling you volatility has compressed and energy may be building."
+        },
+        {
+          "title": "Wait for several consecutive squeeze readings",
+          "detail": "Look for at least 3-5 consecutive red dots, indicating sustained compression rather than a single quiet bar — the longer the squeeze holds, the more significant the eventual release is often read to be."
+        },
+        {
+          "title": "Watch the momentum histogram for directional bias",
+          "detail": "While the squeeze is on, the histogram (built from a linear regression of price versus a moving average) shows which direction momentum is currently leaning, even before the squeeze actually fires."
+        },
+        {
+          "title": "Wait for the squeeze to fire",
+          "detail": "The squeeze 'fires' when the Bollinger Bands expand back outside the Keltner Channels — the dot switches from red to green, signalling volatility is expanding and a breakout may be underway."
+        },
+        {
+          "title": "Enter in the direction the histogram was already leaning",
+          "detail": "A long entry wants the squeeze firing alongside a positive, rising momentum histogram; a short entry wants the mirror — firing with a negative, falling histogram."
+        },
+        {
+          "title": "Exit as momentum fades",
+          "detail": "A common exit rule is watching for the histogram to show two consecutive shrinking bars in your favour's direction, or simply using a trailing stop once the move is underway."
+        },
+        {
+          "title": "Place the initial stop at the far side of the squeeze range",
+          "detail": "Since the squeeze itself defines a tight, well-bounded range right before the entry, that range's opposite edge is a natural, structurally-defined stop location."
+        }
+      ],
+      "videos": [
+        {
+          "title": "Master the TTM Squeeze: Explosive Breakouts with Simple Rules",
+          "url": "https://www.youtube.com/watch?v=6nA6HFdtN6g",
+          "note": "Covers the compression-timing-risk cycle the TTM Squeeze is built around, with simple rules rather than discretionary reads."
+        }
+      ]
     },
     {
       "ref_id": "T2-20",
@@ -2474,7 +3309,52 @@
         "Investopedia, \"Pairs Trade\""
       ],
       "controversy_flag": false,
-      "image": null
+      "image": {
+        "kind": "synthetic",
+        "src": "/strategies/pairs-trading-stat-arb.png",
+        "caption": "Two fabricated, correlated asset prices with their spread's Z-score plotted below."
+      },
+      "step_by_step": [
+        {
+          "title": "Select a candidate pair",
+          "detail": "Look for two instruments with a genuine economic link — same sector, similar business, or a known historical relationship — rather than two unrelated assets that happen to look correlated on a chart."
+        },
+        {
+          "title": "Test for cointegration, not just correlation",
+          "detail": "Correlation alone isn't enough, since it can be coincidental or temporary — a statistical cointegration test (such as the Engle-Granger test) checks whether the pair shares a genuine long-term relationship even though each instrument individually wanders."
+        },
+        {
+          "title": "Calculate the historical spread",
+          "detail": "Once a pair passes the cointegration check, calculate the spread (the price or return difference) between the two instruments over history — this spread, not either instrument's own price, is what the strategy actually trades."
+        },
+        {
+          "title": "Convert the current spread to a Z-score",
+          "detail": "The Z-score measures how many standard deviations the current spread sits from its historical mean — this standardises the signal so it means the same thing regardless of which pair or instrument you're looking at."
+        },
+        {
+          "title": "Enter when the Z-score crosses a threshold",
+          "detail": "A common rule enters when the spread diverges by about 2 standard deviations: go long the underperforming instrument and short the outperforming one at the same time, betting the gap narrows back toward the mean."
+        },
+        {
+          "title": "Size both legs to be market-neutral",
+          "detail": "The long and short legs are sized so the position's overall exposure to the broader market is close to zero — the trade is designed to profit from the spread converging, not from the market moving in either direction."
+        },
+        {
+          "title": "Exit as the spread reverts to its mean",
+          "detail": "Close both legs once the Z-score moves back toward zero (the spread's historical average) — this, not a price target on either individual instrument, is the exit signal."
+        },
+        {
+          "title": "Set a 'relationship break' stop",
+          "detail": "If the spread keeps widening and never reverts within a reasonable time, that's treated as a sign the underlying relationship itself may have broken down — a time-based or Z-score-extreme stop closes the trade rather than waiting indefinitely for a reversion that may not come."
+        }
+      ],
+      "videos": [
+        {
+          "title": "Statistical Arbitrage with Cointegration for Beginners",
+          "url": "https://www.youtube.com/watch?v=aaNgZpSIm0U",
+          "note": "Covers pairs trading built on cointegration testing and Z-scores specifically, which is the statistically grounded version of this strategy rather than correlation alone."
+        }
+      ]
     },
     {
       "ref_id": "T2-21",
@@ -2539,7 +3419,52 @@
         "StockCharts ChartSchool, \"Intermarket Analysis\""
       ],
       "controversy_flag": false,
-      "image": null
+      "image": {
+        "kind": "synthetic",
+        "src": "/strategies/intermarket-analysis.png",
+        "caption": "Fabricated stocks, bond prices, commodities and the US dollar plotted together to show how they typically relate."
+      },
+      "step_by_step": [
+        {
+          "title": "Learn the four asset classes and how they're linked",
+          "detail": "Intermarket analysis tracks the relationships between stocks, bonds, commodities and currencies — the idea is that a move in one often shows up in another with a lag, offering an early read rather than a standalone trading signal."
+        },
+        {
+          "title": "Track the bond-stock relationship",
+          "detail": "Falling bond yields (rising bond prices) have historically tended to support equities, while sharply rising yields have often pressured them — watch yield direction as a cross-check on an equity thesis, not a replacement for it."
+        },
+        {
+          "title": "Track commodities against their producer currencies",
+          "detail": "Commodity-linked currencies often move with the commodities their economies export — for example, rising crude oil with the Canadian dollar, or rising gold with the Australian dollar — these relationships can drift over time, so revisit them periodically rather than assuming they're fixed."
+        },
+        {
+          "title": "Track commodities against the US dollar",
+          "detail": "Commodities are globally priced largely in dollars, so a stronger dollar tends to pressure commodity prices and a weaker dollar tends to support them — another cross-check rather than a primary signal."
+        },
+        {
+          "title": "Read stocks and commodities together for an inflation signal",
+          "detail": "Commodities rallying while equities fall can hint at inflation risk weighing on stocks; both rising together is more often read as a growth-driven move — the combination tells you more than either market alone."
+        },
+        {
+          "title": "Use intermarket relationships as a filter, not a standalone entry system",
+          "detail": "The most defensible use is as a confirming filter — for example, favouring equity longs when bond yields and the market's advance-decline line both support the same read, rather than generating trade signals purely from cross-asset moves."
+        },
+        {
+          "title": "Watch for leadership rotation using ratio charts",
+          "detail": "Plotting one asset divided by another (e.g. a sector index against the broader market) over time shows which side is leading — a rising ratio means the numerator is outperforming, a falling one means it's lagging."
+        },
+        {
+          "title": "Expect the relationships themselves to change over time",
+          "detail": "The sign of the stock-bond correlation, for instance, has flipped across different macro regimes historically — treat any intermarket relationship as a current read on the market environment, not a permanent law."
+        }
+      ],
+      "videos": [
+        {
+          "title": "John Murphy: \"How I Analyze the Markets\"",
+          "url": "https://www.youtube.com/watch?v=o_CZ1q9cQmY",
+          "note": "John Murphy, who popularised intermarket analysis as a discipline, walking through how he actually applies it — a credible source given he effectively wrote the book on this approach."
+        }
+      ]
     },
     {
       "ref_id": "T3-01",
@@ -5278,7 +6203,52 @@
         "Elder"
       ],
       "controversy_flag": false,
-      "image": null
+      "image": {
+        "kind": "synthetic",
+        "src": "/strategies/multi-timeframe-analysis.png",
+        "caption": "Three synthetic charts side by side — weekly, daily and 1-hour — showing the same top-down read at each zoom level."
+      },
+      "step_by_step": [
+        {
+          "title": "Pick three timeframes with a clear ratio between them",
+          "detail": "A common structure uses roughly a 4-6× jump between each level — for example weekly/daily for the big-picture bias, 4-hour/1-hour for the setup, and 15-minute/5-minute for the actual entry."
+        },
+        {
+          "title": "Read the highest timeframe for overall bias first",
+          "detail": "Start by checking whether the higher timeframe is trending up, trending down, or ranging — this becomes the directional bias that governs everything you do on the lower timeframes. If it's bullish, you're primarily looking for longs; if bearish, primarily shorts."
+        },
+        {
+          "title": "Mark key support and resistance on that same higher timeframe",
+          "detail": "Identify the major levels where price has reacted in the past, starting from the top timeframe down — these levels carry more weight than anything found only on a lower timeframe."
+        },
+        {
+          "title": "Move to the intermediate timeframe to find the setup",
+          "detail": "This timeframe is where the higher-timeframe bias meets something actionable — for example, the daily chart shows an uptrend, and the 4-hour chart shows a pullback into a support level within that uptrend."
+        },
+        {
+          "title": "Drop to the lowest timeframe only to time the entry",
+          "detail": "Once the bias and the setup both agree, use the lowest timeframe purely to time precision entries — a reversal candle, a break of a small structure — not to second-guess the higher-timeframe read."
+        },
+        {
+          "title": "Skip the trade if the timeframes don't agree",
+          "detail": "If the lower-timeframe price action doesn't actually match what the higher timeframes were suggesting, the discipline is to wait and skip it, rather than forcing a trade because you were already looking for one."
+        },
+        {
+          "title": "Set the stop and target based on the setup timeframe, not the entry timeframe",
+          "detail": "The stop and target should reflect the structure on the timeframe where you identified the setup (the intermediate one), since that's the timeframe the trade idea is actually based on."
+        },
+        {
+          "title": "Reassess the higher timeframe periodically, not every trade",
+          "detail": "The whole point of this structure is that the higher-timeframe bias changes slowly — revisit it on a schedule (e.g. at the start of each session or week) rather than re-deciding it every time you look at a lower timeframe chart."
+        }
+      ],
+      "videos": [
+        {
+          "title": "BEST Multi Timeframe Analysis Trading Strategy for Day Trading",
+          "url": "https://www.youtube.com/watch?v=GPS8s4Hs_NY",
+          "note": "Walks through top-down analysis step by step with timeframe combinations for different trading styles, including a full platform walkthrough."
+        }
+      ]
     },
     {
       "ref_id": "T3-W2",
@@ -5336,7 +6306,52 @@
         "Chague, De-Losso & Giovannetti (2020)"
       ],
       "controversy_flag": false,
-      "image": null
+      "image": {
+        "kind": "synthetic",
+        "src": "/strategies/trading-styles-scalp-day-swing-position.png",
+        "caption": "An illustrative comparison of typical holding periods across scalping, day trading, swing trading and position trading."
+      },
+      "step_by_step": [
+        {
+          "title": "Understand what actually separates the four styles",
+          "detail": "They're defined almost entirely by holding period: scalping (seconds to minutes), day trading (minutes to hours, always flat by the close), swing trading (days to weeks), and position trading (weeks to months or longer) — not by which indicators or markets are used."
+        },
+        {
+          "title": "Honestly assess how much time you actually have",
+          "detail": "Scalping and day trading both demand close, continuous attention during market hours — not realistic alongside a full-time job or school. Swing and position trading can be checked at intervals rather than monitored constantly."
+        },
+        {
+          "title": "Match the style to your personality under pressure",
+          "detail": "Scalping and day trading require fast, high-pressure decisions and quick loss-cutting — if rapid-fire decisions under time pressure aren't something you handle well, a slower style is a more realistic fit, not a lesser one."
+        },
+        {
+          "title": "Know the cost structure of each style",
+          "detail": "Scalping and day trading rack up far more individual trades, so spreads, commissions and slippage eat into results far more per unit of time than they do for swing or position trading, where fewer, larger trades are placed."
+        },
+        {
+          "title": "Match the style to the strategies you're actually learning",
+          "detail": "An oscillator-crossover or opening-range-breakout setup suits day trading or scalping timeframes; a moving-average pullback or chart-pattern setup suits swing or position timeframes — pick a style that fits the kind of setup you're building skill in, not the other way around."
+        },
+        {
+          "title": "Start with the style that gives you the most time to think",
+          "detail": "Many beginners find swing trading the easiest entry point specifically because it allows more time to analyse a setup calmly, versus the split-second decisions scalping and day trading demand."
+        },
+        {
+          "title": "Test your chosen style on paper or small size before committing",
+          "detail": "Each style has a genuinely different rhythm — the only way to know if scalping's pace, or position trading's patience, actually suits you is to try it directly, rather than assume from reading about it."
+        },
+        {
+          "title": "Revisit the choice as your circumstances change",
+          "detail": "Your available time, risk tolerance and experience level all shift over time — the style that fit when you started isn't necessarily the one that fits a year later, and switching deliberately is normal, not a sign of failure."
+        }
+      ],
+      "videos": [
+        {
+          "title": "SCALPING VS DAY TRADING (EVERYTHING YOU NEED TO KNOW)",
+          "url": "https://www.youtube.com/watch?v=p5ItB865qxg",
+          "note": "Focuses on the two fastest-paced styles specifically — useful since the difference between scalping and day trading is often the hardest of the four to tell apart from the outside."
+        }
+      ]
     }
   ],
   "_notes": {

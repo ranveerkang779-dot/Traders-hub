@@ -1,0 +1,48 @@
+{
+  "group": {
+    "slug": "learn-2-trade",
+    "name": "Learn 2 Trade",
+    "description": "Learn 2 Trade's channel for gold, forex and crypto, with education on the same feed. Coinspeaker (Jun 2026) listed the VIP at £39 a month.",
+    "markets": [
+      "gold",
+      "forex-majors",
+      "forex-minors",
+      "crypto"
+    ],
+    "styles": [],
+    "price": "free-and-vip",
+    "price_label": "Free + paid VIP · £39/mo (Jun 2026)",
+    "member_count": "37.7K members",
+    "member_count_as_of": "2026-10-19",
+    "language": "English",
+    "signals_per_day": "3–5 a day (VIP, Coinspeaker Jun 2026)",
+    "extras": [
+      "education"
+    ],
+    "telegram_url": "https://t.me/learn2tradenews",
+    "logo": null,
+    "rank": 100,
+    "always_free": false
+  },
+  "_notes": {
+    "last_verified": "2026-10-19",
+    "member_count_exact": 37693,
+    "member_count_type": "subscribers",
+    "member_count_source": "https://t.me/learn2tradenews",
+    "price_seen": "free + paid VIP (£39/mo per Coinspeaker, Jun 2026)",
+    "trading_style_seen": null,
+    "signals_per_day_seen": "3-5/day (VIP, per Coinspeaker)",
+    "language_seen": "English",
+    "last_public_post_utc": "2026-10-19T05:00:04+00:00",
+    "market_evidence": "channel description and/or instruments named in recent public posts (t.me/s/learn2tradenews)",
+    "telegram_title_seen": "Learn 2 Trade",
+    "source_urls": [
+      "https://t.me/learn2tradenews",
+      "https://t.me/s/learn2tradenews",
+      "https://learn2.trade",
+      "https://www.coinspeaker.com/guides/best-forex-signals-telegram-groups/",
+      "https://signaltradingreview.com/en/blog/community-trading-telegram-worldwide"
+    ],
+    "research_notes": null
+  }
+}

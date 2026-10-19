@@ -1,0 +1,42 @@
+{
+  "group": {
+    "slug": "coincodecap",
+    "name": "CoinCodeCap",
+    "description": "A crypto channel with free weekly signals and a paid premium through its bot. No premium price was stated.",
+    "markets": [
+      "crypto"
+    ],
+    "styles": [],
+    "price": "free-and-vip",
+    "price_label": "Free weekly signals + paid premium",
+    "member_count": "25.3K members",
+    "member_count_as_of": "2026-10-19",
+    "language": "English",
+    "signals_per_day": null,
+    "extras": [],
+    "telegram_url": "https://t.me/coincodecap",
+    "logo": null,
+    "rank": 100,
+    "always_free": false
+  },
+  "_notes": {
+    "last_verified": "2026-10-19",
+    "member_count_exact": 25317,
+    "member_count_type": "subscribers",
+    "member_count_source": "https://t.me/coincodecap",
+    "price_seen": "free weekly signals + paid premium (via @coincodecap_bot)",
+    "trading_style_seen": null,
+    "signals_per_day_seen": null,
+    "language_seen": "English",
+    "last_public_post_utc": "2026-10-19T00:09:36+00:00",
+    "market_evidence": "channel description and/or instruments named in recent public posts (t.me/s/coincodecap)",
+    "telegram_title_seen": "CoinCodeCap Classic",
+    "source_urls": [
+      "https://t.me/coincodecap",
+      "https://t.me/s/coincodecap",
+      "https://signals.coincodecap.com",
+      "https://signals.coincodecap.com/results"
+    ],
+    "research_notes": "Publishes a trade-by-trade public results page (Jan–Sep 2026: 521 closed trades, ~55% win rate per their own count)."
+  }
+}

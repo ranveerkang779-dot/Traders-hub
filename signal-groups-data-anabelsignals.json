@@ -1,0 +1,47 @@
+{
+  "group": {
+    "slug": "anabelsignals",
+    "name": "AnabelSignals",
+    "description": "Posts gold, major and minor forex, indices and oil. The description calls the VIP day trading. Coinspeaker (Jun 2026) listed the VIP at $99 a month and estimated 3–5 signals, without saying that figure was per day.",
+    "markets": [
+      "gold",
+      "forex-majors",
+      "forex-minors",
+      "indices",
+      "oil"
+    ],
+    "styles": [
+      "day-trading"
+    ],
+    "price": "free-and-vip",
+    "price_label": "Free + paid VIP · $99/mo (Jun 2026)",
+    "member_count": "33.1K members",
+    "member_count_as_of": "2026-10-19",
+    "language": "English",
+    "signals_per_day": "3–5 (estimate, Coinspeaker Jun 2026)",
+    "extras": [],
+    "telegram_url": "https://t.me/anabelsignals",
+    "logo": null,
+    "rank": 100,
+    "always_free": false
+  },
+  "_notes": {
+    "last_verified": "2026-10-19",
+    "member_count_exact": 33087,
+    "member_count_type": "subscribers",
+    "member_count_source": "https://t.me/anabelsignals",
+    "price_seen": "free + paid VIP ($99/mo per Coinspeaker, Jun 2026)",
+    "trading_style_seen": "day trading (VIP, per description)",
+    "signals_per_day_seen": "3-5 (estimate per Coinspeaker)",
+    "language_seen": "English",
+    "last_public_post_utc": "2026-10-19T06:04:01+00:00",
+    "market_evidence": "channel description and/or instruments named in recent public posts (t.me/s/anabelsignals)",
+    "telegram_title_seen": "🌸AnabelSignals🌸 Best Free Forex & Gold Signals",
+    "source_urls": [
+      "https://t.me/anabelsignals",
+      "https://t.me/s/anabelsignals",
+      "https://www.coinspeaker.com/guides/best-forex-signals-telegram-groups/"
+    ],
+    "research_notes": "Recent posts include EURUSD, EURCAD, EURNZD, NZDCAD, US100, SILVER, USOIL."
+  }
+}

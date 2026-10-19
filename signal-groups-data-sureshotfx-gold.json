@@ -1,0 +1,44 @@
+{
+  "group": {
+    "slug": "sureshotfx-gold",
+    "name": "SureShotFX – Gold",
+    "description": "SureShotFX's gold channel for XAUUSD. The provider also offers a trade copier. A paid VIP exists on the provider's site; no price was stated in the source we used.",
+    "markets": [
+      "gold"
+    ],
+    "styles": [],
+    "price": "free-and-vip",
+    "price_label": "Free + paid VIP",
+    "member_count": "39.2K members",
+    "member_count_as_of": "2026-10-19",
+    "language": "English",
+    "signals_per_day": null,
+    "extras": [
+      "copy-trading"
+    ],
+    "telegram_url": "https://t.me/ssfgold",
+    "logo": null,
+    "rank": 100,
+    "always_free": false
+  },
+  "_notes": {
+    "last_verified": "2026-10-19",
+    "member_count_exact": 39189,
+    "member_count_type": "subscribers",
+    "member_count_source": "https://t.me/ssfgold",
+    "price_seen": "free + paid VIP (sureshotfx.com/gold-vip-signals)",
+    "trading_style_seen": null,
+    "signals_per_day_seen": null,
+    "language_seen": "English",
+    "last_public_post_utc": "2026-10-19T07:37:12+00:00",
+    "market_evidence": "channel description and/or instruments named in recent public posts (t.me/s/ssfgold)",
+    "telegram_title_seen": "SureShot GOLD",
+    "source_urls": [
+      "https://t.me/ssfgold",
+      "https://t.me/s/ssfgold",
+      "https://www.trustpilot.com/review/sureshotfx.com",
+      "https://www.youtube.com/watch?v=HxMz-3mjpyc"
+    ],
+    "research_notes": "Listed as an official SureShotFX channel on their Trustpilot company profile; SSF Copier trade copier offered. A source names a broker (EightCap, OctaFX, FBS, XM (listed as 'recommended brokers' in a 2022 SureShotFX YouTube description)). That is not a partner listing on this site."
+  }
+}

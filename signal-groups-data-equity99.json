@@ -1,0 +1,44 @@
+{
+  "group": {
+    "slug": "equity99",
+    "name": "Equity99",
+    "description": "An India-focused channel. Recent posts cover Nifty, gold, silver, copper, the Dow and the DAX. The description states SEBI registration INA000005358; we did not confirm that number on the SEBI portal. Paid tiers were not stated.",
+    "markets": [
+      "stocks-options",
+      "oil",
+      "gold",
+      "indices"
+    ],
+    "styles": [],
+    "price": "free",
+    "price_label": "Free",
+    "member_count": "100.0K members",
+    "member_count_as_of": "2026-10-19",
+    "language": "English",
+    "signals_per_day": null,
+    "extras": [],
+    "telegram_url": "https://t.me/equity99",
+    "logo": null,
+    "rank": 100,
+    "always_free": false
+  },
+  "_notes": {
+    "last_verified": "2026-10-19",
+    "member_count_exact": 99984,
+    "member_count_type": "subscribers",
+    "member_count_source": "https://t.me/equity99",
+    "price_seen": "free channel (paid tiers not stated)",
+    "trading_style_seen": null,
+    "signals_per_day_seen": null,
+    "language_seen": "English (India focused)",
+    "last_public_post_utc": "2026-10-19T03:09:01+00:00",
+    "market_evidence": "channel description and/or instruments named in recent public posts (t.me/s/equity99)",
+    "telegram_title_seen": "Equity99",
+    "source_urls": [
+      "https://t.me/equity99",
+      "https://t.me/s/equity99",
+      "http://Equity99.com"
+    ],
+    "research_notes": "SEBI Registered Investment Adviser INA000005358 per description. Recent posts cover Nifty, gold, silver, copper, Dow, DAX."
+  }
+}

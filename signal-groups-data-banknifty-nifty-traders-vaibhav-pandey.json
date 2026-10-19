@@ -1,0 +1,40 @@
+{
+  "group": {
+    "slug": "banknifty-nifty-traders-vaibhav-pandey",
+    "name": "Banknifty Nifty Traders (Vaibhav Pandey)",
+    "description": "An India-focused Nifty and Bank Nifty channel run under Vaibhav Pandey's name. The description states SEBI registration INH000017347; we did not confirm that number on the SEBI portal. Paid tiers were not stated.",
+    "markets": [
+      "stocks-options"
+    ],
+    "styles": [],
+    "price": "free",
+    "price_label": "Free",
+    "member_count": "6.4K members",
+    "member_count_as_of": "2026-10-19",
+    "language": "English",
+    "signals_per_day": null,
+    "extras": [],
+    "telegram_url": "https://t.me/sebi_registered_ra",
+    "logo": null,
+    "rank": 100,
+    "always_free": false
+  },
+  "_notes": {
+    "last_verified": "2026-10-19",
+    "member_count_exact": 6358,
+    "member_count_type": "subscribers",
+    "member_count_source": "https://t.me/sebi_registered_ra",
+    "price_seen": "free channel (paid tiers not stated)",
+    "trading_style_seen": null,
+    "signals_per_day_seen": null,
+    "language_seen": "English (India focused)",
+    "last_public_post_utc": "2026-10-18T17:46:29+00:00",
+    "market_evidence": "channel description and/or instruments named in recent public posts (t.me/s/sebi_registered_ra)",
+    "telegram_title_seen": "Banknifty Nifty Traders (SEBI REGISTERED)",
+    "source_urls": [
+      "https://t.me/sebi_registered_ra",
+      "https://t.me/s/sebi_registered_ra"
+    ],
+    "research_notes": "SEBI RA INH000017347 per description."
+  }
+}
