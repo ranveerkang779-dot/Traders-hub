@@ -1,8 +1,8 @@
 {
   "_notes": {
-    "last_verified": "2026-10-03",
-    "source": "Official Earn2Trade pages only, fetched 2026-10-03: https://www.earn2trade.com/trader-career-path and https://www.earn2trade.com/gauntlet-mini (visible text for the default size, and the site's own plan data in its page scripts for every size: goal, drawdown, daily loss limit, contract ladder, monthly subscription and reset price; the visible $25K TCP and $50K Gauntlet figures match the script data exactly), FAQ answers embedded in the same pages (activation fee, platforms, resets), https://www.earn2trade.com/affiliates, https://www.earn2trade.com/about-us, https://www.earn2trade.com/terms-and-conditions, https://help.earn2trade.com/en/articles/2547638-i-m-not-an-american-us-citizen-can-i-still-get-funded (updated 7 Mar 2025).",
-    "pricing": "All prices USD, MONTHLY subscriptions for the evaluation (billing = monthly). standard = the monthly price on the live pricing page. No crossed-out prices are shown, so promo = null. Current offer (ends 10 Oct 2026): '10-Year Anniversary Bundle: 3 x TCP25 + 3 resets - $27.50 per attempt' (bundle purchases are final and non-refundable) - not a per-account discount, so not recorded as a promo. Region switch (US / Non-US) does not change prices; all shown in USD.",
+    "last_verified": "2026-10-20",
+    "source": "Live https://www.earn2trade.com/trader-career-path and /gauntlet-mini (redirect to /non-us/) read in Chrome on 2026-10-20, every size clicked - monthly prices and rules unchanged from 2026-10-03. Other sources listed in git history.",
+    "pricing": "All prices USD, MONTHLY subscriptions for the evaluation (billing = monthly). standard = the 'starting at $X /mo' price for each size. No crossed-out or discounted price is displayed, so promo = null. Banner on 2026-10-20: 'Limited time only: 60% OFF TCP50 & GAU50 + $45 resets on all plans' (via 'Choose Your Offer') - not shown as a per-size price, so not recorded.",
     "billing": "Evaluation is a monthly subscription; Trader Career Path includes a free reset when rebilled. Paid resets: TCP100 fixed $100, TCP25 / TCP50 'dynamic pricing'; Gauntlet Mini $75 / $100 / $130 / $155 (plan data). Once funded there is no monthly fee. A one-time activation fee of $139 is deducted from the first successful withdrawal (not paid up front).",
     "rules_detail": "Both evaluations: single phase, EOD drawdown, daily loss limit, 30% consistency rule, no minimum trading days, trading until 15:50 CT, news trading allowed, up to 5 evaluation accounts at once. Contracts follow a progression ladder up to the listed maximum. Funded LiveSim account: EOD drawdown, no consistency rule, weekly payouts, no buffer. Funded Live account: trailing drawdown. Trader Career Path: after passing, traders work through a growth plan (e.g. $25K -> $50K -> $100K -> $200K -> $400K live) by reaching the profit target at each step. Reaching the profit goal is not stated as a fixed percent - figures are USD per account size.",
     "profit_split": "Tiered on funded accounts: 50% on payouts under a threshold, 80% over it. Thresholds: TCP25 $1,500, TCP50 $2,250, TCP100 $3,000, GAU50 $2,250, GAU100 $3,000, GAU150 $4,000, GAU200 $5,000. profit_split_max = 80.",
@@ -13,7 +13,8 @@
     "marketing_stats_excluded": "The site publishes pass rates and withdrawal statistics in its exam disclaimer; none are reproduced here (directory policy).",
     "rule_units": "Futures rules are fixed USD amounts per account size.",
     "null_means": "Not stated on an official Earn2Trade page.",
-    "company_check": "Re-checked 2026-10-11: https://www.earn2trade.com/about-us states no founding year; the earlier conflict (2017 vs '10-Year Anniversary') stands, so founded is still null."
+    "company_check": "Re-checked 2026-10-11: https://www.earn2trade.com/about-us states no founding year; the earlier conflict (2017 vs '10-Year Anniversary') stands, so founded is still null.",
+    "google_rating": "Google Maps (2026-10-20): 'Earn2Trade' listing (category 'Educational institution', website earn2trade.com) - 2.3 from 6 reviews. Pin sits near Abu Dhabi, not at a stated office."
   },
   "firm": {
     "id": "earn2trade",
@@ -76,8 +77,13 @@
         "checked": "2026-10-03"
       },
       "trustpilot_note": null,
-      "google": null,
-      "google_note": "Google rating not available yet.",
+      "google": {
+        "rating": 2.3,
+        "review_count": 6,
+        "url": "https://maps.google.com/?cid=8607404896863932108",
+        "checked": "2026-10-20"
+      },
+      "google_note": null,
       "trustpilot_quotes": [
         {
           "quote": "They are very friendly to solve if any issues occurred. Great customer service 👏",

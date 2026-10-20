@@ -1,17 +1,19 @@
 {
   "_notes": {
-    "last_verified": "2026-10-11",
-    "source": "elitetraderfunding.com blocks automated access (HTTP 403) and has no recent Internet Archive copy, so only its official help centre was read, fetched 2026-10-11: https://help.elitetraderfunding.com/help/how-the-1-step-plan-works, https://help.elitetraderfunding.com/help/how-the-end-of-day-plan-works, https://help.elitetraderfunding.com/help/how-the-static-account-plan-works, https://help.elitetraderfunding.com/help/contract-limits (account sizes and contract limits), https://help.elitetraderfunding.com/help/how-do-payouts-work (reward cycle caps), https://help.elitetraderfunding.com/help/countries-restricted-and-supported, https://help.elitetraderfunding.com/help/supported-platforms-data-feed; Trustpilot https://www.trustpilot.com/review/elitetraderfunding.com.",
-    "pricing": "PRICES NOT RECORDED. Prices, profit targets and drawdown amounts are on the main site's pricing page, which we couldn't open. All are null until we have screenshots. Evaluations are a subscription renewed every 30 days until you pass (help centre).",
-    "rules_detail": "1-Step: trailing drawdown on open (unrealised) profit, 5 minimum trading days (skippable with a paid add-on), no time limit. End of Day: drawdown trails the end-of-day balance, plus a daily loss limit from the prior day's ending balance, 5 minimum trading days. Funded drawdown stops trailing once realised profit reaches the max drawdown + $100. Static: sizes and contracts confirmed; rules page not read. Payouts need Active Trade Days (8 for the first cycle, 10 after) and are capped until a $25,000 lifetime reward cap, after which traders move to a live account.",
+    "last_verified": "2026-10-20",
+    "source": "Live site read in Chrome on 2026-10-20 - elitetraderfunding.com now redirects to elitetraderfunding.app: plan cards on https://elitetraderfunding.app/evaluations (all six plan tabs clicked through), /about, /affiliates, /help/refund-policy, /help/consistency-rule-and-active-trade-days-atd-explained, /help/how-the-1-step-plan-works. Earlier help-centre pages (2026-10-11) listed in git history; Trustpilot https://www.trustpilot.com/review/elitetraderfunding.com.",
+    "pricing": "All prices USD. standard = the full monthly price on each plan card; promo = the sale price shown next to it (90% off; a site pop-up says 'Start for 90% off and keep saving every month', ending in about 12 days as of 2026-10-20). No code is shown, so promo_code is null and the discount shows as 'current promo'. Evaluations auto-renew every 30 days until passed. After passing: activation fee $87/month, or a one-time activation fee of $177 (1-Step 50K, EOD 50K, all Static), $247 (1-Step 100K/150K), $257 (EOD 100K). Reset fee $47.",
+    "rules_detail": "From the plan cards (2026-10-20): 1-Step: profit target $3,000 / $6,000 / $9,000, max loss $2,000 / $3,000 / $5,000 trailing open and realised profit, no daily loss limit, 5 min trade days. End of Day: target $3,000 / $6,000, max loss $2,000 / $3,500 trailing end-of-day realised profit, daily loss limit $1,100 / $2,200 (hard breach), 5 min trade days. 150K EOD no longer shown. Static: target $1,000 / $2,000 / $4,000, static max drawdown $500 / $1,000 / $2,000 (never trails), no daily loss limit, 5 min trade days. Payout days: 8 Active Trade Days (ATDs) for the first payout; for evaluations bought from 2 Oct 2026 an ATD needs at least $250 realised profit and at least 30% of the best day ($125 for 10K/25K Static). That ATD rule is ETF's consistency mechanism, not a single consistency %, so consistency_pct stays null. Profit split: traders keep up to 100% of simulated profits up to a $25,000 lifetime reward cap, then move to live (help centre).",
     "payout_caps": "First reward-cycle maximum recorded; caps rise in later cycles (e.g. 1-Step 50K: $1,000 / $1,250 / $1,500 / $1,750; Static and EOD 50K: $1,250 / $1,500 / $1,750 / $2,000).",
     "payout_wording": "The help centre has a '48-Hour Reward Guarantee' article (a promise about payout processing time). We don't repeat that wording.",
-    "not_listed": "Fast Track, Diamond Hands, Direct to Funded (DTF) and the legacy plans are not listed until we can read their prices. The 250K 1-Step is no longer sold.",
+    "not_listed": "Seen on the live plans page 2026-10-20 but not listed as tiers (different structures, check before adding): Direct to Funded - pay once, 10K Mini Inferno $357, 50K $747, 100K $997, no activation fee; Diamond Hands - 100K only, $397 (sale $39.70) monthly, target $5,000, max loss $3,500 EOD, daily loss $1,500, 2 minis; Fast Track - pay once, 10K EOD $57 and 10K Static $77, target $2,000, max loss $500, 40% consistency, 3 min days. The 150K End of Day and 250K 1-Step are no longer sold.",
     "countries": "Restricted list = countries restricted by Rise, ETF's reward provider (auto-updated list, last verified by ETF 30 Jul 2026). You also need a country supported by Stripe for payments, and OFAC-sanctioned countries can't move to the live account. Guam, Puerto Rico and the US Virgin Islands are unsupported.",
-    "company": "Not confirmed: the main site (About and footer) couldn't be opened.",
+    "company": "About page (2026-10-20): founded 14 February 2022 by Kanwal Singh; team spread across Asia, the Americas, Africa and Europe. No head-office address stated, so hq = null. No Google Business listing found.",
     "vetting": "Checked 2026-10-11. Trustpilot 3.8 from 1,158 reviews. 6 of the 20 newest reviews described a refused or forfeited payout; the firm replied to most. Borderline, similar to firms already listed. Passed with a warning.",
     "rule_units": "Futures rules are fixed USD amounts per account size.",
-    "null_means": "Not stated on an official ETF page we could read. Prices especially need screenshots."
+    "null_means": "Not stated on an official ETF page we could read. Prices especially need screenshots.",
+    "fee_refund": "Refund policy (2026-10-20): 'All sales are final', except a '100% Satisfaction Guarantee' with conditions. Fee not refunded with payouts, so fee_refund = false.",
+    "affiliate_program": "https://elitetraderfunding.app/affiliates (2026-10-20): 15% of referred sales for 45 days on 1-Step, Diamond Hands and EOD evaluations; 7% on Static; 3% on Intermediate. Cookie: 45 days, and first referrer keeps credit even if the trader clicks another affiliate's link later. Payouts: request by email to the payroll team, processed Fridays, 7-10 business days, $40 withdrawal fee per payout, one payout per month; KYC identity and address check at payout. Requirements: active on social media, YouTube, podcasts or a blog; passive methods (paid ads, coupon sites) are not allowed and payouts are denied for them. Comparison sites are not mentioned either way. UAE affiliates: no country rule stated beyond KYC. Elite affiliates can get custom coupon codes. Apply: sign up for an account, then the affiliate area (page above)."
   },
   "firm": {
     "id": "elite-trader-funding",
@@ -21,10 +23,10 @@
     "name_note": null,
     "about": "Elite Trader Funding (ETF) is a futures prop firm selling subscription evaluations, including a 1-Step plan with a trailing drawdown, an End of Day plan and a Static plan. Funded traders who reach a lifetime reward cap move on to trading a live account.",
     "about_note": "Company background not yet verified.",
-    "founded": null,
+    "founded": 2022,
     "hq": null,
     "currency": "USD",
-    "website": "https://elitetraderfunding.com/",
+    "website": "https://elitetraderfunding.app/",
     "affiliate_link": "",
     "platforms": [
       "Tradovate",
@@ -73,7 +75,7 @@
       },
       "trustpilot_note": null,
       "google": null,
-      "google_note": "Google rating not checked yet."
+      "google_note": "We couldn't find a Google rating for this firm."
     },
     "markets": [
       {
@@ -92,39 +94,39 @@
                   "drawdown_type": "Intraday trailing",
                   "consistency_pct": null,
                   "min_trading_days": 5,
-                  "profit_split_max": null,
-                  "fee_refund": null
+                  "profit_split_max": 100,
+                  "fee_refund": false
                 },
                 "accounts": [
                   {
                     "size": 50000,
-                    "profit_target": null,
-                    "daily_loss": null,
-                    "max_loss": null,
+                    "profit_target": 3000,
+                    "daily_loss": "none",
+                    "max_loss": 2000,
                     "max_contracts": 8,
                     "payout_cap": 1000,
-                    "promo": null,
-                    "standard": null
+                    "promo": 20.7,
+                    "standard": 207
                   },
                   {
                     "size": 100000,
-                    "profit_target": null,
-                    "daily_loss": null,
-                    "max_loss": null,
+                    "profit_target": 6000,
+                    "daily_loss": "none",
+                    "max_loss": 3000,
                     "max_contracts": 14,
                     "payout_cap": 1250,
-                    "promo": null,
-                    "standard": null
+                    "promo": 25.7,
+                    "standard": 257
                   },
                   {
                     "size": 150000,
-                    "profit_target": null,
-                    "daily_loss": null,
-                    "max_loss": null,
+                    "profit_target": 9000,
+                    "daily_loss": "none",
+                    "max_loss": 5000,
                     "max_contracts": 18,
                     "payout_cap": 1500,
-                    "promo": null,
-                    "standard": null
+                    "promo": 34.7,
+                    "standard": 347
                   }
                 ]
               },
@@ -137,39 +139,29 @@
                   "drawdown_type": "EOD trailing",
                   "consistency_pct": null,
                   "min_trading_days": 5,
-                  "profit_split_max": null,
-                  "fee_refund": null
+                  "profit_split_max": 100,
+                  "fee_refund": false
                 },
                 "accounts": [
                   {
                     "size": 50000,
-                    "profit_target": null,
-                    "daily_loss": null,
-                    "max_loss": null,
+                    "profit_target": 3000,
+                    "daily_loss": 1100,
+                    "max_loss": 2000,
                     "max_contracts": 8,
                     "payout_cap": 1250,
-                    "promo": null,
-                    "standard": null
+                    "promo": 34.7,
+                    "standard": 347
                   },
                   {
                     "size": 100000,
-                    "profit_target": null,
-                    "daily_loss": null,
-                    "max_loss": null,
+                    "profit_target": 6000,
+                    "daily_loss": 2200,
+                    "max_loss": 3500,
                     "max_contracts": 14,
                     "payout_cap": 1750,
-                    "promo": null,
-                    "standard": null
-                  },
-                  {
-                    "size": 150000,
-                    "profit_target": null,
-                    "daily_loss": null,
-                    "max_loss": null,
-                    "max_contracts": 18,
-                    "payout_cap": 2250,
-                    "promo": null,
-                    "standard": null
+                    "promo": 48.7,
+                    "standard": 487
                   }
                 ]
               },
@@ -181,40 +173,40 @@
                   "unit": "usd",
                   "drawdown_type": "static",
                   "consistency_pct": null,
-                  "min_trading_days": null,
-                  "profit_split_max": null,
-                  "fee_refund": null
+                  "min_trading_days": 5,
+                  "profit_split_max": 100,
+                  "fee_refund": false
                 },
                 "accounts": [
                   {
                     "size": 10000,
-                    "profit_target": null,
-                    "daily_loss": null,
-                    "max_loss": null,
+                    "profit_target": 1000,
+                    "daily_loss": "none",
+                    "max_loss": 500,
                     "max_contracts": 1,
                     "payout_cap": 500,
-                    "promo": null,
-                    "standard": null
+                    "promo": 14.7,
+                    "standard": 147
                   },
                   {
                     "size": 25000,
-                    "profit_target": null,
-                    "daily_loss": null,
-                    "max_loss": null,
+                    "profit_target": 2000,
+                    "daily_loss": "none",
+                    "max_loss": 1000,
                     "max_contracts": 2,
                     "payout_cap": 750,
-                    "promo": null,
-                    "standard": null
+                    "promo": 27.7,
+                    "standard": 277
                   },
                   {
                     "size": 50000,
-                    "profit_target": null,
-                    "daily_loss": null,
-                    "max_loss": null,
+                    "profit_target": 4000,
+                    "daily_loss": "none",
+                    "max_loss": 2000,
                     "max_contracts": 4,
                     "payout_cap": 1250,
-                    "promo": null,
-                    "standard": null
+                    "promo": 49.7,
+                    "standard": 497
                   }
                 ]
               }

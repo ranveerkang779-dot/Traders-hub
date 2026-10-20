@@ -45,7 +45,7 @@ export const sections: Section[] = [
     slug: "tools",
     title: "Tools",
     summary:
-      "Charting, journals, backtesting, scanners, automation and trading VPS hosting, with prices copied from each tool's own site when we could confirm them.",
+      "Charting, indicators, backtesting, scanners, automation, trade copiers and trading VPS hosting, with prices copied from each tool's own site when we could confirm them.",
     status: "live",
   },
   {

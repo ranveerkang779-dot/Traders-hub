@@ -112,6 +112,10 @@
 
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  /* --font-heading itself is already a real CSS variable — set directly by
+     the font's own `variable` class on <html> in layout.tsx — so the
+     utilities below reference it as var(--font-heading) with no extra
+     mapping needed here. */
 }
 
 html {
@@ -159,17 +163,24 @@ body {
 
 /* ---- Typography scale ---------------------------------------------------- */
 
+/* page-title, section-title and figure-lg share one display face (set in
+   layout.tsx, a Google font self-hosted via next/font) so headings and the
+   big numbers read as deliberately designed rather than left on the
+   framework's default font. Body copy and figure (the smaller inline
+   numbers) stay on the body sans so paragraphs keep reading normally. */
 @utility page-title {
+  font-family: var(--font-heading);
   font-size: 2rem;
   line-height: 1.15;
   font-weight: 700;
-  letter-spacing: -0.025em;
+  letter-spacing: -0.02em;
   @media (width >= 40rem) {
     font-size: 2.5rem;
   }
 }
 
 @utility section-title {
+  font-family: var(--font-heading);
   font-size: 1.25rem;
   line-height: 1.4;
   font-weight: 600;
@@ -185,10 +196,11 @@ body {
 }
 
 @utility figure-lg {
+  font-family: var(--font-heading);
   font-size: 1.75rem;
   line-height: 1.1;
   font-weight: 700;
-  letter-spacing: -0.02em;
+  letter-spacing: -0.01em;
   font-variant-numeric: tabular-nums;
 }
 
@@ -345,23 +357,13 @@ body {
   }
 }
 
-@keyframes our-choice-sheen {
-  from {
-    transform: translateX(-130%);
-  }
-  to {
-    transform: translateX(130%);
-  }
-}
-
-/* Featured-listing pill. Text carries the meaning. Motion is one entrance
-   and one pass of light, then it sits still. */
+/* Featured-listing pill. Text carries the meaning — just a fade in, no
+   sweeping shine (that read as decoration for its own sake rather than
+   something that earns its place on a page about other people's money). */
 .our-choice-badge {
-  position: relative;
   display: inline-flex;
   align-items: center;
   gap: 0.3rem;
-  overflow: hidden;
   border-radius: 9999px;
   border: 1px solid color-mix(in srgb, var(--color-accent) 42%, var(--color-border-strong));
   background: color-mix(in srgb, var(--color-accent) 14%, var(--color-surface));
@@ -381,20 +383,6 @@ body {
   color: var(--color-accent);
 }
 
-.our-choice-badge::after {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: linear-gradient(
-    105deg,
-    transparent 32%,
-    color-mix(in srgb, var(--color-foreground) 22%, transparent) 50%,
-    transparent 68%
-  );
-  transform: translateX(-130%);
-  pointer-events: none;
-}
-
 @media (prefers-reduced-motion: no-preference) {
   .broker-card,
   .tool-card {
@@ -409,9 +397,6 @@ body {
   .our-choice-badge {
     animation: our-choice-in 480ms cubic-bezier(0.22, 1, 0.36, 1) both;
   }
-  .our-choice-badge::after {
-    animation: our-choice-sheen 900ms ease-out 280ms 1 both;
-  }
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -423,13 +408,8 @@ body {
     opacity: 1;
     transform: none;
   }
-  .our-choice-badge,
-  .our-choice-badge::after {
+  .our-choice-badge {
     animation: none;
-  }
-  .our-choice-badge::after {
-    transform: none;
-    opacity: 0;
   }
 }
 
@@ -499,23 +479,6 @@ body {
     var(--shadow-glow);
 }
 
-.hero-intro {
-  position: relative;
-  isolation: isolate;
-}
-
-.hero-intro::before {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  top: -1.5rem;
-  left: -8%;
-  width: min(36rem, 100%);
-  height: 16rem;
-  background: radial-gradient(ellipse at 30% 40%, rgb(245 215 110 / 0.18), transparent 68%);
-  pointer-events: none;
-}
-
 .lift-card {
   transition:
     transform 180ms ease,
@@ -535,13 +498,15 @@ body {
   }
 }
 
+/* A quiet hover: the border picks up a trace of gold and the card sits a
+   hair above the page. No lift-and-glow halo — that read as the same
+   trick on every card on every page, rather than something that stood
+   out when it mattered. */
 @media (hover: hover) and (prefers-reduced-motion: no-preference) {
   .lift-card:hover {
-    transform: translateY(-3px);
-    border-color: color-mix(in srgb, var(--color-gold) 55%, var(--color-border));
-    box-shadow:
-      0 0 0 1px rgb(232 197 106 / 0.28),
-      0 18px 36px -24px rgb(184 134 11 / 0.7);
+    transform: translateY(-1px);
+    border-color: color-mix(in srgb, var(--color-gold) 40%, var(--color-border));
+    box-shadow: 0 6px 16px -12px rgb(0 0 0 / 0.45);
   }
 }
 
@@ -599,10 +564,6 @@ body {
   box-shadow: inset 3px 0 0 #a87a1f;
 }
 
-:root[data-theme="light"] .hero-intro::before {
-  background: radial-gradient(ellipse at 30% 40%, rgb(168 122 31 / 0.18), transparent 68%);
-}
-
 :root[data-theme="light"] .detail-hero.rounded-2xl.border.bg-surface {
   box-shadow:
     0 1px 2px rgb(20 20 20 / 0.05),
@@ -656,15 +617,6 @@ body {
   color: #a87a1f;
 }
 
-:root[data-theme="light"] .our-choice-badge::after {
-  background: linear-gradient(
-    105deg,
-    transparent 32%,
-    rgb(168 122 31 / 0.35) 50%,
-    transparent 68%
-  );
-}
-
 /* Secondary line on a bronze fill. 75% white is 3.6:1; 92% clears AA. */
 :root[data-theme="light"] :is(.text-gold-ink\/75, .text-gold-ink\/80) {
   color: rgb(255 255 255 / 0.92);
@@ -676,10 +628,10 @@ body {
 
 @media (hover: hover) and (prefers-reduced-motion: no-preference) {
   :root[data-theme="light"] .lift-card:hover {
-    border-color: color-mix(in srgb, #a87a1f 45%, var(--color-border));
+    border-color: color-mix(in srgb, #a87a1f 35%, var(--color-border));
     box-shadow:
       0 1px 2px rgb(20 20 20 / 0.05),
-      0 16px 32px -16px rgb(20 20 20 / 0.2);
+      0 8px 18px -14px rgb(20 20 20 / 0.22);
   }
 }
 

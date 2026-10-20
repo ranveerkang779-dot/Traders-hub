@@ -1,7 +1,7 @@
 {
   "_notes": {
-    "last_verified": "2026-10-03",
-    "source": "Official City Traders Imperium pages only, fetched 2026-10-03: https://citytradersimperium.com/2-step-challenge/, /1-step-challenge/, /instant-funding/, /direct-funding/ (rules and every account card with price), /fee-refund-policy/, /about-us/, /terms-conditions-of-service/, /affiliate-program/, /affiliates-terms-and-conditions/.",
+    "last_verified": "2026-10-20",
+    "source": "Live program pages read in Chrome on 2026-10-20: https://citytradersimperium.com/1-step-challenge/, /2-step-challenge/, /instant-funding/ (incl. its program comparison table), /direct-funding/ - every account card price unchanged from 2026-10-03. Other official sources listed in git history.",
     "pricing": "All prices USD, one-time fees ('One-time challenge fee, no monthly subscription'). standard = the price on each account card. No crossed-out prices or discount code were shown on the program pages, so promo = null and no promo_code. Failed accounts can be reset at a 15% discount (challenges) or 10% discount (Instant / Direct).",
     "billing": "One-time fee per account, no subscription, no activation fee mentioned.",
     "rules_detail": "All drawdowns are balance-based (not equity). 2-Step: 10% then 5% target, 5% daily (from each day's starting balance), 10% static max drawdown, min 3 profitable days per phase, no consistency rule, no time limit, personal EAs only. 1-Step: 8% target, NO daily drawdown, 5% trailing max drawdown, min 3 profitable days, no time limit, third-party EAs and martingale allowed. Instant Funding: no challenge; you start on 50% of the account size (e.g. $1,250 on the $2,500 plan) and the balance doubles each time you make 10%, up to the full size and then on to $2M per account; 6% static drawdown from the starting balance, no daily drawdown. Direct Funding: full account size from day one, 6% static drawdown, no daily drawdown, no consistency rule, payouts on demand from day 5.",
@@ -12,7 +12,9 @@
     "affiliate_program": "Has a program (https://citytradersimperium.com/affiliate-program/, sign up free to the affiliate dashboard). Commission: 20% of every purchase through your link, available as soon as the referral pays; minimum payout $100, request any time. Payment method: bank transfer unless agreed otherwise (affiliate terms). Applications are approved or rejected at CTI's discretion; a rejected applicant may not reapply. Aimed at people who create trading content, current or past CTI traders, paid communities, and people who can refer 5+ traders in the first month. Not allowed: paid search ads or bidding on CTI's brand, coupon-led promotion, cookie stuffing; all content about CTI must be approved in writing. Disputes go to arbitration in the UAE. Cookie length: not stated. Comparison sites: not mentioned either way. UAE-based affiliates: not restricted (the UAE is not on the restricted list and arbitration is in the UAE).",
     "marketing_stats_excluded": "Payout totals and 'countries funded' figures are not reproduced (directory policy).",
     "rule_units": "Forex rules are % of account size.",
-    "null_means": "Not stated on an official CTI page."
+    "null_means": "Not stated on an official CTI page.",
+    "funded_target": "The program comparison table on /instant-funding/ (2026-10-20) lists 'Profit Target: None' for Instant and Direct, so funded_target = 'none'. Instant's 10% milestones only double the account size (scaling).",
+    "google_rating": "Google Maps (2026-10-20): 'City Traders Imperium' listing (category 'Educational institution', website citytradersimperium.com) - 4.8 from 400 reviews. The pin sits near Abu Dhabi rather than at a stated office."
   },
   "firm": {
     "id": "city-traders-imperium",
@@ -52,8 +54,13 @@
         "checked": "2026-10-03"
       },
       "trustpilot_note": null,
-      "google": null,
-      "google_note": "Google rating not available yet.",
+      "google": {
+        "rating": 4.8,
+        "review_count": 400,
+        "url": "https://maps.google.com/?cid=6485592278505850563",
+        "checked": "2026-10-20"
+      },
+      "google_note": null,
       "trustpilot_quotes": [
         {
           "quote": "I'm working with CTI more then 3 years and I'm growing as a Trader. CTI have a very easy rules and very helping Support Team…",
@@ -198,7 +205,7 @@
                   "unit": "percent",
                   "phase1_target": "n/a",
                   "phase2_target": "n/a",
-                  "funded_target": null,
+                  "funded_target": "none",
                   "daily_loss": "none",
                   "max_loss": 6,
                   "drawdown_type": "static (balance-based)",
@@ -249,7 +256,7 @@
                   "unit": "percent",
                   "phase1_target": "n/a",
                   "phase2_target": "n/a",
-                  "funded_target": null,
+                  "funded_target": "none",
                   "daily_loss": "none",
                   "max_loss": 6,
                   "drawdown_type": "static (balance-based)",

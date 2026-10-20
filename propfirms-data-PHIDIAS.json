@@ -1,8 +1,8 @@
 {
   "_notes": {
-    "last_verified": "2026-10-11",
-    "source": "Official Phidias pages only, fetched 2026-10-11: https://phidiaspropfirm.com/ (account configurator data in the site's script shared-scripts-3.js: every account type, size, price, activation fee and rule; FAQ; footer company details), https://phidiaspropfirm.com/tou (Annex 1: countries where services are unavailable); Trustpilot https://www.trustpilot.com/review/phidiaspropfirm.com.",
-    "pricing": "Each account can be bought two ways: a one-time payment with no fees after passing (recorded here: standard = crossed-out price, promo = discounted price), or a cheaper evaluation fee plus an activation fee on passing (Express to Live: $29 / $49 / $69 / $89 one-time + $83-$169 activation; Fundamental: $49 / $79 / $99 per month + $149-$169; Premium: $59 / $89 / $119 per month + $149-$169). Express to Live 25K one-time payment is $55 instead of $277 with code PHIDIAS80; the other Express to Live sizes showed no discount. The Fundamental and Premium discounts (about 60% off) were shown on the site with no code needed.",
+    "last_verified": "2026-10-20",
+    "source": "Live https://phidiaspropfirm.com/ account configurator read in Chrome on 2026-10-20 (Express to Live, Fundamental, Premium; every size; 'One-Time Payment'; platform choice does not change the price), /affiliate-program, Trustpilot (20 newest reviews) and Google Maps. Earlier sources listed in git history.",
+    "pricing": "Each account can be bought as a one-time payment with no fees after passing (recorded: standard = 'without code' price, promo = price with code BIG50 as displayed) or a cheaper evaluation fee plus an activation fee after passing (not recorded). Discount shown on 2026-10-20: 75-85% depending on size. The full one-time prices for Fundamental and Premium have risen a lot since 2026-10-11 (e.g. Premium 50K $275 -> $723) while the discounted prices stayed similar, and Fundamental is now labelled 'Professional Intraday'. A pop-up giveaway offers an 80% code in exchange for an email (not entered).",
     "rules_detail": "Express to Live: static drawdown, no daily loss limit, no consistency rule, no minimum days; hitting the target on the funded (Cash) account gives a bonus payout (80/20) and moves you to a live account. Fundamental: EOD trailing drawdown, no daily loss limit, no consistency rule in the evaluation, 30% max-day rule on the funded account, 3 minimum days, 10 funded days per payout. Premium: same targets and drawdowns, 1 minimum day, can hold overnight and over weekends, profit split rises 75% / 80% / 85% / 90% / 100% over payouts 1-5 (recorded as 100).",
     "not_listed": "The 10K Drawdown Challenge (entry-fee contest) is not listed.",
     "company": "Footer: Phidias Propfirm LTD, registered in Gibraltar. The site says '3 years operating' but states no founding date.",
@@ -10,7 +10,10 @@
     "vetting": "Checked 2026-10-11. Of the 20 newest Trustpilot reviews, about 8 described a refused payout or a ban around a payout request; the firm replied to none. Trustpilot hides its score for a guideline breach (339 reviews). Listed with a review alert at the team's request (2026-10-11).",
     "rule_units": "Futures rules are fixed USD amounts per account size.",
     "null_means": "Not stated on an official Phidias page we could read.",
-    "premium_daily_loss": "Premium's feature list doesn't say 'No Daily Loss Limit' (Fundamental's and Express to Live's do), so Premium daily_loss is null until confirmed."
+    "premium_daily_loss": "Premium's feature list doesn't say 'No Daily Loss Limit' (Fundamental's and Express to Live's do), so Premium daily_loss is null until confirmed.",
+    "affiliate_program": "https://phidiaspropfirm.com/affiliate-program (2026-10-20): 15% starting commission on every sale made with the affiliate's own coupon code; code-based attribution only ('No cookies, no tracking links'). Paid monthly via Rise on confirmed sales. Free to apply via the form on that page. Minimum payout, country and comparison-site rules not stated.",
+    "company_check": "Google Maps search (2026-10-20) found no Phidias listing.",
+    "tier_rename": "2026-10-20: tier 'Fundamental' renamed 'Professional Intraday' to match the Phidias site. Older notes still say Fundamental."
   },
   "firm": {
     "id": "phidias",
@@ -18,7 +21,7 @@
     "logo": "/funded-accounts/phidias-logo.webp",
     "logo_bg": "dark",
     "name_note": "Also called Phidias Propfirm.",
-    "about": "Phidias is a Gibraltar-registered futures prop firm with three account types: Express to Live (static drawdown, aimed at a fast move to a live account), Fundamental (intraday) and Premium (can hold overnight). Accounts run from $25K to $150K on Tradovate, Rithmic, NinjaTrader, TradingView or DeepCharts.",
+    "about": "Phidias is a Gibraltar-registered futures prop firm with three account types: Express to Live (static drawdown, aimed at a fast move to a live account), Professional Intraday and Premium (can hold overnight). Accounts run from $25K to $150K on Tradovate, Rithmic, NinjaTrader, TradingView or DeepCharts.",
     "about_note": "Company background not yet verified.",
     "founded": null,
     "hq": "Gibraltar (registered company)",
@@ -103,24 +106,24 @@
       "trustpilot": null,
       "trustpilot_note": "Trustpilot is not showing a score for this firm. Its page says this is because of a breach of Trustpilot's guidelines (339 reviews, checked 11 Oct 2026).",
       "google": null,
-      "google_note": "Google rating not checked yet."
+      "google_note": "We couldn't find a Google rating for this firm."
     },
     "review_alert": {
-      "summary": "Of the 20 most recent Trustpilot reviews, about 8 describe a payout being refused or the reviewer being banned around a payout request, and none of these had a reply from the firm. The firm says on its own website that it has never denied a payout. Trustpilot is also not showing a score for this firm; its page says this is because of a breach of its guidelines.",
-      "checked": "2026-10-11",
+      "summary": "Of the 20 most recent Trustpilot reviews (read 20 October 2026), about 7 describe a payout being refused or the reviewer being banned around a payout request, and none of these had a reply from the firm. The firm says on its own website that it has never denied a payout. Trustpilot is also not showing a score for this firm; its page says this is because of a breach of its guidelines.",
+      "checked": "2026-10-20",
       "url": "https://www.trustpilot.com/review/phidiaspropfirm.com?sort=recency"
     },
     "markets": [
       {
         "market": "futures",
-        "promo_code": null,
+        "promo_code": "BIG50",
         "programs": [
           {
             "program": "evaluation",
             "tiers": [
               {
                 "tier": "Express to Live",
-                "tagline": "One-time payment shown (or a cheaper eval fee + activation fee) · Static drawdown · No daily loss limit · 25K: code PHIDIAS80",
+                "tagline": "One-time payment shown (or a cheaper eval fee + activation fee) · Static drawdown · No daily loss limit",
                 "billing": "one-time",
                 "rules": {
                   "unit": "usd",
@@ -138,7 +141,7 @@
                     "max_loss": 500,
                     "max_contracts": 2,
                     "payout_cap": null,
-                    "promo": 55,
+                    "promo": 69.25,
                     "standard": 277
                   },
                   {
@@ -148,7 +151,7 @@
                     "max_loss": 650,
                     "max_contracts": 5,
                     "payout_cap": null,
-                    "promo": null,
+                    "promo": 108.45,
                     "standard": 723
                   },
                   {
@@ -158,7 +161,7 @@
                     "max_loss": 800,
                     "max_contracts": 7,
                     "payout_cap": null,
-                    "promo": null,
+                    "promo": 180,
                     "standard": 900
                   },
                   {
@@ -168,13 +171,13 @@
                     "max_loss": 1000,
                     "max_contracts": 9,
                     "payout_cap": null,
-                    "promo": null,
+                    "promo": 225,
                     "standard": 1125
                   }
                 ]
               },
               {
-                "tier": "Fundamental",
+                "tier": "Professional Intraday",
                 "tagline": "One-time payment shown (or monthly + activation fee) · No daily loss limit · 30% max-day rule on the funded account only",
                 "billing": "one-time",
                 "rules": {
@@ -193,8 +196,8 @@
                     "max_loss": 2500,
                     "max_contracts": 10,
                     "payout_cap": 2000,
-                    "promo": 90,
-                    "standard": 225
+                    "promo": 87,
+                    "standard": 580
                   },
                   {
                     "size": 100000,
@@ -203,8 +206,8 @@
                     "max_loss": 3000,
                     "max_contracts": 14,
                     "payout_cap": 2500,
-                    "promo": 145,
-                    "standard": 361
+                    "promo": 144.6,
+                    "standard": 723
                   },
                   {
                     "size": 150000,
@@ -213,8 +216,8 @@
                     "max_loss": 4500,
                     "max_contracts": 17,
                     "payout_cap": 2750,
-                    "promo": 175,
-                    "standard": 437
+                    "promo": 172.6,
+                    "standard": 863
                   }
                 ]
               },
@@ -238,8 +241,8 @@
                     "max_loss": 2500,
                     "max_contracts": 10,
                     "payout_cap": 2000,
-                    "promo": 110,
-                    "standard": 275
+                    "promo": 108.45,
+                    "standard": 723
                   },
                   {
                     "size": 100000,
@@ -249,7 +252,7 @@
                     "max_contracts": 14,
                     "payout_cap": 2500,
                     "promo": 180,
-                    "standard": 450
+                    "standard": 900
                   },
                   {
                     "size": 150000,
@@ -258,8 +261,8 @@
                     "max_loss": 4500,
                     "max_contracts": 17,
                     "payout_cap": 2750,
-                    "promo": 220,
-                    "standard": 550
+                    "promo": 224.6,
+                    "standard": 1123
                   }
                 ]
               }

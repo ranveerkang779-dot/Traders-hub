@@ -1,15 +1,17 @@
 {
   "_notes": {
-    "last_verified": "2026-10-02",
-    "source": "Official FundedNext pages only: https://fundednext.com/ (pricing section, plan data embedded in page), https://fundednext.com/company, https://fundednext.com/trading-platforms, https://fundednext.com/partners, help.fundednext.com articles 8019803 (min trading days), 8020768 (reward share), 8030880 / 8021073 / 9094074 (no time limit), helpfutures.fundednext.com articles 15053874 (futures prices), 14282252 (Legacy pass rules), 14878840 / 14878851 (Flex target and consistency).",
-    "pricing": "promo = current discounted price, standard = crossed-out list price. Forex: only the smallest size of each model shows a discount (code STOCT); other sizes show a single price, recorded as standard. The site also runs site-wide offers that may lower checkout prices further - re-verify before publishing. Futures: Flex promo price applies to a customer's first two purchases (thereafter $79.99 / $149.99 / $289.99 per help centre); Rapid promo code RAPID; Flex code FNFLEX. Flex standard = regular price from the help centre ($79.99/$149.99/$289.99), not the higher crossed-out price shown on the pricing page.",
+    "last_verified": "2026-10-20",
+    "source": "Live https://fundednext.com/#pricing-area read in Chrome on 2026-10-20 (CFDs: Stellar 2-Step, 1-Step, Lite, Instant; Futures: Flex, Rapid Pro/Daily, Direct; every size shown), help.fundednext.com 'Attribution & Commissions' and Google Maps. Earlier sources listed in git history.",
+    "pricing": "promo = discounted price, standard = crossed-out list price. Forex: only the smallest size of each Stellar model shows a discount, now with code STRTN (was STOCT): 2-Step $6K $39.99, 1-Step $6K $49.99, Lite $5K $29.99, Instant $2K $49.99. Other sizes show a single price, recorded as standard. Futures: Flex promo now $74.99 / $144.99 / $259.99 with code FNFLEX (first purchases); Flex standard stays the regular price from the help centre ($79.99 / $149.99 / $289.99), not the higher crossed-out price on the page ($141.99 / $273.99 / $490.99). Rapid code RAPID, prices unchanged. The CFDs tab advertises '33% OFF' and Futures '50% OFF' site-wide.",
     "billing": "All FundedNext CFD and futures challenges are a one-time fee. The site states 'One-time fee. No subscription.' and the futures help centre describes them as one-time account setup fees. No activation fee is stated. Resets are paid separately (futures reset fees: Flex $77.99/$147.99/$278.99, Legacy $73.99/$183.99/$220.79, Rapid Pro $84.99/$174.99/$299.99, Rapid Daily $89.99/$189.99/$299.99).",
     "rule_units": "Forex rules are % of account size. Futures rules are fixed USD amounts.",
     "null_means": "Field not stated on the firm's official pricing page or help centre. Check the firm's rules pages before publishing.",
     "forex_rules": "Stellar models use static drawdown. Stellar 2-Step and Lite base reward share is 80% on the standard 21-day cycle; 90% on the On-Demand option and 95% with the paid 'Lifetime Reward 95%' add-on. A 40% consistency rule applies only to the On-Demand reward option. Stellar 2-Step also pays a one-time 15% Performance Reward from challenge-phase profit. Stellar 1-Step reward share is shown as 'Up to 95%' on the pricing page (help centre: 80% base, 90% with Scale-Up, 95% with add-ons). Fee refund: 2-Step with 1st reward, 1-Step and Lite at 3rd reward, Instant none. Stellar Instant has no daily loss limit and a 6% trailing max loss. Max risk 3% per position at any time on all Stellar models.",
     "futures_rules": "No daily loss limit on Flex, Legacy and Rapid Pro (daily_loss = 'none'). Max loss is end-of-day (EOD). max_contracts = mini contracts allowed during the challenge (micros = 10x); Legacy funded accounts allow more (3/5/7 minis). payout_cap = 'Maximum Withdrawal' per reward on the funded account. Consistency: Flex and Legacy 40% during the challenge only; Rapid Pro 40% on the funded account only; Rapid Daily none. Minimum trading days are not stated as a number (help centre says there are no benchmark-day requirements during the challenge; 5 benchmark days are needed for Flex and Legacy rewards).",
     "not_listed": "FundedNext Labs 'FNL:001 NO DLL 1-Step' ($50K CFD experimental account) and the Free Trial are not included. Bolt and the original Rapid challenge were discontinued in 2026.",
-    "company_check": "https://fundednext.com/company (checked 2026-10-11): timeline says FundedNext was launched on 18 March 2022 (its parent, NEXT Ventures, started in 2016). Lists operational hubs in the UAE, Malaysia, Bangladesh, Sri Lanka and Cyprus; trading run by FundedNext Ltd (Comoros, HY01023052); brand owned by GrowthNext F.Z.E. (Ajman, UAE); website operated by FundedNext Limited (Hong Kong)."
+    "company_check": "https://fundednext.com/company (checked 2026-10-11): timeline says FundedNext was launched on 18 March 2022 (its parent, NEXT Ventures, started in 2016). Lists operational hubs in the UAE, Malaysia, Bangladesh, Sri Lanka and Cyprus; trading run by FundedNext Ltd (Comoros, HY01023052); brand owned by GrowthNext F.Z.E. (Ajman, UAE); website operated by FundedNext Limited (Hong Kong). Google Maps search for FundedNext (2026-10-20) found no FundedNext listing.",
+    "not_shown_2026_10_20": "CHECK BEFORE PUBLISHING: on 2026-10-20 (viewed from the UAE) the pricing area showed Stellar 2-Step, 1-Step and Lite only up to $50K - the $100K and $200K sizes kept in this file were not shown anywhere on the page, and the futures 'Legacy' plan was no longer shown. They may have been withdrawn or hidden for this region; kept unchanged until a person confirms. A new futures 'Direct' plan (no challenge, $50K, $283.99 / $169.99 with code FNDIRECT, EOD trailing, $1,000 daily loss, $2,000 max loss, 20% consistency, 90% split) is not listed yet.",
+    "affiliate_program": "help.fundednext.com 'Attribution & Commissions' (updated 12 Sep 2026; read 2026-10-20): CFD first-purchase commission 10%-15% (first purchase only); futures 8%-12% lifetime, recurring on all later purchases; rate rises with the number of active customers. Last-code attribution; the referral link auto-applies the partner's code via a 24-hour cookie. Payout method, minimum, country and comparison-site rules not read. Apply: https://fundednext.com/partners"
   },
   "firm": {
     "id": "fundednext",
@@ -70,7 +72,7 @@
       },
       "trustpilot_note": null,
       "google": null,
-      "google_note": "No Google Business profile found for this firm.",
+      "google_note": "We couldn't find a Google rating for this firm.",
       "trustpilot_quotes": [
         {
           "quote": "The static drawdown is what i love most about FN",
@@ -98,7 +100,7 @@
     "markets": [
       {
         "market": "forex",
-        "promo_code": "STOCT",
+        "promo_code": "STRTN",
         "programs": [
           {
             "program": "1-step",
@@ -123,7 +125,7 @@
                 "accounts": [
                   {
                     "size": 6000,
-                    "promo": 44.99,
+                    "promo": 49.99,
                     "standard": 65.99
                   },
                   {
@@ -178,7 +180,7 @@
                 "accounts": [
                   {
                     "size": 6000,
-                    "promo": 34.99,
+                    "promo": 39.99,
                     "standard": 59.99
                   },
                   {
@@ -270,7 +272,7 @@
                   "unit": "percent",
                   "phase1_target": "n/a",
                   "phase2_target": "n/a",
-                  "funded_target": null,
+                  "funded_target": "none",
                   "daily_loss": "none",
                   "max_loss": 6,
                   "drawdown_type": "trailing",
@@ -316,6 +318,7 @@
               {
                 "tier": "Flex",
                 "tagline": "One-time fee · No daily loss limit · Promo price on first two purchases",
+                "billing": "one-time",
                 "rules": {
                   "unit": "usd",
                   "drawdown_type": "EOD",
@@ -332,7 +335,7 @@
                     "max_loss": 1500,
                     "max_contracts": 3,
                     "payout_cap": 1500,
-                    "promo": 69.99,
+                    "promo": 74.99,
                     "standard": 79.99
                   },
                   {
@@ -342,7 +345,7 @@
                     "max_loss": 2500,
                     "max_contracts": 5,
                     "payout_cap": 2500,
-                    "promo": 139.99,
+                    "promo": 144.99,
                     "standard": 149.99
                   },
                   {
@@ -352,7 +355,7 @@
                     "max_loss": 4000,
                     "max_contracts": 8,
                     "payout_cap": 4000,
-                    "promo": 249.99,
+                    "promo": 259.99,
                     "standard": 289.99
                   }
                 ]
@@ -360,6 +363,7 @@
               {
                 "tier": "Legacy",
                 "tagline": "One-time fee · No daily loss limit · Consistency rule in challenge only",
+                "billing": "one-time",
                 "rules": {
                   "unit": "usd",
                   "drawdown_type": "EOD",
@@ -404,6 +408,7 @@
               {
                 "tier": "Rapid Pro",
                 "tagline": "One-time fee · No daily loss limit · Consistency rule on funded account only",
+                "billing": "one-time",
                 "rules": {
                   "unit": "usd",
                   "drawdown_type": "EOD",
@@ -448,6 +453,7 @@
               {
                 "tier": "Rapid Daily",
                 "tagline": "One-time fee · Daily loss limit · No consistency rule · Payouts can be requested daily",
+                "billing": "one-time",
                 "rules": {
                   "unit": "usd",
                   "drawdown_type": "EOD",

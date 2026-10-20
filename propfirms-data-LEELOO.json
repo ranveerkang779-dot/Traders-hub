@@ -1,14 +1,16 @@
 {
   "_notes": {
-    "last_verified": "2026-10-11",
-    "source": "Official LeeLoo pages only, fetched 2026-10-11: https://leelootrading.com/ (Foundation account cards: size, contracts, profit target, trailing drawdown, monthly price, reset fee; supported platforms; footer), support knowledge base https://support.leelootrading.com/kb/a48/minimum-10-trading-days-no-maximum.aspx, https://support.leelootrading.com/kb/a44/rising-trailing-max-drawdown-explained.aspx, https://support.leelootrading.com/kb/a190/understanding-the-30-rule-for-performance-accounts.aspx (titles); Trustpilot https://www.trustpilot.com/review/leelootrading.com.",
+    "last_verified": "2026-10-20",
+    "source": "Live https://leelootrading.com/ Foundation account cards read in Chrome on 2026-10-20 - all six sizes, prices and rules unchanged from 2026-10-11. Also /affiliate, Trustpilot and Google Maps. Earlier sources listed in git history.",
     "pricing": "Monthly recurring subscription for Foundation (LL) accounts; reset $85. No discount shown. Bundle (LB) accounts are a one-month non-recurring bundle where only one account can qualify ($520-$950); not listed separately.",
     "rules_detail": "Foundation accounts: profit target and rising trailing max drawdown per size, minimum 10 trading days and no maximum (knowledge base title). A 30% rule applies to Performance Accounts (knowledge base title), recorded as consistency_pct 30. Payouts are made through 'Performance Accounts', which may be simulated or copied accounts at LeeLoo's discretion, so no profit split or payout cap is recorded.",
     "countries": "No restricted-countries list found on an official page.",
     "company": "Footer: 'Leeloo Trading, Montana USA', copyright 2019-2026 (not a founding statement).",
     "vetting": "Checked 2026-10-11. Trustpilot 3.1 from 608 reviews. About 10 of the 20 newest reviews described a denied payout, and the newest review was from 7 Jun 2026. The site is live with current prices. Listed with a review alert at the team's request (2026-10-11).",
     "rule_units": "Futures rules are fixed USD amounts per account size.",
-    "null_means": "Not stated on an official LeeLoo page we could read."
+    "null_means": "Not stated on an official LeeLoo page we could read.",
+    "affiliate_program": "https://www.leelootrading.com/affiliate (2026-10-20): run on the Impact affiliate network. 10% commission on subscription purchases; monthly bonus rate 15% when referred revenue is $5,500-$10,499.99 and 20% from $10,500. 30-day cookie; banners, content and text links on your website (so websites are explicitly allowed); custom creatives possible. Payout method follows Impact's terms (not stated on the page). No country rules stated. Apply: join via Impact (search 'LeelooTrading'), or the older form at https://members.leelootrading.com/amember/aff/signup",
+    "company_check": "Google Maps search (2026-10-20) found no LeeLoo Trading listing (top result was an unrelated Dubai company)."
   },
   "firm": {
     "id": "leeloo-trading",
@@ -45,11 +47,11 @@
       },
       "trustpilot_note": null,
       "google": null,
-      "google_note": "Google rating not checked yet."
+      "google_note": "We couldn't find a Google rating for this firm."
     },
     "review_alert": {
-      "summary": "Of the 20 most recent Trustpilot reviews, about 10 describe a payout being denied. The newest review was posted in June 2026.",
-      "checked": "2026-10-11",
+      "summary": "Of the 20 most recent Trustpilot reviews, about 10 describe a payout being denied. No new reviews have been posted since June 2026 (checked 20 October 2026).",
+      "checked": "2026-10-20",
       "url": "https://www.trustpilot.com/review/leelootrading.com?sort=recency"
     },
     "markets": [

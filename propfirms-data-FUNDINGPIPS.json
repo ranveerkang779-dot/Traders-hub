@@ -1,19 +1,19 @@
 {
   "_notes": {
-    "last_verified": "2026-10-02",
-    "source": "Official pages only: fundingpips.com/2-step-standard, /2-step-pro, /2-step-flex, /zero (prices from each page's pricing table data); help.fundingpips.com articles '2 Step Standard', '2 Step Pro Model', '2 Step Flex', '1 Step Flex', 'FundingPips Zero', 'Get Started' (rules, platforms, restricted countries, fee refund); fundingpips.com footer 'Related Entities' (company details); fundingpips.com/blog/funding-pips-new-chapter (start of operations, November 2022).",
-    "pricing": "standard = list price shown on each product page (no crossed-out price was shown on 2026-10-02, so promo is null). A site-wide banner offered code FP: 10% off for new users, 5% off for existing users; the Get Started help article also mentions code HELLO (20% off first purchase, excludes $100K). Codes not applied here. Optional Swap-Free add-on costs +10%.",
+    "last_verified": "2026-10-20",
+    "source": "Live product pages read in Chrome on 2026-10-20, clicking every size (and the daily-loss option where offered): fundingpips.com/1-step-flex, /2-step-standard, /2-step-pro, /2-step-flex, /zero; help.fundingpips.com article '2 Step Pro Model' (minimum trading days). Earlier help-centre sources listed in git history.",
+    "pricing": "standard = the price shown on each product page for the selected size (no crossed-out prices shown on 2026-10-20, so promo is null). A site-wide banner reads 'Use Code FP: 20% OFF New Users | 5% OFF Existing Users'; no discounted price is displayed, so it is not recorded as a promo. Prices that changed since 2026-10-02: Standard 5% $44/$80/$216 -> $39/$72/$195 (5K/10K/25K); Pro $33/$62/$149 -> $29/$55/$145; Flex $39/$70/$188 -> $35/$64/$175. Reward cycle choice does not change the price.",
     "billing": "One-time challenge fee per account. No monthly subscription or activation fee is mentioned on the official pages. On 2 Step Standard only, the fee is refunded with the 4th reward on the Master Account; this refund does not apply to 1 Step Flex, 2 Step Pro, 2 Step Flex or Zero.",
-    "two_step_standard_3pct": "The 3% daily-loss option is priced from the page's data as the 5% price minus a stated dollar difference (-8, -14, -39, -61, -108 for 5K-100K). Only the 5% price for $50K was visible as text; confirm the 3% prices with a screenshot before publishing.",
-    "two_step_pro_min_days": "Conflict on official pages: the product page shows 0 minimum trading days per phase, while the help centre says accounts bought on or after 26 August 2026 need 2 minimum trading days. Left null until confirmed.",
-    "one_step_flex": "Prices could not be read (page blocked automated access). Daily loss is 2% or 3% depending on the configuration bought, so daily_loss is left null.",
-    "zero": "No evaluation. 5% max loss trails the highest equity and locks at the starting balance once the account is 5% up. Also: 1% max open risk, at least 7 profitable days (0.25%+ each) per rolling 30 days, 15% consistency score for rewards.",
+    "two_step_pro_min_days": "Settled 2026-10-20: the product page shows 0 minimum trading days per phase, and the help centre now says new and reset accounts need 0 (accounts bought before 26 Aug 2026 keep 1 day). min_trading_days = 0.",
+    "one_step_flex": "Live page 2026-10-20: one phase, 12% target, 12% static max drawdown, daily drawdown 2% or 3% chosen at purchase (changes the price), no consistency rule, 1-day pass. Split into two tiers: 3% daily $74 / $111 / $255 / $353 / $666; 2% daily $52 / $77 / $192 / $269 / $529 (5K-100K).",
+    "zero": "No evaluation. 5% max loss trails the highest equity and locks at the starting balance once the account is 5% up. Also: 1% max open risk, at least 7 profitable days (0.25%+ each) per rolling 30 days, 15% consistency score for rewards. Live page 2026-10-20 shows the Master profit target as '-' (none), so funded_target = 'none'. No minimum trading days shown, so min_trading_days stays null.",
     "reward_cycles": "2 Step Standard: Weekly 60%, Bi-Weekly 80%, On Demand 90%, Monthly 100%. 2 Step Pro: Weekly 80%, Monthly 100%. 2 Step Flex: Bi-Weekly 80% or 95% (95% needs 3 profitable days), Monthly 100%. 1 Step Flex: Bi-Weekly 80%, Monthly 100%. Monthly 100% applies to evaluations bought on or after 15 August 2026 and needs a 35% consistency score and 7 profitable days.",
     "restrictions": "FundingPips does not accept residents of the UAE, Iran or Vietnam (help centre 'Get Started' and site footer).",
     "rule_units": "Forex rules are % of account size.",
     "null_means": "Not stated (or stated inconsistently) on the official pages checked. See the notes above before publishing.",
-    "unverified_prices": "Standard (3% daily) prices left null: earlier figures ($36/$66/$177/$288/$544) were calculated from a discount in the page data, not shown on the page. Confirm with a screenshot.",
-    "company_check": "https://fundingpips.com/ footer (checked 2026-10-11): 'Building Traders Globally Since 2022'; 'Registered Address of FundingPips: Premises NO. 19948-001, IFZA Business Park, DDP Dubai, UAE'. Trading entity FundingPips Corp (Comoros, HY01223081)."
+    "company_check": "https://fundingpips.com/ footer (checked 2026-10-11): 'Building Traders Globally Since 2022'; 'Registered Address of FundingPips: Premises NO. 19948-001, IFZA Business Park, DDP Dubai, UAE'. Trading entity FundingPips Corp (Comoros, HY01223081).",
+    "two_step_standard_3pct": "3% daily-loss prices read directly from the live page (3% option selected, checked it stayed selected): $32 / $59 / $160 / $288 / $544. With 3% daily loss the page shows 0 minimum trading days (5% option: 3 days).",
+    "affiliate_program": "help.fundingpips.com 'Become an Affiliate' (2026-10-20): starts at 5% commission plus a 5% discount code for your audience; tiers by referred users - Market Maker 24-99 users 6%, Trade Master 100-299 7%, Market Leader 300-599 8%, Prime Partner 600+ 10%. Applies to purchases on all FundingPips models. Cookie: yes, but the length is not stated (page says check the Affiliate Dashboard). Minimum claim $50 via the Rewards page; payout method not stated. Requirement: you must buy a challenge to get an affiliate link. FundingPips does not accept UAE residents as customers, so a UAE-based affiliate likely cannot join. Comparison sites are not mentioned. Apply: buy any challenge in the FundingPips app, then use the Affiliate Dashboard."
   },
   "firm": {
     "id": "fundingpips",
@@ -54,9 +54,9 @@
       "trustpilot_note": null,
       "google": {
         "rating": 4.8,
-        "review_count": 1208,
+        "review_count": 1206,
         "url": "https://www.google.com/maps/place/?q=place_id:ChIJWR4ptQbwZmQR4Snrkv5jzLY",
-        "checked": "2026-10-03"
+        "checked": "2026-10-20"
       },
       "google_note": null
     },
@@ -68,14 +68,14 @@
             "program": "1-step",
             "tiers": [
               {
-                "tier": "1 Step Flex",
-                "tagline": "Daily loss 2% or 3% (chosen at purchase)",
+                "tier": "1 Step Flex (3% daily)",
+                "tagline": "One phase · 12% target · No minimum trading days",
                 "rules": {
                   "unit": "percent",
                   "phase1_target": 12,
                   "phase2_target": "n/a",
                   "funded_target": "n/a",
-                  "daily_loss": null,
+                  "daily_loss": 3,
                   "max_loss": 12,
                   "drawdown_type": "static",
                   "profit_split_max": 100,
@@ -88,27 +88,72 @@
                   {
                     "size": 5000,
                     "promo": null,
-                    "standard": null
+                    "standard": 74
                   },
                   {
                     "size": 10000,
                     "promo": null,
-                    "standard": null
+                    "standard": 111
                   },
                   {
                     "size": 25000,
                     "promo": null,
-                    "standard": null
+                    "standard": 255
                   },
                   {
                     "size": 50000,
                     "promo": null,
-                    "standard": null
+                    "standard": 353
                   },
                   {
                     "size": 100000,
                     "promo": null,
-                    "standard": null
+                    "standard": 666
+                  }
+                ]
+              },
+              {
+                "tier": "1 Step Flex (2% daily)",
+                "tagline": "One phase · 12% target · No minimum trading days · Tighter 2% daily loss, lower price",
+                "rules": {
+                  "unit": "percent",
+                  "phase1_target": 12,
+                  "phase2_target": "n/a",
+                  "funded_target": "n/a",
+                  "daily_loss": 2,
+                  "max_loss": 12,
+                  "drawdown_type": "static",
+                  "profit_split_max": 100,
+                  "min_trading_days": 0,
+                  "consistency": "35% (payouts)",
+                  "trading_period": "unlimited",
+                  "fee_refund": false
+                },
+                "accounts": [
+                  {
+                    "size": 5000,
+                    "promo": null,
+                    "standard": 52
+                  },
+                  {
+                    "size": 10000,
+                    "promo": null,
+                    "standard": 77
+                  },
+                  {
+                    "size": 25000,
+                    "promo": null,
+                    "standard": 192
+                  },
+                  {
+                    "size": 50000,
+                    "promo": null,
+                    "standard": 269
+                  },
+                  {
+                    "size": 100000,
+                    "promo": null,
+                    "standard": 529
                   }
                 ]
               }
@@ -138,17 +183,17 @@
                   {
                     "size": 5000,
                     "promo": null,
-                    "standard": 44
+                    "standard": 39
                   },
                   {
                     "size": 10000,
                     "promo": null,
-                    "standard": 80
+                    "standard": 72
                   },
                   {
                     "size": 25000,
                     "promo": null,
-                    "standard": 216
+                    "standard": 195
                   },
                   {
                     "size": 50000,
@@ -183,27 +228,27 @@
                   {
                     "size": 5000,
                     "promo": null,
-                    "standard": null
+                    "standard": 32
                   },
                   {
                     "size": 10000,
                     "promo": null,
-                    "standard": null
+                    "standard": 59
                   },
                   {
                     "size": 25000,
                     "promo": null,
-                    "standard": null
+                    "standard": 160
                   },
                   {
                     "size": 50000,
                     "promo": null,
-                    "standard": null
+                    "standard": 288
                   },
                   {
                     "size": 100000,
                     "promo": null,
-                    "standard": null
+                    "standard": 544
                   }
                 ]
               },
@@ -219,7 +264,7 @@
                   "max_loss": 6,
                   "drawdown_type": "static",
                   "profit_split_max": 100,
-                  "min_trading_days": null,
+                  "min_trading_days": 0,
                   "consistency": "35% (payouts)",
                   "trading_period": "unlimited",
                   "fee_refund": false
@@ -228,17 +273,17 @@
                   {
                     "size": 5000,
                     "promo": null,
-                    "standard": 33
+                    "standard": 29
                   },
                   {
                     "size": 10000,
                     "promo": null,
-                    "standard": 62
+                    "standard": 55
                   },
                   {
                     "size": 25000,
                     "promo": null,
-                    "standard": 149
+                    "standard": 145
                   },
                   {
                     "size": 50000,
@@ -278,17 +323,17 @@
                   {
                     "size": 5000,
                     "promo": null,
-                    "standard": 39
+                    "standard": 35
                   },
                   {
                     "size": 10000,
                     "promo": null,
-                    "standard": 70
+                    "standard": 64
                   },
                   {
                     "size": 25000,
                     "promo": null,
-                    "standard": 188
+                    "standard": 175
                   },
                   {
                     "size": 50000,
@@ -314,7 +359,7 @@
                   "unit": "percent",
                   "phase1_target": "n/a",
                   "phase2_target": "n/a",
-                  "funded_target": null,
+                  "funded_target": "none",
                   "daily_loss": 3,
                   "max_loss": 5,
                   "drawdown_type": "trailing (locks at starting balance)",

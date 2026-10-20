@@ -1,10 +1,10 @@
 {
   "_notes": {
-    "last_verified": "2026-10-11",
-    "source": "Official pages only, fetched 2026-10-11: https://audacity.capital/ (pricing widget and its page data for all three programs, 2-step rules table, footer company details, restricted countries), https://audacity.capital/two-step-prop-firm-ability-challenge/, https://audacity.capital/one-step-prop-firm-ability-one/, https://audacity.capital/instant-funding-prop-firm/, https://audacity.capital/funded-trader-program/, https://audacity.capital/about/, https://audacity.capital/trading-platforms/, https://audacity.capital/terms-and-conditions/; Trustpilot https://www.trustpilot.com/review/audacity.capital.",
-    "pricing": "Prices in USD (the site also offers GBP and EUR). standard = full price from the pricing widget's data. A '14 Years, 14% OFF - For All Programs' banner with code 14th was running. Only the Ability Challenge (2-step) discounted prices are displayed as text ($42 / $68 / $168 / $283 / $472 / $902), so promo is filled for that program only. The 1-step and instant discounted prices are not shown as text, so promo is null there even though the code is said to apply to all programs.",
-    "ftp_price_conflict": "The pricing data gives FTP (instant) $5K at $119, but a comparison table on /funded-trader-program/ says FTP entry fee 'From $199'. Recorded $119 from the pricing data; confirm with a screenshot of the FTP tab.",
-    "ability_one_sizes": "Pricing data lists Ability One at $5K-$100K only, while the 1-step page says 'Purchase up to $200K'. Recorded the five sizes with prices.",
+    "last_verified": "2026-10-20",
+    "source": "Live https://audacity.capital/ pricing widget read in Chrome on 2026-10-20 with USD selected (Ability Challenge, Ability One and FTP tabs, all sizes), https://audacity.capital/affiliates-and-partners/ and Google Maps. Earlier sources (2026-10-11) listed in git history.",
+    "pricing": "Prices in USD (USD selected; the site also offers GBP and EUR). standard = full (crossed-out) price, promo = discounted price shown in the pricing widget on 2026-10-20. Each program had its own code, so promo_code on the market is null and the codes are recorded here: Ability Challenge (2 steps) HALLOWEEN, 35% off ('No tricks - 35% off Ability 2 Steps'); Ability One and FTP: 14th, 14% off ('Celebrating 14 years'). The earlier 14% Ability Challenge prices are replaced by the 35% ones.",
+    "ftp_price_conflict": "Settled 2026-10-20: the live FTP tab shows the $5K at $119 (promo $102), so $119 is correct; the 'From $199' comparison table was out of date.",
+    "ability_one_sizes": "Live widget 2026-10-20 offers Ability One at $5K-$100K only (no $200K).",
     "ability_challenge_limits": "Limits differ by stage: Challenge (phase 1) 7.5% daily / 15% max loss; Verification and funded account 5% daily / 10% max loss. The table shows the phase 1 figures; the tagline explains the change. Both limits are static.",
     "ftp_drawdown": "The instant page says the 5% daily limit trails the balance as it grows, while the 10% max loss is fixed from the starting balance. Other parts of the same page describe FTP drawdown both as 'trailing' and as 'static', so drawdown_type records the max-loss rule and the tagline mentions the trailing daily limit. Minimum 5 trading days before a payout.",
     "fee_refund": "Ability Challenge: 'up to 100%' of the fee refunded with the first payout (homepage, 2-step page). Ability One: '100% Refundable' (funded-trader-program comparison table). FTP: no refund stated, so null.",
@@ -13,7 +13,9 @@
     "vetting": "Checked 2026-10-11 against our listing criteria. Trustpilot hides the score for a guideline breach and says fake reviews were removed (288 reviews). Of about 12 recent reviews read closely, 4 described a refused or voided payout after passing; the firm replied to some. Similar level to firms we already list, so it passed, but this is worth re-checking.",
     "marketing_stats_excluded": "Site claims such as '$250M paid out' and '500K+ traders' are not reproduced.",
     "rule_units": "Forex rules are % of account size.",
-    "null_means": "Not stated on an official Audacity Capital page we could read."
+    "null_means": "Not stated on an official Audacity Capital page we could read.",
+    "affiliate_program": "https://audacity.capital/affiliates-and-partners/ (2026-10-20): tiered - Silver 10% + 5% recurring (no target, exclusive discount code); Gold 15% + 5% recurring ($10,000 monthly referred revenue, affiliate manager, giveaways); Platinum 20% + 5% recurring ($25,000 monthly); Diamond VIP invite-only. Recurring commission on renewals and resets; sub-affiliate commission; tiers reviewed monthly. Monthly payouts 'via multiple international withdrawal methods' (methods not named). Cookie length: not stated. No country or comparison-site rules stated. Apply: https://trade.audacity.capital/user-auth/register (affiliate account sign-up).",
+    "google_rating": "Google Maps (2026-10-20): 'Audacity Capital', financial institution, One Canada Square, Level 8, London - 3.8 from 160 reviews (recorded). Its website link is a Calendly page rather than audacity.capital, and the address differs from the footer's 25 Cabot Square, but it shares the phone number with a second listing 'AudaCity Capital' (The Frames, 1 Phipp St, London; 3.9 from 7 reviews). Worth a human check that this is the same company."
   },
   "firm": {
     "id": "audacity-capital",
@@ -46,13 +48,18 @@
       "checked": "2026-10-11",
       "trustpilot": null,
       "trustpilot_note": "Trustpilot is not showing a score for this firm. Its page says this is because of a breach of Trustpilot's guidelines (288 reviews, checked 11 Oct 2026).",
-      "google": null,
-      "google_note": "Google rating not checked yet."
+      "google": {
+        "rating": 3.8,
+        "review_count": 160,
+        "url": "https://maps.google.com/?cid=1951722137904959544",
+        "checked": "2026-10-20"
+      },
+      "google_note": null
     },
     "markets": [
       {
         "market": "forex",
-        "promo_code": "14th",
+        "promo_code": null,
         "programs": [
           {
             "program": "2-step",
@@ -77,32 +84,32 @@
                 "accounts": [
                   {
                     "size": 5000,
-                    "promo": 42,
+                    "promo": 32,
                     "standard": 49
                   },
                   {
                     "size": 10000,
-                    "promo": 68,
+                    "promo": 51,
                     "standard": 79
                   },
                   {
                     "size": 25000,
-                    "promo": 168,
+                    "promo": 127,
                     "standard": 195
                   },
                   {
                     "size": 50000,
-                    "promo": 283,
+                    "promo": 214,
                     "standard": 329
                   },
                   {
                     "size": 100000,
-                    "promo": 472,
+                    "promo": 357,
                     "standard": 549
                   },
                   {
                     "size": 200000,
-                    "promo": 902,
+                    "promo": 682,
                     "standard": 1049
                   }
                 ]
@@ -132,27 +139,27 @@
                 "accounts": [
                   {
                     "size": 5000,
-                    "promo": null,
+                    "promo": 59,
                     "standard": 69
                   },
                   {
                     "size": 10000,
-                    "promo": null,
+                    "promo": 85,
                     "standard": 99
                   },
                   {
                     "size": 25000,
-                    "promo": null,
+                    "promo": 214,
                     "standard": 249
                   },
                   {
                     "size": 50000,
-                    "promo": null,
+                    "promo": 343,
                     "standard": 399
                   },
                   {
                     "size": 100000,
-                    "promo": null,
+                    "promo": 601,
                     "standard": 699
                   }
                 ]
@@ -182,22 +189,22 @@
                 "accounts": [
                   {
                     "size": 5000,
-                    "promo": null,
+                    "promo": 102,
                     "standard": 119
                   },
                   {
                     "size": 10000,
-                    "promo": null,
+                    "promo": 240,
                     "standard": 279
                   },
                   {
                     "size": 25000,
-                    "promo": null,
+                    "promo": 386,
                     "standard": 449
                   },
                   {
                     "size": 50000,
-                    "promo": null,
+                    "promo": 1117,
                     "standard": 1299
                   }
                 ]

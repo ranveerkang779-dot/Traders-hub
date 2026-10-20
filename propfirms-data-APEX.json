@@ -1,16 +1,17 @@
 {
   "_notes": {
-    "last_verified": "2026-10-02",
-    "source": "Official Apex Trader Funding help-center pages. The live site blocks automated access (HTTP 403), so pages were read from Internet Archive copies of the official URLs: https://apextraderfunding.com/help-center/eod-trailing-drawdown-accounts/eod-evaluations/ (captured 2026-09-26), https://apextraderfunding.com/help-center/intraday-trailing-drawdown-accounts/intraday-trailing-drawdown-evaluations/ (2026-09-26), https://apextraderfunding.com/help-center/intraday-trailing-drawdown-accounts/intraday-trailing-drawdown-payouts/ (2026-09-26), https://apextraderfunding.com/help-center/billing/evaluation-plan-fees-and-access-explained/ (2026-09-27), https://apextraderfunding.com/help-center/uncategorized/no-activation-fee-evaluations/ (2026-09-27), https://apextraderfunding.com/help-center/billing/pa-activation-process-deadline-explained/ (2026-07-30), https://apextraderfunding.com/help-center/additional-helpful-items/50-consistency-requirement/ (2026-07-26), https://apextraderfunding.com/about/ (2026-07-30), https://apextraderfunding.com/ (2026-08-08), https://apextraderfunding.com/legacy-products/ (2026-07-26).",
-    "pricing": "All prices left null: the live pricing selector could not be read. promo = discounted price, standard = full list price. Re-check from screenshots before publishing.",
+    "last_verified": "2026-10-20",
+    "source": "Live Apex Trader Funding pages read in Chrome on 2026-10-20: the homepage product picker (https://apextraderfunding.com/ - every type, fee option and size clicked through), https://apextraderfunding.com/help-center/getting-started/restricted-countries/, https://apextraderfunding.com/help-center/eod-trailing-drawdown-accounts/eod-payouts/, https://apextraderfunding.com/help-center/helpful-items/affiliate-program/ and https://apextraderfunding.com/help-center/additional-helpful-items/payout-method-information/. Earlier rules came from official help-center pages read via Internet Archive copies (Sept 2026), listed in git history.",
+    "pricing": "All prices USD, one-time evaluation fees. standard = the crossed-out full price in the homepage product picker; promo = the price 'with Coupon Code' SAVENOW (90% off, all evaluations). The site banner said the coupon ends in about 3 days (seen 2026-10-20), so re-check prices after ~23 Oct 2026. Coupons do not apply to PA activation fees. Oddity as shown on the page: the 25K No-Activation-Fee Intraday account ($690) costs more than the 50K ($490) - confirmed visually on 2026-10-20. 5-packs are also sold (not listed here).",
     "rule_units": "Futures rules are fixed USD amounts per account size.",
     "null_means": "Field not confirmed on an official Apex page. Check the live product selector / help center before publishing.",
     "billing": "New (post 1 March 2026) evaluations are a one-time fee for 30 calendar days of access, not a subscription, no resets and no refunds. After passing, a separate one-time, non-refundable PA (Performance Account) activation fee must be paid within 7 calendar days. 'No Activation Fee' versions of every Intraday and EOD evaluation (25K-150K) cost more up front but have a $0 PA fee; 5-pack bundles also exist. Level 1 data included. A site-wide coupon (code SAVENOW, 'up to 90% off') was shown on the site; coupons do not apply to PA activation fees.",
-    "archived_price_reference": "NOT for publishing - unverified. The homepage product selector data captured 2026-08-08 listed one-time evaluation prices (USD) of: EOD 25K 390 / 50K 490 / 100K 790 / 150K 1490; Intraday 25K 167 / 50K 249 / 100K 399 / 150K 599; PA activation fees EOD 99/129/139/159, Intraday 69/79/99/129. These are almost 2 months old and need confirming from a live screenshot.",
-    "rules_detail": "Evaluations: no minimum trading days, no consistency rule, fixed contracts, 30-day access. EOD tier has a daily loss limit that pauses trading for the session (does not fail the account). Intraday tier has no daily loss limit (daily_loss = 'none'). consistency_pct 50 is the Performance Account payout rule (largest day must be under 50% of profit since last payout), not an evaluation rule. Payouts: 100% payout split, minimum 5 qualifying trading days, $500 minimum payout, maximum 6 payouts per PA then the PA closes.",
-    "payout_caps": "Intraday PA maximum per payout request (payouts 1-6): 25K $1,000 each; 50K $1,500/$2,000/$2,500/$2,500/$3,000/$3,000; 100K $2,000/$2,500/$3,000/$3,000/$4,000/$4,000; 150K $2,500/$3,000/$3,000/$4,000/$4,000/$5,000. EOD PA payout page not readable - payout_cap left null for both tiers because the cap changes per payout.",
+    "rules_detail": "Evaluations: the product picker shows 'Min. Days To Pass 1' (so min_trading_days = 1), no evaluation consistency rule, 30-day access, no resets ('Reset Fee N/A'). EOD tier has a daily loss limit; Intraday tier shows none in the evaluation. consistency_pct 50 is the Performance Account payout rule, not an evaluation rule. PA max contracts are lower than the evaluation: 2 / 4 / 6 / 10 minis (25K-150K). Payouts: 100% payout split, minimum 5 qualifying trading days, $500 minimum payout, maximum 6 payouts per PA then the PA closes.",
+    "payout_caps": "Maximum per payout request, payouts 1-6, 25K / 50K / 100K / 150K. EOD PA (live help page, 2026-10-20): $1,000 each / $1,500, $1,500, $2,000, $2,500, $2,500, $3,000 / $2,000, $2,500, $2,500, $3,000, $4,000, $4,000 / $2,500, $3,000, $3,000, $3,000, $4,000, $5,000. Intraday PA (archived help page, Sept 2026): $1,000 each / $1,500, $2,000, $2,500, $2,500, $3,000, $3,000 / $2,000, $2,500, $3,000, $3,000, $4,000, $4,000 / $2,500, $3,000, $3,000, $4,000, $4,000, $5,000. payout_cap left null because the cap changes with each payout.",
     "legacy_products": "Apex also re-offered 'Legacy' monthly-subscription evaluations for a limited time (25K-300K, e.g. 25K $167/month, plus $125 one-time PA fee; captured 2026-07-26). Not listed here because it is a limited-time offer and current availability is unconfirmed.",
-    "eligibility": "Official footer says 'Services are intended for U.S. users only', while the restricted-countries page says traders from 100+ countries can join (UAE not on the restricted list captured 2026-06-30; Saudi Arabia and Pakistan are)."
+    "eligibility": "Live restricted-countries page (2026-10-20) says traders from 100+ countries can join; UAE is not on the list. Saudi Arabia, Kuwait, Qatar, Oman, Bahrain and Pakistan are.",
+    "activation_fees": "PA activation fee (one-time, due within 7 days of passing), from the product picker 2026-10-20: Intraday standard $89 / $99 / $129 / $149; EOD standard $109 / $129 / $139 / $159 (25K / 50K / 100K / 150K). The 'No Activation Fee' versions show the PA activation fee as FREE.",
+    "affiliate_program": "Checked 2026-10-20 on https://apextraderfunding.com/help-center/helpful-items/affiliate-program/: 15% referral fee when the affiliate's code is used at checkout on eligible accounts (the Spanish page says 'lifetime' commission on evaluations and resets). Cookie length: not stated (attribution is by affiliate code). Paid monthly on the 15th for the previous month, $1,000 minimum balance (rolls over below that); payouts to a bank account (ACH in the US, via Plane internationally). Requirements: application reviewed individually, government photo ID from a non-restricted country, an active public trading audience; actively maintained websites with original content qualify, but coupon/discount aggregation sites and mostly AI-generated sites are generally not approved. UAE is not on the restricted list, so UAE-based affiliates appear eligible. Apply: via a helpdesk ticket at https://helpdesk.apextraderfunding.com/helpdesk/my-tickets/new."
   },
   "firm": {
     "id": "apex-trader-funding",
@@ -40,6 +41,7 @@
         "BJ",
         "BN",
         "BY",
+        "CD",
         "CF",
         "CG",
         "CI",
@@ -113,16 +115,15 @@
         "VE",
         "VN",
         "VU",
-        "XK",
         "YE",
         "ZA",
         "ZM",
         "ZW"
       ],
       "allowed_only": null,
-      "notes": "Apex's pages disagree: its Terms of Use say services are intended for U.S. users only, while its help-centre 'Restricted Countries' page says traders from over 100 countries can take part and lists only these 87 places as unable to buy new or additional accounts. The list includes territories (Réunion, New Caledonia, Saint Pierre and Miquelon, Jersey, Western Sahara, Palestine). Kosovo is recorded as XK (a widely used code, not an official ISO one). Exception: someone originally from a restricted country may qualify if they hold a valid government ID from a non-restricted country and their home, mailing address and bank account are all in a non-restricted country; while physically in a restricted country they cannot buy accounts or request payouts. Canadians are accepted. The live site blocks automated checks, so this was read from Internet Archive copies of the official page (latest dated June 2026).",
-      "source": "https://web.archive.org/web/20260630155746/https://apextraderfunding.com/help-center/getting-started/restricted-countries/",
-      "last_checked": "2026-10-02"
+      "notes": "Apex's help-centre 'Restricted Countries' page says traders from over 100 countries can take part and lists these places as unable to buy new or additional accounts. It lists 'Congo' and 'Republic of the Congo' separately, so 'Congo' is recorded as DR Congo (CD). Kosovo, on earlier copies of the list, is no longer listed. The list includes territories (Réunion, New Caledonia, Saint Pierre and Miquelon, Jersey, Western Sahara, Palestine). Exception: someone originally from a restricted country may qualify with a valid government ID from a non-restricted country and their home, mailing address and bank account all in a non-restricted country; while physically in a restricted country they cannot buy accounts, request payouts or trade. Using a payment method issued in a restricted country leads to account termination. Canadians are accepted.",
+      "source": "https://apextraderfunding.com/help-center/getting-started/restricted-countries/",
+      "last_checked": "2026-10-20"
     },
     "reviews": {
       "checked": "2026-10-03",
@@ -134,7 +135,7 @@
       },
       "trustpilot_note": null,
       "google": null,
-      "google_note": "No Google Business profile found for this firm.",
+      "google_note": "We couldn't find a Google rating for this firm.",
       "trustpilot_quotes": [
         {
           "quote": "Clear rules, easy and fast payout, great way to get the discipline in trading right.",
@@ -162,18 +163,20 @@
     "markets": [
       {
         "market": "futures",
+        "promo_code": "SAVENOW",
         "programs": [
           {
             "program": "evaluation",
             "tiers": [
               {
                 "tier": "EOD",
-                "tagline": "One-time fee, 30-day access · PA activation fee after passing · 50% consistency rule on payouts only",
+                "tagline": "30-day access · Activation fee ($109-$159) after passing · 50% consistency on payouts",
+                "billing": "one-time",
                 "rules": {
                   "unit": "usd",
                   "drawdown_type": "EOD trailing",
                   "consistency_pct": 50,
-                  "min_trading_days": 0,
+                  "min_trading_days": 1,
                   "profit_split_max": 100,
                   "fee_refund": false
                 },
@@ -185,8 +188,8 @@
                     "max_loss": 1000,
                     "max_contracts": 4,
                     "payout_cap": null,
-                    "promo": null,
-                    "standard": null
+                    "promo": 49,
+                    "standard": 490
                   },
                   {
                     "size": 50000,
@@ -195,8 +198,8 @@
                     "max_loss": 2000,
                     "max_contracts": 6,
                     "payout_cap": null,
-                    "promo": null,
-                    "standard": null
+                    "promo": 59,
+                    "standard": 590
                   },
                   {
                     "size": 100000,
@@ -205,8 +208,8 @@
                     "max_loss": 3000,
                     "max_contracts": 8,
                     "payout_cap": null,
-                    "promo": null,
-                    "standard": null
+                    "promo": 119,
+                    "standard": 1190
                   },
                   {
                     "size": 150000,
@@ -215,19 +218,75 @@
                     "max_loss": 4000,
                     "max_contracts": 12,
                     "payout_cap": null,
-                    "promo": null,
-                    "standard": null
+                    "promo": 219,
+                    "standard": 2190
+                  }
+                ]
+              },
+              {
+                "tier": "EOD · No Activation Fee",
+                "tagline": "30-day access · Costs more upfront, no activation fee after passing · 50% consistency on payouts",
+                "billing": "one-time",
+                "rules": {
+                  "unit": "usd",
+                  "drawdown_type": "EOD trailing",
+                  "consistency_pct": 50,
+                  "min_trading_days": 1,
+                  "profit_split_max": 100,
+                  "fee_refund": false
+                },
+                "accounts": [
+                  {
+                    "size": 25000,
+                    "profit_target": 1500,
+                    "daily_loss": 500,
+                    "max_loss": 1000,
+                    "max_contracts": 4,
+                    "payout_cap": null,
+                    "promo": 109,
+                    "standard": 1090
+                  },
+                  {
+                    "size": 50000,
+                    "profit_target": 3000,
+                    "daily_loss": 1000,
+                    "max_loss": 2000,
+                    "max_contracts": 6,
+                    "payout_cap": null,
+                    "promo": 119,
+                    "standard": 1190
+                  },
+                  {
+                    "size": 100000,
+                    "profit_target": 6000,
+                    "daily_loss": 1500,
+                    "max_loss": 3000,
+                    "max_contracts": 8,
+                    "payout_cap": null,
+                    "promo": 159,
+                    "standard": 1590
+                  },
+                  {
+                    "size": 150000,
+                    "profit_target": 9000,
+                    "daily_loss": 2000,
+                    "max_loss": 4000,
+                    "max_contracts": 12,
+                    "payout_cap": null,
+                    "promo": 249,
+                    "standard": 2490
                   }
                 ]
               },
               {
                 "tier": "Intraday",
-                "tagline": "One-time fee, 30-day access · PA activation fee after passing · No daily loss limit · 50% consistency rule on payouts only",
+                "tagline": "30-day access · Activation fee ($89-$149) after passing · No daily loss limit",
+                "billing": "one-time",
                 "rules": {
                   "unit": "usd",
                   "drawdown_type": "Intraday trailing",
                   "consistency_pct": 50,
-                  "min_trading_days": 0,
+                  "min_trading_days": 1,
                   "profit_split_max": 100,
                   "fee_refund": false
                 },
@@ -239,8 +298,8 @@
                     "max_loss": 1000,
                     "max_contracts": 4,
                     "payout_cap": null,
-                    "promo": null,
-                    "standard": null
+                    "promo": 16.7,
+                    "standard": 167
                   },
                   {
                     "size": 50000,
@@ -249,8 +308,8 @@
                     "max_loss": 2000,
                     "max_contracts": 6,
                     "payout_cap": null,
-                    "promo": null,
-                    "standard": null
+                    "promo": 24.9,
+                    "standard": 249
                   },
                   {
                     "size": 100000,
@@ -259,8 +318,8 @@
                     "max_loss": 3000,
                     "max_contracts": 8,
                     "payout_cap": null,
-                    "promo": null,
-                    "standard": null
+                    "promo": 79,
+                    "standard": 790
                   },
                   {
                     "size": 150000,
@@ -269,8 +328,63 @@
                     "max_loss": 4000,
                     "max_contracts": 12,
                     "payout_cap": null,
-                    "promo": null,
-                    "standard": null
+                    "promo": 119,
+                    "standard": 1190
+                  }
+                ]
+              },
+              {
+                "tier": "Intraday · No Activation Fee",
+                "tagline": "30-day access · Costs more upfront, no activation fee after passing · No daily loss limit",
+                "billing": "one-time",
+                "rules": {
+                  "unit": "usd",
+                  "drawdown_type": "Intraday trailing",
+                  "consistency_pct": 50,
+                  "min_trading_days": 1,
+                  "profit_split_max": 100,
+                  "fee_refund": false
+                },
+                "accounts": [
+                  {
+                    "size": 25000,
+                    "profit_target": 1500,
+                    "daily_loss": "none",
+                    "max_loss": 1000,
+                    "max_contracts": 4,
+                    "payout_cap": null,
+                    "promo": 69,
+                    "standard": 690
+                  },
+                  {
+                    "size": 50000,
+                    "profit_target": 3000,
+                    "daily_loss": "none",
+                    "max_loss": 2000,
+                    "max_contracts": 6,
+                    "payout_cap": null,
+                    "promo": 49,
+                    "standard": 490
+                  },
+                  {
+                    "size": 100000,
+                    "profit_target": 6000,
+                    "daily_loss": "none",
+                    "max_loss": 3000,
+                    "max_contracts": 8,
+                    "payout_cap": null,
+                    "promo": 59,
+                    "standard": 590
+                  },
+                  {
+                    "size": 150000,
+                    "profit_target": 9000,
+                    "daily_loss": "none",
+                    "max_loss": 4000,
+                    "max_contracts": 12,
+                    "payout_cap": null,
+                    "promo": 189,
+                    "standard": 1890
                   }
                 ]
               }

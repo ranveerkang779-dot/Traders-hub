@@ -22,21 +22,23 @@ const faqs = [
   },
   {
     q: "Where does Visit tool go?",
-    a: "It opens the tool's official site. If that listing has an affiliate link, the button uses it, and we may earn a commission if you sign up or buy. The footer says the same. Listings without an affiliate link still open the official homepage.",
+    a: "It opens that tool through our affiliate link, and we may earn a commission if you sign up or buy. The footer says the same. Every tool on this page has one of those links.",
   },
 ];
 
 export default function ToolsPage() {
+  const categoryCount = TOOL_CATEGORY_ORDER.filter((id) => tools.some((tool) => tool.category === id)).length;
+
   return (
     <>
       <h1 className="title-rule page-title">{section.title}</h1>
       <p className="mt-3 max-w-2xl text-lg text-muted">
-        Compare charting, journals, backtesters, scanners, automation and VPS hosts side by side.
+        Compare charting, indicators, backtesting, scanners, automation, trade copiers and VPS hosts side by side.
       </p>
 
       <dl className="mt-6 grid grid-cols-1 gap-px overflow-hidden rounded-xl border border-border bg-border sm:grid-cols-3">
         <Fact value={String(tools.length)} label="Tools listed" />
-        <Fact value={String(TOOL_CATEGORY_ORDER.length)} label="Categories" />
+        <Fact value={String(categoryCount)} label="Categories" />
         <Fact value="Not scored" label="Trading results" />
       </dl>
 

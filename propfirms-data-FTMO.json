@@ -1,11 +1,14 @@
 {
   "_notes": {
-    "last_verified": "2026-09-30",
-    "source": "Screenshots of each firm's live pricing page",
-    "pricing": "promo = current discounted price, standard = crossed-out list price. Promos change often; re-verify before publishing.",
+    "last_verified": "2026-10-20",
+    "source": "Live https://ftmo.com/en/ pricing (#pricing-2-step and #pricing-1-step, all five sizes) read in Chrome on 2026-10-20, https://ftmo.com/en/affiliate-programme/ and Google Maps. Earlier: screenshots of the live pricing page (2026-09-30).",
+    "pricing": "Fees in EUR. The USD/EUR/GBP buttons on the pricing table choose the account currency (e.g. a $100,000 account); the fee itself is still shown in euros, so the file stays in EUR. standard = list price, promo = discounted price where one is shown: on 2026-10-20 only the $100K had a discount (1-Step EUR 399 instead of 499, 2-Step EUR 439 instead of 540), no code needed. All prices unchanged from 2026-09-30.",
     "rule_units": "Forex rules are % of account size. Futures rules are fixed USD amounts.",
     "null_means": "Field not shown on the pricing page. Check the firm's 'View Rules' page before publishing.",
-    "company_check": "https://ftmo.com/en/about-us/ (checked 2026-10-11): 'Since 2015' and 'operating from our headquarters in the heart of Prague'; footer 'FTMO s.r.o.'."
+    "company_check": "https://ftmo.com/en/about-us/ (checked 2026-10-11): 'Since 2015' and 'operating from our headquarters in the heart of Prague'; footer 'FTMO s.r.o.'.",
+    "not_listed": "FTMO now also sells an 'FTMO Instant Account' (new, no evaluation) and FTMO Futures (separate pricing page). Neither is listed here yet.",
+    "min_trading_days": "1-Step: the pricing table shows no minimum-trading-days row (2-Step shows 4 days), so min_trading_days stays null for 1-Step.",
+    "affiliate_program": "https://ftmo.com/en/affiliate-programme/ (2026-10-20): four levels by monthly commission, each kept for 3 months (FTMO CFD / futures evaluations / futures resets) - Bronze (start, EUR 0): 8% / 10% / 5%; Silver (EUR 250 a month): 10% / 12% / 6% plus a custom affiliate code; Gold (EUR 1,000): 15% / 15% / 7.5% plus a free $50K challenge; Platinum (EUR 2,500): 20% / 18% / 9% plus a free $100K challenge. CFD commission is one-time per product per referred trader; futures subscription/reset commission for up to 12 months. Commissions approved immediately once referrals trade; paid by bank transfer, Skrill or crypto. Cookie length not stated. Nationals and residents of Pakistan, Vietnam and certain other countries are not eligible; the UAE is selectable in the sign-up form. Comparison sites not mentioned. Apply: the 'Join FTMO Affiliate Programme' form on that page."
   },
   "firm": {
     "id": "ftmo",
@@ -117,9 +120,9 @@
       "trustpilot_note": null,
       "google": {
         "rating": 4.6,
-        "review_count": 383,
+        "review_count": 392,
         "url": "https://www.google.com/maps/place/?q=place_id:ChIJc4h2I7aVC0cRCuV4kKz5l1w",
-        "checked": "2026-10-03"
+        "checked": "2026-10-20"
       },
       "google_note": null
     },

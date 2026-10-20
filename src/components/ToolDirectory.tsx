@@ -39,8 +39,11 @@ function Directory({ tools, initialQuery }: { tools: ToolView[]; initialQuery: s
     return map;
   }, [tools]);
 
+  const activeCategory: ToolCategory | "all" =
+    category !== "all" && (counts.get(category) ?? 0) === 0 ? "all" : category;
+
   const matching = tools.filter((tool) => {
-    if (category !== "all" && tool.category !== category) return false;
+    if (activeCategory !== "all" && tool.category !== activeCategory) return false;
     return matchesQuery(tool, query);
   });
 
@@ -82,15 +85,15 @@ function Directory({ tools, initialQuery }: { tools: ToolView[]; initialQuery: s
         <CategoryChip
           label="All"
           count={tools.length}
-          pressed={category === "all"}
+          pressed={activeCategory === "all"}
           onClick={() => updateCategory("all")}
         />
-        {TOOL_CATEGORY_ORDER.map((id) => (
+        {TOOL_CATEGORY_ORDER.filter((id) => (counts.get(id) ?? 0) > 0).map((id) => (
           <CategoryChip
             key={id}
             label={TOOL_CATEGORY_LABELS[id]}
             count={counts.get(id) ?? 0}
-            pressed={category === id}
+            pressed={activeCategory === id}
             onClick={() => updateCategory(id)}
           />
         ))}
@@ -98,7 +101,7 @@ function Directory({ tools, initialQuery }: { tools: ToolView[]; initialQuery: s
 
       <p aria-live="polite" className="meta mt-4">
         <span className="font-semibold text-foreground">{matching.length}</span> of {tools.length} shown
-        {category !== "all" ? ` in ${TOOL_CATEGORY_LABELS[category]}` : ""}. Forex and gold tools stay at the top.
+        {activeCategory !== "all" ? ` in ${TOOL_CATEGORY_LABELS[activeCategory]}` : ""}. Forex and gold tools stay at the top.
       </p>
 
       {matching.length === 0 ? (

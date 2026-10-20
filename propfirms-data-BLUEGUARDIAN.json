@@ -1,8 +1,8 @@
 {
   "_notes": {
-    "last_verified": "2026-10-11",
-    "source": "Official Blue Guardian pages only, fetched 2026-10-11: https://blueguardian.com/ (product and rule data embedded in the page: every plan, size, platform, full price and discounted price, challenge and funded rules; footer company details), help centre https://help.blueguardian.com/en/articles/15618204-general-information-rules (restricted countries), https://help.blueguardian.com/en/articles/14061082-instant-standard-account-rules, https://help.blueguardian.com/en/articles/14062186-1-step-standard-rules, https://help.blueguardian.com/en/articles/16444654-1-step-nano-rules, https://help.blueguardian.com/en/articles/14062291-2-step-standard-rules, https://help.blueguardian.com/en/articles/16445450-2-step-nano-rules (profit split, minimum days, consistency); Trustpilot https://www.trustpilot.com/review/blueguardian.com.",
-    "pricing": "standard = original price, promo = discounted price from the site's product data (25% off with code BG25, shown site-wide). Prices are the same on every platform.",
+    "last_verified": "2026-10-20",
+    "source": "Live https://blueguardian.com/ plan selector read in Chrome on 2026-10-20 (CFD and Futures, every plan; each size button shows the discounted and full price), https://blueguardian.com/affiliates, help.blueguardian.com 'How to become an Affiliate?', Trustpilot (20 newest reviews) and Google Maps. Earlier sources (2026-10-11) listed in git history.",
+    "pricing": "standard = original price, promo = discounted price as displayed on each size button (25% off with code SPOOKY, shown site-wide on 2026-10-20; it replaced BG25). Prices are the same on every platform. A few promo prices moved by $1 against the earlier page data (rounding), Futures Reserve 50K changed from $112/$84 to $125/$94, and the Instant $300K is no longer offered (removed).",
     "profit_split": "profit_split_max = the standard split without paid add-ons (help centre): Instant 80% (90% add-on), 1-Step Standard 85% (90% add-on), 1-Step Nano 85% (100% add-on), 2-Step Standard 85% (90% add-on), 2-Step Nano 80%. Futures 90%.",
     "rules_detail": "Forex daily loss resets at 5pm EST from the higher of balance or equity. Minimum days are profitable days: Instant 5 (before payout), 1-Step and 2-Step Standard 3, 1-Step Nano none in the evaluation and 5 on the funded account, 2-Step Nano none. Consistency: Instant 20%; 1-Step Nano 50%; 2-Step Nano 50% on the funded account only. Futures: Standard has no consistency rule in the evaluation and 40% on the funded account; Reserve and Express have 40% in the evaluation only; Direct (no evaluation) uses 20% / 25% / 30% for payouts 1 / 2 / 3+, and a profit goal of $1,500 / $3,000 / $6,000 / $9,000 for the first payout.",
     "payout_caps": "Futures Standard: first payout cap recorded ($1,500-$4,000), then $2,000-$4,500. Express: maximum daily payout ($600-$2,500). Reserve: flat cap per payout. Direct: no cap shown.",
@@ -12,7 +12,9 @@
     "vetting": "Checked 2026-10-11. Of the 20 newest Trustpilot reviews, about 11 described a rejected payout (reasons given include 'multiple accounts'/CID violations, a failed video or KYC check and the 'Guardian Shield' rule); the firm replied to 1. Trustpilot hides its score for a guideline breach and says it removed fake reviews. Listed with a review alert at the team's request (2026-10-11): the site aims to list every firm and show this context.",
     "logo": "No square logo found (the site uses an inline wordmark); the card shows initials.",
     "rule_units": "Forex rules are % of account size. Futures rules are fixed USD amounts.",
-    "null_means": "Not stated on an official Blue Guardian page we could read."
+    "null_means": "Not stated on an official Blue Guardian page we could read.",
+    "affiliate_program": "https://blueguardian.com/affiliates and help article 'How to become an Affiliate?' (2026-10-20): Level 1 (0-100 referrals) 10%, Level 2 (100-250) 12.5% plus a $500 bonus and free accounts, Level 3 (250+) 15% plus $1,000 bonus; strong existing affiliates can apply straight to Level 3. 30-day cookie; commission on sales through the affiliate link or coupon code. Minimum payout $200, paid on the 15th and 30th of each month (method not named). Free to join, anyone can apply; social media promotion allowed; paid ads allowed except Google Ads/PPC; no self-referrals. Comparison sites and country limits not mentioned. Apply: form on https://blueguardian.com/affiliates.",
+    "google_rating": "Google Maps (2026-10-20): 'Blue Guardian' listing (category 'Educational institution', website blueguardian.com) - 4.7 from 343 reviews. The pin sits near Abu Dhabi rather than at the footer's Dubai address."
   },
   "firm": {
     "id": "blue-guardian",
@@ -57,18 +59,23 @@
       "checked": "2026-10-11",
       "trustpilot": null,
       "trustpilot_note": "Trustpilot is not showing a score for this firm. Its page says this is because of a breach of Trustpilot's guidelines (2,111 reviews, checked 11 Oct 2026).",
-      "google": null,
-      "google_note": "Google rating not checked yet."
+      "google": {
+        "rating": 4.7,
+        "review_count": 343,
+        "url": "https://maps.google.com/?cid=9883065733202699700",
+        "checked": "2026-10-20"
+      },
+      "google_note": null
     },
     "review_alert": {
-      "summary": "Of the 20 most recent Trustpilot reviews, about 11 describe a payout being rejected (reasons given include rule or identity-check issues), and the firm had replied to only one of them. Trustpilot is also not showing a score for this firm; its page says this is because of a breach of its guidelines.",
-      "checked": "2026-10-11",
+      "summary": "Of the 20 most recent Trustpilot reviews (read 20 October 2026), about 7 describe a payout being rejected, reduced or held back, or an account being closed around payout time; the firm had not replied to any of them. Trustpilot is also not showing a score for this firm; its page says this is because of a breach of its guidelines.",
+      "checked": "2026-10-20",
       "url": "https://www.trustpilot.com/review/blueguardian.com?sort=recency"
     },
     "markets": [
       {
         "market": "forex",
-        "promo_code": "BG25",
+        "promo_code": "SPOOKY",
         "programs": [
           {
             "program": "1-step",
@@ -86,7 +93,7 @@
                   "drawdown_type": "trailing",
                   "profit_split_max": 85,
                   "min_trading_days": 3,
-                  "consistency": null,
+                  "consistency": "none",
                   "trading_period": "unlimited",
                   "fee_refund": null
                 },
@@ -98,12 +105,12 @@
                   },
                   {
                     "size": 10000,
-                    "promo": 49,
+                    "promo": 50,
                     "standard": 66
                   },
                   {
                     "size": 25000,
-                    "promo": 100,
+                    "promo": 101,
                     "standard": 134
                   },
                   {
@@ -113,7 +120,7 @@
                   },
                   {
                     "size": 100000,
-                    "promo": 298,
+                    "promo": 299,
                     "standard": 398
                   },
                   {
@@ -168,7 +175,7 @@
                   },
                   {
                     "size": 200000,
-                    "promo": 438,
+                    "promo": 439,
                     "standard": 585
                   }
                 ]
@@ -191,7 +198,7 @@
                   "drawdown_type": "static",
                   "profit_split_max": 85,
                   "min_trading_days": 3,
-                  "consistency": null,
+                  "consistency": "none",
                   "trading_period": "unlimited",
                   "fee_refund": null
                 },
@@ -208,7 +215,7 @@
                   },
                   {
                     "size": 25000,
-                    "promo": 115,
+                    "promo": 116,
                     "standard": 154
                   },
                   {
@@ -223,7 +230,7 @@
                   },
                   {
                     "size": 200000,
-                    "promo": 697,
+                    "promo": 698,
                     "standard": 930
                   }
                 ]
@@ -322,11 +329,6 @@
                     "standard": 954
                   },
                   {
-                    "size": 300000,
-                    "promo": 1284,
-                    "standard": 1712
-                  },
-                  {
                     "size": 400000,
                     "promo": 1650,
                     "standard": 2200
@@ -339,7 +341,7 @@
       },
       {
         "market": "futures",
-        "promo_code": "BG25",
+        "promo_code": "SPOOKY",
         "programs": [
           {
             "program": "evaluation",
@@ -429,8 +431,8 @@
                     "max_loss": 2000,
                     "max_contracts": 4,
                     "payout_cap": 2000,
-                    "promo": 84,
-                    "standard": 112
+                    "promo": 94,
+                    "standard": 125
                   },
                   {
                     "size": 100000,
@@ -534,7 +536,7 @@
                     "max_loss": 1500,
                     "max_contracts": 1,
                     "payout_cap": null,
-                    "promo": 262.5,
+                    "promo": 263,
                     "standard": 350
                   },
                   {
