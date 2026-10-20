@@ -99,9 +99,9 @@ function brokersSnapshot(): SnapshotItem[] {
 }
 
 function toolsSnapshot(): SnapshotItem[] {
-  const ids = ["tradingview", "luxalgo", "fx-replay"];
-  const chosen = ids.map((id) => tools.find((t) => t.slug === id)).filter((t) => t != null);
-  const picked = chosen.length >= 3 ? chosen : [...chosen, ...tools].slice(0, 3);
+  // The loader already puts the tools we earn from first. Every listing has
+  // an affiliate link, so the homepage examples stay inside that set.
+  const picked = tools.slice(0, 3);
   return picked.map((t) => ({
     href: `/tools/${t.slug}`,
     name: t.name,

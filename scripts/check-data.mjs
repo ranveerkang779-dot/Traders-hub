@@ -476,8 +476,8 @@ function checkTool(file, data) {
   else if (t.platforms.length === 0) warn(file, `tool.platforms is empty`);
   checkLink(file, "tool.website", t.website);
   if (!t.website) err(file, `tool.website is missing - add the official homepage`);
-  checkLink(file, "tool.affiliate_link", t.affiliate_link);
-  // An empty affiliate link is expected. Visit buttons fall back to the homepage.
+  if (!t.affiliate_link) err(file, `tool.affiliate_link is missing - the Tools page only lists a tool that has the owner's affiliate link`);
+  else checkLink(file, "tool.affiliate_link", t.affiliate_link);
   if (t.affiliate_link) warn(file, `affiliate_link is set - confirm it is the owner's link, not a commission rate`);
   if (t.priority != null && (!Number.isInteger(t.priority) || t.priority < 1))
     err(file, `tool.priority must be a whole number from 1 up`);
