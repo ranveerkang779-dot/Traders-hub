@@ -1,10 +1,10 @@
 {
   "_notes": {
-    "last_verified": "2026-10-11",
-    "source": "Official pages only, fetched 2026-10-11: https://brightfunded.com/ (pricing table, plan tabs, discount codes, company footer, 'Established 2023'); help centre articles https://help.brightfunded.com/en/articles/14284743-brightfunded-1-step, https://help.brightfunded.com/en/articles/14284817-brightfunded-2-step-bright, https://help.brightfunded.com/en/articles/14284844-brightfunded-2-step-classic, https://help.brightfunded.com/en/articles/9241611-what-are-the-current-rules-for-the-evaluation-process, https://help.brightfunded.com/en/articles/9241600-how-long-does-the-evaluation-process-take, https://help.brightfunded.com/en/articles/12577176-does-brightfunded-have-a-consistency-rule, https://help.brightfunded.com/en/articles/9268736-how-does-my-reward-split-work-on-my-funded-account, https://help.brightfunded.com/en/articles/9460023-can-i-get-a-refund-for-my-brightfunded-challenge, https://help.brightfunded.com/en/articles/9286630-what-countries-are-restricted-at-brightfunded, https://help.brightfunded.com/en/articles/8205805-who-can-join-brightfunded, https://help.brightfunded.com/en/articles/10855521-what-trading-platform-does-brightfunded-offer, https://help.brightfunded.com/en/articles/14285762-brightfunded-original-accounts; Trustpilot https://www.trustpilot.com/review/brightfunded.com.",
-    "pricing": "Prices are shown in EUR on brightfunded.com (account sizes are in USD). standard = crossed-out price, promo = discounted price shown. Only the 2-Step Bright tab's prices are in the page's HTML: EUR 47 / 87 / 187 / 277 / 477 / 947 for $5K-$200K, shown as EUR 35.25 / 65.25 / 140.25 / 207.75 / 357.75 / 710.25 with 25% off (code RALLY25). The 1-Step (code RALLY30, 30% off) and 2-Step Classic (code RALLY15, 15% off) prices only load in a browser, so they are null until we have screenshots. The site may show a different currency by visitor location - not confirmed.",
-    "promo_codes": "Each plan has its own code, so promo_code on the market is left null and the codes are recorded here: 1-Step RALLY30 (30% off), 2-Step Bright RALLY25 (25% off), 2-Step Classic RALLY15 (15% off). The 2-Step Bright promo prices above match 25% off exactly.",
-    "account_sizes": "The site's size selector ($5K, $10K, $25K, $50K, $100K, $200K) is shared by all three plans; only 2-Step Bright's sizes were confirmed with prices. Confirm 1-Step and 2-Step Classic sizes with the screenshots.",
+    "last_verified": "2026-10-20",
+    "source": "Live https://brightfunded.com/ pricing table read in Chrome on 2026-10-20 (1 Step, 2-Step Bright and 2-Step Classic tabs, all six sizes), https://brightfunded.com/affiliate and help-centre affiliate articles (9662025 who can become an affiliate, 9662092 payout methods, 9662070 promotion policy). Earlier sources (2026-10-11) listed in git history.",
+    "pricing": "Prices are shown in EUR only on brightfunded.com (no currency switch; account sizes are in USD). standard = crossed-out price, promo = discounted price shown with the site-wide code DOUBLE25 (25% off, 'Double Up Offer', 2026-10-20). 1 Step and 2-Step Classic have identical prices: EUR 49 / 97 / 197 / 297 / 497 / 997 for $5K-$200K (promo 36.75 / 72.75 / 147.75 / 222.75 / 372.75 / 747.75). 2-Step Bright: EUR 47 / 87 / 187 / 277 / 477 / 947 (promo 35.25 / 65.25 / 140.25 / 207.75 / 357.75 / 710.25).",
+    "promo_codes": "One site-wide code on 2026-10-20: DOUBLE25 (25% off every plan, plus a 15% evaluation profit reward and a free account on payout). The earlier per-plan RALLY codes are gone.",
+    "account_sizes": "All three plans offer $5K, $10K, $25K, $50K, $100K and $200K, each with a price on the live table (2026-10-20).",
     "profit_split": "80% by default; 90% with a paid add-on at checkout; up to 100% through the scaling plan (help centre, 'How does my Reward Split work'). The pricing table shows 'Up to 90%', which is what profit_split_max records. See the open to-do on standardising profit_split_max.",
     "evaluation_reward": "All three plans pay a 15% share of the evaluation profits, added to the next funded account after 10% growth and a payout (help centre).",
     "drawdown": "Daily loss is measured from the higher of balance or equity at the end of each day (resets 11:30-11:59 PM CET) and is a % of the original balance. 2-Step Bright and Classic: static max loss from the starting balance. 1-Step: max loss trails the highest equity in real time (intraday) and locks at the starting balance once equity is 6% up.",
@@ -15,7 +15,9 @@
     "company": "Footer: Bright Global FZCO (trading as BrightFunded), Building A1, Dubai Digital Park, Dubai Silicon Oasis, UAE. CFD service contracted by BrightFunded Ltd (Saint Lucia, reg. 2025-00358). Futures by BrightFunded LLC (Wyoming; business address Austin, TX). Payments affiliate Bright Transact Ltd (Cyprus, HE 478945). Homepage says 'Established 2023'.",
     "vetting": "Checked 2026-10-11 against our listing criteria. Trustpilot hides the score for a guideline breach and says fake reviews were removed. Of the 20 newest reviews, none described a refused trader payout; complaints were mainly about account breaches, platform problems and support. Passed.",
     "rule_units": "Forex rules are % of account size.",
-    "null_means": "Not stated on an official BrightFunded page we could read."
+    "null_means": "Not stated on an official BrightFunded page we could read.",
+    "affiliate_program": "https://brightfunded.com/affiliate (2026-10-20): tiered commission on every challenge a referral buys, including repeat purchases - Bronze 10% (no target), Silver 12.5% (EUR 1,000 commission in a month), Gold 15% (EUR 2,000 a month). Affiliates also get a 10% discount code for their audience. Cookie length: not stated. Monthly payouts by bank transfer (EUR) or USDC (ERC-20). Requirements: 18+, KYC, not on sanctions lists; not open to people living in or from Belarus, Cuba, Iran, Myanmar, North Korea, Russia, Sudan, Syria, occupied regions of Ukraine, or Vietnam - so UAE-based affiliates are eligible. Paid advertising (PPC, Google Ads, sponsored content) is prohibited; comparison sites are not mentioned. Apply: 'Apply Now' in the Trader Dashboard (sign-up needed), from https://brightfunded.com/affiliate.",
+    "google_rating": "Google Maps (2026-10-20) has a 'BrightFunded' listing (investment company, links to brightfunded.com) with 1.0 from a single review. The pin sits near Abu Dhabi rather than at the Dubai Silicon Oasis address. Recorded because it is the firm's own listing, but one review says very little."
   },
   "firm": {
     "id": "brightfunded",
@@ -52,13 +54,18 @@
       "checked": "2026-10-11",
       "trustpilot": null,
       "trustpilot_note": "Trustpilot is not showing a score for this firm. Its page says this is because of a breach of Trustpilot's guidelines (570 reviews, checked 11 Oct 2026).",
-      "google": null,
-      "google_note": "Google rating not checked yet."
+      "google": {
+        "rating": 1.0,
+        "review_count": 1,
+        "url": "https://maps.google.com/?cid=15526553556038984076",
+        "checked": "2026-10-20"
+      },
+      "google_note": "Based on a single Google review."
     },
     "markets": [
       {
         "market": "forex",
-        "promo_code": null,
+        "promo_code": "DOUBLE25",
         "programs": [
           {
             "program": "1-step",
@@ -83,33 +90,33 @@
                 "accounts": [
                   {
                     "size": 5000,
-                    "promo": null,
-                    "standard": null
+                    "promo": 36.75,
+                    "standard": 49
                   },
                   {
                     "size": 10000,
-                    "promo": null,
-                    "standard": null
+                    "promo": 72.75,
+                    "standard": 97
                   },
                   {
                     "size": 25000,
-                    "promo": null,
-                    "standard": null
+                    "promo": 147.75,
+                    "standard": 197
                   },
                   {
                     "size": 50000,
-                    "promo": null,
-                    "standard": null
+                    "promo": 222.75,
+                    "standard": 297
                   },
                   {
                     "size": 100000,
-                    "promo": null,
-                    "standard": null
+                    "promo": 372.75,
+                    "standard": 497
                   },
                   {
                     "size": 200000,
-                    "promo": null,
-                    "standard": null
+                    "promo": 747.75,
+                    "standard": 997
                   }
                 ]
               }
@@ -120,7 +127,7 @@
             "tiers": [
               {
                 "tier": "2-Step Bright",
-                "tagline": "Discount code RALLY25",
+                "tagline": "Static drawdown · 4% daily, 8% max loss · 5 minimum trading days",
                 "rules": {
                   "unit": "percent",
                   "phase1_target": 8,
@@ -188,33 +195,33 @@
                 "accounts": [
                   {
                     "size": 5000,
-                    "promo": null,
-                    "standard": null
+                    "promo": 36.75,
+                    "standard": 49
                   },
                   {
                     "size": 10000,
-                    "promo": null,
-                    "standard": null
+                    "promo": 72.75,
+                    "standard": 97
                   },
                   {
                     "size": 25000,
-                    "promo": null,
-                    "standard": null
+                    "promo": 147.75,
+                    "standard": 197
                   },
                   {
                     "size": 50000,
-                    "promo": null,
-                    "standard": null
+                    "promo": 222.75,
+                    "standard": 297
                   },
                   {
                     "size": 100000,
-                    "promo": null,
-                    "standard": null
+                    "promo": 372.75,
+                    "standard": 497
                   },
                   {
                     "size": 200000,
-                    "promo": null,
-                    "standard": null
+                    "promo": 747.75,
+                    "standard": 997
                   }
                 ]
               }

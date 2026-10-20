@@ -1,8 +1,8 @@
 {
   "_notes": {
-    "last_verified": "2026-10-03",
-    "source": "Official TradeDay pages only, fetched 2026-10-03: https://www.tradeday.com/ (pricing section: every product, drawdown type, platform and size card, with list and discounted prices, evaluation and funded rules), https://www.tradeday.com/about, https://www.tradeday.com/affiliate-program, https://www.tradeday.com/terms-and-conditions, and the official help centre tradeday.freshdesk.com articles 103000123294 (prohibited countries, modified 1 Oct 2026), 103000008902 (monthly billing, modified 18 Sep 2026), 103000008813 (platforms, modified 2 Sep 2026), 103000008855 (maximum drawdown), 103000050956 (affiliate program).",
-    "pricing": "All prices USD per MONTH (billing = monthly). standard = the crossed-out list price on the pricing card. promo = null on purpose: the page shows a 55% lower price with code TDNEW (e.g. 25K $45 instead of $100) but does not say whether the discount covers only the first month or every renewal, so showing it could mislead. Discounted prices seen 2026-10-03 (Quick Pay Intraday / Quick Pay EOD / Fast Pass): 25K $45 / $54 / $59, 50K $59 / $79 / $85, 100K $108 / $129 / $149, 150K $162 / $180 / $225. Add them back once TradeDay confirms the discount applies to every month (or label them first-month only). Prices are the same for Tradovate and Rithmic.",
+    "last_verified": "2026-10-20",
+    "source": "Live https://www.tradeday.com/ pricing cards read in Chrome on 2026-10-20 - list and code prices unchanged from 2026-10-03; Google Maps. Earlier sources listed in git history.",
+    "pricing": "All prices USD per MONTH (billing = monthly). standard = the crossed-out list price on the pricing card. promo = null on purpose: the page shows a 55% lower price with code TDNEW (e.g. 25K $45 instead of $100) but does not say whether the discount covers only the first month or every renewal, so showing it could mislead. Discounted prices seen 2026-10-03 (Quick Pay Intraday / Quick Pay EOD / Fast Pass): 25K $45 / $54 / $59, 50K $59 / $79 / $85, 100K $108 / $129 / $149, 150K $162 / $180 / $225. Add them back once TradeDay confirms the discount applies to every month (or label them first-month only). Prices are the same for Tradovate and Rithmic. Re-checked 2026-10-20: TDNEW still shown (cards 55% off, banner 'up to 55%/60% off'); the page still does not say whether it covers renewals, so promo stays null.",
     "billing": "Monthly subscription: the first payment is taken at sign-up and recurs every 30 days until you pass or cancel; no time limit to pass. No activation fee on any plan. Resets are extra (help centre, Quick Pay Intraday / Quick Pay EOD / Fast Pass): 25K $45 / $54 / $59, 50K $60 / $85 / $85, 100K $110 / $135 / $140, 150K $165 / $195 / $225. The pricing cards show slightly lower reset prices for some sizes (e.g. 50K Quick Pay Intraday $59, 100K $108), probably the discounted figure.",
     "rules_detail": "Quick Pay: profit target, trailing max drawdown calculated intraday (or end-of-day during the evaluation on the EOD version - the funded account is always intraday), 30% consistency and min 5 trading days in the evaluation. Funded Sim: no consistency rule, no payout buffer, payouts from day 1, minimum request $250. Fast Pass: end-of-day trailing drawdown in evaluation and funded, 45% consistency in evaluation and funded, min 3 trading days to pass (the FAQ also describes it as 'no minimum trading day requirement'; the card says 3); funded payouts need 5 profitable days of $100 / $150 / $200 / $250, minimum request $250, maximum per cycle $750 / $1,500 / $1,875 / $2,250; funded position limit starts at 1 / 2 / 3 / 4 contracts and scales +1 per $2K profit. No daily loss limit is listed on any card (daily_loss = null, not stated). Trailing drawdown stops at the starting balance.",
     "profit_split": "Quick Pay Funded Sim: 50/50 on net profit below $4K, 80/20 above $4K; 90/10 in Funded Live. Fast Pass: 80/20 in Funded Sim, 90/10 in Funded Live. profit_split_max = 80 (the Funded Sim split, before moving live).",
@@ -12,7 +12,8 @@
     "affiliate_program": "Has a program (https://www.tradeday.com/affiliate-program, sign-up form https://tradeday.postaffiliatepro.com/affiliates/signup.php#SignupForm, runs on Post Affiliate Pro). Commission tiered by monthly sales: $0-$5,000 = 15%, $5,001-$10,000 = 20%, $10,001+ = 22.5% 'on all purchases'. Higher tiers also get graphics, newsletter features, giveaways and a free $50K evaluation. 'New Partners Apply' - applications are reviewed. Payout method, minimum payout and cookie length: not stated on the public page. Comparison sites / UAE-based affiliates: not mentioned (the UAE is not on the trader prohibited list).",
     "marketing_stats_excluded": "The site publishes a 36% pass rate (Jan-Jun 2026) and payout totals; not reproduced here (directory policy).",
     "rule_units": "Futures rules are fixed USD amounts per account size.",
-    "null_means": "Not stated on an official TradeDay page."
+    "null_means": "Not stated on an official TradeDay page.",
+    "google_rating": "Google Maps (2026-10-20): 'TradeDay', financial institution, TradeDay LLC, 2nd Floor, 412 S Wells St, Chicago, IL 60607 (website tradeday.com) - 4.8 from 1,035 reviews."
   },
   "firm": {
     "id": "tradeday",
@@ -140,8 +141,13 @@
         "checked": "2026-10-03"
       },
       "trustpilot_note": null,
-      "google": null,
-      "google_note": "Google rating not available yet.",
+      "google": {
+        "rating": 4.8,
+        "review_count": 1035,
+        "url": "https://maps.google.com/?cid=7061210219868601761",
+        "checked": "2026-10-20"
+      },
+      "google_note": null,
       "trustpilot_quotes": [
         {
           "quote": "Great firm with straight forward rules and reliable payouts. They have a clear path to funded and are there to help you throughout your trading journey.",

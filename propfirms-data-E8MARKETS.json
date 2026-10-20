@@ -1,16 +1,19 @@
 {
   "_notes": {
-    "last_verified": "2026-10-03",
-    "source": "Official E8 pages only: https://e8markets.com/ (homepage configurator and footer company details), https://e8markets.com/e8-one, https://e8markets.com/e8-pro, https://e8markets.com/e8-signature, https://e8futures.com/ (futures configurator), product data embedded in those pages (prices per size, drawdown per size, payout options, platforms); help.e8markets.com articles 11775980 (E8 One), 15274219 (E8 Pro), 13106558 (product overview), 5514278 (accepted countries), 8811411 (refund policy), 9799834 (platforms), 14124293 (about); helpfutures.e8markets.com articles 11755943 (E8 Signature), 15935817 (E8 Zero Starter and Max), 10155917 (max contract sizes), 11940573 (Signature payout caps). e8markets.com and the help centres were read with a plain HTTP client (WebFetch was blocked with 403).",
-    "pricing": "standard = price shown without any code. promo = first-order price with the site-wide code E8 as shown on the pages: 25% off on forex (Classic Markets) products, 5% off on futures. The code is first order only; later orders get 10% off (forex) or 25-35% off (futures) per the page data, not applied here. The pages also show a crossed-out 'regular' price and 'Save $X with code E8' - the standard price here is the no-code price a customer pays, not an inflated anchor. E8 Zero promo prices were not shown as text on the page, so promo is null there. E8 One and E8 Pro prices are for the default configuration shown on the configurator (E8 One: 6% drawdown, 80% payout; E8 Pro: 8% drawdown, 80% payout). Choosing a 90%/100% payout or a different drawdown changes the price; those prices are not shown without interacting with the configurator. Swap-free adds 10%; cTrader costs an extra $10 on accounts under $100.",
+    "last_verified": "2026-10-20",
+    "source": "Live configurators read in Chrome on 2026-10-20: https://e8markets.com/ (Classic Markets: E8 One, E8 Pro, E8 Signature, every size) and https://e8futures.com/ (E8 Signature, E8 Zero MAX, E8 Zero Starter, every size; rules per size from the server-rendered configurator pages, default 80% payout configuration), help.e8markets.com affiliate article and https://e8markets.com/legal/affiliate. Earlier sources listed in git history.",
+    "pricing": "standard = price without a code (crossed out), promo = first-order price with code E8 as displayed on 2026-10-20: Classic Markets E8 One and E8 Pro 30% off, E8 Signature 50% off; futures Signature 25% off, Zero MAX and Zero Starter 35% off. The code is first order only. A separate 'Winter ARC' code E8ARC ('up to 50% off', until 25 Oct 2026) was also advertised; not applied here. E8 One and E8 Pro prices are for the default configuration (E8 One: 6% drawdown, 80% payout; E8 Pro: 8% drawdown, 80% payout). Swap-free adds 10%; cTrader costs an extra $10 on accounts under $100.",
     "billing": "All E8 challenges are a one-time fee. The configurator shows 'No Activation Fee'. No monthly subscription. Fee refund only if the account is unused, under 30 days old and not paid in crypto (refund policy); E8 says it does not refund the fee with the first payout, so fee_refund = false.",
     "rule_units": "Forex rules are % of account size. Futures rules are fixed USD amounts.",
     "null_means": "Not stated (or varies by account size or configuration) on the official pages checked. See the notes before publishing.",
     "forex_rules": "All E8 products are single-phase. E8 One: drawdown customisable 4-14% (profit target = 1.5x drawdown, daily drawdown ~0.66x drawdown); values here are the website's default 6% configuration ($100K: $9,000 target, $6,000 dynamic drawdown, $4,000 daily drawdown). Note: the E8 One help article describes a different preset (6% target, 3% daily, 4% dynamic drawdown) - the website configurator was used because its prices match. 'Dynamic' drawdown trails closed profits only and locks at the starting balance. 40% best-day rule on the performance account only; news trading banned around high-impact news on the performance account. E8 Pro: 8% target, 8% static drawdown (moves only after first payout), 2.5% daily drawdown, 2% daily profit cap counts toward target and payouts, no consistency, daily payouts with 1% minimum profit; payout split 80% or 100% (paid add-on). E8 Signature (Classic Markets): 6% target, end-of-day dynamic drawdown of 4% on $25K and $50K and 3% on $100K and $150K ($1,000 / $2,000 / $3,000 / $4,500), so max_loss is left null; no daily limit in the challenge, a 2% soft 'daily pause' on the performance account only; 35% best-day rule on payouts; payout caps per payout ($1,000-$5,250) and a buffer equal to the drawdown. All forex products: unlimited time, but at least one trade every 60 days.",
-    "futures_rules": "Futures market (e8futures.com, Tradovate/NinjaTrader). E8 Signature Futures: 6% target, end-of-day dynamic drawdown ($4,000 on $150K applies to accounts bought after 1 Oct 2026), 2% daily pause on the performance account only ($500 / $1,000 / $2,000 / $3,000) so daily_loss is null, 35% best-day rule on payouts, max 4 payouts per account then a free new challenge; payout_cap = cap on the 1st and 2nd payout (3rd and 4th: $1,250 / $2,000 / $3,000 / $3,500). E8 Zero Starter and Max: identical rules, differ only in price and payout caps; 3% end-of-day dynamic drawdown (USD amounts not stated, so max_loss is null), no daily loss limit, 40% best-day rule in the challenge only, no consistency/minimum days on the performance account, daily payouts ($100 minimum), max 4 payouts per account; payout split 80% or 100%. max_contracts = challenge allowance in full-size contracts (micros = 10x); E8 Zero performance accounts start lower (2/3/4) and scale up with profit. Signature needs at least one trade every 60 days, Zero every 7 days. Positions are closed daily (Zero: 15:10 CT).",
+    "futures_rules": "Futures market (e8futures.com, Tradovate/NinjaTrader). E8 Signature Futures: 6% target, end-of-day dynamic drawdown ($4,000 on $150K applies to accounts bought after 1 Oct 2026), 2% daily pause on the performance account only ($500 / $1,000 / $2,000 / $3,000) so daily_loss is null, 35% best-day rule on payouts, max 4 payouts per account then a free new challenge; payout_cap = cap on the 1st and 2nd payout (3rd and 4th: $1,250 / $2,000 / $3,000 / $3,500). E8 Zero Starter and Max: identical rules, differ only in price and payout caps; end-of-day dynamic drawdown (USD amounts per size now recorded as max_loss, see zero_changes_2026_10_20), no daily loss limit, 40% best-day rule in the challenge only, no consistency/minimum days on the performance account, daily payouts ($100 minimum), max 4 payouts per account; payout split 80% or 100%. max_contracts = challenge allowance in full-size contracts (micros = 10x); E8 Zero performance accounts start lower (2/3/4) and scale up with profit. Signature needs at least one trade every 60 days, Zero every 7 days. Positions are closed daily (Zero: 15:10 CT).",
     "not_listed": "Perpetual Futures market (E8 One and E8 Pro on E8 Terminal / Hyperliquid, crypto and other perpetuals) is not listed separately; it uses the same E8 One / E8 Pro prices with a bigger first-order discount (50%). The free trial (E8 Trial One) is also not listed.",
     "company": "Footer: E8 Funding LLC, 4101 McEwen Rd #205, Dallas, TX (operates TradeLocker, cTrader, Match-Trader); E8 Markets Ltd, Saint Lucia, reg. 2025-00347 (operates MT5); website subject to the policies of Digital Renaissance LLC (Puerto Rico). Founded 2021 as E8 Funding (help centre).",
-    "company_check": "Founded 2021 as E8 Funding (E8 help centre, see source). HQ from the site footer: E8 Funding LLC, 4101 McEwen Rd #205, Dallas, TX."
+    "company_check": "Founded 2021 as E8 Funding (E8 help centre, see source). HQ from the site footer: E8 Funding LLC, 4101 McEwen Rd #205, Dallas, TX. No Google Maps listing for E8 Markets found (2026-10-20).",
+    "zero_changes_2026_10_20": "E8 Zero Starter is now sold as $25K / $50K / $100K / $150K ($128 / $218 / $338 / $438), replacing the earlier $50K / $100K / $200K at $178 / $278 / $558. E8 Zero MAX added a $25K ($228). Rules per size from the configurator (80% payout setting): profit target $1,500 / $3,000 / $6,500 / $9,000 (Starter 150K) or $13,500 (MAX 200K); EOD dynamic drawdown $1,000 / $1,500 / $3,000 / $3,990 (Starter 150K) / $6,000 (MAX 200K), recorded as max_loss. Max contracts and payout caps for the new sizes are not shown, so null.",
+    "min_trading_days": "E8 Signature (forex and futures) can be passed 'in as little as 1 day' (configurator), so min_trading_days = 0, as for E8 One.",
+    "affiliate_program": "help.e8markets.com and https://e8markets.com/legal/affiliate (Global Affiliate Program, updated 25 Nov 2025; checked 2026-10-20): one account, link and discount code across forex, futures and crypto. Level 1 - open to anyone with at least one social media link, auto-approved: 20% on a customer's first sale, 10% on later sales and resets. Level 2 - interview only, 25% / 12.5%, and restricted to individual content creators, NOT comparison, review or blog websites. Discount codes may not be shared on coupon sites, forums or by spam. Minimum payout $200, first payout no sooner than 28 days after registration or the last payout, commissions from at least 3 unique users between payouts; payment method and cookie length not stated. No country rule stated. Apply: via the affiliate dashboard linked from the help centre."
   },
   "firm": {
     "id": "e8-markets",
@@ -78,7 +81,7 @@
       "trustpilot": null,
       "trustpilot_note": "Trustpilot is not showing a score for this firm. Its page says this is because of a breach of Trustpilot's guidelines (checked 3 Oct 2026).",
       "google": null,
-      "google_note": "Google rating not available yet.",
+      "google_note": "We couldn't find a Google rating for this firm.",
       "trustpilot_quotes": [
         {
           "quote": "Really good platform and fair prices (a bit high but fair) however the spreads are wonky and they allow copy trading but with the spreads and lag time with trade locker or their system is not the best",
@@ -131,42 +134,42 @@
                 "accounts": [
                   {
                     "size": 5000,
-                    "promo": 36,
+                    "promo": 34,
                     "standard": 48
                   },
                   {
                     "size": 10000,
-                    "promo": 66,
+                    "promo": 62,
                     "standard": 88
                   },
                   {
                     "size": 25000,
-                    "promo": 141,
+                    "promo": 132,
                     "standard": 188
                   },
                   {
                     "size": 50000,
-                    "promo": 216,
+                    "promo": 202,
                     "standard": 288
                   },
                   {
                     "size": 100000,
-                    "promo": 366,
+                    "promo": 342,
                     "standard": 488
                   },
                   {
                     "size": 200000,
-                    "promo": 599,
+                    "promo": 559,
                     "standard": 798
                   },
                   {
                     "size": 400000,
-                    "promo": 1199,
+                    "promo": 1119,
                     "standard": 1598
                   },
                   {
                     "size": 500000,
-                    "promo": 1499,
+                    "promo": 1399,
                     "standard": 1998
                   }
                 ]
@@ -191,42 +194,42 @@
                 "accounts": [
                   {
                     "size": 5000,
-                    "promo": 24,
+                    "promo": 23,
                     "standard": 32
                   },
                   {
                     "size": 10000,
-                    "promo": 51,
+                    "promo": 48,
                     "standard": 68
                   },
                   {
                     "size": 25000,
-                    "promo": 111,
+                    "promo": 104,
                     "standard": 148
                   },
                   {
                     "size": 50000,
-                    "promo": 171,
+                    "promo": 160,
                     "standard": 228
                   },
                   {
                     "size": 100000,
-                    "promo": 366,
+                    "promo": 342,
                     "standard": 488
                   },
                   {
                     "size": 200000,
-                    "promo": 749,
+                    "promo": 699,
                     "standard": 998
                   },
                   {
                     "size": 400000,
-                    "promo": 1574,
+                    "promo": 1469,
                     "standard": 2098
                   },
                   {
                     "size": 500000,
-                    "promo": 1949,
+                    "promo": 1819,
                     "standard": 2598
                   }
                 ]
@@ -243,7 +246,7 @@
                   "max_loss": null,
                   "drawdown_type": "EOD",
                   "profit_split_max": 80,
-                  "min_trading_days": null,
+                  "min_trading_days": 0,
                   "consistency": "35% (payouts)",
                   "trading_period": "unlimited",
                   "fee_refund": false
@@ -251,22 +254,22 @@
                 "accounts": [
                   {
                     "size": 25000,
-                    "promo": 90,
+                    "promo": 60,
                     "standard": 120
                   },
                   {
                     "size": 50000,
-                    "promo": 120,
+                    "promo": 80,
                     "standard": 160
                   },
                   {
                     "size": 100000,
-                    "promo": 210,
+                    "promo": 140,
                     "standard": 280
                   },
                   {
                     "size": 150000,
-                    "promo": 338,
+                    "promo": 225,
                     "standard": 450
                   }
                 ]
@@ -285,11 +288,12 @@
               {
                 "tier": "E8 Signature Futures",
                 "tagline": "One-time fee · Single phase · End-of-day drawdown · Up to 4 payouts per account",
+                "billing": "one-time",
                 "rules": {
                   "unit": "usd",
                   "drawdown_type": "EOD",
                   "consistency_pct": 35,
-                  "min_trading_days": null,
+                  "min_trading_days": 0,
                   "profit_split_max": 80,
                   "fee_refund": false
                 },
@@ -301,7 +305,7 @@
                     "max_loss": 1000,
                     "max_contracts": 2,
                     "payout_cap": 1000,
-                    "promo": 114,
+                    "promo": 90,
                     "standard": 120
                   },
                   {
@@ -311,7 +315,7 @@
                     "max_loss": 2000,
                     "max_contracts": 4,
                     "payout_cap": 1250,
-                    "promo": 162,
+                    "promo": 128,
                     "standard": 170
                   },
                   {
@@ -321,7 +325,7 @@
                     "max_loss": 3000,
                     "max_contracts": 8,
                     "payout_cap": 2000,
-                    "promo": 266,
+                    "promo": 210,
                     "standard": 280
                   },
                   {
@@ -331,7 +335,7 @@
                     "max_loss": 4000,
                     "max_contracts": 12,
                     "payout_cap": 3000,
-                    "promo": 428,
+                    "promo": 338,
                     "standard": 450
                   }
                 ]
@@ -339,6 +343,7 @@
               {
                 "tier": "E8 Zero Starter",
                 "tagline": "One-time fee · No daily loss limit · Consistency rule in challenge only · Smaller payout caps",
+                "billing": "one-time",
                 "rules": {
                   "unit": "usd",
                   "drawdown_type": "EOD",
@@ -349,40 +354,51 @@
                 },
                 "accounts": [
                   {
+                    "size": 25000,
+                    "profit_target": 1500,
+                    "daily_loss": "none",
+                    "max_loss": 1000,
+                    "max_contracts": null,
+                    "payout_cap": null,
+                    "promo": 84,
+                    "standard": 128
+                  },
+                  {
                     "size": 50000,
                     "profit_target": 3000,
                     "daily_loss": "none",
-                    "max_loss": null,
+                    "max_loss": 1500,
                     "max_contracts": 4,
                     "payout_cap": 1000,
-                    "promo": null,
-                    "standard": 178
+                    "promo": 142,
+                    "standard": 218
                   },
                   {
                     "size": 100000,
                     "profit_target": 6500,
                     "daily_loss": "none",
-                    "max_loss": null,
+                    "max_loss": 3000,
                     "max_contracts": 8,
                     "payout_cap": 1600,
-                    "promo": null,
-                    "standard": 278
+                    "promo": 220,
+                    "standard": 338
                   },
                   {
-                    "size": 200000,
-                    "profit_target": 13500,
+                    "size": 150000,
+                    "profit_target": 9000,
                     "daily_loss": "none",
-                    "max_loss": null,
-                    "max_contracts": 10,
-                    "payout_cap": 2100,
-                    "promo": null,
-                    "standard": 558
+                    "max_loss": 3990,
+                    "max_contracts": null,
+                    "payout_cap": null,
+                    "promo": 285,
+                    "standard": 438
                   }
                 ]
               },
               {
                 "tier": "E8 Zero Max",
                 "tagline": "One-time fee · No daily loss limit · Consistency rule in challenge only · Larger payout caps",
+                "billing": "one-time",
                 "rules": {
                   "unit": "usd",
                   "drawdown_type": "EOD",
@@ -393,33 +409,43 @@
                 },
                 "accounts": [
                   {
+                    "size": 25000,
+                    "profit_target": 1500,
+                    "daily_loss": "none",
+                    "max_loss": 1000,
+                    "max_contracts": null,
+                    "payout_cap": null,
+                    "promo": 149,
+                    "standard": 228
+                  },
+                  {
                     "size": 50000,
                     "profit_target": 3000,
                     "daily_loss": "none",
-                    "max_loss": null,
+                    "max_loss": 1500,
                     "max_contracts": 4,
                     "payout_cap": 3000,
-                    "promo": null,
+                    "promo": 214,
                     "standard": 328
                   },
                   {
                     "size": 100000,
                     "profit_target": 6500,
                     "daily_loss": "none",
-                    "max_loss": null,
+                    "max_loss": 3000,
                     "max_contracts": 8,
                     "payout_cap": 5000,
-                    "promo": null,
+                    "promo": 383,
                     "standard": 588
                   },
                   {
                     "size": 200000,
                     "profit_target": 13500,
                     "daily_loss": "none",
-                    "max_loss": null,
+                    "max_loss": 6000,
                     "max_contracts": 10,
                     "payout_cap": 7000,
-                    "promo": null,
+                    "promo": 708,
                     "standard": 1088
                   }
                 ]

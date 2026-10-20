@@ -1,8 +1,8 @@
 {
   "_notes": {
-    "last_verified": "2026-10-03",
-    "source": "fundedtradingplus.com blocks automated access (Cloudflare 403), so its pages were read from Internet Archive copies of the official site: https://www.fundedtradingplus.com/prop-trading-challenges/one-step (3 Jul 2026), https://www.fundedtradingplus.com/prop-trading-challenges/two-step (3 Jul 2026), https://www.fundedtradingplus.com/prop-trading-challenges/instant-funding (27 Sep 2026), https://www.fundedtradingplus.com/about-us (3 Jul 2026), https://www.fundedtradingplus.com/terms-conditions/ (27 Sep 2026). Live help centre read directly on 2026-10-03: https://help.fundedtradingplus.com/1-step-express-program-information/ , /2-step-classic-program-information/ , /instant-program-information/ , /activation-accounts-getting-started/ , /activation-accounts-pricing-and-fees/ , /activation-accounts-challenge-rules/ , /activation-accounts-funded-account-rules/ , /activation-accounts-payouts-and-withdrawals/ , /profit-split/ , /prohibited-countries/",
-    "pricing": "standard = the per-size list price in each program page's product data (shown crossed out on the page next to a code price). Each archived page displayed a 30% code price for the $100K size only: WC30 on the 1-Step and 2-Step pages (July 2026, $549 -> $384.30) and FUNDED30 on the Instant page (27 Sep 2026, $4,499 -> $3,149.30). Code prices for other sizes were not shown and the codes may have expired, so promo is null everywhere and no promo_code is set. A 30% code appeared on every snapshot checked, so the list price may work as an anchor - confirm the live price with a screenshot before publishing. Prices include VAT. Resets are offered at a 20% discount on 1-Step and 2-Step.",
+    "last_verified": "2026-10-20",
+    "source": "Live fundedtradingplus.com read in Chrome on 2026-10-20 (it no longer blocks a normal browser): /prop-trading-challenges/one-step, /two-step and /instant-funding (every size clicked), /about-us, /refund-policy, /affiliates (FAQ answers opened) and the site footer. Earlier sources (Internet Archive copies and the help centre, 2026-10-03) listed in git history.",
+    "pricing": "standard = the 'Total fee' list price on each program page; promo = the price 'with code' shown under it. The discount depends on account size, one code per size band (site banner, 2026-10-20): SIZE30 = 30% off $5K-$10K, SIZE25 = 25% off $25K-$50K, SIZE20 = 20% off $100K-$200K. Because the code differs by size, promo_code on the market is left null and the discount shows as 'current promo'. List prices unchanged since 2026-10-03. Prices include VAT.",
     "billing": "All prices are one-time fees (the About page says no recurring monthly fees). Activation Accounts are paid in two parts: a $4 challenge fee up front (the 'standard' price here) and an activation fee only after passing, stored as funded_fee: $179 ($25K), $299 ($50K), $489 ($100K), $969 ($200K). No fee refund is stated for any program.",
     "add_ons": "Paid checkout add-ons: 1-Step and Instant - scaling plan to $5M (+15%), 90% starting split (+15%), payouts every 3 days (+15%). 2-Step - 9% max drawdown (+20%), 85% starting split (+15%). Not available on Activation Accounts.",
     "profit_split": "All programs start at 80%. The help centre says the split rises to 90% once the funded account reaches 20% profit, or from the start with a paid add-on. The 1-Step, 2-Step and Instant product pages say 'Up to 100% Reward Split', so profit_split_max is 100 for those; the help centre doesn't explain how 100% is reached. Activation Accounts stay at 80% (no increase).",
@@ -59,7 +59,9 @@
       }
     },
     "ownership_source": "Instant Funding acquisition (May 2026): https://propfirmmatch.com/industry-news/instant-funding-acquires-funded-trading-plus ; https://pulse2.com/instant-funding-funded-trading-plus-acquisition-increases-group-revenue-by-70/",
-    "company_check": "Checked 2026-10-11: fundedtradingplus.com blocks automated access and the help centre home page states no founding date or HQ. founded/hq left null."
+    "company_check": "Re-checked 2026-10-20 on the live site. Footer: Acello Ltd (trading as Funded Trading Plus), incorporated in England and Wales, company number 12696083, 30 Old Bailey, London EC4M 7AU - recorded as hq. Affiliates page: 'Since 2021 FT+ has been...' - recorded as founded 2021. The About page headline 'Established 2013' refers to Trade Room Plus, the trade room FT+ grew out of, not the prop firm. No Google Maps listing found.",
+    "fee_refund": "Refund policy (2026-10-20): a program can be cancelled and refunded only if the account has not been traded and the request arrives within 14 days of purchase. No refund with payouts, so fee_refund = false.",
+    "affiliate_program": "https://www.fundedtradingplus.com/affiliates (2026-10-20): 15% commission on a referred customer's first purchase (all programmes) and 5% on every repeat purchase. 30-day cookie, last-click attribution, real-time dashboard. Withdraw once the balance reaches $250; payments run on the 7th and 22nd of each month (requests 3 days before). Payout method not stated. Custom discount code on request; named affiliate manager. Who can join: 'Anyone with an audience interested in trading' - no country or comparison-site restrictions stated. Applications reviewed by hand within 3 business days. Apply: https://partners.fundedtradingplus.com/register. The firm is now owned by Instant Funding (see ownership_source)."
   },
   "firm": {
     "id": "funded-trading-plus",
@@ -68,8 +70,8 @@
     "name_note": "Often shortened to FTP or FT+. Operated by Acello Ltd (England and Wales). Bought by the prop firm Instant Funding in May 2026; both brands still run separately.",
     "about": "Funded Trading Plus is a UK prop firm launched in 2021, run by Acello Ltd from London. It sells simulated accounts for forex and other CFDs through one-step, two-step and no-evaluation programs on MT5 and Match-Trader. It also sells 'Activation' accounts with a small upfront fee and a much larger fee due after passing; these aren't listed here.",
     "about_note": null,
-    "founded": null,
-    "hq": null,
+    "founded": 2021,
+    "hq": "London, United Kingdom",
     "currency": "USD",
     "website": "https://www.fundedtradingplus.com/",
     "affiliate_link": "",
@@ -119,7 +121,7 @@
       "trustpilot": null,
       "trustpilot_note": "Trustpilot is not showing a score for this firm. Its page says this is because of a breach of Trustpilot's guidelines (checked 3 Oct 2026).",
       "google": null,
-      "google_note": "Google rating not available yet.",
+      "google_note": "We couldn't find a Google rating for this firm.",
       "trustpilot_quotes": [
         {
           "quote": "Just an update I have now received my hundred K challenge that I previously had problems receiving. They told me that the reason was is it was under DX trade platform when they no longer offer that platform which could be understandable…",
@@ -166,32 +168,32 @@
                   "min_trading_days": 0,
                   "consistency": null,
                   "trading_period": "unlimited",
-                  "fee_refund": null
+                  "fee_refund": false
                 },
                 "accounts": [
                   {
                     "size": 10000,
-                    "promo": null,
+                    "promo": 69.3,
                     "standard": 99
                   },
                   {
                     "size": 25000,
-                    "promo": null,
+                    "promo": 149.25,
                     "standard": 199
                   },
                   {
                     "size": 50000,
-                    "promo": null,
+                    "promo": 261.75,
                     "standard": 349
                   },
                   {
                     "size": 100000,
-                    "promo": null,
+                    "promo": 439.2,
                     "standard": 549
                   },
                   {
                     "size": 200000,
-                    "promo": null,
+                    "promo": 799.2,
                     "standard": 999
                   }
                 ]
@@ -216,27 +218,27 @@
                   "min_trading_days": null,
                   "consistency": "35% (challenge) / 50% (funded)",
                   "trading_period": "unlimited",
-                  "fee_refund": null
+                  "fee_refund": false
                 },
                 "accounts": [
                   {
                     "size": 10000,
-                    "promo": null,
+                    "promo": 62.3,
                     "standard": 89
                   },
                   {
                     "size": 25000,
-                    "promo": null,
+                    "promo": 126.75,
                     "standard": 169
                   },
                   {
                     "size": 50000,
-                    "promo": null,
+                    "promo": 239.25,
                     "standard": 319
                   },
                   {
                     "size": 100000,
-                    "promo": null,
+                    "promo": 439.2,
                     "standard": 549
                   }
                 ]
@@ -253,7 +255,7 @@
                   "unit": "percent",
                   "phase1_target": "n/a",
                   "phase2_target": "n/a",
-                  "funded_target": null,
+                  "funded_target": "none",
                   "daily_loss": 6,
                   "max_loss": 6,
                   "drawdown_type": "trailing (locks at starting balance)",
@@ -261,32 +263,32 @@
                   "min_trading_days": null,
                   "consistency": null,
                   "trading_period": "unlimited",
-                  "fee_refund": null
+                  "fee_refund": false
                 },
                 "accounts": [
                   {
                     "size": 5000,
-                    "promo": null,
+                    "promo": 174.3,
                     "standard": 249
                   },
                   {
                     "size": 10000,
-                    "promo": null,
+                    "promo": 300.3,
                     "standard": 429
                   },
                   {
                     "size": 25000,
-                    "promo": null,
+                    "promo": 824.25,
                     "standard": 1099
                   },
                   {
                     "size": 50000,
-                    "promo": null,
+                    "promo": 1649.25,
                     "standard": 2199
                   },
                   {
                     "size": 100000,
-                    "promo": null,
+                    "promo": 3599.2,
                     "standard": 4499
                   }
                 ]

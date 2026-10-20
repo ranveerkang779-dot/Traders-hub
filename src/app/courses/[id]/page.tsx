@@ -8,6 +8,7 @@ import { getSection } from "@/lib/sections";
 import CourseDetail from "@/components/CourseDetail";
 import TrustpilotStars from "@/components/TrustpilotStars";
 import PartnerFirmPill from "@/components/PartnerFirmPill";
+import OurChoiceBadge from "@/components/OurChoiceBadge";
 import { ChevronLeftIcon, LinkIcon } from "@/components/icons";
 
 // This one route serves two kinds of page, both addressed as /courses/<id>:
@@ -64,6 +65,7 @@ export default async function CourseOrProviderPage({ params }: PageProps<"/cours
         testimonials={course.testimonials}
         testimonialsNote={course.testimonialsNote}
         visitHref={course.affiliateLink ?? course.website}
+        ourChoice={course.affiliateLink != null}
         backHref="/courses"
         backLabel="Back to courses"
       />
@@ -104,7 +106,13 @@ export default async function CourseOrProviderPage({ params }: PageProps<"/cours
             </div>
           )}
           <div className="min-w-0 flex-1">
-            <h1 className="page-title">{provider.name}</h1>
+            <div className="flex flex-wrap items-center gap-x-3 gap-y-2">
+              <h1 className="page-title">{provider.name}</h1>
+              {provider.affiliateLink && <OurChoiceBadge />}
+            </div>
+            {provider.affiliateLink && (
+              <p className="meta mt-2">Featured listing on Tradox. It is not a score of trading results.</p>
+            )}
             {provider.tagline && <p className="mt-2 max-w-2xl text-base text-muted">{provider.tagline}</p>}
             {(provider.trustpilot || provider.whop) && (
               <div className="mt-3 flex flex-col gap-1.5">

@@ -1,7 +1,7 @@
 {
   "_notes": {
-    "last_verified": "2026-10-03",
-    "source": "Official Take Profit Trader pages only: https://takeprofittrader.com/ (plan cards are filled from the site's own plan data at https://takeprofittrader.com/accounts/api/subscriptions, read 2026-10-03; comparison table and FAQ text from the same page), https://takeprofittraderhelp.zendesk.com/hc/en-us/articles/15141145057053-Test-Subscriptions, https://takeprofittraderhelp.zendesk.com/hc/en-us/articles/15169070804125-Rule-1-Hit-Your-Profit-Target, https://takeprofittraderhelp.zendesk.com/hc/en-us/articles/15169066911133-Rule-2-Do-Not-Exceed-Maximum-Position-Size, https://takeprofittraderhelp.zendesk.com/hc/en-us/articles/15170265979165-Rule-3-Do-Not-Hit-End-Of-Day-EOD-Maximum-Trailing-Drawdown, https://takeprofittraderhelp.zendesk.com/hc/en-us/articles/15170316538013-Rule-5-Be-Consistent, https://takeprofittraderhelp.zendesk.com/hc/en-us/articles/15140989806493-Resetting-Your-Test-Account, https://takeprofittraderhelp.zendesk.com/hc/en-us/articles/15172219527581-PRO-Account-Profit-Split-Withdrawal-Rules, https://takeprofittraderhelp.zendesk.com/hc/en-us/articles/15171929948829-Advantages-of-PRO, https://takeprofittraderhelp.zendesk.com/hc/en-us/articles/15171769361053-PRO-Account-Rules, https://takeprofittraderhelp.zendesk.com/hc/en-us/articles/15172006753821-PRO-Account-Rules, https://takeprofittraderhelp.zendesk.com/hc/en-us/articles/36429526878237-PRO-Development-Accounts, https://takeprofittraderhelp.zendesk.com/hc/en-us/articles/29660646764445-NOFEE40-PROMO-FAQS, https://takeprofittraderhelp.zendesk.com/hc/en-us/articles/38320927906717-50AND3-PROMO-FAQS, https://takeprofittraderhelp.zendesk.com/hc/en-us/articles/15173017163549-Choosing-Your-Platform, https://takeprofittraderhelp.zendesk.com/hc/en-us/articles/15172354954525-Withdrawal-Fees, https://takeprofittraderhelp.zendesk.com/hc/en-us/articles/22447557656477-Restricted-Countries",
+    "last_verified": "2026-10-20",
+    "source": "Live https://takeprofittrader.com/ plan cards read in Chrome on 2026-10-20 - monthly prices unchanged ($150 / $170 / $245 / $330 / $360). Also /affiliate and /terms. Earlier sources listed in git history.",
     "pricing": "standard = the monthly Test subscription price from the official plan data ($150 / $170 / $245 / $330 / $360 for 25K / 50K / 75K / 100K / 150K). The plan data has no separate discounted price, so promo is null. A promo code NOFEE40 was advertised on the homepage banner on 2026-10-03: 40% off the monthly Test price for the life of that test, plus the $130 PRO activation fee waived. The help centre gives only one worked example ($50K test for $102 with NOFEE40); per-size promo prices are not shown, so they are not calculated or listed. Earlier codes (NOFEE30, NOFEE50, 50AND3) were time-limited and have ended.",
     "billing": "The Test is a monthly subscription that rebills on the same calendar day each month until the trader passes or cancels; it does not cancel automatically after a rule break. On passing, the subscription stops and a one-time $130 PRO activation fee is charged (waived on accounts bought with some promo codes). No monthly fees in PRO. Test resets cost $79 / $99 / $139 / $169 / $199 (25K-150K) and do not change the renewal date. Simulated commissions of $4.50 (mini) / $1.50 (micro) per round trip apply in Test and PRO.",
     "daily_loss": "The plan cards show the Daily Loss Limit as 'Removed' and the homepage comparison table lists the daily loss rule as 'None' for Test, PRO and PRO+, so daily_loss = \"none\". (PRO+ Development accounts, which TPT may assign at its discretion, have a soft-breach daily loss limit that pauses trading.)",
@@ -10,12 +10,13 @@
     "min_trading_days": "3 trading days for tests bought from 17 August 2026 (older tests keep 5).",
     "profit_split": "PRO (simulated) 80/20, withdrawable once the account is above a buffer equal to the max drawdown (e.g. $52,000 on a 50K). PRO+ (live account) 90/10 with no buffer, but PRO+ is by invitation at TPT's discretion. profit_split_max = 90.",
     "payout_caps": "Official pages say there is no maximum withdrawal amount and no scaling plan; so payout_cap is 'none' (shown as None). Wallet withdrawals of $250 or less carry a $50 fee. Payouts via Plaid (US banks), PayPal or Wise.",
-    "fee_refund": "No official page states that the Test fee is refunded, so fee_refund is null.",
+    "fee_refund": "Terms (2026-10-20): change-of-mind refund within 72 hours of purchase, minus a $75 fee. No refund of the Test fee with payouts, so fee_refund = false.",
     "platforms": "15+ platforms on two data feeds. CQG: TradingView, NinjaTrader, Tradovate. Rithmic: R|Trader, Quantower, Bookmap, MultiCharts, MotiveWave, Trade Navigator, VolFix, ATAS, Investor R/T, Finamark, Jigsaw Trader. Only the main ones are listed in the platforms array.",
     "other_rules": "No automated/bot trading in PRO. No counter positions across accounts (all account types). PRO and PRO+ must be flat around FOMC, NFP and CPI releases (Test may trade news). PRO max 50 executions per day. Up to 5 PRO/PRO+ accounts at once; unlimited tests. PRO and PRO+ must trade at least one day per week.",
     "rule_units": "Futures rules are fixed USD amounts per account size.",
     "null_means": "Not stated on an official Take Profit Trader page (or not expressible as one number - see the notes above). Check the live plan page before publishing.",
-    "company_check": "https://takeprofittrader.com/about-us and site footer (checked 2026-10-11): TakeProfitTrader LLC, 9100 Conroy Windermere Rd Suite 200, Windermere, FL 34786. No founding date stated, so founded is null."
+    "company_check": "https://takeprofittrader.com/about-us and site footer (checked 2026-10-11): TakeProfitTrader LLC, 9100 Conroy Windermere Rd Suite 200, Windermere, FL 34786. No founding date stated, so founded is null. Google Maps search (2026-10-20) found no Take Profit Trader listing.",
+    "affiliate_program": "https://takeprofittrader.com/affiliate (2026-10-20): 'now accepting new partners'; commission 10% to 25% based on referred clients' lifetime spend; free to join; affiliate dashboard and customisable affiliate homepage. Cookie length, payout method, minimum, country and comparison-site rules not stated. Apply: 'Sign me up now!' on that page."
   },
   "firm": {
     "id": "take-profit-trader",
@@ -175,7 +176,7 @@
       },
       "trustpilot_note": null,
       "google": null,
-      "google_note": "Google rating not available yet.",
+      "google_note": "We couldn't find a Google rating for this firm.",
       "trustpilot_quotes": [
         {
           "quote": "Fast payments. Clear rules. Great customer service.",
@@ -210,7 +211,7 @@
                   "consistency_pct": 50,
                   "min_trading_days": 3,
                   "profit_split_max": 90,
-                  "fee_refund": null
+                  "fee_refund": false
                 },
                 "accounts": [
                   {

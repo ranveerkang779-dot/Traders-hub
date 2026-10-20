@@ -1,8 +1,8 @@
 {
   "_notes": {
-    "last_verified": "2026-10-02",
-    "source": "Official Topstep pages only: https://www.topstep.com/topstep-prop (plan cards and price data in page source), https://help.topstep.com/en/articles/14289835-topstep-pricing-and-payment-questions, https://help.topstep.com/en/articles/8284197-trading-combine-parameters, https://help.topstep.com/en/articles/8284208-consistency-at-topstep, https://help.topstep.com/en/articles/8284121-trading-combine-subscriptions, https://help.topstep.com/en/articles/8284215-express-funded-account-parameters, https://help.topstep.com/en/articles/8284233-topstep-payout-policy, https://help.topstep.com/en/articles/14434175-topstepx, https://help.topstep.com/en/articles/8284179-quantower-connection-instructions, https://www.topstep.com/about-us",
-    "pricing": "Prices are MONTHLY subscriptions (USD). standard = the stated monthly price. No time-limited promo was running, so promo is null.",
+    "last_verified": "2026-10-20",
+    "source": "Live https://www.topstep.com/topstep-prop plan cards read in Chrome on 2026-10-20 (Standard and No Activation Fee paths, Responsible Trading Advantage on and off), /affiliate-terms-and-conditions and Google Maps. Earlier sources listed in git history.",
+    "pricing": "Prices are MONTHLY subscriptions (USD). standard = the full monthly price. Standard path: $49 / $99 / $199 whatever the setting. No Activation Fee path: $95 / $149 / $229, or $85 / $129 / $199 with the optional 'Responsible Trading Advantage' (daily loss limit) switched on - recorded as promo because the page shows the full price crossed out next to it ('save up to $30/month'). Not a time-limited promo. First-time buyers using an affiliate code get 20% off one purchase (not applied).",
     "billing": "Trading Combine rebills every 30 days from sign-up until the trader passes (earns an Express Funded Account) or cancels. Standard path: $49 / $99 / $199 per month (50K / 100K / 150K) plus a one-time $149 Express Funded Account activation fee charged only after passing. No Activation Fee path: $95 / $149 / $229 per month, $0 activation fee. Adding the optional Daily Loss Limit ('Responsible Trading Advantage') at purchase on No Activation Fee products takes $10 / $20 / $30 off each month ($85 / $129 / $199). Reset fee equals the monthly price of the path chosen. Level 2 data is an extra $38/month. Per-trade commissions and fees and sales tax are extra. Back2Funded reactivation: $599 / $699 / $829.",
     "daily_loss": "Daily Loss Limit is OPTIONAL (Responsible Trading Advantage): $1,000 / $2,000 / $3,000 for 50K / 100K / 150K. Hitting it pauses trading until the next session and is not a rule break, so daily_loss is left null.",
     "payout_caps": "Express Funded payout caps per request, by payout path. Standard path (5 winning days of $150+): $2,000 / $3,000 / $5,000, doubled to $4,000 / $6,000 / $10,000 with the optional Daily Loss Limit. Consistency path (3+ trading days, best day within 40% of total profit): $3,000 / $4,000 / $6,000, doubled to $6,000 / $8,000 / $12,000 with the Daily Loss Limit. Help centre describes the doubled caps as a limited-time offering starting June 2nd. Live Funded Account payouts are not capped. Left null in the table because there is no single cap per size.",
@@ -14,7 +14,10 @@
     "other_products": "Topstep Labs runs separate limited 'drops' (e.g. a $49 two-round challenge with a fixed $3,000 payout, Aug 2026). Not listed here. No forex program is currently sold; futures only.",
     "rule_units": "Futures rules are fixed USD amounts per account size.",
     "null_means": "Not stated on an official Topstep page (or not expressible as one number - see the notes above). Check the live plan page before publishing.",
-    "company_check": "https://www.topstep.com/about-us/ (checked 2026-10-11): timeline shows 2010 founding of Patak Trading Partners (the beginning of what became Topstep), 2012 launch of Topstep Trader (recorded as founded), 2013 first office in the Chicago West Loop."
+    "company_check": "https://www.topstep.com/about-us/ (checked 2026-10-11): timeline shows 2010 founding of Patak Trading Partners (the beginning of what became Topstep), 2012 launch of Topstep Trader (recorded as founded), 2013 first office in the Chicago West Loop.",
+    "affiliate_program": "Topstep is 'launching a new affiliate program and rolling it out gradually' (help centre, Oct 2026). Affiliate Terms (updated mid-Oct 2026): affiliates get a code that gives a new user 20% off one purchase of the Topstep prop programs, and 'the Affiliate may be compensated by Topstep'. Commission %, cookie length, payout method and country rules not published on the pages read. Terms: https://www.topstep.com/affiliate-terms-and-conditions",
+    "google_rating": "Google Maps (2026-10-20): 'Topstep', financial institution, 130 S Jefferson St, Chicago (website topstep.com) - 3.3 from 101 reviews.",
+    "no_activation_fee_promo": "Promo set to null on 2026-10-20: the lower $85/$129/$199 prices are the price with the optional Daily Loss Limit on, not a discount; the tagline explains the difference."
   },
   "firm": {
     "id": "topstep",
@@ -82,8 +85,13 @@
         "checked": "2026-10-03"
       },
       "trustpilot_note": "Trustpilot shows a notice that this company may be associated with high-risk investments.",
-      "google": null,
-      "google_note": "Google rating not available yet.",
+      "google": {
+        "rating": 3.3,
+        "review_count": 101,
+        "url": "https://maps.google.com/?cid=14841206267167256684",
+        "checked": "2026-10-20"
+      },
+      "google_note": null,
       "trustpilot_quotes": [
         {
           "quote": "Always a quick response and resolution to any issue (which are few tbh). Great Job Topstep!",

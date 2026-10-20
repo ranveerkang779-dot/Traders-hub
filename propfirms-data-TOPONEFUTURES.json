@@ -1,8 +1,8 @@
 {
   "_notes": {
-    "last_verified": "2026-10-11",
-    "source": "Official Top One Futures pages only, fetched 2026-10-11: https://www.toponefutures.com/ (pricing cards for Elite Daily, Elite Access, Instant Sim Funded and Ignite; footer company details); help centre https://help.toponefutures.com/en/articles/15056075-elite-daily-v2-overview, https://help.toponefutures.com/en/articles/14595016-elite-access-accounts-overview, https://help.toponefutures.com/en/articles/11020805-overview-of-the-instant-sim-funded-program, https://help.toponefutures.com/en/articles/12671168-ignite-accounts-overview, https://help.toponefutures.com/en/articles/14617600-differences-between-elite-elite-access-and-elite-daily-accounts, https://help.toponefutures.com/en/articles/13449146-top-one-futures-account-comparison-elite-vs-instant-vs-s2f-sim-pro-vs-ignite-accounts, https://help.toponefutures.com/en/articles/10907367-maximum-payout-until-live-explained, https://help.toponefutures.com/en/articles/10907430-understanding-the-profit-split-on-sim-funded-accounts, https://help.toponefutures.com/en/articles/11021644-countries-with-limitations-and-restrictions, https://help.toponefutures.com/en/articles/11403918-refund-policy, and the help-centre collections for Tradovate/NinjaTrader, BlackArrow and WealthCharts (platforms); Trustpilot https://www.trustpilot.com/review/toponefutures.com.",
-    "pricing": "standard = crossed-out price, promo = discounted price shown on the homepage cards (one-time fees). Each product had its own code: Elite Daily and Ignite 60% off with WC; Instant Sim Funded 45% off with OCT (the $50K card said WC); Elite Access 'Buy 1, Get 1 FREE' with BOGO. Because codes differ by product, the market promo_code is null and each code is in the tier tagline.",
+    "last_verified": "2026-10-20",
+    "source": "Live https://www.toponefutures.com/ pricing panels read in Chrome on 2026-10-20 (Elite Daily, Elite Access, Instant Sim Funded, Ignite - every size), help-centre affiliate articles and Google Maps. Earlier sources listed in git history.",
+    "pricing": "standard = crossed-out price, promo = discounted price shown on the homepage cards (one-time fees). On 2026-10-20 one code, 30M, applied to the discounted plans: Elite Daily 50% off (was 60% with WC), Ignite 50% off, Instant Sim Funded 45% off (prices unchanged). Elite Access is 'BOGO' (buy one get one) at the flat $39 fee. A '$30 Million account giveaway' was also advertised.",
     "elite_access_price": "Elite Access is a flat $39 evaluation fee for every size (help centre). The homepage shows $139 / $189 / $259 / $359 crossed out next to $39, but those amounts match the activation fee due after passing (help centre: '$139 to $359, depending on account size'), not a full price, so standard = 39 and promo = null.",
     "rules_detail": "Elite Daily (V2): one-phase evaluation, 6% target, EOD trailing drawdown, daily loss limit in evaluation and funded, 40% consistency in the evaluation only, no activation fee, daily payouts, 50% daily progression rule; funded drawdown $1,000 / $2,000 / $2,500 / $3,500 (evaluation $1,000 / $2,000 / $3,000 / $4,500 recorded); minimum 1 trading day on the funded account, none stated for the evaluation. Elite Access: $39 evaluation, 30 days to pass, no daily loss limit in the evaluation (funded DLL $500 / $1,000 / $1,250 / $1,750), evaluation drawdown $1,000 / $2,000 / $3,000 / $4,000 (funded $3,500 on 150K), minimum 1 trading day, 40% consistency on the funded account only, 5 profitable days per payout. Instant Sim Funded 2.0 (bought from 27 Jul 2026): no evaluation, no minimum trading days, EOD trailing drawdown, 20% consistency for payouts, profit target per payout 6% / 5% / 4%. Ignite: no evaluation, no minimum trading days, EOD trailing drawdown, 15% consistency, 5% profit target per payout, no overnight holding.",
     "payout_caps": "Max per payout in the sim-funded stage (help centre 'Maximum Payout Until Live'). Removed once moved to a live account.",
@@ -13,7 +13,9 @@
     "vetting": "Checked 2026-10-11. Trustpilot 4.8 from 5,105 reviews (Trustpilot marks a paid subscription). None of the 19 newest reviews described a refused payout; almost all thanked named support staff. Passed.",
     "marketing_stats_excluded": "Payout totals, named trader payout amounts and the homepage 'earning potential' calculator are not reproduced.",
     "rule_units": "Futures rules are fixed USD amounts per account size.",
-    "null_means": "Not stated on an official Top One Futures page we could read."
+    "null_means": "Not stated on an official Top One Futures page we could read.",
+    "affiliate_program": "help.toponefutures.com affiliate articles (updated 2 Oct 2026; read 2026-10-20): first-time Elite / Instant Sim purchases 10% (Affiliate), 13% (Gold, $30K sales), 16% (Platinum, $100K), 20% (Diamond, $500K); recurring Instant Sim purchases 5% / 6% / 8% / 10%; $5 per reset and per activation fee; 2nd-tier 5% on first-time sales of affiliates you refer. Paid automatically on the 15th of each month to the method set in the dashboard, $100 minimum, 30-day verification per sale. Cookie length, country and comparison-site rules not read. Apply: https://www.toponefutures.com/affiliate-program",
+    "company_check": "Google Maps search (2026-10-20) found no Top One Futures listing."
   },
   "firm": {
     "id": "top-one-futures",
@@ -123,19 +125,19 @@
       },
       "trustpilot_note": "Trustpilot shows this firm as a paying Trustpilot customer.",
       "google": null,
-      "google_note": "Google rating not checked yet."
+      "google_note": "We couldn't find a Google rating for this firm."
     },
     "markets": [
       {
         "market": "futures",
-        "promo_code": null,
+        "promo_code": "30M",
         "programs": [
           {
             "program": "evaluation",
             "tiers": [
               {
                 "tier": "Elite Daily",
-                "tagline": "One-time fee · No activation fee · Daily payouts · 40% consistency in the evaluation only · 60% off with code WC",
+                "tagline": "One-time fee · No activation fee · Daily payouts · 40% consistency in the evaluation only",
                 "billing": "one-time",
                 "rules": {
                   "unit": "usd",
@@ -153,7 +155,7 @@
                     "max_loss": 1000,
                     "max_contracts": 1,
                     "payout_cap": 750,
-                    "promo": 71,
+                    "promo": 89,
                     "standard": 178
                   },
                   {
@@ -163,7 +165,7 @@
                     "max_loss": 2000,
                     "max_contracts": 3,
                     "payout_cap": 1000,
-                    "promo": 87,
+                    "promo": 109,
                     "standard": 218
                   },
                   {
@@ -173,7 +175,7 @@
                     "max_loss": 3000,
                     "max_contracts": 5,
                     "payout_cap": 1500,
-                    "promo": 159,
+                    "promo": 199,
                     "standard": 398
                   },
                   {
@@ -183,7 +185,7 @@
                     "max_loss": 4500,
                     "max_contracts": 7,
                     "payout_cap": 2250,
-                    "promo": 220,
+                    "promo": 275,
                     "standard": 549
                   }
                 ]
@@ -250,7 +252,7 @@
             "tiers": [
               {
                 "tier": "Instant Sim Funded",
-                "tagline": "No evaluation · 20% consistency for payouts · 45% off with code OCT",
+                "tagline": "No evaluation · 20% consistency for payouts",
                 "billing": "one-time",
                 "rules": {
                   "unit": "usd",
@@ -305,7 +307,7 @@
               },
               {
                 "tier": "Ignite",
-                "tagline": "No evaluation · 15% consistency · 5% profit target per payout · 60% off with code WC",
+                "tagline": "No evaluation · 15% consistency · 5% profit target per payout",
                 "billing": "one-time",
                 "rules": {
                   "unit": "usd",
@@ -323,7 +325,7 @@
                     "max_loss": 1000,
                     "max_contracts": 1,
                     "payout_cap": 500,
-                    "promo": 87,
+                    "promo": 109,
                     "standard": 218
                   },
                   {
@@ -333,7 +335,7 @@
                     "max_loss": 2000,
                     "max_contracts": 3,
                     "payout_cap": 1000,
-                    "promo": 159,
+                    "promo": 199,
                     "standard": 398
                   },
                   {
@@ -343,7 +345,7 @@
                     "max_loss": 4000,
                     "max_contracts": 5,
                     "payout_cap": 1500,
-                    "promo": 225,
+                    "promo": 282,
                     "standard": 563
                   },
                   {
@@ -353,7 +355,7 @@
                     "max_loss": 6000,
                     "max_contracts": 7,
                     "payout_cap": 2000,
-                    "promo": 320,
+                    "promo": 400,
                     "standard": 799
                   }
                 ]

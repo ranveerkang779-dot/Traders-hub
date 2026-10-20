@@ -12,6 +12,7 @@ import type {
 } from "@/lib/course-types";
 import TrustpilotStars from "@/components/TrustpilotStars";
 import VisitSiteLink from "@/components/VisitSiteLink";
+import OurChoiceBadge from "@/components/OurChoiceBadge";
 import CoursePricing from "@/components/CoursePricing";
 import CourseCurriculum from "@/components/CourseCurriculum";
 import StickyVisitBar from "@/components/StickyVisitBar";
@@ -91,6 +92,7 @@ export default function CourseDetail({
   testimonials,
   testimonialsNote,
   visitHref,
+  ourChoice = false,
   backHref,
   backLabel,
 }: {
@@ -121,6 +123,10 @@ export default function CourseDetail({
   testimonials: Testimonial[];
   testimonialsNote: string;
   visitHref: string | null;
+  /** True when we have a real tracked affiliate link for this course — set
+   *  by the page, not guessed here, since this component doesn't know
+   *  where visitHref came from (could just be the plain website). */
+  ourChoice?: boolean;
   backHref: string;
   backLabel: string;
 }) {
@@ -157,7 +163,13 @@ export default function CourseDetail({
             </div>
           )}
           <div className="min-w-0 flex-1">
-            <h1 className="page-title">{name}</h1>
+            <div className="flex flex-wrap items-center gap-x-3 gap-y-2">
+              <h1 className="page-title">{name}</h1>
+              {ourChoice && <OurChoiceBadge />}
+            </div>
+            {ourChoice && (
+              <p className="meta mt-2">Featured listing on Tradox. It is not a score of trading results.</p>
+            )}
             {tagline && <p className="mt-2 max-w-2xl text-base text-muted">{tagline}</p>}
             <div className="mt-3 flex flex-col flex-wrap gap-x-4 gap-y-1.5">
               {trustpilot && <TrustpilotStars rating={trustpilot} />}

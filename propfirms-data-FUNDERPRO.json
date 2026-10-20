@@ -1,8 +1,8 @@
 {
   "_notes": {
-    "last_verified": "2026-10-11",
-    "source": "Official FunderPro pages only, fetched 2026-10-11: https://funderpro.com/ (pricing table data in the site's own script: every challenge type, size, price and rule row; footer company details and platforms), https://support.funderpro.com/en/articles/409950-how-can-i-join-funderpro; Trustpilot https://www.trustpilot.com/review/funderpro.com.",
-    "pricing": "standard = price shown on the pricing table. No discount was shown, so promo is null. The table labels the price 'will be processed with 1st reward' without saying whether it is refunded, so fee_refund is null.",
+    "last_verified": "2026-10-20",
+    "source": "Live https://funderpro.com/ pricing read in Chrome on 2026-10-20 (Challenge: One Phase, Classic, Pro - every size; Instant Program - every size) - prices unchanged from 2026-10-11. Also /become-a-funderpro-affiliate/, Trustpilot (20 newest reviews) and Google Maps. Earlier sources listed in git history.",
+    "pricing": "standard = price shown on the pricing table. No discount was shown, so promo is null. The table labels the price 'will be processed with 1st reward' without saying whether it is refunded, so fee_refund is null. 2026-10-20: a pop-up offers '30% OFF All Challenges' but the code is only revealed behind a 'Reveal my Code' button (not clicked), and no discounted price is shown, so promo stays null.",
     "rules_detail": "One Phase: 10% target, 3% daily / 6% max loss (the site says 'No Trailing Drawdown'), consistency rule in the evaluation only (percentage not shown), 80% split. Classic: 10% then 5%, 5% daily / 10% max, 4 minimum trading days per phase, no consistency rule, 80% split. Pro: 10% then 8%, 5% daily / 10% max, consistency rule in both evaluation phases (percentage not shown), up to 90% split, on-demand or weekly rewards. Instant: 3% daily / 6% max, 15% consistency, 80% split (90% as an add-on). Weekend holding needs a paid add-on on all challenges.",
     "not_listed": "FunderPro Futures (funderprofutures.com) is a separate site and not listed here.",
     "countries": "The support article says the list of restricted countries is in the FAQ or terms; not found on a page we could read.",
@@ -10,7 +10,10 @@
     "marketing_stats_excluded": "Payout totals and the published pass rate are not reproduced.",
     "vetting": "Checked 2026-10-11. Of the 19 newest Trustpilot reviews, about 11 described a denied or withheld payout (reasons given include IP sharing, over-leveraging and 'third-party involvement'); the firm replied to most. Trustpilot hides its score for a guideline breach and says it removed fake reviews. Listed with a review alert at the team's request (2026-10-11).",
     "rule_units": "Forex rules are % of account size.",
-    "null_means": "Not stated on an official FunderPro page we could read."
+    "null_means": "Not stated on an official FunderPro page we could read.",
+    "pro_min_days": "Pro (2026-10-20 table): 'Minimum Trading Days' shows '-' for every phase; left null rather than guessing whether '-' means none.",
+    "affiliate_program": "https://funderpro.com/become-a-funderpro-affiliate/ (2026-10-20): up to 20% commission via a scaling plan, paid on every sale including repeat purchases by the same trader, plus earnings from affiliates you bring in (sub-affiliates). Last-click credit; automatic weekly payouts every Thursday (method not stated); all coupon codes have the same value. Cookie length, country and comparison-site rules not stated (affiliate terms at /affiliate-terms-and-conditions/ not read). Run through Next Trade's affiliate platform (affiliates.nexttrade.com). Apply: 'Become an Affiliate' on that page.",
+    "google_rating": "Google Maps (2026-10-20): 'FunderPro' listing (category 'Educational institution'), Level 4, St Balluta Business Centre, St Julian's, Malta - 3.6 from 84 reviews. Address differs from the footer's San Gwann registered address."
   },
   "firm": {
     "id": "funderpro",
@@ -40,12 +43,17 @@
       "checked": "2026-10-11",
       "trustpilot": null,
       "trustpilot_note": "Trustpilot is not showing a score for this firm. Its page says this is because of a breach of Trustpilot's guidelines (1,561 reviews, checked 11 Oct 2026).",
-      "google": null,
-      "google_note": "Google rating not checked yet."
+      "google": {
+        "rating": 3.6,
+        "review_count": 84,
+        "url": "https://maps.google.com/?cid=1995899301985105990",
+        "checked": "2026-10-20"
+      },
+      "google_note": null
     },
     "review_alert": {
-      "summary": "Of the 19 most recent Trustpilot reviews, about 11 describe a payout being denied or withheld (reviewers say the reasons given included IP sharing and over-leveraging). The firm had replied to most of them. Trustpilot is also not showing a score for this firm; its page says this is because of a breach of its guidelines.",
-      "checked": "2026-10-11",
+      "summary": "Of the 20 most recent Trustpilot reviews (read 20 October 2026), about 10 describe a payout being denied or withheld or a funded account being closed at payout time (reasons reviewers mention include IP sharing, the margin-use rule and 'arbitrage'). The firm had replied to most of them. Trustpilot is also not showing a score for this firm; its page says this is because of a breach of its guidelines.",
+      "checked": "2026-10-20",
       "url": "https://www.trustpilot.com/review/funderpro.com?sort=recency"
     },
     "markets": [

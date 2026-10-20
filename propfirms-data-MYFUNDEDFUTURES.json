@@ -1,8 +1,8 @@
 {
   "_notes": {
-    "last_verified": "2026-10-03",
-    "source": "Official MyFundedFutures pages only: https://myfundedfutures.com/ (plan cards and promo banner), https://myfundedfutures.com/plans/builder, https://myfundedfutures.com/plans/rapid, https://myfundedfutures.com/plans/rapid-eod, https://myfundedfutures.com/plans/pro (rule tables and per-size list prices in the pages' structured offer data), https://myfundedfutures.com/terms, https://myfundedfutures.com/disclaimer, help centre: https://help.myfundedfutures.com/en/articles/11802636-traders-evaluation-simplified, .../17036130-builder-plan-25k-a-comprehensive-look, .../14290805-builder-plan-50k-a-comprehensive-guide, .../17005296-builder-plan-100k-comprehensive-guide, .../17035331-builder-plan-150k-comprehensive-guide, .../14116402-rapid-plan-25k-a-comprehensive-look, .../13134709-rapid-plan-50k-a-comprehensive-look, .../13286542-rapid-plan-100k-a-comprehensive-look, .../13286582-rapid-plan-150k-a-comprehensive-look, .../16727601-rapid-eod-25k-a-comprehensive-look, .../16158363-rapid-eod-50k-a-comprehensive-look, .../11802674-pro-plan-sim-funded-and-live-account-highlights, .../11994562-consistency-rule-at-my-fundedfutures, .../12398151-does-myfundedfutures-charge-activation-fees, .../11542523-refund-cancellation-policy-transparent-and-trader-first, .../16596524-inactivity-rule-one-time-payment-model, .../8528335-overview-of-supported-platforms-at-mffu, .../8229993-restricted-countries-policy.",
-    "pricing": "standard = the plan's listed one-time price (shown crossed out on the plan pages and listed as 'Price' in the help centre, e.g. Builder 50K $153). promo = the 40%-off price the site actually displays with code CLUB ('Save 40% On Any Plan With Code CLUB'). The site only displays the promo price for the 50K size of each plan and the 25K Rapid EOD, so promo is null for other sizes (not calculated). The Builder 50K help article says the 40% price is limited to 2 uses and lists a 30%-off price ($107) otherwise; the banner also offers new customers 50% off their first evaluation. Promos change often - re-verify before publishing.",
+    "last_verified": "2026-10-20",
+    "source": "Live plan pages read in Chrome on 2026-10-20: https://myfundedfutures.com/plans/builder, /rapid, /rapid-eod, /pro (every size), homepage banner, and help article 'Becoming an Affiliate with MyFundedFutures'. List prices unchanged.",
+    "pricing": "standard = the plan's listed one-time price (crossed out). promo = 'Starting at' price with code CLUB (40% off any plan, banner 2026-10-20), now shown for every size. New customers can get 50% off their first evaluation instead (not applied here).",
     "billing": "All new evaluations bought on or after 25 August 2026 are a one-time payment with no renewal ('One-time purchase, nothing to cancel'). Older monthly subscriptions continue as 'legacy' subscriptions. No activation fee on any plan. Resets are sold separately (reset prices not read). New one-time accounts close after 7 calendar days without a trade (evaluation and sim funded).",
     "builder_50k_add_on": "Builder 50K is also sold with a smaller $1,500 max loss (floor $48,500) for $125 (40% off: $75). Everything else is the same. The table shows the default $2,000 version.",
     "daily_loss": "Builder: soft-pause daily loss limit ($600 / $1,000 / $1,750 / $2,500) - hitting it stops trading for the rest of the session but does not fail the account. Rapid, Rapid EOD and Pro: the firm states there is no daily loss limit (recorded as 'none').",
@@ -17,7 +17,8 @@
     "other_products": "MyFunded Perpetuals is a separate company (Funding Perpetuals Holdings, Inc.) and is not listed. Legacy Flex and older Builder plans are no longer sold.",
     "rule_units": "Futures rules are fixed USD amounts per account size.",
     "null_means": "Not stated on an official MyFundedFutures page (or not expressible as one number - see the notes above). Check the live plan pages before publishing.",
-    "company_check": "Re-checked 2026-10-11: myfundedfutures.com homepage states no founding date or address (no /about page). founded/hq still null."
+    "company_check": "Re-checked 2026-10-11: myfundedfutures.com homepage states no founding date or address (no /about page). founded/hq still null.",
+    "affiliate_program": "help.myfundedfutures.com 'Becoming an Affiliate' (updated 23 Sep 2026; read 2026-10-20): commission on evaluation and reset fees from referrals via link or code; paid monthly on fees actually collected; $100 minimum payout. Open to any individual or company in the prop trading industry, explicitly including funded-account reviewers, blogs and forums (so comparison sites qualify). Only people from countries allowed to trade with MFFU can join. Commission % and cookie length not read. Apply: application in the MyFundedFutures dashboard (account needed)."
   },
   "firm": {
     "id": "myfundedfutures",
@@ -146,7 +147,7 @@
       },
       "trustpilot_note": "Trustpilot shows a notice that this company may be associated with high-risk investments.",
       "google": null,
-      "google_note": "No Google Business profile found for this firm.",
+      "google_note": "We couldn't find a Google rating for this firm.",
       "trustpilot_quotes": [
         {
           "quote": "Got back with me very quick and fixed my problem great support",
@@ -192,7 +193,7 @@
                     "max_loss": 1000,
                     "max_contracts": 2,
                     "payout_cap": 1000,
-                    "promo": null,
+                    "promo": 63,
                     "standard": 105
                   },
                   {
@@ -212,7 +213,7 @@
                     "max_loss": 3000,
                     "max_contracts": 6,
                     "payout_cap": 3000,
-                    "promo": null,
+                    "promo": 169,
                     "standard": 282
                   },
                   {
@@ -222,7 +223,7 @@
                     "max_loss": 4500,
                     "max_contracts": 9,
                     "payout_cap": 4500,
-                    "promo": null,
+                    "promo": 239,
                     "standard": 398
                   }
                 ]
@@ -247,7 +248,7 @@
                     "max_loss": 1000,
                     "max_contracts": 3,
                     "payout_cap": null,
-                    "promo": null,
+                    "promo": 87,
                     "standard": 145
                   },
                   {
@@ -267,7 +268,7 @@
                     "max_loss": 3000,
                     "max_contracts": 8,
                     "payout_cap": null,
-                    "promo": null,
+                    "promo": 214,
                     "standard": 356
                   },
                   {
@@ -277,7 +278,7 @@
                     "max_loss": 4500,
                     "max_contracts": 10,
                     "payout_cap": null,
-                    "promo": null,
+                    "promo": 278,
                     "standard": 463
                   }
                 ]
@@ -347,7 +348,7 @@
                     "max_loss": 3000,
                     "max_contracts": 6,
                     "payout_cap": null,
-                    "promo": null,
+                    "promo": 241,
                     "standard": 401
                   },
                   {
@@ -357,7 +358,7 @@
                     "max_loss": 4500,
                     "max_contracts": 9,
                     "payout_cap": null,
-                    "promo": null,
+                    "promo": 334,
                     "standard": 557
                   }
                 ]

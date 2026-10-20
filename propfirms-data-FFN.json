@@ -1,8 +1,8 @@
 {
   "_notes": {
-    "last_verified": "2026-10-11",
-    "source": "Official FFN pages only, fetched 2026-10-11: https://fundedfuturesnetwork.com/ and https://fundedfuturesnetwork.com/accounts (plan data embedded in the page as 'plans-data': every size and account type with prices, evaluation rules and funded rules), https://fundedfuturesnetwork.com/faq (platforms, link to country list), https://fundedfuturesnetwork.com/about (address), site footer ('© 2022 Funded Futures Network LLC', 'In Business Since 2022'); Trustpilot https://www.trustpilot.com/review/fundedfuturesnetwork.com.",
-    "pricing": "standard = full one-time evaluation price from the page's plan data. A site-wide 50% discount was running (banner 'Get 50% OFF + BOGO + No Activation Fee', code KSWART pre-applied on every visit; the coupon description also mentions DOUBLE50). The site displays the discounted price for MAX Standard only ($74 / $89 / $174 / $204 / $329), so promo is filled there. The banner says the 50% also applies to Steady, but those discounted prices aren't displayed, so promo is null for Steady. Offer ends 31 Oct 2026.",
+    "last_verified": "2026-10-20",
+    "source": "Live https://fundedfuturesnetwork.com/accounts read in Chrome on 2026-10-20 (MAX Standard and Steady, every size, Nexus and Rithmic/Onyx platform options), /affiliate-program and Google Maps. Earlier sources (2026-10-11) listed in git history.",
+    "pricing": "standard = full one-time evaluation price (crossed out). promo = the discounted price shown on 2026-10-20 with the Rithmic/Onyx platform selected: 50% off (plus 'Buy 1, Get 1 Free' on Onyx). With the Nexus Trader / Nexus Connect platform the discount is 70% (e.g. MAX Standard 50K $53.40, Steady 25K $44.70). The discount is applied through a creator's referral code pre-applied on every visit (see promo_code_note). Steady now shows discounted prices too: $74.50 / $114.50 / $154 / $292.50 / $375. Full prices unchanged.",
     "promo_code_note": "FFN's site pre-applies KSWART, a referral code belonging to a named creator. We decided (2026-10-11) not to display another affiliate's code, so promo_code is null and the discount shows as 'current promo'.",
     "billing": "One-time evaluation fee, no activation fee after passing. Evaluation reset fee: MAX Standard $100; Steady $114 / $180 / $270 / $480 / $620. One-time funded reset before any payout: $475 / $625 / $1,250 / $1,875 / $3,125.",
     "skip_the_eval": "Optional 'Skip the Eval' add-on is sold per size at checkout (MAX Standard $279-$2,550, Steady $299-$2,700). Not listed as a separate program.",
@@ -15,7 +15,9 @@
     "vetting": "Checked 2026-10-11. Trustpilot 3.8 from 532 reviews. 3 of the 20 newest reviews described a delayed or refused payout. Passed.",
     "marketing_stats_excluded": "'259,300+ accounts' and 'paid out millions' are not reproduced.",
     "rule_units": "Futures rules are fixed USD amounts per account size.",
-    "null_means": "Not stated on an official FFN page we could read."
+    "null_means": "Not stated on an official FFN page we could read.",
+    "affiliate_program": "https://fundedfuturesnetwork.com/affiliate-program (2026-10-20): 15% commission on every account purchase through the affiliate's link or promo code; payouts requested from the affiliate dashboard. Cookie length, payout method, minimum payout, country and comparison-site rules are not stated. Applications are reviewed. Apply: https://dashboard.fundedfuturesnetwork.com/affiliate/apply",
+    "google_rating": "Google Maps (2026-10-20): 'Funded Futures Network' listing (category 'Educational testing service', website fundedfuturesnetwork.com, phone +1 917-310-0292) - 4.0 from 4 reviews."
   },
   "firm": {
     "id": "funded-futures-network",
@@ -52,8 +54,13 @@
         "checked": "2026-10-11"
       },
       "trustpilot_note": null,
-      "google": null,
-      "google_note": "Google rating not checked yet."
+      "google": {
+        "rating": 4.0,
+        "review_count": 4,
+        "url": "https://maps.google.com/?cid=17210355281741834500",
+        "checked": "2026-10-20"
+      },
+      "google_note": null
     },
     "markets": [
       {
@@ -148,7 +155,7 @@
                     "max_loss": 1200,
                     "max_contracts": 3,
                     "payout_cap": 1000,
-                    "promo": null,
+                    "promo": 74.5,
                     "standard": 149
                   },
                   {
@@ -158,7 +165,7 @@
                     "max_loss": 2000,
                     "max_contracts": 4,
                     "payout_cap": 1500,
-                    "promo": null,
+                    "promo": 114.5,
                     "standard": 229
                   },
                   {
@@ -168,7 +175,7 @@
                     "max_loss": 3200,
                     "max_contracts": 10,
                     "payout_cap": 2000,
-                    "promo": null,
+                    "promo": 154,
                     "standard": 308
                   },
                   {
@@ -178,7 +185,7 @@
                     "max_loss": 4700,
                     "max_contracts": 15,
                     "payout_cap": 2500,
-                    "promo": null,
+                    "promo": 292.5,
                     "standard": 585
                   },
                   {
@@ -188,7 +195,7 @@
                     "max_loss": 5500,
                     "max_contracts": 20,
                     "payout_cap": 3000,
-                    "promo": null,
+                    "promo": 375,
                     "standard": 750
                   }
                 ]

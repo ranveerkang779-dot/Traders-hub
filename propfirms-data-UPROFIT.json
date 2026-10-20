@@ -1,7 +1,7 @@
 {
   "_notes": {
-    "last_verified": "2026-10-11",
-    "source": "Official UProfit pages only, fetched 2026-10-11: https://uprofit.com/ and https://uprofit.com/day-programs (pricing cards for Soft and Flex; promo banner; footer address), https://uprofit.com/platforms, https://uprofit.com/terms-and-conditions (no refunds; Delaware LLC), help centre https://uprofit.com/help/uprofit-soft-10k-54393437776020, https://uprofit.com/help/uprofit-soft-50k-52063403210132, https://uprofit.com/help/uprofit-flex-10k-54395134778260, https://uprofit.com/help/uprofit-flex-50k-52062400375060, https://uprofit.com/help/uprofit-soft-live-virtual-10k-54394490735252, https://uprofit.com/help/uprofit-soft-live-virtual-50k-52063647938580, https://uprofit.com/help/uprofit-soft-live-virtual-100k-52063655534228, https://uprofit.com/help/uprofit-soft-live-virtual-150k-52063703228692, https://uprofit.com/help/uprofit-flex-live-virtual-10k-54395343573908, https://uprofit.com/help/uprofit-flex-live-virtual-50k-52062598543508, https://uprofit.com/help/uprofit-flex-live-virtual-100k-52062625551636, https://uprofit.com/help/uprofit-flex-live-virtual-150k-52062642415636, https://uprofit.com/help/-restricted-countries-41564123018772; Trustpilot https://www.trustpilot.com/review/uprofit.com.",
+    "last_verified": "2026-10-20",
+    "source": "Live https://uprofit.com/day-programs read in Chrome on 2026-10-20 (Day Soft and Day Flex, every size) - prices unchanged; Google Maps. Earlier sources listed in git history.",
     "pricing": "Monthly subscription, renews every 30 days until you pass or cancel. standard = crossed-out price, promo = price shown with the site's 40% discount already applied (no code needed). The help centre lists the same full prices (e.g. Soft 50K $130, Flex 50K $147). For the 7th anniversary, code UPTBDAY gives 20% extra off on top; not applied here.",
     "rules_detail": "Soft and Flex share targets, drawdowns and contracts; Soft has a daily loss limit (trading resumes at the next session), Flex has none ('Daily loss limit: NO'). Evaluation consistency 50%, funded ('Live Virtual') consistency 40%. Drawdown trails up to the starting balance and then stops (e.g. 50K starts at $48,000 and updates up to $50,000); the help pages don't say whether it trails intraday or end of day. No activation fee. Swing trading between sessions not allowed. 10K accounts allow 5 micro contracts (no minis), so max_contracts is null there.",
     "payout_caps": "Per payout on the Live Virtual (funded) account: $300 / $1,500 / $3,000 / $4,500. Withdrawals only above a threshold (starting balance + safety net).",
@@ -12,7 +12,10 @@
     "vetting": "Checked 2026-10-11. Trustpilot 3.3 from 6,540 reviews; few recent reviews (newest 23 Aug 2026), 3 of 19 describing a refused payout. Site live with current pricing. Passed. The site describes its simulated account as 'risk-free'; we don't repeat that.",
     "marketing_stats_excluded": "Payout counts, average payout and the published pass rate are not reproduced.",
     "rule_units": "Futures rules are fixed USD amounts per account size.",
-    "null_means": "Not stated on an official UProfit page we could read."
+    "null_means": "Not stated on an official UProfit page we could read.",
+    "max_contracts_10k": "The 10K cards (2026-10-20) list profit target $800, daily loss $220, 50% consistency and $400 drawdown but no contract limit, so max_contracts stays null for 10K.",
+    "affiliate_program": "No affiliate or partner program found on UProfit's official pages (site search 2026-10-20). Ask UProfit directly if needed.",
+    "company_check": "Google Maps search (2026-10-20) found no UProfit listing."
   },
   "firm": {
     "id": "uprofit",
@@ -58,7 +61,7 @@
       },
       "trustpilot_note": null,
       "google": null,
-      "google_note": "Google rating not checked yet."
+      "google_note": "We couldn't find a Google rating for this firm."
     },
     "markets": [
       {

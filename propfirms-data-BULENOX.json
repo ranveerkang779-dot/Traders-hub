@@ -1,8 +1,8 @@
 {
   "_notes": {
-    "last_verified": "2026-10-03",
-    "source": "Official Bulenox pages only, fetched 2026-10-03: https://bulenox.com/accounts-pricing (plan data in the site's own page script: sizes, prices, contracts, targets, drawdowns, daily loss limits), and Bulenox's official help centre and FAQ (https://bulenox.com/help-center and https://bulenox.com/faq, read from the site's own content feed at bulenox.com/cms): articles qualification/rules, qualification/option-1, qualification/option-2, qualification/reset, master/activation-fee, master/withdrawal-rules, momentum/mo-parameters, mo-payout-caps, mo-consistency, mo-activation, fast-track/ft-parameters, ft-profit-split, ft-payout-limits, ft-consistency, subscription/return-policy, FAQ 'Is my country supported?', 'What platforms do you support?'. Help-centre prices for Momentum and Fast Track match the pricing page exactly. Terms of Use PDF (https://bulenox.com/legal/Terms_of_Use.pdf) and affiliate signup page (https://bulenox.com/member/aff/signup).",
-    "pricing": "All prices USD, one-time fees. standard = the price on the pricing page. The site shows an 'always-on coupon' BULENOX ('this code never expires') but not how much it takes off, so promo = null. Same price for both risk models (Option 1 trailing / Option 2 end-of-day).",
+    "last_verified": "2026-10-20",
+    "source": "Live https://bulenox.com/accounts-pricing read in Chrome on 2026-10-20 (Qualification, Fast Track and Momentum tabs, all sizes) - all prices and rules unchanged from 2026-10-03. Help centre and FAQ sources listed in git history.",
+    "pricing": "All prices USD, one-time fees. standard = the price on the pricing page. The site shows an 'always-on coupon' BULENOX ('this code never expires') but not how much it takes off, so promo = null. Same price for both risk models (Option 1 trailing / Option 2 end-of-day). Re-checked 2026-10-20: the banner says code BULENOX 'applies the best available discount' but still shows no amount or discounted price, so promo stays null.",
     "billing": "Qualification: one-time fee for 30 days of access, no auto-renewal ('access simply expires at the end of the subscription cycle and nothing is charged again'); reset $78 (does not extend the 30 days). After passing, a one-time Master Account activation fee is due within 7 days of the link: $143 / $148 / $248 / $498 (25K / 50K / 100K / 150K); no monthly fees on Master accounts. Momentum: one-time fee, Master stage activated free. Fast Track: one-time fee, no activation fee, no monthly fee. Third-party API or trade-copier connection to Rithmic costs $100/month.",
     "risk_models": "Every plan offers two risk models at checkout. Option 1 (recorded in the tables): intraday trailing drawdown including open profit, no daily loss limit, full contract size. Option 2: end-of-day drawdown plus a daily loss limit and fewer or scaling contracts. Option 2 figures - Qualification: daily loss $500 / $1,100 / $2,200 / $3,300, contracts scale up to 3 / 7 / 12 / 15 as profit grows. Momentum: daily loss $600 / $1,200 / $2,500 / $3,300, contracts 2 / 4 / 8 / 12. Fast Track: daily loss none (25K) / $1,200 / $2,500 / $3,300, contracts 2 / 4 / 8 / 12. Drawdown on Master / funded-stage accounts locks at starting balance + $100.",
     "rules_detail": "No minimum trading days on any evaluation; no time limit apart from Qualification's 30-day access. All positions closed by 3:59 PM CT; holding overnight is prohibited. Qualification -> Master: payouts need 10 trading days per cycle, $1,000 minimum, a safety reserve ($1,600 / $2,600 / $3,100 / $4,600) and a 40% consistency rule; paid weekly on Wednesdays. Momentum Master: 5 qualifying profitable days ($100 / $150 / $200 / $250 each) and 35% consistency per payout cycle; same-day payouts. Fast Track: first payout needs profit of $1,500 / $3,000 / $6,000 / $9,000; consistency 20% for payout 1, 25% for payout 2, 30% after; same-day payouts. Up to 5 Master-level accounts (Master, Fast Track, Momentum combined); Qualification accounts unlimited.",
@@ -15,7 +15,8 @@
     "marketing_stats_excluded": "None reproduced.",
     "rule_units": "Futures rules are fixed USD amounts per account size.",
     "null_means": "Not stated on an official Bulenox page, or varies by payout number (see notes).",
-    "company_check": "Re-checked 2026-10-11: bulenox.com states no founding date (no About page). founded still null."
+    "company_check": "Re-checked 2026-10-11: bulenox.com states no founding date (no About page). founded still null.",
+    "google_rating": "Google Maps (2026-10-20): 'Bulenox LLC', investment company at 1201 Orange St #7149, Wilmington, DE (same address as the affiliate agreement; website bulenox.us) - 2.7 from 12 reviews."
   },
   "firm": {
     "id": "bulenox",
@@ -151,8 +152,13 @@
         "checked": "2026-10-03"
       },
       "trustpilot_note": null,
-      "google": null,
-      "google_note": "Google rating not available yet.",
+      "google": {
+        "rating": 2.7,
+        "review_count": 12,
+        "url": "https://maps.google.com/?cid=5925828040600725767",
+        "checked": "2026-10-20"
+      },
+      "google_note": null,
       "trustpilot_quotes": [
         {
           "quote": "Shoutout to bulenox help desk. they're so helpful , answer all my questions in a timely manner…",

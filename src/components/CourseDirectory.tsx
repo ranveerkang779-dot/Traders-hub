@@ -17,6 +17,7 @@ import {
   type Listing,
 } from "@/lib/course-filters";
 import TrustpilotStars from "@/components/TrustpilotStars";
+import OurChoiceBadge from "@/components/OurChoiceBadge";
 
 type Entry = {
   id: string;
@@ -31,6 +32,10 @@ type Entry = {
   /** Set only for a multi-course provider, e.g. "6 courses". */
   courseCountLabel: string | null;
   listing: Listing;
+  /** A real tracked affiliate link means we actually earn from this listing
+   *  — those are the ones we vouch for enough to put our name behind, so
+   *  they get the Our choice badge and sort first. Not a performance claim. */
+  affiliateLink: string | null;
 };
 
 const RATING_OPTIONS = ["3", "3.5", "4", "4.5"];
@@ -89,6 +94,7 @@ function Directory({
       href: `/courses/${c.id}`,
       courseCountLabel: null,
       listing: listingFromCourse(c),
+      affiliateLink: c.affiliateLink,
     })),
     ...providers.map((p) => {
       const prices = p.courses.flatMap((c) => c.pricing[0]?.price ?? []);
@@ -104,6 +110,7 @@ function Directory({
         href: `/courses/${p.id}`,
         courseCountLabel: `${p.courses.length} courses`,
         listing: listingFromProvider(p),
+        affiliateLink: p.affiliateLink,
       };
     }),
   ];
@@ -113,7 +120,12 @@ function Directory({
     MARKET_LABELS[a].localeCompare(MARKET_LABELS[b]),
   );
 
-  const matching = entries.filter((e) => matchesFilters(e.listing, filters));
+  // Courses we actually earn from (a real tracked affiliate link, not just
+  // any listing) sort first — Array.prototype.sort is stable, so within
+  // each group the original order is kept.
+  const matching = entries
+    .filter((e) => matchesFilters(e.listing, filters))
+    .sort((a, b) => Number(b.affiliateLink != null) - Number(a.affiliateLink != null));
 
   function updateFilters(changes: Partial<Filters>) {
     const next = { ...filters, ...changes };
@@ -237,7 +249,10 @@ function Directory({
                     </div>
                   )}
                   <div className="min-w-0">
-                    <h2 className="truncate text-lg font-semibold">{entry.name}</h2>
+                    <div className="flex flex-wrap items-center gap-x-2 gap-y-1">
+                      <h2 className="text-lg font-semibold">{entry.name}</h2>
+                      {entry.affiliateLink && <OurChoiceBadge />}
+                    </div>
                     {(entry.trustpilot || entry.whop) && (
                       <div className="mt-1 flex flex-col gap-0.5 text-xs">
                         {entry.trustpilot && <TrustpilotStars rating={entry.trustpilot} size="sm" />}

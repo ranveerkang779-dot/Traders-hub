@@ -1,8 +1,8 @@
 {
   "_notes": {
-    "last_verified": "2026-10-03",
-    "source": "Official FXIFY pages only, fetched 2026-10-03: https://fxify.com/ and https://fxify.com/programs/two-phase/ (the site's pricing table data, 'pricingTableData', is embedded in the page source of every program page; each program, account type, size, price and rule row was read from it), https://fxify.com/blog/introducing-fxify-2-phase-pro/ (29 Apr 2026, confirms 2-Phase Pro targets, static drawdown, no consistency rule, 80/20 split, $4,000 daily profit cap and prices $129 / $225), https://fxify.com/newsroom/ ('Since our launch in 2023'), https://fxify.com/become-a-partner/, site footer (company details and restricted jurisdictions).",
-    "pricing": "All prices USD, one-time fees. standard = the price shown on the live pricing table. No crossed-out prices are shown. Site-wide codes on 2026-10-03: REWARD25 (25% off all programs except Instant Funding Lite, expires 31 Oct 2026) and ONESTEP35 (35% off One Phase for new traders, expires 31 Dec 2026). The table does not display discounted prices, so promo = null everywhere (we don't calculate them). Paid add-ons at checkout: 90% split (from 80%), bi-weekly payouts, higher leverage - add-on prices not read.",
+    "last_verified": "2026-10-20",
+    "source": "Live https://fxify.com/ read in Chrome on 2026-10-20: the site's own pricing table data (pricingTableData: every program, account type, size, price and rule row) and the promotions banner - all prices unchanged from 2026-10-03. Other sources listed in git history.",
+    "pricing": "All prices USD, one-time fees. standard = the price on the live pricing table; no crossed-out prices are shown, so promo = null. Codes on 2026-10-20: REWARD25 (25% off all programs except Instant Lite, expires 1 Nov 2026), ONESTEP35 (35% off One Phase, new traders only) and FUNDED40 (flash sale, 40% off Instant Funding except Lite, expires 2 Nov 2026). promo_code records REWARD25.",
     "billing": "One-time assessment fee per account. The FAQ text on the program pages says 'We do not have any hidden fees' and that the fee is reimbursed with the first payout on request for 1, 2 and 3 Phase plans.",
     "rules_detail": "One Phase: 10% target, 3% daily loss (from previous day's 5pm EST balance), 6% trailing max drawdown, min 5 trading days, unlimited time. Two Phase Standard: 10% then 5%, 4% daily, 10% trailing, min 5 days per phase, drawdown locks on payout. Two Phase Classic: 5% then 10% (shown in that order on the official table), 4% daily, 10% static, 25% consistency rule on the funded account only. Two Phase Pro: 4% then 8%, 4% daily, 8% static, no consistency rule, $4,000 maximum gain per day (account goes read-only for the day), min 3 trading days that each need +0.5% profit, withdrawals every 10 days. Three Phase: 5% / 5% / 5%, 5% daily, 5% static, min 5 days per phase. Lightning Challenge: 5% target, 3% daily, 4% trailing, min 3 and MAXIMUM 5 trading days, 30% consistency rule, stop loss required on every trade, MT5 only. Instant Funding Standard: no target, 8% daily and 8% trailing drawdown (as shown on the table), no EAs, no weekend holding, no news trading. Instant Funding Lite: 3% daily, 4% trailing, 20% consistency rule.",
     "min_days_unclear": "Two Phase Classic: the pricing data lists both '4 days' and '5 days' for minimum trading days, so min_trading_days = null. Instant Funding: the data has three feature blocks for two account types ('N/A', 'N/A' and '5 trading days'), so it's unclear which applies to Lite; both left null.",
@@ -14,7 +14,9 @@
     "affiliate_program": "Has a program (https://fxify.com/become-a-partner/). Commission: 10% per referral, 15% after 100 sign-ups, 20% after 500 sign-ups, plus free challenge accounts at 50 / 250 / 500 referrals. Payout: PayPal or wire transfer, no withdrawal fee, minimum $50, only on transactions over 30 days old. Apply: create a trader dashboard account and submit the form in its affiliate section; FXIFY reviews each application. Open to 'Website owners', 'Bloggers' and 'Online Marketers' among others, so a comparison site looks eligible but this isn't stated explicitly. Cookie length: not stated. UAE-based affiliates: not stated (the UAE is not on the trader restricted list).",
     "marketing_stats_excluded": "Payout totals and trader counts on the site are not reproduced (directory policy).",
     "rule_units": "Forex rules are % of account size.",
-    "null_means": "Not stated on an official FXIFY page, or the official data is contradictory (see notes above)."
+    "null_means": "Not stated on an official FXIFY page, or the official data is contradictory (see notes above).",
+    "instant_lite_target": "Instant Funding Lite: the pricing data shows 'Profit target: -' (no target on a funded account), so funded_target = 'none', matching Instant Funding.",
+    "company_check": "Google Maps search for FXIFY (2026-10-20) found no FXIFY listing (top result was an unrelated company)."
   },
   "firm": {
     "id": "fxify",
@@ -86,7 +88,7 @@
       },
       "trustpilot_note": null,
       "google": null,
-      "google_note": "Google rating not available yet.",
+      "google_note": "We couldn't find a Google rating for this firm.",
       "trustpilot_quotes": [
         {
           "quote": "Affordable entry cost and simplified trading rules",
@@ -535,7 +537,7 @@
                   "unit": "percent",
                   "phase1_target": "n/a",
                   "phase2_target": "n/a",
-                  "funded_target": null,
+                  "funded_target": "none",
                   "daily_loss": 3,
                   "max_loss": 4,
                   "drawdown_type": "trailing",

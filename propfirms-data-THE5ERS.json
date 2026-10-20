@@ -1,17 +1,18 @@
 {
   "_notes": {
-    "last_verified": "2026-10-02",
-    "source": "Official pages read on 2026-10-02: https://the5ers.com/hyper-growth/ , https://the5ers.com/high-stakes/ , https://the5ers.com/bootcamp/ , https://the5ers.com/summer-plan/ , https://the5ers.com/about-the5ers/ , https://the5ers.com/faqs/what-are-the-general-rules-for-the-high-stakes-program/ , https://the5ers.com/futures/",
+    "last_verified": "2026-10-20",
+    "source": "Live program pages read in Chrome on 2026-10-20 (every size clicked): https://the5ers.com/hyper-growth/, /high-stakes/, /bootcamp/ ($20K checked; page title still '$95' for $100K), /summer-plan/ (1 Step and 2 Steps tabs, all sizes), /refer-a-trader/ and Google Maps. All existing prices unchanged.",
     "pricing": "standard = the single price shown on each program's pricing table. The5ers' tables show one current price per size (no crossed-out price is displayed), so promo is null. The site's page code also holds older prices/targets (e.g. High Stakes $2.5K was $22 with an 8% Phase 1 target, Hyper Growth $5K was $260) that are no longer displayed; these were ignored. Re-verify before publishing.",
     "billing": "All prices are one-time fees, no monthly subscription. Bootcamp is paid in two parts: an entry fee (the price shown here) plus a further fee when the trader reaches the funded (Pro Trader) stage: $50 for the $20K plan, $205 for the $100K plan, $350 for the $250K plan. High Stakes fee is refunded after reaching funded (hub credits after each phase). Summer Plan fee is refunded from the 3rd payout. Hyper Growth and Bootcamp fees are non-refundable.",
-    "summer_plan": "Summer Plan tiers ($100K only) are marked 'Limited Time Only' on the5ers.com/summer-plan/. Max 2 accounts per Summer option. Funded payout cap $2,000 per cycle. Remove these tiers when the offer ends.",
+    "summer_plan": "Summer Plan still on sale on 2026-10-20, marked 'Limited Time Only' (1 Step $100K $249; 2 Steps $100K 10/5 $149 and 8/5 $179). The 2 Steps option now also offers $200K: 10/5 $249 and 8/5 $279 (added). Max 2 accounts per Summer option. Funded payout cap $2,000 per cycle shown for $100K. Remove these tiers when the promotion ends.",
     "high_stakes_sizes": "High Stakes rules differ by size: $2.5K-$25K have 5% daily / 10% max loss; $50K and $100K have 4% daily / 8% max loss, with funded payout caps of $3,000 ($50K) and $4,000 ($100K). Split into two tiers for that reason.",
     "bootcamp_sizes": "Bootcamp sizes are the funded (Pro Trader) account size. Steps 1-3 run on smaller balances: $20K plan = $5K/$10K/$15K, $100K plan = $25K/$50K/$75K, $250K plan = $100K/$150K/$200K. Each step has a 6% target and 5% max loss with no daily limit. Funded stage: 5% target for scaling, 4% max loss, 3% daily pause.",
     "daily_loss": "Hyper Growth evaluation uses a 3% 'daily pause' that disables the account for the rest of the day rather than closing it. High Stakes and Summer Plan daily loss is calculated from the higher of the day's starting equity or balance.",
     "futures_not_included": "The5ers also sells a futures program (Day Trade and Swing, $25K and $50K, plus a futures Summer Plan) at https://the5ers.com/futures/ . Only the $25K Day Trade table could be read ($59, 6% evaluation target, 4% EOD max loss, 40% per-position consistency), so futures is not included in this file yet.",
     "rule_units": "Forex rules are % of account size.",
     "null_means": "Not stated on the firm's official program pages. Check the5ers.com program pages or help.the5ers.com before publishing.",
-    "company_check": "https://the5ers.com/about-the5ers/ (checked 2026-10-11): 'Founded 2016'. Footer: operated by Five Percent Online Ltd, registered in the UK (company number 12553363), registered office Enstar House, 168 Praed Street, London W2 1RH."
+    "company_check": "https://the5ers.com/about-the5ers/ (checked 2026-10-11): 'Founded 2016'. Footer: operated by Five Percent Online Ltd, registered in the UK (company number 12553363), registered office Enstar House, 168 Praed Street, London W2 1RH.",
+    "affiliate_program": "https://the5ers.com/refer-a-trader/ (2026-10-20): affiliate program for affiliates, influencers and educators, run through The5ers hub (sign up, then the affiliate tab); 'high commissions', a rewards programme for consistency, dashboard and affiliate kit. Commission %, cookie length, payout method and country rules not stated on the page."
   },
   "firm": {
     "id": "the5ers",
@@ -77,9 +78,9 @@
       "trustpilot_note": null,
       "google": {
         "rating": 4.7,
-        "review_count": 178,
+        "review_count": 179,
         "url": "https://www.google.com/maps/place/?q=place_id:ChIJVaG2Kns5HRURJkdRxwB0tPg",
-        "checked": "2026-10-03"
+        "checked": "2026-10-20"
       },
       "google_note": null
     },
@@ -247,6 +248,11 @@
                     "size": 100000,
                     "promo": null,
                     "standard": 149
+                  },
+                  {
+                    "size": 200000,
+                    "promo": null,
+                    "standard": 249
                   }
                 ]
               },
@@ -271,6 +277,11 @@
                     "size": 100000,
                     "promo": null,
                     "standard": 179
+                  },
+                  {
+                    "size": 200000,
+                    "promo": null,
+                    "standard": 279
                   }
                 ]
               }

@@ -72,6 +72,7 @@ export default async function ProviderCoursePage({
       testimonials={course.testimonials}
       testimonialsNote={course.testimonialsNote}
       visitHref={provider.affiliateLink ?? course.website ?? provider.website}
+      ourChoice={provider.affiliateLink != null}
       backHref={`/courses/${provider.id}`}
       backLabel={`Back to ${provider.name}`}
     />

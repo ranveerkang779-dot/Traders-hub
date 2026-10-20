@@ -1,8 +1,8 @@
 {
   "_notes": {
-    "last_verified": "2026-10-03",
-    "source": "Official Tradeify pages only. Live site: https://tradeify.co/ (pricing table data embedded in the page source, fetched 2026-10-03), https://tradeify.co/become-an-affiliate, https://tradeify.co/affiliate-terms-and-conditions, https://tradeify.co/terms-of-use. The help centre (help.tradeify.co) blocks automated access, so these were read from Internet Archive copies of the official URLs: https://help.tradeify.co/en/articles/14369021-tradeify-pricing-reference (article updated 2026-06-24, captured 2026-07-13), https://help.tradeify.co/en/articles/10495915-growth-evaluation-accounts (updated 2026-08-26), https://help.tradeify.co/en/articles/12853921-select-evaluation-accounts (updated 2026-09-10), https://help.tradeify.co/en/articles/10495938-lightning-funded-accounts (updated 2026-08-26), https://help.tradeify.co/en/articles/11083796-growth-funded-account-payout-policy (updated 2026-09-10), https://help.tradeify.co/en/articles/10495932-lightning-funded-account-payout-policy (updated 2026-09-10), https://help.tradeify.co/en/articles/12853966-select-flex-and-select-daily-payout-policies (updated 2026-09-10), https://help.tradeify.co/en/articles/10468221-supported-platforms (updated 2026-05-01), https://help.tradeify.co/en/articles/10468258-welcome-to-tradeify (updated 2026-06-18), https://help.tradeify.co/en/articles/10495888-rules-restricted-countries (updated 2026-04-02, captured 2026-06-10), https://help.tradeify.co/en/articles/10495963-affiliates.",
-    "pricing": "All prices USD, one-time payments (no subscription). standard = the list price shown struck through on the live pricing table and stated as the 'Price (One-Time)' in the official Pricing Reference article; this is what you pay at checkout without a code. promo = the price the live pricing table displays with the site-wide code GEMS (30% off, valid until 15 October 2026 at 11:59PM EST per the page script). The live page builds the promo figure in the browser as list price x 0.70 rounded to the nearest dollar; the values here reproduce that page logic exactly and should be confirmed against a screenshot. Tradeify runs a discount code almost continuously, and some pages also advertise 40% off for the first 5 uses then 30% (exit pop-up / banner), which is not reflected here. A 5-account bundle on Growth 25K/50K and Select 25K/50K gives a further 5% off. All sales are final, no refunds. Promo prices removed 2026-10-03: they were calculated (list x 0.70) rather than shown on the page; confirm from screenshots before adding.",
+    "last_verified": "2026-10-20",
+    "source": "Live https://tradeify.co/ pricing table read in Chrome on 2026-10-20 (Growth, Select and Lightning tabs, every size, and the Select 40%/50% consistency switch), plus https://tradeify.co/become-an-affiliate (FAQ answers opened) and https://tradeify.co/affiliate-terms-and-conditions. Rules otherwise from official help-centre articles read via Internet Archive copies (June-Sept 2026), listed in git history.",
+    "pricing": "All prices USD, one-time payments (no subscription). standard = the struck-through list price on the live pricing table; promo = the price shown next to it with code GEMS (30% off). On 2026-10-20 the site banner read 'GET 30% OFF WITH CODE \"GEMS\" - ENDS 31 OCTOBER, 11:59PM EST', so GEMS was still live then (it was previously recorded as ending 15 Oct). Re-check after 31 Oct 2026. Select prices are for the default 40% consistency option; choosing 50% consistency costs $135 / $205 / $329 / $459 (GEMS $95 / $144 / $230 / $321). A 5-account bundle gives a further 5% off. All sales are final, no refunds.",
     "billing": "One-time purchase for every account type; no monthly fees and no activation fees on any current product. Growth and Select evaluations have no time limit. Reset fees (one-time, live pricing table 2026-10-03): Growth $60 / $95 / $169 / $229 (Pricing Reference article in June listed $60 / $95 / $155 / $215); Select $75 / $109 / $169 / $239 (Pricing Reference listed $60 for Select 25K). Select resets limited to 10 per evaluation per 30 days. Lightning Funded has no resets. Maximum 15 evaluation purchases per 30 days; maximum 5 sim funded accounts at once.",
     "rules_detail": "Growth evaluation: profit target, EOD trailing max drawdown, soft-breach daily loss limit (trading stops for the day, account not failed), no consistency rule in the evaluation, can pass in 1 trading day; the 35% consistency rule applies to funded payouts. Select evaluation: no daily loss limit, EOD trailing drawdown, 40% consistency rule in the evaluation only (optional 50% add-on), minimum 3 trading days; after passing the trader permanently picks Select Flex (payout every 5 winning days, no daily loss limit, no consistency) or Select Daily (daily payout eligibility after a buffer, daily loss limit $500 / $1,000 / $1,250 / $1,750). Lightning Funded: no evaluation, funded straight away; payout profit goal $1,500 / $3,000 / $6,000 / $9,000 for payout 1, then $1,000 / $2,000 / $3,500 / $4,500; consistency 20% for payout 1, 25% for payout 2, 30% after; no minimum trading days; daily loss limit none (25K) or $1,250 / $2,500 / $3,000. max_contracts = mini contracts (10 micros = 1 mini). Drawdown on all plans trails the end-of-day balance but is enforced in real time, and locks $100 above the starting balance once reached.",
     "payout_caps": "No single cap per size, so payout_cap is null. Growth funded max per payout (payouts 1 / 2 / 3 / 4+): 25K $1,000 each; 50K $1,500 / $2,000 / $2,500 / $3,000; 100K $2,000 / $2,500 / $3,000 / $4,000; 150K $2,500 / $3,000 / $4,000 / $5,000. Lightning (payouts 1-3 / 4+): 25K fixed $1,000; 50K $2,000 / $2,500; 100K $2,500 / $3,000; 150K $3,000 / $3,500. Select Flex (accounts bought after 1 Sep 2026): up to 50% of total profit, capped at $1,250 / $2,500 / $3,500 / $4,500. Select Daily (after 1 Sep 2026): up to 2x profit since last payout, capped at $600 / $1,250 / $1,750 / $2,500.",
@@ -14,7 +14,8 @@
     "marketing_stats_excluded": "The site advertises pass rates, payout totals and a '0% payout denial' figure; none of these are reproduced here (directory policy).",
     "rule_units": "Futures rules are fixed USD amounts per account size.",
     "null_means": "Not stated on an official Tradeify page, or not expressible as one number (see the notes above). Check the live pricing table before publishing.",
-    "company_check": "Re-checked 2026-10-11: https://tradeify.co/ and https://tradeify.co/about state no founding date. founded still null."
+    "company_check": "Re-checked 2026-10-20: no founding date on official pages, founded still null. Google Maps search for Tradeify in Boca Raton found no Tradeify listing.",
+    "affiliate_program": "https://tradeify.co/become-an-affiliate (FAQ, 2026-10-20): 15% commission on Growth/Advanced plans, 10% on Straight to Sim Funded (Lightning) plans, 5% on evaluation resets. Cookie: 60 days via the affiliate link; another affiliate's discount code used at checkout takes priority (last click). Minimum payout $1,000, request-based once per calendar month, paid via Plane; unclaimed commissions forfeited after 90 days. Custom discount codes on request through the Help Center (send reach and engagement data). Comparison sites and UAE-based affiliates are not mentioned either way on the page or the affiliate terms. Apply: https://app-f.tradeify.co/affiliate (needs a Tradeify account)."
   },
   "firm": {
     "id": "tradeify",
@@ -113,7 +114,7 @@
       },
       "trustpilot_note": null,
       "google": null,
-      "google_note": "Google rating not available yet.",
+      "google_note": "We couldn't find a Google rating for this firm.",
       "trustpilot_quotes": [
         {
           "quote": "Tradeify offers premium services and great support.",
@@ -149,6 +150,7 @@
               {
                 "tier": "Growth",
                 "tagline": "One-time fee · No activation fee · Soft daily loss limit · 35% consistency rule on payouts only",
+                "billing": "one-time",
                 "rules": {
                   "unit": "usd",
                   "drawdown_type": "EOD trailing",
@@ -165,7 +167,7 @@
                     "max_loss": 1000,
                     "max_contracts": 1,
                     "payout_cap": null,
-                    "promo": null,
+                    "promo": 69,
                     "standard": 99
                   },
                   {
@@ -175,7 +177,7 @@
                     "max_loss": 2000,
                     "max_contracts": 4,
                     "payout_cap": null,
-                    "promo": null,
+                    "promo": 102,
                     "standard": 145
                   },
                   {
@@ -185,7 +187,7 @@
                     "max_loss": 3500,
                     "max_contracts": 8,
                     "payout_cap": null,
-                    "promo": null,
+                    "promo": 179,
                     "standard": 255
                   },
                   {
@@ -195,7 +197,7 @@
                     "max_loss": 5000,
                     "max_contracts": 12,
                     "payout_cap": null,
-                    "promo": null,
+                    "promo": 258,
                     "standard": 369
                   }
                 ]
@@ -203,6 +205,7 @@
               {
                 "tier": "Select",
                 "tagline": "One-time fee · No activation fee · No daily loss limit in the evaluation · 40% consistency rule in the evaluation only · Choose daily or 5-day payouts after passing",
+                "billing": "one-time",
                 "rules": {
                   "unit": "usd",
                   "drawdown_type": "EOD trailing",
@@ -219,7 +222,7 @@
                     "max_loss": 1000,
                     "max_contracts": 1,
                     "payout_cap": null,
-                    "promo": null,
+                    "promo": 76,
                     "standard": 109
                   },
                   {
@@ -229,7 +232,7 @@
                     "max_loss": 2000,
                     "max_contracts": 4,
                     "payout_cap": null,
-                    "promo": null,
+                    "promo": 116,
                     "standard": 165
                   },
                   {
@@ -239,7 +242,7 @@
                     "max_loss": 3000,
                     "max_contracts": 8,
                     "payout_cap": null,
-                    "promo": null,
+                    "promo": 186,
                     "standard": 265
                   },
                   {
@@ -249,7 +252,7 @@
                     "max_loss": 4500,
                     "max_contracts": 12,
                     "payout_cap": null,
-                    "promo": null,
+                    "promo": 258,
                     "standard": 369
                   }
                 ]
@@ -262,6 +265,7 @@
               {
                 "tier": "Lightning Funded",
                 "tagline": "One-time fee · No evaluation · No resets · Consistency rule on payouts rises from 20% to 30%",
+                "billing": "one-time",
                 "rules": {
                   "unit": "usd",
                   "drawdown_type": "EOD trailing",
@@ -278,7 +282,7 @@
                     "max_loss": 1000,
                     "max_contracts": 1,
                     "payout_cap": null,
-                    "promo": null,
+                    "promo": 242,
                     "standard": 345
                   },
                   {
@@ -288,7 +292,7 @@
                     "max_loss": 2000,
                     "max_contracts": 4,
                     "payout_cap": null,
-                    "promo": null,
+                    "promo": 344,
                     "standard": 492
                   },
                   {
@@ -298,7 +302,7 @@
                     "max_loss": 4000,
                     "max_contracts": 8,
                     "payout_cap": null,
-                    "promo": null,
+                    "promo": 462,
                     "standard": 660
                   },
                   {
@@ -308,7 +312,7 @@
                     "max_loss": 5250,
                     "max_contracts": 12,
                     "payout_cap": null,
-                    "promo": null,
+                    "promo": 557,
                     "standard": 796
                   }
                 ]

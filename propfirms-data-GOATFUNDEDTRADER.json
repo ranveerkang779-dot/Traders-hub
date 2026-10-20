@@ -1,8 +1,8 @@
 {
   "_notes": {
-    "last_verified": "2026-10-11",
-    "source": "Official Goat Funded Trader pages only, fetched 2026-10-11: https://www.goatfundedtrader.com/ (pricing script on the page: list prices, available sizes, model rules, discount rules), help centre https://help.goatfundedtrader.com/1-step.html, /2-step-goat.html, /2-step-standard.html, /instant-goat.html, /instant-hero.html, /instant-premium.html, /goat-blitz.html, /get-started.html (restricted countries), /why-gft.html (launch date, HQ); Trustpilot https://www.trustpilot.com/review/goatfundedtrader.com.",
-    "pricing": "standard = list price from the page's pricing script; promo = the price the same script displays: list price minus the site-wide 45% (code GFT45), rounded, except 2-Step GOAT 5K, 2-Step Standard 5K and Instant HERO 5K, which the script fixes at $17. The page's static placeholder text didn't match the script for one size, so confirm prices with a screenshot. A separate 50% code (FIRSTGFT) is for first-time customers.",
+    "last_verified": "2026-10-20",
+    "source": "Live https://www.goatfundedtrader.com/ read in Chrome on 2026-10-20: pricing widget (2-Step GOAT $5K/$100K/$150K confirmed on screen) and the page's own pricing script (all list prices - identical to 2026-10-11), /affiliate, Trustpilot (20 newest reviews) and Google Maps. Earlier sources listed in git history.",
+    "pricing": "standard = list price from the page's pricing script; promo = the price the same script displays: list price minus the site-wide 45% (code GFT45), rounded, except 2-Step GOAT 5K, 2-Step Standard 5K and Instant HERO 5K, which the script fixes at $17. The page's static placeholder text didn't match the script for one size, so confirm prices with a screenshot. A separate 50% code (FIRSTGFT) is for first-time customers. Re-checked 2026-10-20: list prices unchanged and GFT45 (45% off all accounts) still shown, so promo prices stand. Also shown: code FIRST / FIRSTGFT, 50% off a new customer's first account (not applied here), and a limited-time '2-Step' $100K promo account at $99 (list $478, added to the site 2026-10-19) - not listed.",
     "rules_detail": "1-Step: 10% target, 3% daily (accounts bought from 1 Aug 2026), 6% static max loss, 3 profitable days, $3,000 daily profit cap on the funded account. 2-Step GOAT: 8% then 6%, 4% daily, 10% static, 3 profitable days per phase. 2-Step Standard: 10% then 5%, 5% daily, 10% static. Instant GOAT: 3% daily and 6% max (both trailing), 15% consistency, 5 profitable days per payout, 2% floating-loss limit. Instant HERO: 3% / 5% trailing, 15% consistency, 6 profitable days, 1% floating-loss limit, 90% split (100% add-on). Instant Premium: 3% daily, 6% intraday trailing, no consistency rule, 5 profitable days, 80% split. Funded accounts on evaluation models need 4 profitable days per payout for accounts bought from late July 2026.",
     "fee_refund": "Homepage pricing card: 'One-time 100% refundable fee' for challenges; the conditions are not stated. Instant: not stated (null).",
     "not_listed": "GOAT Blitz (sold only on some weekends), 2-Step PRO, 3-Step (retired), Goat Stride and $1 GOAT promotions are not listed.",
@@ -10,7 +10,10 @@
     "marketing_stats_excluded": "Payout totals, trader counts, named trader payouts and the site's own star ratings are not reproduced. The site advertises 'Rewards in 2 Days or Extra $1000'; we don't repeat it.",
     "vetting": "Checked 2026-10-11. Of the 20 newest Trustpilot reviews, about 13 described a denied or withheld payout or an account closed after an interview; the firm replied to most. Trustpilot hides its score for a guideline breach (4,350 reviews). Listed with a review alert at the team's request (2026-10-11).",
     "rule_units": "Forex rules are % of account size.",
-    "null_means": "Not stated on an official Goat Funded Trader page we could read."
+    "null_means": "Not stated on an official Goat Funded Trader page we could read.",
+    "trustpilot_name": "On 2026-10-20 the Trustpilot profile for goatfundedtrader.com is displayed under the name 'Wishes Tower' (the firm's replies are also signed 'Wishes Tower'). The reviews are about Goat Funded Trader. Possibly the operating company's name; worth a human check.",
+    "affiliate_program": "https://www.goatfundedtrader.com/affiliate (2026-10-20): commission on all referred client activity - Starting tier 8%, 10% at 40 referrals, 15% at 100, up to 20% at 500 (GFT Partner tier); milestone bonuses $50 / $200 / $500 / $1,000 at 20 / 50 / 250 / 500 referrals. Minimum payout $100. Cookie length, payout method, country and comparison-site rules not stated. Apply: sign-up from that page.",
+    "company_check": "Google Maps search (2026-10-20) found no Goat Funded Trader listing."
   },
   "firm": {
     "id": "goat-funded-trader",
@@ -77,11 +80,11 @@
       "trustpilot": null,
       "trustpilot_note": "Trustpilot is not showing a score for this firm. Its page says this is because of a breach of Trustpilot's guidelines (4,350 reviews, checked 11 Oct 2026).",
       "google": null,
-      "google_note": "Google rating not checked yet."
+      "google_note": "We couldn't find a Google rating for this firm."
     },
     "review_alert": {
-      "summary": "Of the 20 most recent Trustpilot reviews, about 13 describe a payout being denied or withheld, or an account being closed after a verification interview. The firm had replied to most of them. Trustpilot is also not showing a score for this firm; its page says this is because of a breach of its guidelines.",
-      "checked": "2026-10-11",
+      "summary": "Of the 20 most recent Trustpilot reviews (read 20 October 2026), about 9 describe a payout being refused or withheld, or an account being closed for a rule breach just before a payout. The firm had replied to most of them. Trustpilot is also not showing a score for this firm; its page says this is because of a breach of its guidelines.",
+      "checked": "2026-10-20",
       "url": "https://www.trustpilot.com/review/goatfundedtrader.com?sort=recency"
     },
     "markets": [
